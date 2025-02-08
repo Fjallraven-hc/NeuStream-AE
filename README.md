@@ -1,5 +1,3 @@
 # NeuStream-AE
 Artifact Evaluation for NeuStream, EuroSys25.  
-The artifact will be provided through [URL](https://github.com/Fjallraven-hc/NeuStream-AE).  
-Because the time is tight, the Artifact is not ready yet, but we expect to finish it in several days.  
-Be grateful to your patience!
+The artifacts will be provided through Baidu Netdisk, the file size is about 20GB, the uploading process is about to take half an hour, still in progress.
