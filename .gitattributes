@@ -2,8 +2,13 @@
 **/*.safetensors filter=lfs diff=lfs merge=lfs -text
 **/*.pt filter=lfs diff=lfs merge=lfs -text
 **/*.pth filter=lfs diff=lfs merge=lfs -text
+**/*._part_* filter=lfs diff=lfs merge=lfs -text
 *.safetensors filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
 *.pth filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
+*._part_* filter=lfs diff=lfs merge=lfs -text
 Diffusion/StableDiffusion/model_parameters/hf_format/unet/diffusion_pytorch_model.bin_part_ad filter=lfs diff=lfs merge=lfs -text
+Diffusion/StableDiffusion/model_parameters/hf_format/unet/diffusion_pytorch_model.bin_part_ac filter=lfs diff=lfs merge=lfs -text
+Diffusion/StableDiffusion/model_parameters/hf_format/unet/diffusion_pytorch_model.bin_part_ab filter=lfs diff=lfs merge=lfs -text
+Diffusion/StableDiffusion/model_parameters/hf_format/unet/diffusion_pytorch_model.bin_part_aa filter=lfs diff=lfs merge=lfs -text
