@@ -1,0 +1,646 @@
+request: 0, latency: 1.4563579559326172
+0号worker ---- good : 1 --- finish: 1 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347506.2120886 --- --- id: 0  actual:1.4533555507659912  expected:1.4526920097131506
+request: 2, latency: 1.8286101818084717
+0号worker ---- good : 2 --- finish: 2 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347507.1108441 --- --- id: 2  actual:0.8930754661560059  expected:1.0559956081860993
+request: 3, latency: 2.843996047973633
+0号worker ---- good : 3 --- finish: 3 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347508.243729 --- --- id: 3  actual:0.9704790115356445  expected:1.155169708567862
+request: 1, latency: 4.549285173416138
+0号worker ---- good : 4 --- finish: 4 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347509.7282763 --- --- id: 1  actual:1.303987741470337  expected:1.5518661100949134
+request: 4, latency: 0.9697842597961426
+0号worker ---- good : 5 --- finish: 5 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347513.7527976 --- --- id: 4  actual:0.9687418937683105  expected:1.155169708567862
+request: 5, latency: 1.0722613334655762
+0号worker ---- good : 6 --- finish: 6 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347515.1391535 --- --- id: 5  actual:1.069150686264038  expected:1.2874018424102125
+request: 6, latency: 2.188603401184082
+0号worker ---- good : 7 --- finish: 7 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347516.5891688 --- --- id: 6  actual:1.222829818725586  expected:1.3535179093313876
+request: 9, latency: 2.081087350845337
+0号worker ---- good : 8 --- finish: 8 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347517.6669488 --- --- id: 9  actual:0.950145959854126  expected:1.1882277420284497
+request: 8, latency: 4.84363865852356
+0号worker ---- good : 9 --- finish: 9 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347519.2444897 --- --- id: 8  actual:1.3409395217895508  expected:1.6510402104766764
+request: 7, latency: 6.570272445678711
+0号worker ---- good : 10 --- finish: 10 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347520.971031 --- --- id: 7  actual:1.4244749546051025  expected:1.6840982439372638
+request: 10, latency: 1.0706288814544678
+0号worker ---- good : 11 --- finish: 11 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347527.7681673 --- --- id: 10  actual:1.069403886795044  expected:1.2543438089496248
+request: 12, latency: 2.007530927658081
+0号worker ---- good : 12 --- finish: 12 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347528.851229 --- --- id: 12  actual:0.8944664001464844  expected:1.0890536416466867
+request: 13, latency: 3.22318172454834
+0号worker ---- good : 13 --- finish: 13 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347530.0683143 --- --- id: 13  actual:1.0313260555267334  expected:1.2543438089496248
+request: 17, latency: 4.060647010803223
+0号worker ---- good : 14 --- finish: 14 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347531.298209 --- --- id: 17  actual:1.0116772651672363  expected:1.2212857754890372
+request: 14, latency: 5.4820027351379395
+0号worker ---- good : 15 --- finish: 15 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347532.5648239 --- --- id: 14  actual:1.057265281677246  expected:1.2874018424102125
+request: 11, latency: 7.128042221069336
+0号worker ---- good : 16 --- finish: 16 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347533.971 --- --- id: 11  actual:1.1802635192871094  expected:1.4526920097131506
+request: 15, latency: 8.40499758720398
+0号worker ---- good : 17 --- finish: 17 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347535.5036848 --- --- id: 15  actual:1.2569785118103027  expected:1.5188080766343257
+request: 19, latency: 4.06158709526062
+0号worker ---- good : 18 --- finish: 18 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347536.8418565 --- --- id: 19  actual:1.0811166763305664  expected:1.3204598758708002
+request: 20, latency: 5.377349138259888
+0号worker ---- good : 19 --- finish: 19 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347538.2112763 --- --- id: 20  actual:1.1269221305847168  expected:1.3535179093313876
+request: 28, latency: 4.739487409591675
+0号worker ---- good : 20 --- finish: 20 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347539.3266208 --- --- id: 28  actual:0.8880717754364014  expected:1.0559956081860993
+request: 25, latency: 6.704150676727295
+0号worker ---- good : 21 --- finish: 21 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347540.5546196 --- --- id: 25  actual:1.060640811920166  expected:1.2212857754890372
+request: 23, latency: 8.600369930267334
+0号worker ---- good : 22 --- finish: 22 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347542.1058252 --- --- id: 23  actual:1.391937494277954  expected:1.584924143555501
+request: 27, latency: 9.020192623138428
+0号worker ---- good : 23 --- finish: 23 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347543.6051545 --- --- id: 27  actual:1.3023183345794678  expected:1.5518661100949134
+request: 30, latency: 1.114213228225708
+0号worker ---- good : 24 --- finish: 24 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347546.1547527 --- --- id: 30  actual:1.109297275543213  expected:1.155169708567862
+request: 37, latency: 1.2812705039978027
+request: 40, latency: 1.2244806289672852
+0号worker ---- good : 26 --- finish: 26 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347547.3232372 --- --- id: 37 40  actual:1.129918098449707  expected:1.043634063997184
+request: 38, latency: 2.2201876640319824
+0号worker ---- good : 27 --- finish: 27 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347548.2952871 --- --- id: 38  actual:0.9719092845916748  expected:1.0890536416466867
+request: 36, latency: 3.711134433746338
+0号worker ---- good : 28 --- finish: 28 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347549.4004881 --- --- id: 36  actual:1.0784831047058105  expected:1.2874018424102125
+request: 39, latency: 4.659304857254028
+0号worker ---- good : 29 --- finish: 29 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347550.7354615 --- --- id: 39  actual:1.1267588138580322  expected:1.3535179093313876
+request: 35, latency: 6.8056910037994385
+0号worker ---- good : 30 --- finish: 30 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347552.2548628 --- --- id: 35  actual:1.2977468967437744  expected:1.5188080766343257
+request: 31, latency: 8.730886459350586
+0号worker ---- good : 31 --- finish: 31 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347553.7920551 --- --- id: 31  actual:1.3192031383514404  expected:1.6179821770160887
+request: 47, latency: 5.9149298667907715
+request: 48, latency: 4.441380500793457
+0号worker ---- good : 33 --- finish: 33 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347554.9364452 --- --- id: 47 48  actual:0.8511509895324707  expected:1.043634063997184
+request: 44, latency: 8.344961404800415
+0号worker ---- good : 34 --- finish: 34 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347556.46184 --- --- id: 44  actual:1.3207459449768066  expected:1.419633976252563
+request: 49, latency: 4.616544723510742
+0号worker ---- good : 35 --- finish: 35 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347557.5682704 --- --- id: 49  actual:1.0104448795318604  expected:1.1882277420284497
+request: 50, latency: 3.4039876461029053
+0号worker ---- good : 36 --- finish: 36 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347558.8253796 --- --- id: 50  actual:1.0833072662353516  expected:1.2212857754890372
+request: 51, latency: 3.7461745738983154
+0号worker ---- good : 37 --- finish: 37 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347560.05394 --- --- id: 51  actual:1.0940179824829102  expected:1.2543438089496248
+request: 52, latency: 1.1299514770507812
+0号worker ---- good : 38 --- finish: 38 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347563.7497046 --- --- id: 52  actual:1.1292073726654053  expected:1.3204598758708002
+request: 56, latency: 1.163405418395996
+0号worker ---- good : 39 --- finish: 39 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347564.9627137 --- --- id: 56  actual:1.020737886428833  expected:1.1882277420284497
+request: 59, latency: 1.5974736213684082
+request: 60, latency: 1.0180778503417969
+0号worker ---- good : 41 --- finish: 41 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347566.0848606 --- --- id: 59 60  actual:0.957857608795166  expected:1.076094817804357
+request: 57, latency: 3.532658576965332
+0号worker ---- good : 42 --- finish: 42 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347567.3331912 --- --- id: 57  actual:1.1243226528167725  expected:1.3535179093313876
+request: 54, latency: 6.2809717655181885
+0号worker ---- good : 43 --- finish: 43 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347569.004344 --- --- id: 54  actual:1.4448192119598389  expected:1.6179821770160887
+request: 58, latency: 6.288381099700928
+0号worker ---- good : 44 --- finish: 44 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347570.4271002 --- --- id: 58  actual:1.2520380020141602  expected:1.3865759427919753
+request: 55, latency: 8.587931871414185
+0号worker ---- good : 45 --- finish: 45 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347571.91981 --- --- id: 55  actual:1.3629465103149414  expected:1.5518661100949134
+request: 61, latency: 5.4276182651519775
+0号worker ---- good : 46 --- finish: 46 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347573.336228 --- --- id: 61  actual:1.2137763500213623  expected:1.2874018424102125
+request: 62, latency: 6.5756800174713135
+0号worker ---- good : 47 --- finish: 47 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347574.6000648 --- --- id: 62  actual:1.1707258224487305  expected:1.3535179093313876
+request: 63, latency: 6.400193929672241
+request: 70, latency: 4.05850076675415
+0号worker ---- good : 49 --- finish: 49 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347575.8285892 --- --- id: 63 70  actual:1.0598692893981934  expected:1.1410163254187031
+request: 65, latency: 6.895956754684448
+0号worker ---- good : 50 --- finish: 50 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347577.158615 --- --- id: 65  actual:1.2510449886322021  expected:1.419633976252563
+request: 66, latency: 8.357949495315552
+request: 69, latency: 6.940530776977539
+0号worker ---- good : 52 --- finish: 52 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347578.62245 --- --- id: 66 69  actual:1.298940658569336  expected:1.498084617297607
+request: 71, latency: 7.470396280288696
+0号worker ---- good : 53 --- finish: 53 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347579.998474 --- --- id: 71  actual:1.1776139736175537  expected:1.4526920097131506
+request: 72, latency: 8.140952348709106
+0号worker ---- good : 54 --- finish: 54 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347581.5399215 --- --- id: 72  actual:1.2704966068267822  expected:1.3865759427919753
+request: 73, latency: 1.4219558238983154
+0号worker ---- good : 55 --- finish: 55 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347584.8704872 --- --- id: 73  actual:1.4207344055175781  expected:1.7171562773978515
+request: 75, latency: 2.7161142826080322
+request: 77, latency: 1.3711555004119873
+0号worker ---- good : 57 --- finish: 57 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347586.1699264 --- --- id: 75 77  actual:0.9947822093963623  expected:1.1734770792258762
+request: 74, latency: 4.06735897064209
+0号worker ---- good : 58 --- finish: 58 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347587.515987 --- --- id: 74  actual:1.1650688648223877  expected:1.419633976252563
+request: 76, latency: 4.161928415298462
+0号worker ---- good : 59 --- finish: 59 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347588.9149659 --- --- id: 76  actual:1.1357438564300537  expected:1.2543438089496248
+request: 78, latency: 5.553548574447632
+0号worker ---- good : 60 --- finish: 60 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347590.3548155 --- --- id: 78  actual:1.2965242862701416  expected:1.5518661100949134
+request: 79, latency: 6.93878436088562
+0号worker ---- good : 61 --- finish: 61 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347592.095766 --- --- id: 79  actual:1.4859299659729004  expected:1.7171562773978515
+request: 80, latency: 3.7686452865600586
+request: 88, latency: 1.5124406814575195
+0号worker ---- good : 63 --- finish: 63 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347593.3411639 --- --- id: 80 88  actual:1.0129609107971191  expected:1.1410163254187031
+request: 82, latency: 3.679144859313965
+0号worker ---- good : 64 --- finish: 64 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347594.4258683 --- --- id: 82  actual:0.9603850841522217  expected:1.1882277420284497
+request: 81, latency: 6.097744941711426
+0号worker ---- good : 65 --- finish: 65 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347595.9340641 --- --- id: 81  actual:1.2800536155700684  expected:1.4526920097131506
+request: 84, latency: 6.377572774887085
+0号worker ---- good : 66 --- finish: 66 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347597.208895 --- --- id: 84  actual:1.0996830463409424  expected:1.3204598758708002
+request: 96, latency: 4.468518495559692
+request: 98, latency: 3.948979616165161
+0号worker ---- good : 68 --- finish: 68 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347598.3480577 --- --- id: 96 98  actual:0.9244461059570312  expected:1.043634063997184
+request: 95, latency: 5.91145920753479
+0号worker ---- good : 69 --- finish: 69 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347599.4070997 --- --- id: 95  actual:0.937063455581665  expected:1.155169708567862
+request: 94, latency: 7.3710105419158936
+0号worker ---- good : 70 --- finish: 70 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347600.8329198 --- --- id: 94  actual:1.1673672199249268  expected:1.3535179093313876
+request: 99, latency: 7.997520923614502
+0号worker ---- good : 71 --- finish: 71 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347602.400543 --- --- id: 99  actual:1.3862428665161133  expected:1.6179821770160887
+request: 100, latency: 9.053718566894531
+0号worker ---- good : 72 --- finish: 72 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347604.1724524 --- --- id: 100  actual:1.5402743816375732  expected:1.6510402104766764
+request: 102, latency: 4.723062515258789
+request: 105, latency: 4.6347761154174805
+0号worker ---- good : 74 --- finish: 74 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347605.256946 --- --- id: 102 105  actual:0.9669880867004395  expected:1.10855557161153
+request: 104, latency: 5.730959892272949
+0号worker ---- good : 75 --- finish: 75 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347606.3339615 --- --- id: 104  actual:0.938338041305542  expected:1.155169708567862
+request: 103, latency: 7.387249708175659
+request: 108, latency: 4.109614372253418
+0号worker ---- good : 77 --- finish: 77 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347607.927298 --- --- id: 103 108  actual:1.3775746822357178  expected:1.5630061249119531
+request: 111, latency: 4.871043920516968
+0号worker ---- good : 78 --- finish: 78 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347609.0742748 --- --- id: 111  actual:0.9631268978118896  expected:1.0559956081860993
+request: 106, latency: 7.605157136917114
+request: 112, latency: 5.042078495025635
+0号worker ---- good : 80 --- finish: 80 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347610.347194 --- --- id: 106 112  actual:1.1844451427459717  expected:1.3682416020689148
+request: 109, latency: 7.4581990242004395
+0号worker ---- good : 81 --- finish: 81 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347611.6034362 --- --- id: 109  actual:1.0703980922698975  expected:1.2874018424102125
+request: 114, latency: 4.38013482093811
+0号worker ---- good : 82 --- finish: 82 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347613.0423257 --- --- id: 114  actual:1.2205462455749512  expected:1.419633976252563
+request: 113, latency: 6.270837068557739
+0号worker ---- good : 83 --- finish: 83 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347614.635101 --- --- id: 113  actual:1.3891792297363281  expected:1.6510402104766764
+request: 115, latency: 0.8777172565460205
+0号worker ---- good : 84 --- finish: 84 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347616.646261 --- --- id: 115  actual:0.8759286403656006  expected:1.1221116751072744
+request: 116, latency: 2.0880980491638184
+0号worker ---- good : 85 --- finish: 85 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347617.8675928 --- --- id: 116  actual:0.9798252582550049  expected:1.1221116751072744
+request: 117, latency: 3.2638394832611084
+request: 118, latency: 2.6185998916625977
+0号worker ---- good : 87 --- finish: 87 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347619.0435019 --- --- id: 117 118  actual:1.0224730968475342  expected:1.1410163254187031
+request: 120, latency: 3.9647908210754395
+0号worker ---- good : 88 --- finish: 88 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347620.4101799 --- --- id: 120  actual:1.2529778480529785  expected:1.5188080766343257
+request: 119, latency: 5.703792572021484
+0号worker ---- good : 89 --- finish: 89 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347622.1490116 --- --- id: 119  actual:1.4697468280792236  expected:1.6510402104766764
+request: 121, latency: 0.984889030456543
+0号worker ---- good : 90 --- finish: 90 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347628.1308715 --- --- id: 121  actual:0.9825687408447266  expected:1.155169708567862
+request: 123, latency: 2.6784346103668213
+0号worker ---- good : 91 --- finish: 91 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347629.8757818 --- --- id: 123  actual:1.5653190612792969  expected:1.6179821770160887
+request: 122, latency: 4.277512550354004
+0号worker ---- good : 92 --- finish: 92 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347631.465509 --- --- id: 122  actual:1.545806884765625  expected:1.7171562773978515
+request: 124, latency: 1.3987798690795898
+0号worker ---- good : 93 --- finish: 93 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347633.5041857 --- --- id: 124  actual:1.3905067443847656  expected:1.6510402104766764
+request: 127, latency: 2.269930839538574
+0号worker ---- good : 94 --- finish: 94 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347634.9520423 --- --- id: 127  actual:1.1623303890228271  expected:1.0890536416466867
+request: 128, latency: 3.1723923683166504
+0号worker ---- good : 95 --- finish: 95 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347636.0506291 --- --- id: 128  actual:1.0977215766906738  expected:1.1882277420284497
+request: 126, latency: 4.615866184234619
+0号worker ---- good : 96 --- finish: 96 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347637.2512398 --- --- id: 126  actual:1.1591689586639404  expected:1.3535179093313876
+request: 129, latency: 5.653906583786011
+0号worker ---- good : 97 --- finish: 97 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347638.5913098 --- --- id: 129  actual:1.1416988372802734  expected:1.3865759427919753
+request: 125, latency: 7.461607456207275
+0号worker ---- good : 98 --- finish: 98 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347640.0731645 --- --- id: 125  actual:1.2473499774932861  expected:1.5188080766343257
+request: 131, latency: 6.794631481170654
+0号worker ---- good : 99 --- finish: 99 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347641.5089517 --- --- id: 131  actual:1.1604197025299072  expected:1.3204598758708002
+request: 132, latency: 8.21891474723816
+0号worker ---- good : 100 --- finish: 100 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347642.93369 --- --- id: 132  actual:1.2568793296813965  expected:1.419633976252563
+request: 133, latency: 0.9351708889007568
+0号worker ---- good : 101 --- finish: 101 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347644.9597945 --- --- id: 133  actual:0.9344480037689209  expected:1.1221116751072744
+request: 134, latency: 1.3741240501403809
+0号worker ---- good : 102 --- finish: 102 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347648.5514722 --- --- id: 134  actual:1.3707835674285889  expected:1.6840982439372638
+request: 136, latency: 2.4538357257843018
+request: 137, latency: 2.452759027481079
+0号worker ---- good : 104 --- finish: 104 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347649.7589252 --- --- id: 136 137  actual:0.8999302387237549  expected:1.043634063997184
+request: 138, latency: 3.5825700759887695
+0号worker ---- good : 105 --- finish: 105 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347650.8889384 --- --- id: 138  actual:0.990790605545044  expected:1.2543438089496248
+request: 135, latency: 5.2679667472839355
+0号worker ---- good : 106 --- finish: 106 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347652.4849024 --- --- id: 135  actual:1.3287599086761475  expected:1.584924143555501
+request: 140, latency: 5.956090211868286
+0号worker ---- good : 107 --- finish: 107 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347654.016306 --- --- id: 140  actual:1.2712581157684326  expected:1.5188080766343257
+request: 139, latency: 7.9108946323394775
+request: 142, latency: 5.729211807250977
+request: 153, latency: 3.2016119956970215
+0号worker ---- good : 110 --- finish: 110 ---- abandon : 0 ---- batch size : 3  --- ed : 1714347655.8707957 --- --- id: 139 142 153  actual:1.611783742904663  expected:1.7320176943610894
+request: 145, latency: 6.157506704330444
+request: 147, latency: 6.133094072341919
+request: 155, latency: 3.755183696746826
+0号worker ---- good : 113 --- finish: 113 ---- abandon : 0 ---- batch size : 3  --- ed : 1714347657.012925 --- --- id: 145 147 155  actual:0.9865312576293945  expected:1.1652048269074566
+request: 144, latency: 8.322375059127808
+request: 149, latency: 6.410834550857544
+0号worker ---- good : 115 --- finish: 115 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347658.4794452 --- --- id: 144 149  actual:1.2694661617279053  expected:1.465623863490434
+request: 160, latency: 5.967957019805908
+0号worker ---- good : 116 --- finish: 116 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347659.6999316 --- --- id: 160  actual:1.0476064682006836  expected:1.0559956081860993
+request: 161, latency: 7.30603814125061
+0号worker ---- good : 116 --- finish: 117 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347661.3182817 --- --- id: 161  actual:1.6116642951965332  expected:1.1882277420284497
+request: 159, latency: 9.232751846313477
+0号worker ---- good : 116 --- finish: 118 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347662.960626 --- --- id: 159  actual:1.6421425342559814  expected:1.5188080766343257
+request: 163, latency: 6.907292127609253
+request: 165, latency: 3.070173501968384
+request: 166, latency: 2.0188803672790527
+0号worker ---- good : 119 --- finish: 121 ---- abandon : 0 ---- batch size : 3  --- ed : 1714347664.2780764 --- --- id: 163 165 166  actual:1.3172779083251953  expected:1.5319660940833366
+request: 164, latency: 5.105388641357422
+request: 167, latency: 3.275806188583374
+0号worker ---- good : 121 --- finish: 123 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347665.5457532 --- --- id: 164 167  actual:1.2675244808197021  expected:1.4007023558760878
+request: 169, latency: 3.257924795150757
+0号worker ---- good : 122 --- finish: 124 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347666.9898148 --- --- id: 169  actual:1.4438505172729492  expected:1.5188080766343257
+request: 168, latency: 4.786778926849365
+request: 170, latency: 2.628952980041504
+0号worker ---- good : 124 --- finish: 126 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347668.377479 --- --- id: 168 170  actual:1.3874800205230713  expected:1.5630061249119531
+request: 171, latency: 1.6465516090393066
+0号worker ---- good : 125 --- finish: 127 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347673.2310946 --- --- id: 171  actual:1.6420247554779053  expected:1.6840982439372638
+request: 172, latency: 0.9976811408996582
+0号worker ---- good : 126 --- finish: 128 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347674.1260417 --- --- id: 172  actual:0.8583662509918213  expected:1.0890536416466867
+request: 173, latency: 1.1301014423370361
+0号worker ---- good : 127 --- finish: 129 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347675.7495964 --- --- id: 173  actual:1.1289117336273193  expected:1.3204598758708002
+request: 174, latency: 1.636770486831665
+0号worker ---- good : 128 --- finish: 130 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347676.7575052 --- --- id: 174  actual:0.816464900970459  expected:1.0559956081860993
+request: 175, latency: 2.9298300743103027
+0号worker ---- good : 129 --- finish: 131 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347678.050727 --- --- id: 175  actual:1.0393331050872803  expected:1.1882277420284497
+request: 176, latency: 4.15386176109314
+request: 185, latency: 1.7611339092254639
+0号worker ---- good : 131 --- finish: 133 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347679.2892363 --- --- id: 176 185  actual:1.1039798259735107  expected:1.2383985868402223
+request: 178, latency: 5.3420569896698
+0号worker ---- good : 132 --- finish: 134 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347680.5287144 --- --- id: 178  actual:1.090735912322998  expected:1.2874018424102125
+request: 180, latency: 6.599416494369507
+0号worker ---- good : 133 --- finish: 135 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347681.869288 --- --- id: 180  actual:1.1467547416687012  expected:1.3535179093313876
+request: 177, latency: 8.175032138824463
+0号worker ---- good : 134 --- finish: 136 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347683.3105078 --- --- id: 177  actual:1.2355523109436035  expected:1.4857500431737383
+request: 182, latency: 7.17979884147644
+0号worker ---- good : 135 --- finish: 137 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347684.670975 --- --- id: 182  actual:1.1162245273590088  expected:1.3204598758708002
+request: 183, latency: 8.66182279586792
+request: 186, latency: 8.653764247894287
+0号worker ---- good : 137 --- finish: 139 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347686.1895957 --- --- id: 183 186  actual:1.3089394569396973  expected:1.53054537110478
+request: 189, latency: 1.015820026397705
+0号worker ---- good : 138 --- finish: 140 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347688.22835 --- --- id: 189  actual:1.0130369663238525  expected:1.155169708567862
+request: 190, latency: 2.4628963470458984
+0号worker ---- good : 139 --- finish: 141 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347689.765162 --- --- id: 190  actual:1.3885242938995361  expected:1.6510402104766764
+request: 192, latency: 2.0119340419769287
+request: 196, latency: 1.4563322067260742
+0号worker ---- good : 141 --- finish: 143 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347691.0680602 --- --- id: 192 196  actual:1.0113770961761475  expected:1.1410163254187031
+request: 195, latency: 2.971395492553711
+0号worker ---- good : 142 --- finish: 144 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347692.2798066 --- --- id: 195  actual:1.0847718715667725  expected:1.2543438089496248
+request: 191, latency: 6.022777318954468
+0号worker ---- good : 143 --- finish: 145 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347693.8583572 --- --- id: 191  actual:1.415245532989502  expected:1.5518661100949134
+request: 193, latency: 6.082006454467773
+0号worker ---- good : 144 --- finish: 146 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347695.1491296 --- --- id: 193  actual:1.158646583557129  expected:1.3865759427919753
+request: 194, latency: 7.525386810302734
+0号worker ---- good : 145 --- finish: 147 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347696.6043365 --- --- id: 194  actual:1.2056593894958496  expected:1.4526920097131506
+request: 198, latency: 7.606775999069214
+request: 200, latency: 3.69061541557312
+0号worker ---- good : 147 --- finish: 149 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347698.0711539 --- --- id: 198 200  actual:1.223853588104248  expected:1.4007023558760878
+request: 199, latency: 4.7472147941589355
+0号worker ---- good : 148 --- finish: 150 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347699.1182775 --- --- id: 199  actual:0.8722527027130127  expected:1.0559956081860993
+request: 201, latency: 4.565438270568848
+0号worker ---- good : 149 --- finish: 151 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347700.4316077 --- --- id: 201  actual:1.1349828243255615  expected:1.3204598758708002
+request: 202, latency: 1.4753646850585938
+0号worker ---- good : 150 --- finish: 152 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347705.715931 --- --- id: 202  actual:1.4498777389526367  expected:1.7171562773978515
+request: 203, latency: 3.027411937713623
+0号worker ---- good : 151 --- finish: 153 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347707.292854 --- --- id: 203  actual:1.314335584640503  expected:1.3865759427919753
+request: 204, latency: 4.47552490234375
+0号worker ---- good : 152 --- finish: 154 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347708.7534657 --- --- id: 204  actual:1.3905949592590332  expected:1.419633976252563
+request: 205, latency: 1.081165075302124
+0号worker ---- good : 153 --- finish: 155 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347711.1026046 --- --- id: 205  actual:1.0804431438446045  expected:1.2212857754890372
+request: 208, latency: 1.1428778171539307
+0号worker ---- good : 154 --- finish: 156 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347712.158291 --- --- id: 208  actual:0.91387939453125  expected:1.1221116751072744
+request: 207, latency: 2.4842283725738525
+0号worker ---- good : 155 --- finish: 157 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347713.4366937 --- --- id: 207  actual:1.0727064609527588  expected:1.3204598758708002
+request: 206, latency: 4.100515842437744
+0号worker ---- good : 156 --- finish: 158 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347715.0352368 --- --- id: 206  actual:1.3483686447143555  expected:1.5518661100949134
+request: 213, latency: 2.5835089683532715
+0号worker ---- good : 157 --- finish: 159 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347716.2166119 --- --- id: 213  actual:0.9673173427581787  expected:1.155169708567862
+request: 209, latency: 6.816911935806274
+request: 210, latency: 6.686278581619263
+0号worker ---- good : 159 --- finish: 161 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347717.842674 --- --- id: 209 210  actual:1.4392223358154297  expected:1.6603883863334725
+request: 211, latency: 6.616488218307495
+0号worker ---- good : 160 --- finish: 162 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347719.5277624 --- --- id: 211  actual:1.4697532653808594  expected:1.5188080766343257
+request: 212, latency: 7.946918249130249
+0号worker ---- good : 161 --- finish: 163 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347721.062413 --- --- id: 212  actual:1.4832944869995117  expected:1.7171562773978515
+request: 214, latency: 3.859076499938965
+request: 219, latency: 3.0198440551757812
+0号worker ---- good : 163 --- finish: 165 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347722.314035 --- --- id: 214 219  actual:1.0221283435821533  expected:1.1410163254187031
+request: 215, latency: 4.316023111343384
+0号worker ---- good : 164 --- finish: 166 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347723.538301 --- --- id: 215  actual:1.1024231910705566  expected:1.2874018424102125
+request: 216, latency: 5.688389539718628
+request: 217, latency: 5.686587572097778
+request: 218, latency: 5.685531377792358
+0号worker ---- good : 167 --- finish: 169 ---- abandon : 0 ---- batch size : 3  --- ed : 1714347724.9108925 --- --- id: 216 217 218  actual:1.1941945552825928  expected:1.3985983605648349
+request: 220, latency: 1.302217721939087
+0号worker ---- good : 168 --- finish: 170 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347728.7268395 --- --- id: 220  actual:1.298027753829956  expected:1.5188080766343257
+request: 221, latency: 2.9215919971466064
+0号worker ---- good : 169 --- finish: 171 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347730.364695 --- --- id: 221  actual:1.424137830734253  expected:1.6510402104766764
+request: 222, latency: 1.5173499584197998
+0号worker ---- good : 170 --- finish: 172 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347731.8092287 --- --- id: 222  actual:1.2190098762512207  expected:1.4526920097131506
+request: 223, latency: 2.4379329681396484
+0号worker ---- good : 171 --- finish: 173 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347733.0275018 --- --- id: 223  actual:0.9886541366577148  expected:1.155169708567862
+request: 229, latency: 3.0490100383758545
+request: 233, latency: 1.6009595394134521
+0号worker ---- good : 173 --- finish: 175 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347734.1149468 --- --- id: 229 233  actual:0.9198668003082275  expected:1.076094817804357
+request: 227, latency: 4.390482187271118
+request: 228, latency: 4.350805044174194
+0号worker ---- good : 175 --- finish: 177 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347735.4034252 --- --- id: 227 228  actual:1.1289567947387695  expected:1.2708593406473954
+request: 224, latency: 6.006826162338257
+0号worker ---- good : 176 --- finish: 178 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347736.734309 --- --- id: 224  actual:1.1935019493103027  expected:1.3535179093313876
+request: 231, latency: 5.921568155288696
+request: 232, latency: 5.440864324569702
+request: 239, latency: 4.230706453323364
+0号worker ---- good : 179 --- finish: 181 ---- abandon : 0 ---- batch size : 3  --- ed : 1714347737.9490428 --- --- id: 231 232 239  actual:1.0100085735321045  expected:1.1652048269074566
+request: 226, latency: 8.641780614852905
+0号worker ---- good : 180 --- finish: 182 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347739.4113717 --- --- id: 226  actual:1.3084299564361572  expected:1.4857500431737383
+request: 240, latency: 7.046064615249634
+0号worker ---- good : 181 --- finish: 183 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347740.7645144 --- --- id: 240  actual:1.1671817302703857  expected:1.2212857754890372
+request: 238, latency: 8.297445297241211
+0号worker ---- good : 182 --- finish: 184 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347742.0154905 --- --- id: 238  actual:1.2065496444702148  expected:1.419633976252563
+request: 249, latency: 6.619888067245483
+0号worker ---- good : 183 --- finish: 185 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347743.3425546 --- --- id: 249  actual:1.1112468242645264  expected:1.1882277420284497
+request: 250, latency: 8.092270851135254
+0号worker ---- good : 184 --- finish: 186 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347744.823645 --- --- id: 250  actual:1.414463996887207  expected:1.584924143555501
+request: 248, latency: 9.826494693756104
+0号worker ---- good : 185 --- finish: 187 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347746.426782 --- --- id: 248  actual:1.4345347881317139  expected:1.7171562773978515
+request: 252, latency: 1.1829657554626465
+0号worker ---- good : 186 --- finish: 188 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347750.31398 --- --- id: 252  actual:1.1817741394042969  expected:1.2874018424102125
+request: 253, latency: 2.148202896118164
+0号worker ---- good : 187 --- finish: 189 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347751.4838877 --- --- id: 253  actual:1.0670547485351562  expected:1.155169708567862
+request: 254, latency: 3.407820224761963
+0号worker ---- good : 188 --- finish: 190 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347753.0187476 --- --- id: 254  actual:1.4495019912719727  expected:1.6510402104766764
+request: 255, latency: 3.42341947555542
+0号worker ---- good : 189 --- finish: 191 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347754.6760418 --- --- id: 255  actual:1.4580538272857666  expected:1.6179821770160887
+request: 256, latency: 0.9950459003448486
+0号worker ---- good : 190 --- finish: 192 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347755.9119086 --- --- id: 256  actual:0.9912474155426025  expected:1.0890536416466867
+request: 257, latency: 2.475874185562134
+0号worker ---- good : 191 --- finish: 193 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347757.395821 --- --- id: 257  actual:1.3840487003326416  expected:1.6510402104766764
+request: 258, latency: 1.3727953433990479
+0号worker ---- good : 192 --- finish: 194 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347762.157335 --- --- id: 258  actual:1.371520757675171  expected:1.6179821770160887
+request: 260, latency: 2.4218966960906982
+request: 265, latency: 1.5451524257659912
+0号worker ---- good : 194 --- finish: 196 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347763.3359315 --- --- id: 260 265  actual:0.9180543422698975  expected:1.10855557161153
+request: 261, latency: 3.8284950256347656
+request: 262, latency: 3.7080702781677246
+0号worker ---- good : 196 --- finish: 198 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347764.744747 --- --- id: 261 262  actual:1.1888713836669922  expected:1.2059378330330492
+request: 263, latency: 4.357805252075195
+request: 264, latency: 4.357575178146362
+0号worker ---- good : 198 --- finish: 200 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347766.148234 --- --- id: 263 264  actual:1.383387565612793  expected:1.4331631096832609
+request: 259, latency: 6.944490671157837
+0号worker ---- good : 199 --- finish: 201 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347767.7312646 --- --- id: 259  actual:1.5379514694213867  expected:1.7171562773978515
+request: 267, latency: 5.9221978187561035
+request: 268, latency: 5.894545555114746
+request: 272, latency: 5.334927797317505
+0号worker ---- good : 202 --- finish: 204 ---- abandon : 0 ---- batch size : 3  --- ed : 1714347769.3286061 --- --- id: 267 268 272  actual:1.423882246017456  expected:1.331914493805584
+request: 271, latency: 6.92691445350647
+0号worker ---- good : 203 --- finish: 205 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347770.4849372 --- --- id: 271  actual:1.1561341285705566  expected:1.2543438089496248
+request: 266, latency: 9.06865382194519
+0号worker ---- good : 204 --- finish: 206 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347771.8194356 --- --- id: 266  actual:1.3112223148345947  expected:1.5518661100949134
+request: 273, latency: 9.491966724395752
+request: 280, latency: 8.078373193740845
+0号worker ---- good : 206 --- finish: 208 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347773.506581 --- --- id: 273 280  actual:1.453782558441162  expected:1.6279276325262992
+request: 281, latency: 0.9118239879608154
+0号worker ---- good : 207 --- finish: 209 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347776.6129174 --- --- id: 281  actual:0.9107518196105957  expected:1.0559956081860993
+request: 282, latency: 1.246330976486206
+0号worker ---- good : 208 --- finish: 210 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347778.0446033 --- --- id: 282  actual:1.2456603050231934  expected:1.3535179093313876
+request: 286, latency: 0.9237744808197021
+0号worker ---- good : 209 --- finish: 211 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347779.0257733 --- --- id: 286  actual:0.8370943069458008  expected:1.0559956081860993
+request: 285, latency: 3.4056577682495117
+0号worker ---- good : 210 --- finish: 212 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347780.3566723 --- --- id: 285  actual:1.1271376609802246  expected:1.3535179093313876
+request: 283, latency: 4.9341795444488525
+0号worker ---- good : 211 --- finish: 213 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347781.7731392 --- --- id: 283  actual:1.194671392440796  expected:1.419633976252563
+request: 284, latency: 6.564132213592529
+0号worker ---- good : 212 --- finish: 214 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347783.403245 --- --- id: 284  actual:1.407578468322754  expected:1.6179821770160887
+request: 288, latency: 6.382908821105957
+0号worker ---- good : 213 --- finish: 215 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347784.8730402 --- --- id: 288  actual:1.2625398635864258  expected:1.3865759427919753
+request: 287, latency: 8.230090618133545
+0号worker ---- good : 214 --- finish: 216 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347786.3328147 --- --- id: 287  actual:1.3393182754516602  expected:1.584924143555501
+request: 291, latency: 6.406416177749634
+0号worker ---- good : 215 --- finish: 217 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347787.5430489 --- --- id: 291  actual:0.9634332656860352  expected:1.155169708567862
+request: 295, latency: 5.199757814407349
+request: 302, latency: 3.306541681289673
+0号worker ---- good : 217 --- finish: 219 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347788.7908359 --- --- id: 295 302  actual:1.0577328205108643  expected:1.043634063997184
+request: 290, latency: 10.060201644897461
+request: 301, latency: 5.088952541351318
+request: 308, latency: 2.4675962924957275
+0号worker ---- good : 220 --- finish: 222 ---- abandon : 0 ---- batch size : 3  --- ed : 1714347790.491841 --- --- id: 290 301 308  actual:1.7008018493652344  expected:1.7653596277407149
+request: 294, latency: 8.931711673736572
+request: 307, latency: 4.341835021972656
+0号worker ---- good : 222 --- finish: 224 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347792.365532 --- --- id: 294 307  actual:1.814624547958374  expected:1.498084617297607
+request: 296, latency: 10.248440504074097
+request: 312, latency: 4.663574457168579
+0号worker ---- good : 223 --- finish: 226 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347793.9794445 --- --- id: 296 312  actual:1.6137356758117676  expected:1.6603883863334725
+request: 304, latency: 7.062578201293945
+request: 310, latency: 5.92924690246582
+request: 322, latency: 4.094995021820068
+0号worker ---- good : 226 --- finish: 229 ---- abandon : 0 ---- batch size : 3  --- ed : 1714347794.998831 --- --- id: 304 310 322  actual:1.019188404083252  expected:1.2318886936667075
+request: 306, latency: 8.14747953414917
+request: 325, latency: 4.199855089187622
+0号worker ---- good : 228 --- finish: 231 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347796.1709464 --- --- id: 306 325  actual:1.1719026565551758  expected:1.3682416020689148
+request: 315, latency: 8.06325387954712
+request: 324, latency: 5.701747417449951
+0号worker ---- good : 230 --- finish: 233 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347797.672637 --- --- id: 315 324  actual:1.3450143337249756  expected:1.465623863490434
+request: 321, latency: 8.335142850875854
+request: 335, latency: 4.8107850551605225
+0号worker ---- good : 232 --- finish: 235 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347799.1262367 --- --- id: 321 335  actual:1.3212249279022217  expected:1.4007023558760878
+request: 330, latency: 6.053984642028809
+0号worker ---- good : 233 --- finish: 236 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347800.1555526 --- --- id: 330  actual:0.9644145965576172  expected:1.155169708567862
+request: 327, latency: 8.85488772392273
+0号worker ---- good : 234 --- finish: 237 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347801.6316175 --- --- id: 327  actual:1.2779052257537842  expected:1.5188080766343257
+request: 328, latency: 9.427596092224121
+0号worker ---- good : 235 --- finish: 238 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347803.2701192 --- --- id: 328  actual:1.3959715366363525  expected:1.6179821770160887
+request: 336, latency: 8.09389877319336
+0号worker ---- good : 236 --- finish: 239 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347804.8836389 --- --- id: 336  actual:1.3939838409423828  expected:1.6510402104766764
+request: 338, latency: 1.4468843936920166
+0号worker ---- good : 237 --- finish: 240 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347806.1250296 --- --- id: 338  actual:0.9872252941131592  expected:1.0890536416466867
+request: 337, latency: 2.865741014480591
+0号worker ---- good : 238 --- finish: 241 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347807.517595 --- --- id: 337  actual:1.2755913734436035  expected:1.4857500431737383
+request: 339, latency: 1.1226961612701416
+0号worker ---- good : 239 --- finish: 242 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347810.018351 --- --- id: 339  actual:1.119624376296997  expected:1.2543438089496248
+request: 340, latency: 2.4302220344543457
+0号worker ---- good : 240 --- finish: 243 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347811.3423269 --- --- id: 340  actual:1.1952924728393555  expected:1.3865759427919753
+request: 343, latency: 1.4714670181274414
+0号worker ---- good : 241 --- finish: 244 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347812.556235 --- --- id: 343  actual:1.0022163391113281  expected:1.155169708567862
+request: 341, latency: 5.300425291061401
+request: 342, latency: 3.2652525901794434
+0号worker ---- good : 243 --- finish: 246 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347814.2246969 --- --- id: 341 342  actual:1.4938170909881592  expected:1.5630061249119531
+request: 344, latency: 2.2842493057250977
+0号worker ---- good : 244 --- finish: 247 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347815.8163652 --- --- id: 344  actual:1.4971187114715576  expected:1.6179821770160887
+request: 345, latency: 1.266063928604126
+0号worker ---- good : 245 --- finish: 248 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347822.6146977 --- --- id: 345  actual:1.2645111083984375  expected:1.3865759427919753
+request: 346, latency: 1.9347124099731445
+0号worker ---- good : 246 --- finish: 249 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347823.9511507 --- --- id: 346  actual:1.2141733169555664  expected:1.3535179093313876
+request: 347, latency: 3.3251090049743652
+0号worker ---- good : 247 --- finish: 250 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347825.3486907 --- --- id: 347  actual:1.2625298500061035  expected:1.4526920097131506
+request: 348, latency: 1.2558836936950684
+0号worker ---- good : 248 --- finish: 251 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347827.0794215 --- --- id: 348  actual:1.2550339698791504  expected:1.4857500431737383
+request: 349, latency: 2.458984375
+request: 350, latency: 1.2738840579986572
+0号worker ---- good : 250 --- finish: 253 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347828.4176116 --- --- id: 349 350  actual:1.0808281898498535  expected:1.2383985868402223
+request: 351, latency: 2.6261608600616455
+0号worker ---- good : 251 --- finish: 254 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347829.7711966 --- --- id: 351  actual:1.2246665954589844  expected:1.2874018424102125
+request: 354, latency: 2.010890245437622
+0号worker ---- good : 252 --- finish: 255 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347830.9862804 --- --- id: 354  actual:1.1522502899169922  expected:1.2874018424102125
+request: 352, latency: 3.3203723430633545
+0号worker ---- good : 253 --- finish: 256 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347832.2677553 --- --- id: 352  actual:1.1499114036560059  expected:1.3204598758708002
+request: 353, latency: 4.724565267562866
+0号worker ---- good : 254 --- finish: 257 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347833.6724265 --- --- id: 353  actual:1.2324492931365967  expected:1.4857500431737383
+request: 355, latency: 6.193027019500732
+0号worker ---- good : 255 --- finish: 258 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347835.272775 --- --- id: 355  actual:1.3517367839813232  expected:1.584924143555501
+request: 356, latency: 7.467710733413696
+0号worker ---- good : 256 --- finish: 259 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347836.8815327 --- --- id: 356  actual:1.3594629764556885  expected:1.5518661100949134
+request: 357, latency: 1.1447298526763916
+0号worker ---- good : 257 --- finish: 260 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347840.7212481 --- --- id: 357  actual:1.1405093669891357  expected:1.3204598758708002
+request: 358, latency: 2.283306837081909
+0号worker ---- good : 258 --- finish: 261 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347841.9354646 --- --- id: 358  actual:1.0402796268463135  expected:1.155169708567862
+request: 359, latency: 3.3871753215789795
+0号worker ---- good : 259 --- finish: 262 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347843.052113 --- --- id: 359  actual:1.0042264461517334  expected:1.2543438089496248
+request: 361, latency: 4.77087664604187
+0号worker ---- good : 260 --- finish: 263 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347844.525123 --- --- id: 361  actual:1.208972692489624  expected:1.2874018424102125
+request: 360, latency: 6.338464736938477
+0号worker ---- good : 261 --- finish: 264 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347846.0035484 --- --- id: 360  actual:1.4046862125396729  expected:1.6179821770160887
+request: 362, latency: 6.523916959762573
+0号worker ---- good : 262 --- finish: 265 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347847.7108536 --- --- id: 362  actual:1.492769718170166  expected:1.7171562773978515
+request: 363, latency: 1.6055846214294434
+0号worker ---- good : 263 --- finish: 266 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347848.89886 --- --- id: 363  actual:0.966869592666626  expected:1.1221116751072744
+request: 364, latency: 1.3793127536773682
+0号worker ---- good : 264 --- finish: 267 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347851.5437653 --- --- id: 364  actual:1.3754944801330566  expected:1.584924143555501
+request: 367, latency: 2.536463499069214
+request: 368, latency: 2.532681465148926
+0号worker ---- good : 266 --- finish: 269 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347852.7763824 --- --- id: 367 368  actual:1.0250155925750732  expected:1.1734770792258762
+request: 372, latency: 2.5071446895599365
+0号worker ---- good : 267 --- finish: 270 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347853.8570592 --- --- id: 372  actual:0.9348134994506836  expected:1.0890536416466867
+request: 366, latency: 5.009637355804443
+0号worker ---- good : 268 --- finish: 271 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347855.2489202 --- --- id: 366  actual:1.2401220798492432  expected:1.4857500431737383
+request: 373, latency: 4.2795655727386475
+0号worker ---- good : 269 --- finish: 272 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347856.52879 --- --- id: 373  actual:1.0381782054901123  expected:1.2212857754890372
+request: 365, latency: 7.8907458782196045
+0号worker ---- good : 270 --- finish: 273 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347858.107619 --- --- id: 365  actual:1.3723702430725098  expected:1.6510402104766764
+request: 369, latency: 8.484894037246704
+0号worker ---- good : 271 --- finish: 274 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347859.7166846 --- --- id: 369  actual:1.3336665630340576  expected:1.4526920097131506
+request: 371, latency: 9.94868779182434
+0号worker ---- good : 272 --- finish: 275 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347861.2916245 --- --- id: 371  actual:1.4559683799743652  expected:1.7171562773978515
+request: 381, latency: 4.040967702865601
+0号worker ---- good : 273 --- finish: 276 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347862.4748847 --- --- id: 381  actual:0.9221246242523193  expected:1.0559956081860993
+request: 377, latency: 6.407142639160156
+0号worker ---- good : 274 --- finish: 277 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347863.691347 --- --- id: 377  actual:1.0909028053283691  expected:1.2874018424102125
+request: 378, latency: 7.757772445678711
+request: 380, latency: 6.670969009399414
+0号worker ---- good : 276 --- finish: 279 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347865.0424867 --- --- id: 378 380  actual:1.1484806537628174  expected:1.3357808482617417
+request: 375, latency: 9.512715339660645
+request: 376, latency: 9.48898959159851
+request: 382, latency: 5.598659992218018
+0号worker ---- good : 279 --- finish: 282 ---- abandon : 0 ---- batch size : 3  --- ed : 1714347866.6751904 --- --- id: 375 376 382  actual:1.4482626914978027  expected:1.7320176943610894
+request: 383, latency: 6.92257022857666
+0号worker ---- good : 280 --- finish: 283 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347867.9992747 --- --- id: 383  actual:1.0287694931030273  expected:1.1882277420284497
+request: 386, latency: 4.85223913192749
+0号worker ---- good : 281 --- finish: 284 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347869.5856402 --- --- id: 386  actual:1.4272851943969727  expected:1.584924143555501
+request: 384, latency: 6.501807689666748
+0号worker ---- good : 282 --- finish: 285 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347871.2305908 --- --- id: 384  actual:1.4885525703430176  expected:1.6179821770160887
+request: 385, latency: 8.232724666595459
+request: 390, latency: 3.190185546875
+0号worker ---- good : 284 --- finish: 287 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347872.9647868 --- --- id: 385 390  actual:1.6080405712127686  expected:1.6928491401406456
+request: 387, latency: 4.654157876968384
+0号worker ---- good : 285 --- finish: 288 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347873.9906952 --- --- id: 387  actual:0.9448344707489014  expected:1.155169708567862
+request: 389, latency: 5.487596035003662
+0号worker ---- good : 286 --- finish: 289 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347875.2605608 --- --- id: 389  actual:1.0634114742279053  expected:1.0890536416466867
+request: 388, latency: 7.105889797210693
+0号worker ---- good : 287 --- finish: 290 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347876.4630377 --- --- id: 388  actual:1.1700432300567627  expected:1.3865759427919753
+request: 391, latency: 5.700371026992798
+request: 392, latency: 2.788377285003662
+0号worker ---- good : 289 --- finish: 292 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347877.772905 --- --- id: 391 392  actual:1.0921432971954346  expected:1.1734770792258762
+request: 395, latency: 3.7572548389434814
+0号worker ---- good : 290 --- finish: 293 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347879.1449544 --- --- id: 395  actual:1.2878005504608154  expected:1.5518661100949134
+request: 393, latency: 5.563723087310791
+request: 394, latency: 5.531481981277466
+0号worker ---- good : 292 --- finish: 295 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347880.806213 --- --- id: 393 394  actual:1.398695945739746  expected:1.5630061249119531
+request: 396, latency: 3.3154284954071045
+0号worker ---- good : 293 --- finish: 296 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347882.165307 --- --- id: 396  actual:1.1835711002349854  expected:1.3865759427919753
+request: 398, latency: 3.4195587635040283
+0号worker ---- good : 294 --- finish: 297 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347883.524031 --- --- id: 398  actual:1.1580967903137207  expected:1.3204598758708002
+request: 397, latency: 5.194135427474976
+0号worker ---- good : 295 --- finish: 298 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347884.9416735 --- --- id: 397  actual:1.2593398094177246  expected:1.4857500431737383
+request: 399, latency: 4.950617790222168
+0号worker ---- good : 296 --- finish: 299 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347886.369496 --- --- id: 399  actual:1.199388027191162  expected:1.419633976252563
+request: 401, latency: 5.181369781494141
+0号worker ---- good : 297 --- finish: 300 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347887.7384179 --- --- id: 401  actual:1.1436500549316406  expected:1.2543438089496248
+request: 404, latency: 5.487305641174316
+0号worker ---- good : 298 --- finish: 301 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347888.7725897 --- --- id: 404  actual:0.9258487224578857  expected:1.155169708567862
+request: 402, latency: 7.487510442733765
+0号worker ---- good : 299 --- finish: 302 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347890.166213 --- --- id: 402  actual:1.1610748767852783  expected:1.3535179093313876
+request: 403, latency: 9.043747663497925
+0号worker ---- good : 300 --- finish: 303 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347891.85205 --- --- id: 403  actual:1.4957962036132812  expected:1.5518661100949134
+request: 406, latency: 7.536451816558838
+0号worker ---- good : 301 --- finish: 304 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347893.0766768 --- --- id: 406  actual:1.168848991394043  expected:1.4526920097131506
+request: 405, latency: 9.29502558708191
+0号worker ---- good : 302 --- finish: 305 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347894.7519007 --- --- id: 405  actual:1.3898465633392334  expected:1.6840982439372638
+request: 408, latency: 9.539192199707031
+0号worker ---- good : 303 --- finish: 306 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347896.5322633 --- --- id: 408  actual:1.4901759624481201  expected:1.6179821770160887
+request: 412, latency: 5.655838966369629
+0号worker ---- good : 304 --- finish: 307 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347897.939872 --- --- id: 412  actual:1.2760975360870361  expected:1.419633976252563
+request: 413, latency: 4.795854330062866
+0号worker ---- good : 305 --- finish: 308 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347899.1923776 --- --- id: 413  actual:1.1047308444976807  expected:1.155169708567862
+request: 415, latency: 4.745604753494263
+0号worker ---- good : 306 --- finish: 309 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347900.2555258 --- --- id: 415  actual:1.016557216644287  expected:1.1882277420284497
+request: 416, latency: 5.307873725891113
+0号worker ---- good : 307 --- finish: 310 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347901.4158857 --- --- id: 416  actual:0.9923031330108643  expected:1.0890536416466867
+request: 414, latency: 8.297791242599487
+0号worker ---- good : 308 --- finish: 311 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347902.7530968 --- --- id: 414  actual:1.2357521057128906  expected:1.4526920097131506
+request: 417, latency: 8.141313552856445
+0号worker ---- good : 309 --- finish: 312 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347904.4266427 --- --- id: 417  actual:1.463608980178833  expected:1.6179821770160887
+request: 425, latency: 5.632218837738037
+0号worker ---- good : 310 --- finish: 313 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347905.5296786 --- --- id: 425  actual:0.9476442337036133  expected:1.1221116751072744
+request: 422, latency: 6.942462682723999
+request: 433, latency: 2.934025526046753
+0号worker ---- good : 312 --- finish: 315 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347906.8002846 --- --- id: 422 433  actual:1.1008532047271729  expected:1.2059378330330492
+request: 429, latency: 6.11163854598999
+0号worker ---- good : 313 --- finish: 316 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347907.8476253 --- --- id: 429  actual:0.9419338703155518  expected:1.0559956081860993
+request: 432, latency: 7.263190031051636
+0号worker ---- good : 314 --- finish: 317 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347909.1751018 --- --- id: 432  actual:1.2170109748840332  expected:1.3535179093313876
+request: 434, latency: 6.413418531417847
+0号worker ---- good : 315 --- finish: 318 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347910.287333 --- --- id: 434  actual:0.9734382629394531  expected:1.0890536416466867
+request: 436, latency: 7.863891363143921
+0号worker ---- good : 316 --- finish: 319 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347911.7730885 --- --- id: 436  actual:1.3478822708129883  expected:1.3204598758708002
+request: 437, latency: 9.33846640586853
+0号worker ---- good : 317 --- finish: 320 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347913.4214494 --- --- id: 437  actual:1.648076057434082  expected:1.7171562773978515
+request: 439, latency: 5.688739776611328
+request: 441, latency: 5.398811340332031
+0号worker ---- good : 319 --- finish: 322 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347914.5172758 --- --- id: 439 441  actual:1.0365769863128662  expected:1.1410163254187031
+request: 440, latency: 6.812947988510132
+0号worker ---- good : 320 --- finish: 323 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347915.90382 --- --- id: 440  actual:1.2860488891601562  expected:1.4526920097131506
+request: 442, latency: 4.276936054229736
+0号worker ---- good : 321 --- finish: 324 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347917.14546 --- --- id: 442  actual:1.0592272281646729  expected:1.2543438089496248
+request: 443, latency: 5.053900718688965
+0号worker ---- good : 322 --- finish: 325 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347918.8016884 --- --- id: 443  actual:1.4608182907104492  expected:1.7171562773978515
+request: 444, latency: 2.676464796066284
+0号worker ---- good : 323 --- finish: 326 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347920.2010012 --- --- id: 444  actual:1.1443426609039307  expected:1.2874018424102125
+request: 446, latency: 1.517021894454956
+0号worker ---- good : 324 --- finish: 327 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347921.3529851 --- --- id: 446  actual:1.0132367610931396  expected:1.0559956081860993
+request: 456, latency: 1.8384478092193604
+0号worker ---- good : 325 --- finish: 328 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347922.2966359 --- --- id: 456  actual:0.89266037940979  expected:1.0559956081860993
+request: 447, latency: 3.670274496078491
+request: 452, latency: 3.262594699859619
+0号worker ---- good : 327 --- finish: 330 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347923.5064087 --- --- id: 447 452  actual:1.0563089847564697  expected:1.2059378330330492
+request: 451, latency: 4.62811541557312
+0号worker ---- good : 328 --- finish: 331 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347924.871765 --- --- id: 451  actual:1.221268653869629  expected:1.2874018424102125
+request: 449, latency: 6.05092716217041
+0号worker ---- good : 329 --- finish: 332 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347926.1214201 --- --- id: 449  actual:1.1870908737182617  expected:1.3535179093313876
+request: 453, latency: 7.187426805496216
+request: 457, latency: 6.5965962409973145
+0号worker ---- good : 331 --- finish: 334 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347927.4395175 --- --- id: 453 457  actual:1.1463713645935059  expected:1.3033200944545686
+request: 459, latency: 7.343099117279053
+0号worker ---- good : 332 --- finish: 335 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347928.732363 --- --- id: 459  actual:1.1362221240997314  expected:1.2543438089496248
+request: 458, latency: 9.433944940567017
+request: 461, latency: 7.519936800003052
+0号worker ---- good : 334 --- finish: 337 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347930.2869692 --- --- id: 458 461  actual:1.4411168098449707  expected:1.6603883863334725
+request: 463, latency: 3.517338514328003
+request: 466, latency: 2.6447901725769043
+0号worker ---- good : 336 --- finish: 339 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347931.5440338 --- --- id: 463 466  actual:1.0421397686004639  expected:1.043634063997184
+request: 469, latency: 3.0981526374816895
+0号worker ---- good : 337 --- finish: 340 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347932.493196 --- --- id: 469  actual:0.9450764656066895  expected:1.0890536416466867
+request: 468, latency: 4.267739772796631
+0号worker ---- good : 338 --- finish: 341 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347933.6625667 --- --- id: 468  actual:1.0215504169464111  expected:1.2543438089496248
+request: 465, latency: 6.276795864105225
+0号worker ---- good : 339 --- finish: 342 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347935.1751053 --- --- id: 465  actual:1.279367446899414  expected:1.5188080766343257
+request: 473, latency: 6.526124954223633
+0号worker ---- good : 340 --- finish: 343 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347936.8558362 --- --- id: 473  actual:1.4399375915527344  expected:1.3535179093313876
+request: 470, latency: 8.320667743682861
+0号worker ---- good : 341 --- finish: 344 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347938.295139 --- --- id: 470  actual:1.4390363693237305  expected:1.4526920097131506
+request: 471, latency: 9.572439908981323
+request: 485, latency: 3.3179988861083984
+0号worker ---- good : 343 --- finish: 346 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347939.7105355 --- --- id: 471 485  actual:1.4143519401550293  expected:1.6279276325262992
+request: 475, latency: 9.387755393981934
+request: 484, latency: 5.465243339538574
+0号worker ---- good : 345 --- finish: 348 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347941.3224046 --- --- id: 475 484  actual:1.4017102718353271  expected:1.5954668787191262
+request: 480, latency: 9.042412757873535
+0号worker ---- good : 346 --- finish: 349 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347942.8253155 --- --- id: 480  actual:1.3057923316955566  expected:1.5518661100949134
+request: 486, latency: 7.915082216262817
+request: 487, latency: 7.9136998653411865
+0号worker ---- good : 348 --- finish: 351 ---- abandon : 0 ---- batch size : 2  --- ed : 1714347944.3880215 --- --- id: 486 487  actual:1.3226947784423828  expected:1.465623863490434
+request: 493, latency: 2.5147807598114014
+0号worker ---- good : 349 --- finish: 352 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347945.55041 --- --- id: 493  actual:1.0202834606170654  expected:1.1221116751072744
+request: 490, latency: 4.87733793258667
+0号worker ---- good : 350 --- finish: 353 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347946.821346 --- --- id: 490  actual:1.1740167140960693  expected:1.3535179093313876
+request: 491, latency: 6.255857944488525
+0号worker ---- good : 351 --- finish: 354 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347948.250426 --- --- id: 491  actual:1.2555885314941406  expected:1.4526920097131506
+request: 495, latency: 6.03393030166626
+0号worker ---- good : 352 --- finish: 355 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347949.528103 --- --- id: 495  actual:1.0749547481536865  expected:1.2543438089496248
+request: 499, latency: 7.15161657333374
+0号worker ---- good : 353 --- finish: 356 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347950.8519847 --- --- id: 499  actual:1.1298253536224365  expected:1.3204598758708002
+request: 496, latency: 8.825905084609985
+0号worker ---- good : 354 --- finish: 357 ---- abandon : 0 ---- batch size : 1  --- ed : 1714347952.3448021 --- --- id: 496  actual:1.299375295639038  expected:1.5188080766343257

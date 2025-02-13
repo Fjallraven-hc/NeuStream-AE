@@ -1,0 +1,4396 @@
+--------------------
+Server-side end2end latency: 2.293330192565918
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935888.8095136
+key: SLO, value: 4.321134955286979
+key: id, value: 2
+key: UNetModule_receive_time, value: 1714935888.8374338
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935891.0998764
+key: finish_time, value: 1714935891.1028438
+free time = 2.0278048515319824collector worker receive workload request count = 1
+--------------------
+Server-side end2end latency: 2.366659164428711
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935888.8098521
+key: SLO, value: 4.483177516110241
+key: id, value: 3
+key: UNetModule_receive_time, value: 1714935888.837615
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935891.1682708
+key: finish_time, value: 1714935891.1765113
+free time = 2.116518259048462collector worker receive workload request count = 2
+--------------------
+Server-side end2end latency: 2.5063605308532715
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935888.7959871
+key: SLO, value: 4.9693051985800265
+key: id, value: 0
+key: UNetModule_receive_time, value: 1714935888.797054
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935891.2942557
+key: finish_time, value: 1714935891.3023477
+free time = 2.462944746017456collector worker receive workload request count = 3
+--------------------
+Server-side end2end latency: 2.5669803619384766
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935888.8090076
+key: SLO, value: 5.131347759403288
+key: id, value: 1
+key: UNetModule_receive_time, value: 1714935888.837243
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935891.3721833
+key: finish_time, value: 1714935891.375988
+free time = 2.5643672943115234collector worker receive workload request count = 4
+--------------------
+Server-side end2end latency: 1.8717985153198242
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935913.9765508
+key: SLO, value: 4.483177516110241
+key: id, value: 4
+key: UNetModule_receive_time, value: 1714935913.9773266
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935915.8418937
+key: finish_time, value: 1714935915.8483493
+free time = 2.6113789081573486collector worker receive workload request count = 5
+--------------------
+Server-side end2end latency: 3.247159242630005
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935914.9312317
+key: SLO, value: 4.69923426387459
+key: id, value: 5
+key: UNetModule_receive_time, value: 1714935914.932965
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935918.1760273
+key: finish_time, value: 1714935918.178391
+free time = 1.4520750045776367collector worker receive workload request count = 6
+--------------------
+Server-side end2end latency: 3.3258090019226074
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935914.9365222
+key: SLO, value: 4.807262637756764
+key: id, value: 6
+key: UNetModule_receive_time, value: 1714935914.9485369
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935918.2599761
+key: finish_time, value: 1714935918.2623312
+free time = 1.4814536571502686collector worker receive workload request count = 7
+--------------------
+Server-side end2end latency: 3.5345826148986816
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935914.937187
+key: SLO, value: 5.29339032022655
+key: id, value: 8
+key: UNetModule_receive_time, value: 1714935914.9495132
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935918.462741
+key: finish_time, value: 1714935918.4717696
+free time = 1.75880765914917collector worker receive workload request count = 8
+--------------------
+Server-side end2end latency: 3.5458571910858154
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935914.9368968
+key: SLO, value: 5.347404507167637
+key: id, value: 7
+key: UNetModule_receive_time, value: 1714935914.9489508
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935918.4811993
+key: finish_time, value: 1714935918.482754
+free time = 1.8015472888946533collector worker receive workload request count = 9
+--------------------
+Server-side end2end latency: 2.906376838684082
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935915.6605153
+key: SLO, value: 4.537191703051328
+key: id, value: 9
+key: UNetModule_receive_time, value: 1714935915.6707463
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935918.5587661
+key: finish_time, value: 1714935918.5668921
+free time = 1.630814790725708collector worker receive workload request count = 10
+--------------------
+Server-side end2end latency: 3.656858444213867
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935958.7099433
+key: SLO, value: 4.375149142228066
+key: id, value: 12
+key: UNetModule_receive_time, value: 1714935958.7103362
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935962.3651235
+key: finish_time, value: 1714935962.3668017
+free time = 0.7182908058166504collector worker receive workload request count = 11
+--------------------
+Server-side end2end latency: 3.8454201221466064
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935958.7086227
+key: SLO, value: 4.645220076933502
+key: id, value: 10
+key: UNetModule_receive_time, value: 1714935958.7096095
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935962.5516002
+key: finish_time, value: 1714935962.5540428
+free time = 0.799799919128418collector worker receive workload request count = 12
+--------------------
+Server-side end2end latency: 3.8442113399505615
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935958.7102757
+key: SLO, value: 4.645220076933502
+key: id, value: 13
+key: UNetModule_receive_time, value: 1714935958.710663
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935962.5521264
+key: finish_time, value: 1714935962.554487
+free time = 0.8010087013244629collector worker receive workload request count = 13
+--------------------
+Server-side end2end latency: 3.916290283203125
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935958.7117763
+key: SLO, value: 4.69923426387459
+key: id, value: 14
+key: UNetModule_receive_time, value: 1714935958.7587638
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935962.620509
+key: finish_time, value: 1714935962.6280665
+free time = 0.7829439640045166collector worker receive workload request count = 14
+--------------------
+Server-side end2end latency: 3.971379280090332
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935958.7095942
+key: SLO, value: 4.9693051985800265
+key: id, value: 11
+key: UNetModule_receive_time, value: 1714935958.7100458
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935962.6753087
+key: finish_time, value: 1714935962.6809735
+free time = 0.9979259967803955collector worker receive workload request count = 15
+--------------------
+Server-side end2end latency: 4.032289981842041
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935958.7120602
+key: SLO, value: 5.077333572462201
+key: id, value: 15
+key: UNetModule_receive_time, value: 1714935958.7589576
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935962.7387142
+key: finish_time, value: 1714935962.7443502
+free time = 1.045043706893921collector worker receive workload request count = 16
+--------------------
+Server-side end2end latency: 3.8120548725128174
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935974.675141
+key: SLO, value: 4.753248450815677
+key: id, value: 19
+key: UNetModule_receive_time, value: 1714935974.6757793
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935978.4781606
+key: finish_time, value: 1714935978.487196
+free time = 0.9411935806274414collector worker receive workload request count = 17
+--------------------
+Server-side end2end latency: 3.8953189849853516
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935974.6757748
+key: SLO, value: 4.807262637756764
+key: id, value: 20
+key: UNetModule_receive_time, value: 1714935974.676194
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935978.5690286
+key: finish_time, value: 1714935978.5710938
+free time = 0.9119436740875244collector worker receive workload request count = 18
+--------------------
+Server-side end2end latency: 3.8633954524993896
+request step: 85key: image_size, value: 256
+key: num-sampling-steps, value: 85
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935974.8647604
+key: SLO, value: 4.591205889992415
+key: id, value: 24
+key: UNetModule_receive_time, value: 1714935974.872415
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935978.7179906
+key: finish_time, value: 1714935978.7281559
+free time = 0.7278103828430176collector worker receive workload request count = 19
+--------------------
+Server-side end2end latency: 4.229146718978882
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935974.802206
+key: SLO, value: 5.347404507167637
+key: id, value: 21
+key: UNetModule_receive_time, value: 1714935974.807093
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935979.0239828
+key: finish_time, value: 1714935979.0313528
+free time = 1.118257761001587collector worker receive workload request count = 20
+--------------------
+Server-side end2end latency: 4.167898416519165
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935974.86388
+key: SLO, value: 5.185361946344376
+key: id, value: 22
+key: UNetModule_receive_time, value: 1714935974.8717308
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935979.0244455
+key: finish_time, value: 1714935979.0317783
+free time = 1.0174634456634521collector worker receive workload request count = 21
+--------------------
+Server-side end2end latency: 4.219956636428833
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935974.8644233
+key: SLO, value: 5.347404507167637
+key: id, value: 23
+key: UNetModule_receive_time, value: 1714935974.8721073
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935979.083464
+key: finish_time, value: 1714935979.08438
+free time = 1.1274478435516357collector worker receive workload request count = 22
+--------------------
+Server-side end2end latency: 3.8326284885406494
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935976.6704512
+key: SLO, value: 5.347404507167637
+key: id, value: 32
+key: UNetModule_receive_time, value: 1714935976.712722
+key: wait_loop_count, value: 39
+key: UNetModule_send_time, value: 1714935980.501849
+key: finish_time, value: 1714935980.5030797
+free time = 1.5147759914398193collector worker receive workload request count = 23
+--------------------
+Server-side end2end latency: 1.770399570465088
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714935979.036667
+key: SLO, value: 5.347404507167637
+key: id, value: 33
+key: UNetModule_receive_time, value: 1714935979.0436773
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714935980.7963614
+key: finish_time, value: 1714935980.8070667
+free time = 3.577004909515381collector worker receive workload request count = 24
+--------------------
+Server-side end2end latency: 1.5050182342529297
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936018.1147897
+key: SLO, value: 5.077333572462201
+key: id, value: 34
+key: UNetModule_receive_time, value: 1714936018.1156895
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936019.6136084
+key: finish_time, value: 1714936019.619808
+free time = 3.5723154544830322collector worker receive workload request count = 25
+--------------------
+Server-side end2end latency: 3.437649726867676
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936057.730839
+key: SLO, value: 4.69923426387459
+key: id, value: 35
+key: UNetModule_receive_time, value: 1714936057.7316043
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936061.1663685
+key: finish_time, value: 1714936061.1684887
+free time = 1.2615845203399658collector worker receive workload request count = 26
+--------------------
+Server-side end2end latency: 3.662972927093506
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936058.0501468
+key: SLO, value: 4.321134955286979
+key: id, value: 36
+key: UNetModule_receive_time, value: 1714936058.0653799
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936061.7111168
+key: finish_time, value: 1714936061.7131197
+free time = 0.6581621170043945collector worker receive workload request count = 27
+--------------------
+Server-side end2end latency: 3.6622464656829834
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936058.0513203
+key: SLO, value: 4.321134955286979
+key: id, value: 39
+key: UNetModule_receive_time, value: 1714936058.0667841
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936061.711645
+key: finish_time, value: 1714936061.7135668
+free time = 0.658888578414917collector worker receive workload request count = 28
+--------------------
+Server-side end2end latency: 3.71541690826416
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936058.0507338
+key: SLO, value: 4.375149142228066
+key: id, value: 37
+key: UNetModule_receive_time, value: 1714936058.0659838
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936061.7570138
+key: finish_time, value: 1714936061.7661507
+free time = 0.6597323417663574collector worker receive workload request count = 29
+--------------------
+Server-side end2end latency: 4.018789291381836
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936058.0510557
+key: SLO, value: 4.807262637756764
+key: id, value: 38
+key: UNetModule_receive_time, value: 1714936058.066438
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936062.0601933
+key: finish_time, value: 1714936062.069845
+free time = 0.78847336769104collector worker receive workload request count = 30
+--------------------
+Server-side end2end latency: 4.039735794067383
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936058.051577
+key: SLO, value: 4.8612768246978515
+key: id, value: 40
+key: UNetModule_receive_time, value: 1714936058.0671716
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936062.083535
+key: finish_time, value: 1714936062.091313
+free time = 0.8215410709381104collector worker receive workload request count = 31
+--------------------
+Server-side end2end latency: 3.23329758644104
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936060.0715673
+key: SLO, value: 4.8612768246978515
+key: id, value: 55
+key: UNetModule_receive_time, value: 1714936060.0780602
+key: wait_loop_count, value: 24
+key: UNetModule_send_time, value: 1714936063.3001838
+key: finish_time, value: 1714936063.304865
+free time = 1.6279792785644531collector worker receive workload request count = 32
+--------------------
+Server-side end2end latency: 5.141845226287842
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936058.456521
+key: SLO, value: 5.239376133285463
+key: id, value: 51
+key: UNetModule_receive_time, value: 1714936058.4906237
+key: wait_loop_count, value: 71
+key: UNetModule_send_time, value: 1714936063.5946598
+key: finish_time, value: 1714936063.5983663
+free time = 0.09753084182739258collector worker receive workload request count = 33
+--------------------
+Server-side end2end latency: 1.2974538803100586
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936065.3556714
+key: SLO, value: 4.375149142228066
+key: id, value: 56
+key: UNetModule_receive_time, value: 1714936065.3562388
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936066.6498604
+key: finish_time, value: 1714936066.6531253
+free time = 3.077695369720459collector worker receive workload request count = 34
+--------------------
+Server-side end2end latency: 1.4743621349334717
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936070.7007408
+key: SLO, value: 4.375149142228066
+key: id, value: 57
+key: UNetModule_receive_time, value: 1714936070.7013109
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936072.1724389
+key: finish_time, value: 1714936072.175103
+free time = 2.900787115097046collector worker receive workload request count = 35
+--------------------
+Server-side end2end latency: 1.5325284004211426
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936070.9359426
+key: SLO, value: 4.69923426387459
+key: id, value: 58
+key: UNetModule_receive_time, value: 1714936070.9442744
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936072.4667351
+key: finish_time, value: 1714936072.468471
+free time = 3.166705846786499collector worker receive workload request count = 36
+--------------------
+Server-side end2end latency: 3.751039505004883
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936091.620273
+key: SLO, value: 4.483177516110241
+key: id, value: 60
+key: UNetModule_receive_time, value: 1714936091.6208532
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936095.3686082
+key: finish_time, value: 1714936095.3713126
+free time = 0.73213791847229collector worker receive workload request count = 37
+--------------------
+Server-side end2end latency: 3.866215705871582
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936091.620687
+key: SLO, value: 4.645220076933502
+key: id, value: 61
+key: UNetModule_receive_time, value: 1714936091.6210568
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936095.4804645
+key: finish_time, value: 1714936095.4869027
+free time = 0.7790043354034424collector worker receive workload request count = 38
+--------------------
+Server-side end2end latency: 3.92030668258667
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936091.6194327
+key: SLO, value: 4.807262637756764
+key: id, value: 59
+key: UNetModule_receive_time, value: 1714936091.6203067
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936095.536655
+key: finish_time, value: 1714936095.5397394
+free time = 0.886955976486206collector worker receive workload request count = 39
+--------------------
+Server-side end2end latency: 3.9821386337280273
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936091.673204
+key: SLO, value: 4.915291011638939
+key: id, value: 62
+key: UNetModule_receive_time, value: 1714936091.6861117
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936095.649857
+key: finish_time, value: 1714936095.6553426
+free time = 0.933152437210083collector worker receive workload request count = 40
+--------------------
+Server-side end2end latency: 4.0371413230896
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936091.6919405
+key: SLO, value: 5.077333572462201
+key: id, value: 63
+key: UNetModule_receive_time, value: 1714936091.7155316
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936095.7220464
+key: finish_time, value: 1714936095.7290819
+free time = 1.0401923656463623collector worker receive workload request count = 41
+--------------------
+Server-side end2end latency: 4.099971294403076
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936091.6924639
+key: SLO, value: 5.29339032022655
+key: id, value: 64
+key: UNetModule_receive_time, value: 1714936091.715939
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936095.7843146
+key: finish_time, value: 1714936095.7924352
+free time = 1.1934189796447754collector worker receive workload request count = 42
+--------------------
+Server-side end2end latency: 2.1705005168914795
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936098.7249212
+key: SLO, value: 4.9693051985800265
+key: id, value: 68
+key: UNetModule_receive_time, value: 1714936098.725487
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936100.8925138
+key: finish_time, value: 1714936100.8954217
+free time = 2.798804759979248collector worker receive workload request count = 43
+--------------------
+Server-side end2end latency: 2.1703286170959473
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936098.72555
+key: SLO, value: 4.8612768246978515
+key: id, value: 69
+key: UNetModule_receive_time, value: 1714936098.757862
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936100.8929908
+key: finish_time, value: 1714936100.8958786
+free time = 2.690948247909546collector worker receive workload request count = 44
+--------------------
+Server-side end2end latency: 3.6968092918395996
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936100.0015166
+key: SLO, value: 4.537191703051328
+key: id, value: 71
+key: UNetModule_receive_time, value: 1714936100.0034657
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936103.695956
+key: finish_time, value: 1714936103.6983259
+free time = 0.8403823375701904collector worker receive workload request count = 45
+--------------------
+Server-side end2end latency: 4.021870851516724
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936100.0009723
+key: SLO, value: 4.915291011638939
+key: id, value: 70
+key: UNetModule_receive_time, value: 1714936100.002929
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936104.012763
+key: finish_time, value: 1714936104.0228431
+free time = 0.8934202194213867collector worker receive workload request count = 46
+--------------------
+Server-side end2end latency: 3.837195873260498
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936100.1860907
+key: SLO, value: 4.537191703051328
+key: id, value: 73
+key: UNetModule_receive_time, value: 1714936100.1881595
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936104.0132487
+key: finish_time, value: 1714936104.0232866
+free time = 0.699995756149292collector worker receive workload request count = 47
+--------------------
+Server-side end2end latency: 3.9114696979522705
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936100.185552
+key: SLO, value: 4.645220076933502
+key: id, value: 72
+key: UNetModule_receive_time, value: 1714936100.1876163
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936104.0877209
+key: finish_time, value: 1714936104.0970216
+free time = 0.7337503433227539collector worker receive workload request count = 48
+--------------------
+Server-side end2end latency: 3.379786252975464
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936101.4913597
+key: SLO, value: 4.537191703051328
+key: id, value: 77
+key: UNetModule_receive_time, value: 1714936101.5263772
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936104.8647964
+key: finish_time, value: 1714936104.871146
+free time = 1.1574053764343262collector worker receive workload request count = 49
+--------------------
+Server-side end2end latency: 3.5586283206939697
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936101.4908066
+key: SLO, value: 4.9693051985800265
+key: id, value: 76
+key: UNetModule_receive_time, value: 1714936101.5258656
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936105.0456738
+key: finish_time, value: 1714936105.049435
+free time = 1.4106769561767578collector worker receive workload request count = 50
+--------------------
+Server-side end2end latency: 4.091976881027222
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936101.83635
+key: SLO, value: 5.077333572462201
+key: id, value: 79
+key: UNetModule_receive_time, value: 1714936101.8422766
+key: wait_loop_count, value: 41
+key: UNetModule_send_time, value: 1714936105.9225256
+key: finish_time, value: 1714936105.9283268
+free time = 0.9853568077087402collector worker receive workload request count = 51
+--------------------
+Server-side end2end latency: 4.332618236541748
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936101.6171975
+key: SLO, value: 4.753248450815677
+key: id, value: 78
+key: UNetModule_receive_time, value: 1714936101.661307
+key: wait_loop_count, value: 52
+key: UNetModule_send_time, value: 1714936105.9389718
+key: finish_time, value: 1714936105.9498158
+free time = 0.42063021659851074collector worker receive workload request count = 52
+--------------------
+Server-side end2end latency: 3.2214081287384033
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936139.4420223
+key: SLO, value: 4.483177516110241
+key: id, value: 81
+key: UNetModule_receive_time, value: 1714936139.4424586
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936142.661805
+key: finish_time, value: 1714936142.6634305
+free time = 1.2617692947387695collector worker receive workload request count = 53
+--------------------
+Server-side end2end latency: 3.7649073600769043
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936139.4415135
+key: SLO, value: 5.131347759403288
+key: id, value: 80
+key: UNetModule_receive_time, value: 1714936139.4422164
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936143.2039373
+key: finish_time, value: 1714936143.206421
+free time = 1.3664402961730957collector worker receive workload request count = 54
+--------------------
+Server-side end2end latency: 4.002776622772217
+request step: 93key: image_size, value: 256
+key: num-sampling-steps, value: 93
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936139.7041285
+key: SLO, value: 5.023319385521114
+key: id, value: 83
+key: UNetModule_receive_time, value: 1714936139.7107446
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936143.700687
+key: finish_time, value: 1714936143.7069051
+free time = 1.020542860031128collector worker receive workload request count = 55
+--------------------
+Server-side end2end latency: 4.098750114440918
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936139.7025712
+key: SLO, value: 5.131347759403288
+key: id, value: 82
+key: UNetModule_receive_time, value: 1714936139.7102897
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936143.7912674
+key: finish_time, value: 1714936143.8013213
+free time = 1.032597541809082collector worker receive workload request count = 56
+--------------------
+Server-side end2end latency: 4.118179559707642
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936139.704488
+key: SLO, value: 5.185361946344376
+key: id, value: 84
+key: UNetModule_receive_time, value: 1714936139.7110896
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936143.819493
+key: finish_time, value: 1714936143.8226676
+free time = 1.0671823024749756collector worker receive workload request count = 57
+--------------------
+Server-side end2end latency: 3.7820181846618652
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936140.6977382
+key: SLO, value: 5.239376133285463
+key: id, value: 85
+key: UNetModule_receive_time, value: 1714936140.7301915
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936144.470547
+key: finish_time, value: 1714936144.4797564
+free time = 1.4573578834533691collector worker receive workload request count = 58
+--------------------
+Server-side end2end latency: 4.233838319778442
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936140.8454866
+key: SLO, value: 4.807262637756764
+key: id, value: 87
+key: UNetModule_receive_time, value: 1714936140.8575034
+key: wait_loop_count, value: 40
+key: UNetModule_send_time, value: 1714936145.0764227
+key: finish_time, value: 1714936145.079325
+free time = 0.5734243392944336collector worker receive workload request count = 59
+--------------------
+Server-side end2end latency: 4.327735900878906
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936140.8458622
+key: SLO, value: 4.483177516110241
+key: id, value: 88
+key: UNetModule_receive_time, value: 1714936140.8579645
+key: wait_loop_count, value: 52
+key: UNetModule_send_time, value: 1714936145.1694813
+key: finish_time, value: 1714936145.173598
+free time = 0.1554415225982666collector worker receive workload request count = 60
+--------------------
+Server-side end2end latency: 3.3064754009246826
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936154.3331623
+key: SLO, value: 4.321134955286979
+key: id, value: 91
+key: UNetModule_receive_time, value: 1714936154.363854
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936157.6367836
+key: finish_time, value: 1714936157.6396377
+free time = 1.0146596431732178collector worker receive workload request count = 61
+--------------------
+Server-side end2end latency: 3.444871664047241
+request step: 85key: image_size, value: 256
+key: num-sampling-steps, value: 85
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936154.3308384
+key: SLO, value: 4.591205889992415
+key: id, value: 90
+key: UNetModule_receive_time, value: 1714936154.3314054
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936157.7734575
+key: finish_time, value: 1714936157.77571
+free time = 1.146334171295166collector worker receive workload request count = 62
+--------------------
+Server-side end2end latency: 3.7751541137695312
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936154.5951905
+key: SLO, value: 4.537191703051328
+key: id, value: 94
+key: UNetModule_receive_time, value: 1714936154.607785
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936158.3629305
+key: finish_time, value: 1714936158.3703446
+free time = 0.7620375156402588collector worker receive workload request count = 63
+--------------------
+Server-side end2end latency: 3.7362680435180664
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936154.9159832
+key: SLO, value: 4.429163329169154
+key: id, value: 95
+key: UNetModule_receive_time, value: 1714936154.921371
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936158.6457975
+key: finish_time, value: 1714936158.6522512
+free time = 0.6928951740264893collector worker receive workload request count = 64
+--------------------
+Server-side end2end latency: 4.193872451782227
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936154.5945935
+key: SLO, value: 5.239376133285463
+key: id, value: 92
+key: UNetModule_receive_time, value: 1714936154.606936
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936158.780741
+key: finish_time, value: 1714936158.788466
+free time = 1.0455036163330078collector worker receive workload request count = 65
+--------------------
+Server-side end2end latency: 4.214834928512573
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936154.5949798
+key: SLO, value: 5.29339032022655
+key: id, value: 93
+key: UNetModule_receive_time, value: 1714936154.6074228
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936158.7989776
+key: finish_time, value: 1714936158.8098147
+free time = 1.0785553455352783collector worker receive workload request count = 66
+--------------------
+Server-side end2end latency: 5.04561710357666
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936155.0674307
+key: SLO, value: 5.29339032022655
+key: id, value: 106
+key: UNetModule_receive_time, value: 1714936155.0955539
+key: wait_loop_count, value: 73
+key: UNetModule_send_time, value: 1714936160.10501
+key: finish_time, value: 1714936160.1130478
+free time = 0.2477731704711914collector worker receive workload request count = 67
+--------------------
+Server-side end2end latency: 3.710871458053589
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936172.30104
+key: SLO, value: 4.483177516110241
+key: id, value: 111
+key: UNetModule_receive_time, value: 1714936172.301562
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936176.0107822
+key: finish_time, value: 1714936176.0119114
+free time = 0.772305965423584collector worker receive workload request count = 68
+--------------------
+Server-side end2end latency: 3.793148994445801
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936172.3030324
+key: SLO, value: 4.483177516110241
+key: id, value: 114
+key: UNetModule_receive_time, value: 1714936172.3366907
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936176.085179
+key: finish_time, value: 1714936176.0961814
+free time = 0.6900284290313721collector worker receive workload request count = 69
+--------------------
+Server-side end2end latency: 4.212261438369751
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936172.302808
+key: SLO, value: 5.077333572462201
+key: id, value: 113
+key: UNetModule_receive_time, value: 1714936172.3364086
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936176.511813
+key: finish_time, value: 1714936176.5150695
+free time = 0.8650722503662109collector worker receive workload request count = 70
+--------------------
+Server-side end2end latency: 4.308335781097412
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936172.3014507
+key: SLO, value: 5.29339032022655
+key: id, value: 112
+key: UNetModule_receive_time, value: 1714936172.301836
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936176.6024928
+key: finish_time, value: 1714936176.6097865
+free time = 0.9850544929504395collector worker receive workload request count = 71
+--------------------
+Server-side end2end latency: 4.3489532470703125
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936172.3032184
+key: SLO, value: 5.239376133285463
+key: id, value: 115
+key: UNetModule_receive_time, value: 1714936172.336939
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936176.6479201
+key: finish_time, value: 1714936176.6521716
+free time = 0.8904228210449219collector worker receive workload request count = 72
+--------------------
+Server-side end2end latency: 4.39114236831665
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936172.3034022
+key: SLO, value: 5.29339032022655
+key: id, value: 116
+key: UNetModule_receive_time, value: 1714936172.3372028
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936176.6934657
+key: finish_time, value: 1714936176.6945446
+free time = 0.9022479057312012collector worker receive workload request count = 73
+--------------------
+Server-side end2end latency: 3.816157817840576
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936176.3508704
+key: SLO, value: 4.375149142228066
+key: id, value: 119
+key: UNetModule_receive_time, value: 1714936176.3775604
+key: wait_loop_count, value: 3
+key: UNetModule_send_time, value: 1714936180.1611958
+key: finish_time, value: 1714936180.1670282
+free time = 0.5589914321899414collector worker receive workload request count = 74
+--------------------
+Server-side end2end latency: 4.053618669509888
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936176.155789
+key: SLO, value: 4.807262637756764
+key: id, value: 118
+key: UNetModule_receive_time, value: 1714936176.1701021
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936180.198573
+key: finish_time, value: 1714936180.2094076
+free time = 0.7536439895629883collector worker receive workload request count = 75
+--------------------
+Server-side end2end latency: 4.1914894580841064
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936176.15436
+key: SLO, value: 5.077333572462201
+key: id, value: 117
+key: UNetModule_receive_time, value: 1714936176.169656
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936180.337168
+key: finish_time, value: 1714936180.3458495
+free time = 0.8858442306518555collector worker receive workload request count = 76
+--------------------
+Server-side end2end latency: 4.09497594833374
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936176.3559592
+key: SLO, value: 4.8612768246978515
+key: id, value: 121
+key: UNetModule_receive_time, value: 1714936176.3783126
+key: wait_loop_count, value: 5
+key: UNetModule_send_time, value: 1714936180.4498694
+key: finish_time, value: 1714936180.4509351
+free time = 0.7663009166717529collector worker receive workload request count = 77
+--------------------
+Server-side end2end latency: 3.655541181564331
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936176.910989
+key: SLO, value: 4.753248450815677
+key: id, value: 123
+key: UNetModule_receive_time, value: 1714936176.9198148
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936180.5567403
+key: finish_time, value: 1714936180.5665302
+free time = 1.0977072715759277collector worker receive workload request count = 78
+--------------------
+Server-side end2end latency: 3.694542646408081
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936176.9143412
+key: SLO, value: 4.915291011638939
+key: id, value: 124
+key: UNetModule_receive_time, value: 1714936176.9202507
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936180.603427
+key: finish_time, value: 1714936180.6088839
+free time = 1.2207484245300293collector worker receive workload request count = 79
+--------------------
+Server-side end2end latency: 3.670459032058716
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936200.905568
+key: SLO, value: 4.429163329169154
+key: id, value: 125
+key: UNetModule_receive_time, value: 1714936200.9065254
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936204.572793
+key: finish_time, value: 1714936204.576027
+free time = 0.7587041854858398collector worker receive workload request count = 80
+--------------------
+Server-side end2end latency: 3.6456260681152344
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936200.972702
+key: SLO, value: 4.321134955286979
+key: id, value: 128
+key: UNetModule_receive_time, value: 1714936200.9798324
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936204.61045
+key: finish_time, value: 1714936204.618328
+free time = 0.675508975982666collector worker receive workload request count = 81
+--------------------
+Server-side end2end latency: 3.645674705505371
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936200.973076
+key: SLO, value: 4.321134955286979
+key: id, value: 129
+key: UNetModule_receive_time, value: 1714936200.9801068
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936204.6109233
+key: finish_time, value: 1714936204.6187508
+free time = 0.6754603385925293collector worker receive workload request count = 82
+--------------------
+Server-side end2end latency: 3.781763792037964
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936200.9732876
+key: SLO, value: 4.645220076933502
+key: id, value: 130
+key: UNetModule_receive_time, value: 1714936200.9803703
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936204.7463865
+key: finish_time, value: 1714936204.7550514
+free time = 0.8634562492370605collector worker receive workload request count = 83
+--------------------
+Server-side end2end latency: 3.9743919372558594
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936200.9065838
+key: SLO, value: 5.185361946344376
+key: id, value: 127
+key: UNetModule_receive_time, value: 1714936200.9070091
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936204.8723907
+key: finish_time, value: 1714936204.8809757
+free time = 1.2109699249267578collector worker receive workload request count = 84
+--------------------
+Server-side end2end latency: 4.017001152038574
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936200.9062865
+key: SLO, value: 5.347404507167637
+key: id, value: 126
+key: UNetModule_receive_time, value: 1714936200.9068809
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936204.9198365
+key: finish_time, value: 1714936204.9232876
+free time = 1.3304033279418945collector worker receive workload request count = 85
+--------------------
+Server-side end2end latency: 2.0604093074798584
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936241.8814793
+key: SLO, value: 4.8612768246978515
+key: id, value: 133
+key: UNetModule_receive_time, value: 1714936241.8819191
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936243.939434
+key: finish_time, value: 1714936243.9418886
+free time = 2.8008675575256348collector worker receive workload request count = 86
+--------------------
+Server-side end2end latency: 2.134467363357544
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936241.8811555
+key: SLO, value: 5.077333572462201
+key: id, value: 132
+key: UNetModule_receive_time, value: 1714936241.8817832
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936244.0114057
+key: finish_time, value: 1714936244.0156229
+free time = 2.942866325378418collector worker receive workload request count = 87
+--------------------
+Server-side end2end latency: 2.219285249710083
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936241.8804266
+key: SLO, value: 5.347404507167637
+key: id, value: 131
+key: UNetModule_receive_time, value: 1714936241.8814173
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936244.0890183
+key: finish_time, value: 1714936244.099712
+free time = 3.1281192302703857collector worker receive workload request count = 88
+--------------------
+Server-side end2end latency: 3.09012770652771
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936257.1888752
+key: SLO, value: 4.429163329169154
+key: id, value: 137
+key: UNetModule_receive_time, value: 1714936257.2027903
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936260.2754567
+key: finish_time, value: 1714936260.279003
+free time = 1.3390355110168457collector worker receive workload request count = 89
+--------------------
+Server-side end2end latency: 3.1216132640838623
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936257.1892354
+key: SLO, value: 4.483177516110241
+key: id, value: 138
+key: UNetModule_receive_time, value: 1714936257.2030973
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936260.3039393
+key: finish_time, value: 1714936260.3108487
+free time = 1.3615641593933105collector worker receive workload request count = 90
+--------------------
+Server-side end2end latency: 3.224910259246826
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936257.170207
+key: SLO, value: 4.753248450815677
+key: id, value: 135
+key: UNetModule_receive_time, value: 1714936257.1781673
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936260.394232
+key: finish_time, value: 1714936260.3951173
+free time = 1.5283381938934326collector worker receive workload request count = 91
+--------------------
+Server-side end2end latency: 3.319038152694702
+request step: 93key: image_size, value: 256
+key: num-sampling-steps, value: 93
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936257.170596
+key: SLO, value: 5.023319385521114
+key: id, value: 136
+key: UNetModule_receive_time, value: 1714936257.1783564
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936260.4842885
+key: finish_time, value: 1714936260.489634
+free time = 1.7042813301086426collector worker receive workload request count = 92
+--------------------
+Server-side end2end latency: 3.4079811573028564
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936257.1448379
+key: SLO, value: 5.347404507167637
+key: id, value: 134
+key: UNetModule_receive_time, value: 1714936257.1453986
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936260.546628
+key: finish_time, value: 1714936260.552819
+free time = 1.9394233226776123collector worker receive workload request count = 93
+--------------------
+Server-side end2end latency: 1.9808504581451416
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936307.721395
+key: SLO, value: 4.429163329169154
+key: id, value: 139
+key: UNetModule_receive_time, value: 1714936307.7227318
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936309.6917348
+key: finish_time, value: 1714936309.7022455
+free time = 2.448312759399414collector worker receive workload request count = 94
+--------------------
+Server-side end2end latency: 2.3038601875305176
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936307.7227874
+key: SLO, value: 4.915291011638939
+key: id, value: 140
+key: UNetModule_receive_time, value: 1714936307.7232778
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936310.0255914
+key: finish_time, value: 1714936310.0266476
+free time = 2.6114308834075928collector worker receive workload request count = 95
+--------------------
+Server-side end2end latency: 2.366663694381714
+request step: 93key: image_size, value: 256
+key: num-sampling-steps, value: 93
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936307.7231262
+key: SLO, value: 5.023319385521114
+key: id, value: 141
+key: UNetModule_receive_time, value: 1714936307.7236376
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936310.0815403
+key: finish_time, value: 1714936310.0897899
+free time = 2.656655788421631collector worker receive workload request count = 96
+--------------------
+Server-side end2end latency: 2.2522192001342773
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936309.4684482
+key: SLO, value: 4.753248450815677
+key: id, value: 143
+key: UNetModule_receive_time, value: 1714936309.490027
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936311.7174637
+key: finish_time, value: 1714936311.7206674
+free time = 2.5010292530059814collector worker receive workload request count = 97
+--------------------
+Server-side end2end latency: 2.252317190170288
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936309.4687793
+key: SLO, value: 4.753248450815677
+key: id, value: 144
+key: UNetModule_receive_time, value: 1714936309.490383
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936311.717937
+key: finish_time, value: 1714936311.7210965
+free time = 2.5009312629699707collector worker receive workload request count = 98
+--------------------
+Server-side end2end latency: 2.3798651695251465
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936309.4670286
+key: SLO, value: 5.185361946344376
+key: id, value: 142
+key: UNetModule_receive_time, value: 1714936309.4895747
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936311.8413115
+key: finish_time, value: 1714936311.8468938
+free time = 2.8054966926574707collector worker receive workload request count = 99
+--------------------
+Server-side end2end latency: 1.581864833831787
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936343.4325988
+key: SLO, value: 5.347404507167637
+key: id, value: 145
+key: UNetModule_receive_time, value: 1714936343.4333594
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936345.0107932
+key: finish_time, value: 1714936345.0144637
+free time = 3.7655396461486816collector worker receive workload request count = 100
+--------------------
+Server-side end2end latency: 3.442688465118408
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936351.7670364
+key: SLO, value: 4.429163329169154
+key: id, value: 147
+key: UNetModule_receive_time, value: 1714936351.767442
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936355.203969
+key: finish_time, value: 1714936355.209725
+free time = 0.9864747524261475collector worker receive workload request count = 101
+--------------------
+Server-side end2end latency: 3.5370938777923584
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936351.767398
+key: SLO, value: 4.483177516110241
+key: id, value: 148
+key: UNetModule_receive_time, value: 1714936351.768121
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936355.2947056
+key: finish_time, value: 1714936355.304492
+free time = 0.9460835456848145collector worker receive workload request count = 102
+--------------------
+Server-side end2end latency: 3.716496467590332
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936351.7662458
+key: SLO, value: 4.753248450815677
+key: id, value: 146
+key: UNetModule_receive_time, value: 1714936351.7672043
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936355.4753616
+key: finish_time, value: 1714936355.4827423
+free time = 1.0367519855499268collector worker receive workload request count = 103
+--------------------
+Server-side end2end latency: 3.935116767883301
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936351.767728
+key: SLO, value: 4.9693051985800265
+key: id, value: 149
+key: UNetModule_receive_time, value: 1714936351.7682269
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936355.7009623
+key: finish_time, value: 1714936355.7028449
+free time = 1.0341885089874268collector worker receive workload request count = 104
+--------------------
+Server-side end2end latency: 4.002082824707031
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936352.0044353
+key: SLO, value: 5.077333572462201
+key: id, value: 150
+key: UNetModule_receive_time, value: 1714936352.019695
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936355.9971464
+key: finish_time, value: 1714936356.0065181
+free time = 1.0752508640289307collector worker receive workload request count = 105
+--------------------
+Server-side end2end latency: 3.445909261703491
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936352.6238194
+key: SLO, value: 4.321134955286979
+key: id, value: 151
+key: UNetModule_receive_time, value: 1714936352.6421032
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936356.0653174
+key: finish_time, value: 1714936356.0697286
+free time = 0.8752257823944092collector worker receive workload request count = 106
+--------------------
+Server-side end2end latency: 4.155110836029053
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936356.3164575
+key: SLO, value: 4.915291011638939
+key: id, value: 155
+key: UNetModule_receive_time, value: 1714936356.3332996
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936360.4665015
+key: finish_time, value: 1714936360.4715683
+free time = 0.7601802349090576collector worker receive workload request count = 107
+--------------------
+Server-side end2end latency: 4.154522657394409
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936356.3174849
+key: SLO, value: 4.915291011638939
+key: id, value: 158
+key: UNetModule_receive_time, value: 1714936356.3345454
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936360.4670231
+key: finish_time, value: 1714936360.4720075
+free time = 0.7607684135437012collector worker receive workload request count = 108
+--------------------
+Server-side end2end latency: 4.249721527099609
+request step: 93key: image_size, value: 256
+key: num-sampling-steps, value: 93
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936356.3169012
+key: SLO, value: 5.023319385521114
+key: id, value: 156
+key: UNetModule_receive_time, value: 1714936356.3338118
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936360.557766
+key: finish_time, value: 1714936360.5666227
+free time = 0.7735979557037354collector worker receive workload request count = 109
+--------------------
+Server-side end2end latency: 4.249862909317017
+request step: 93key: image_size, value: 256
+key: num-sampling-steps, value: 93
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936356.3171954
+key: SLO, value: 5.023319385521114
+key: id, value: 157
+key: UNetModule_receive_time, value: 1714936356.3341763
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936360.5582457
+key: finish_time, value: 1714936360.5670583
+free time = 0.7734565734863281collector worker receive workload request count = 110
+--------------------
+Server-side end2end latency: 4.33657169342041
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936356.408673
+key: SLO, value: 5.077333572462201
+key: id, value: 160
+key: UNetModule_receive_time, value: 1714936356.4423716
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936360.7393746
+key: finish_time, value: 1714936360.7452447
+free time = 0.7407619953155518collector worker receive workload request count = 111
+--------------------
+Server-side end2end latency: 4.431631326675415
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936356.4081933
+key: SLO, value: 5.185361946344376
+key: id, value: 159
+key: UNetModule_receive_time, value: 1714936356.4419181
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936360.8301945
+key: finish_time, value: 1714936360.8398247
+free time = 0.7537305355072021collector worker receive workload request count = 112
+--------------------
+Server-side end2end latency: 4.908730506896973
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936358.3261945
+key: SLO, value: 5.131347759403288
+key: id, value: 177
+key: UNetModule_receive_time, value: 1714936358.3335276
+key: wait_loop_count, value: 47
+key: UNetModule_send_time, value: 1714936363.2269628
+key: finish_time, value: 1714936363.234925
+free time = 0.22261714935302734collector worker receive workload request count = 113
+--------------------
+Server-side end2end latency: 5.006643772125244
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936358.3228724
+key: SLO, value: 5.131347759403288
+key: id, value: 174
+key: UNetModule_receive_time, value: 1714936358.3324015
+key: wait_loop_count, value: 53
+key: UNetModule_send_time, value: 1714936363.3200586
+key: finish_time, value: 1714936363.3295162
+free time = 0.12470388412475586collector worker receive workload request count = 114
+--------------------
+Server-side end2end latency: 1.4170594215393066
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936363.701002
+key: SLO, value: 4.375149142228066
+key: id, value: 178
+key: UNetModule_receive_time, value: 1714936363.701573
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936365.1146839
+key: finish_time, value: 1714936365.1180613
+free time = 2.958089828491211collector worker receive workload request count = 115
+--------------------
+Server-side end2end latency: 1.606022596359253
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936363.9306996
+key: SLO, value: 4.9693051985800265
+key: id, value: 179
+key: UNetModule_receive_time, value: 1714936363.9386704
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936365.528548
+key: finish_time, value: 1714936365.5367222
+free time = 3.3632826805114746collector worker receive workload request count = 116
+--------------------
+Server-side end2end latency: 2.2927982807159424
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936371.9025846
+key: SLO, value: 4.483177516110241
+key: id, value: 180
+key: UNetModule_receive_time, value: 1714936371.9036589
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936374.1858265
+key: finish_time, value: 1714936374.1953828
+free time = 2.1903791427612305collector worker receive workload request count = 117
+--------------------
+Server-side end2end latency: 2.9760124683380127
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936372.0354054
+key: SLO, value: 5.29339032022655
+key: id, value: 181
+key: UNetModule_receive_time, value: 1714936372.0583296
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936375.0019464
+key: finish_time, value: 1714936375.0114179
+free time = 2.317377805709839collector worker receive workload request count = 118
+--------------------
+Server-side end2end latency: 2.7526676654815674
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936372.4999518
+key: SLO, value: 4.483177516110241
+key: id, value: 183
+key: UNetModule_receive_time, value: 1714936372.5030444
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936375.251644
+key: finish_time, value: 1714936375.2526195
+free time = 1.7305097579956055collector worker receive workload request count = 119
+--------------------
+Server-side end2end latency: 3.0256128311157227
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936372.4994237
+key: SLO, value: 5.131347759403288
+key: id, value: 182
+key: UNetModule_receive_time, value: 1714936372.502575
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936375.521597
+key: finish_time, value: 1714936375.5250366
+free time = 2.1057348251342773collector worker receive workload request count = 120
+--------------------
+Server-side end2end latency: 2.58320951461792
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936373.5487201
+key: SLO, value: 4.8612768246978515
+key: id, value: 184
+key: UNetModule_receive_time, value: 1714936373.572718
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936376.1264787
+key: finish_time, value: 1714936376.1319296
+free time = 2.2780673503875732collector worker receive workload request count = 121
+--------------------
+Server-side end2end latency: 2.6143507957458496
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936373.5494118
+key: SLO, value: 4.9693051985800265
+key: id, value: 185
+key: UNetModule_receive_time, value: 1714936373.5731773
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936376.1578276
+key: finish_time, value: 1714936376.1637626
+free time = 2.354954481124878collector worker receive workload request count = 122
+--------------------
+Server-side end2end latency: 1.331484079360962
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936376.9857106
+key: SLO, value: 4.645220076933502
+key: id, value: 186
+key: UNetModule_receive_time, value: 1714936376.986338
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936378.3102493
+key: finish_time, value: 1714936378.3171947
+free time = 3.3137359619140625collector worker receive workload request count = 123
+--------------------
+Server-side end2end latency: 1.3359270095825195
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936395.7822866
+key: SLO, value: 4.483177516110241
+key: id, value: 187
+key: UNetModule_receive_time, value: 1714936395.783245
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936397.1113758
+key: finish_time, value: 1714936397.1182137
+free time = 3.1472504138946533collector worker receive workload request count = 124
+--------------------
+Server-side end2end latency: 1.3204874992370605
+request step: 85key: image_size, value: 256
+key: num-sampling-steps, value: 85
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936397.4814296
+key: SLO, value: 4.591205889992415
+key: id, value: 188
+key: UNetModule_receive_time, value: 1714936397.482044
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936398.7919214
+key: finish_time, value: 1714936398.801917
+free time = 3.2707183361053467collector worker receive workload request count = 125
+--------------------
+Server-side end2end latency: 3.6416854858398438
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936399.0394862
+key: SLO, value: 4.321134955286979
+key: id, value: 190
+key: UNetModule_receive_time, value: 1714936399.0536518
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936402.6795418
+key: finish_time, value: 1714936402.6811717
+free time = 0.6794495582580566collector worker receive workload request count = 126
+--------------------
+Server-side end2end latency: 3.9700698852539062
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936399.0148518
+key: SLO, value: 4.915291011638939
+key: id, value: 189
+key: UNetModule_receive_time, value: 1714936399.0154588
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936402.9766364
+key: finish_time, value: 1714936402.9849217
+free time = 0.9452211856842041collector worker receive workload request count = 127
+--------------------
+Server-side end2end latency: 3.945038318634033
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936399.0403373
+key: SLO, value: 4.753248450815677
+key: id, value: 192
+key: UNetModule_receive_time, value: 1714936399.054133
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936402.9771295
+key: finish_time, value: 1714936402.9853756
+free time = 0.8082101345062256collector worker receive workload request count = 128
+--------------------
+Server-side end2end latency: 3.987031936645508
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936399.0406675
+key: SLO, value: 4.8612768246978515
+key: id, value: 193
+key: UNetModule_receive_time, value: 1714936399.0543613
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936403.022579
+key: finish_time, value: 1714936403.0276995
+free time = 0.8742449283599854collector worker receive workload request count = 129
+--------------------
+Server-side end2end latency: 4.009087324142456
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936399.0400248
+key: SLO, value: 4.915291011638939
+key: id, value: 191
+key: UNetModule_receive_time, value: 1714936399.0538626
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936403.041286
+key: finish_time, value: 1714936403.049112
+free time = 0.9062037467956543collector worker receive workload request count = 130
+--------------------
+Server-side end2end latency: 4.008612394332886
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936399.0409367
+key: SLO, value: 4.915291011638939
+key: id, value: 194
+key: UNetModule_receive_time, value: 1714936399.0545738
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936403.0417337
+key: finish_time, value: 1714936403.049549
+free time = 0.9066786766052246collector worker receive workload request count = 131
+--------------------
+Server-side end2end latency: 3.6553637981414795
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936403.3148565
+key: SLO, value: 4.429163329169154
+key: id, value: 198
+key: UNetModule_receive_time, value: 1714936403.3154228
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936406.9624057
+key: finish_time, value: 1714936406.9702203
+free time = 0.7737994194030762collector worker receive workload request count = 132
+--------------------
+Server-side end2end latency: 3.7419590950012207
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936403.3332834
+key: SLO, value: 4.483177516110241
+key: id, value: 202
+key: UNetModule_receive_time, value: 1714936403.338146
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936407.074104
+key: finish_time, value: 1714936407.0752425
+free time = 0.7412183284759521collector worker receive workload request count = 133
+--------------------
+Server-side end2end latency: 3.7421178817749023
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936403.3335462
+key: SLO, value: 4.483177516110241
+key: id, value: 203
+key: UNetModule_receive_time, value: 1714936403.338365
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936407.074565
+key: finish_time, value: 1714936407.075664
+free time = 0.7410595417022705collector worker receive workload request count = 134
+--------------------
+Server-side end2end latency: 3.9940168857574463
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936403.3329685
+key: SLO, value: 5.077333572462201
+key: id, value: 201
+key: UNetModule_receive_time, value: 1714936403.338021
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936407.3215992
+key: finish_time, value: 1714936407.3269854
+free time = 1.0833168029785156collector worker receive workload request count = 135
+--------------------
+Server-side end2end latency: 4.106184244155884
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936403.315423
+key: SLO, value: 5.347404507167637
+key: id, value: 199
+key: UNetModule_receive_time, value: 1714936403.3377514
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936407.4112153
+key: finish_time, value: 1714936407.4216073
+free time = 1.241220235824585collector worker receive workload request count = 136
+--------------------
+Server-side end2end latency: 4.089634895324707
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936403.332405
+key: SLO, value: 5.347404507167637
+key: id, value: 200
+key: UNetModule_receive_time, value: 1714936403.3378935
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936407.4116907
+key: finish_time, value: 1714936407.42204
+free time = 1.2577695846557617collector worker receive workload request count = 137
+--------------------
+Server-side end2end latency: 3.0143184661865234
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936439.112855
+key: SLO, value: 4.483177516110241
+key: id, value: 208
+key: UNetModule_receive_time, value: 1714936439.1229384
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936442.1232262
+key: finish_time, value: 1714936442.1271734
+free time = 1.4688589572906494collector worker receive workload request count = 138
+--------------------
+Server-side end2end latency: 3.2247798442840576
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936439.0808008
+key: SLO, value: 4.807262637756764
+key: id, value: 206
+key: UNetModule_receive_time, value: 1714936439.0818188
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936442.304563
+key: finish_time, value: 1714936442.3055806
+free time = 1.5824828147888184collector worker receive workload request count = 139
+--------------------
+Server-side end2end latency: 3.224355697631836
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936439.0816638
+key: SLO, value: 4.807262637756764
+key: id, value: 207
+key: UNetModule_receive_time, value: 1714936439.0820618
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936442.3050473
+key: finish_time, value: 1714936442.3060195
+free time = 1.58290696144104collector worker receive workload request count = 140
+--------------------
+Server-side end2end latency: 4.145263671875
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936439.9174387
+key: SLO, value: 4.9693051985800265
+key: id, value: 211
+key: UNetModule_receive_time, value: 1714936439.930953
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936444.0536616
+key: finish_time, value: 1714936444.0627024
+free time = 0.8240416049957275collector worker receive workload request count = 141
+--------------------
+Server-side end2end latency: 4.18847131729126
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936439.9165678
+key: SLO, value: 5.077333572462201
+key: id, value: 209
+key: UNetModule_receive_time, value: 1714936439.9300737
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936444.0989861
+key: finish_time, value: 1714936444.1050391
+free time = 0.8888623714447021collector worker receive workload request count = 142
+--------------------
+Server-side end2end latency: 4.26162314414978
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936439.9171019
+key: SLO, value: 5.29339032022655
+key: id, value: 210
+key: UNetModule_receive_time, value: 1714936439.930587
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936444.1707776
+key: finish_time, value: 1714936444.178725
+free time = 1.0317671298980713collector worker receive workload request count = 143
+--------------------
+Server-side end2end latency: 3.1588611602783203
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936441.5949945
+key: SLO, value: 4.69923426387459
+key: id, value: 217
+key: UNetModule_receive_time, value: 1714936441.6265664
+key: wait_loop_count, value: 11
+key: UNetModule_send_time, value: 1714936444.7444685
+key: finish_time, value: 1714936444.7538557
+free time = 1.5403730869293213collector worker receive workload request count = 144
+--------------------
+Server-side end2end latency: 1.8888516426086426
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936471.1816225
+key: SLO, value: 4.375149142228066
+key: id, value: 218
+key: UNetModule_receive_time, value: 1714936471.1826046
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936473.0615685
+key: finish_time, value: 1714936473.0704741
+free time = 2.486297607421875collector worker receive workload request count = 145
+--------------------
+Server-side end2end latency: 1.8986873626708984
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936471.1827846
+key: SLO, value: 4.429163329169154
+key: id, value: 220
+key: UNetModule_receive_time, value: 1714936471.1831229
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936473.0803425
+key: finish_time, value: 1714936473.081472
+free time = 2.5304758548736572collector worker receive workload request count = 146
+--------------------
+Server-side end2end latency: 2.0563201904296875
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936471.1824522
+key: SLO, value: 4.9693051985800265
+key: id, value: 219
+key: UNetModule_receive_time, value: 1714936471.1828423
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936473.235666
+key: finish_time, value: 1714936473.2387724
+free time = 2.91298508644104collector worker receive workload request count = 147
+--------------------
+Server-side end2end latency: 3.239358901977539
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936489.6086047
+key: SLO, value: 4.429163329169154
+key: id, value: 221
+key: UNetModule_receive_time, value: 1714936489.6093307
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936492.837849
+key: finish_time, value: 1714936492.8479636
+free time = 1.1898043155670166collector worker receive workload request count = 148
+--------------------
+Server-side end2end latency: 3.31185245513916
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936489.7143729
+key: SLO, value: 4.375149142228066
+key: id, value: 222
+key: UNetModule_receive_time, value: 1714936489.720796
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936493.018946
+key: finish_time, value: 1714936493.0262253
+free time = 1.0632967948913574collector worker receive workload request count = 149
+--------------------
+Server-side end2end latency: 3.631612539291382
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936489.9805787
+key: SLO, value: 4.321134955286979
+key: id, value: 226
+key: UNetModule_receive_time, value: 1714936489.983007
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936493.6059353
+key: finish_time, value: 1714936493.6121912
+free time = 0.6895225048065186collector worker receive workload request count = 150
+--------------------
+Server-side end2end latency: 3.8101274967193604
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936489.9802992
+key: SLO, value: 4.537191703051328
+key: id, value: 225
+key: UNetModule_receive_time, value: 1714936489.9826314
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936493.7866488
+key: finish_time, value: 1714936493.7904267
+free time = 0.7270641326904297collector worker receive workload request count = 151
+--------------------
+Server-side end2end latency: 3.8533804416656494
+request step: 85key: image_size, value: 256
+key: num-sampling-steps, value: 85
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936489.9794452
+key: SLO, value: 4.591205889992415
+key: id, value: 223
+key: UNetModule_receive_time, value: 1714936489.9818501
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936493.8241777
+key: finish_time, value: 1714936493.8328257
+free time = 0.7378253936767578collector worker receive workload request count = 152
+--------------------
+Server-side end2end latency: 3.9370498657226562
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936489.9799795
+key: SLO, value: 4.753248450815677
+key: id, value: 224
+key: UNetModule_receive_time, value: 1714936489.9822867
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936493.9082434
+key: finish_time, value: 1714936493.9170294
+free time = 0.8161985874176025collector worker receive workload request count = 153
+--------------------
+Server-side end2end latency: 2.7893409729003906
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936492.4037373
+key: SLO, value: 4.429163329169154
+key: id, value: 228
+key: UNetModule_receive_time, value: 1714936492.432524
+key: wait_loop_count, value: 9
+key: UNetModule_send_time, value: 1714936495.1894686
+key: finish_time, value: 1714936495.1930783
+free time = 1.639822244644165collector worker receive workload request count = 154
+--------------------
+Server-side end2end latency: 2.914064407348633
+request step: 85key: image_size, value: 256
+key: num-sampling-steps, value: 85
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936492.4049273
+key: SLO, value: 4.591205889992415
+key: id, value: 229
+key: UNetModule_receive_time, value: 1714936492.4330122
+key: wait_loop_count, value: 13
+key: UNetModule_send_time, value: 1714936495.3146794
+key: finish_time, value: 1714936495.3189917
+free time = 1.6771414279937744collector worker receive workload request count = 155
+--------------------
+Server-side end2end latency: 3.2527756690979004
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936492.4326193
+key: SLO, value: 5.185361946344376
+key: id, value: 230
+key: UNetModule_receive_time, value: 1714936492.4334006
+key: wait_loop_count, value: 26
+key: UNetModule_send_time, value: 1714936495.6843443
+key: finish_time, value: 1714936495.685395
+free time = 1.9325861930847168collector worker receive workload request count = 156
+--------------------
+Server-side end2end latency: 3.6874680519104004
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936507.5123873
+key: SLO, value: 4.375149142228066
+key: id, value: 232
+key: UNetModule_receive_time, value: 1714936507.5154152
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936511.1942875
+key: finish_time, value: 1714936511.1998553
+free time = 0.6876811981201172collector worker receive workload request count = 157
+--------------------
+Server-side end2end latency: 3.8622794151306152
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936507.3796854
+key: SLO, value: 4.753248450815677
+key: id, value: 231
+key: UNetModule_receive_time, value: 1714936507.3807545
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936511.231977
+key: finish_time, value: 1714936511.2419648
+free time = 0.8909690380096436collector worker receive workload request count = 158
+--------------------
+Server-side end2end latency: 3.7497925758361816
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936507.5135565
+key: SLO, value: 4.483177516110241
+key: id, value: 235
+key: UNetModule_receive_time, value: 1714936507.516304
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936511.2604415
+key: finish_time, value: 1714936511.263349
+free time = 0.7333848476409912collector worker receive workload request count = 159
+--------------------
+Server-side end2end latency: 3.8643980026245117
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936507.5138164
+key: SLO, value: 4.753248450815677
+key: id, value: 236
+key: UNetModule_receive_time, value: 1714936507.5166533
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936511.3737612
+key: finish_time, value: 1714936511.3782144
+free time = 0.8888504505157471collector worker receive workload request count = 160
+--------------------
+Server-side end2end latency: 4.011134386062622
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936507.513282
+key: SLO, value: 5.185361946344376
+key: id, value: 234
+key: UNetModule_receive_time, value: 1714936507.5160167
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936511.5178616
+key: finish_time, value: 1714936511.5244164
+free time = 1.1742274761199951collector worker receive workload request count = 161
+--------------------
+Server-side end2end latency: 4.022445917129517
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936507.5129626
+key: SLO, value: 5.239376133285463
+key: id, value: 233
+key: UNetModule_receive_time, value: 1714936507.515702
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936511.5338752
+key: finish_time, value: 1714936511.5354085
+free time = 1.2169301509857178collector worker receive workload request count = 162
+--------------------
+Server-side end2end latency: 1.5594093799591064
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936535.9973428
+key: SLO, value: 4.537191703051328
+key: id, value: 237
+key: UNetModule_receive_time, value: 1714936535.9980648
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936537.550948
+key: finish_time, value: 1714936537.5567522
+free time = 2.9777822494506836collector worker receive workload request count = 163
+--------------------
+Server-side end2end latency: 1.7467033863067627
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936535.997924
+key: SLO, value: 5.185361946344376
+key: id, value: 238
+key: UNetModule_receive_time, value: 1714936535.9983003
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936537.7378206
+key: finish_time, value: 1714936537.7446275
+free time = 3.4386584758758545collector worker receive workload request count = 164
+--------------------
+Server-side end2end latency: 3.766728401184082
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936543.0019512
+key: SLO, value: 4.483177516110241
+key: id, value: 239
+key: UNetModule_receive_time, value: 1714936543.002537
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936546.7580607
+key: finish_time, value: 1714936546.7686796
+free time = 0.7164490222930908collector worker receive workload request count = 165
+--------------------
+Server-side end2end latency: 3.7607998847961426
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936543.0083835
+key: SLO, value: 4.375149142228066
+key: id, value: 244
+key: UNetModule_receive_time, value: 1714936543.035333
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936546.7585912
+key: finish_time, value: 1714936546.7691834
+free time = 0.614349365234375collector worker receive workload request count = 166
+--------------------
+Server-side end2end latency: 3.8467416763305664
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936543.0062034
+key: SLO, value: 4.483177516110241
+key: id, value: 241
+key: UNetModule_receive_time, value: 1714936543.0347376
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936546.8495748
+key: finish_time, value: 1714936546.852945
+free time = 0.6364357471466064collector worker receive workload request count = 167
+--------------------
+Server-side end2end latency: 4.035295009613037
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936543.0055237
+key: SLO, value: 4.69923426387459
+key: id, value: 240
+key: UNetModule_receive_time, value: 1714936543.0345263
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936547.0312066
+key: finish_time, value: 1714936547.0408187
+free time = 0.6639392375946045collector worker receive workload request count = 168
+--------------------
+Server-side end2end latency: 4.482128620147705
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936543.0067983
+key: SLO, value: 5.239376133285463
+key: id, value: 243
+key: UNetModule_receive_time, value: 1714936543.035146
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936547.4831429
+key: finish_time, value: 1714936547.488927
+free time = 0.7572474479675293collector worker receive workload request count = 169
+--------------------
+Server-side end2end latency: 4.5244996547698975
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936543.0065246
+key: SLO, value: 5.29339032022655
+key: id, value: 242
+key: UNetModule_receive_time, value: 1714936543.0349443
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936547.5286586
+key: finish_time, value: 1714936547.5310242
+free time = 0.7688906192779541collector worker receive workload request count = 170
+--------------------
+Server-side end2end latency: 4.749030590057373
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936544.7495885
+key: SLO, value: 4.915291011638939
+key: id, value: 270
+key: UNetModule_receive_time, value: 1714936544.794503
+key: wait_loop_count, value: 43
+key: UNetModule_send_time, value: 1714936549.4915378
+key: finish_time, value: 1714936549.498619
+free time = 0.1662604808807373collector worker receive workload request count = 171
+--------------------
+Server-side end2end latency: 4.82394814491272
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936544.7687101
+key: SLO, value: 5.239376133285463
+key: id, value: 271
+key: UNetModule_receive_time, value: 1714936544.7949913
+key: wait_loop_count, value: 43
+key: UNetModule_send_time, value: 1714936549.5850852
+key: finish_time, value: 1714936549.5926583
+free time = 0.41542792320251465collector worker receive workload request count = 172
+--------------------
+Server-side end2end latency: 1.8850007057189941
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936592.1348617
+key: SLO, value: 4.321134955286979
+key: id, value: 273
+key: UNetModule_receive_time, value: 1714936592.172606
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936594.0093381
+key: finish_time, value: 1714936594.0198624
+free time = 2.4361343383789062collector worker receive workload request count = 173
+--------------------
+Server-side end2end latency: 2.012120485305786
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936592.133303
+key: SLO, value: 4.807262637756764
+key: id, value: 272
+key: UNetModule_receive_time, value: 1714936592.1343782
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936594.1354508
+key: finish_time, value: 1714936594.1454234
+free time = 2.79514217376709collector worker receive workload request count = 174
+--------------------
+Server-side end2end latency: 2.185425043106079
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936592.1374276
+key: SLO, value: 5.185361946344376
+key: id, value: 274
+key: UNetModule_receive_time, value: 1714936592.1727476
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936594.3176308
+key: finish_time, value: 1714936594.3228526
+free time = 2.999936819076538collector worker receive workload request count = 175
+--------------------
+Server-side end2end latency: 1.5524194240570068
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936594.1655688
+key: SLO, value: 4.537191703051328
+key: id, value: 276
+key: UNetModule_receive_time, value: 1714936594.1681798
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936595.7137835
+key: finish_time, value: 1714936595.7179883
+free time = 2.984772205352783collector worker receive workload request count = 176
+--------------------
+Server-side end2end latency: 1.6472973823547363
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936594.1650286
+key: SLO, value: 4.8612768246978515
+key: id, value: 275
+key: UNetModule_receive_time, value: 1714936594.167798
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936595.807037
+key: finish_time, value: 1714936595.812326
+free time = 3.213979482650757collector worker receive workload request count = 177
+--------------------
+Server-side end2end latency: 3.677109718322754
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936613.0740514
+key: SLO, value: 4.321134955286979
+key: id, value: 281
+key: UNetModule_receive_time, value: 1714936613.1100214
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936616.7415478
+key: finish_time, value: 1714936616.751161
+free time = 0.6440253257751465collector worker receive workload request count = 178
+--------------------
+Server-side end2end latency: 3.7211904525756836
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936613.0722184
+key: SLO, value: 4.483177516110241
+key: id, value: 277
+key: UNetModule_receive_time, value: 1714936613.0729573
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936616.7870672
+key: finish_time, value: 1714936616.7934089
+free time = 0.7619869709014893collector worker receive workload request count = 179
+--------------------
+Server-side end2end latency: 4.033432483673096
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936613.07341
+key: SLO, value: 4.753248450815677
+key: id, value: 279
+key: UNetModule_receive_time, value: 1714936613.1096203
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936617.1025894
+key: finish_time, value: 1714936617.1068425
+free time = 0.7198159694671631collector worker receive workload request count = 180
+--------------------
+Server-side end2end latency: 4.200251340866089
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936613.0737193
+key: SLO, value: 5.077333572462201
+key: id, value: 280
+key: UNetModule_receive_time, value: 1714936613.1098235
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936617.2688127
+key: finish_time, value: 1714936617.2739706
+free time = 0.877082347869873collector worker receive workload request count = 181
+--------------------
+Server-side end2end latency: 4.295455694198608
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936613.0729225
+key: SLO, value: 5.347404507167637
+key: id, value: 278
+key: UNetModule_receive_time, value: 1714936613.0734322
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936617.3586962
+key: finish_time, value: 1714936617.3683782
+free time = 1.0519487857818604collector worker receive workload request count = 182
+--------------------
+Server-side end2end latency: 4.234495639801025
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936613.1970263
+key: SLO, value: 5.347404507167637
+key: id, value: 282
+key: UNetModule_receive_time, value: 1714936613.2156398
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936617.430259
+key: finish_time, value: 1714936617.431522
+free time = 1.1129088401794434collector worker receive workload request count = 183
+--------------------
+Server-side end2end latency: 4.927685976028442
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936613.692626
+key: SLO, value: 5.29339032022655
+key: id, value: 293
+key: UNetModule_receive_time, value: 1714936613.7114499
+key: wait_loop_count, value: 68
+key: UNetModule_send_time, value: 1714936618.615967
+key: finish_time, value: 1714936618.620312
+free time = 0.3657042980194092collector worker receive workload request count = 184
+--------------------
+Server-side end2end latency: 3.6369247436523438
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936644.875409
+key: SLO, value: 4.321134955286979
+key: id, value: 301
+key: UNetModule_receive_time, value: 1714936644.8765302
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936648.5088587
+key: finish_time, value: 1714936648.5123336
+free time = 0.6842103004455566collector worker receive workload request count = 185
+--------------------
+Server-side end2end latency: 3.865349292755127
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936644.8350272
+key: SLO, value: 4.69923426387459
+key: id, value: 297
+key: UNetModule_receive_time, value: 1714936644.8354373
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936648.694804
+key: finish_time, value: 1714936648.7003765
+free time = 0.8338849544525146collector worker receive workload request count = 186
+--------------------
+Server-side end2end latency: 3.855668544769287
+request step: 85key: image_size, value: 256
+key: num-sampling-steps, value: 85
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936644.8451853
+key: SLO, value: 4.591205889992415
+key: id, value: 300
+key: UNetModule_receive_time, value: 1714936644.8762302
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936648.6953135
+key: finish_time, value: 1714936648.7008538
+free time = 0.7355372905731201collector worker receive workload request count = 187
+--------------------
+Server-side end2end latency: 3.9297494888305664
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936644.844318
+key: SLO, value: 4.753248450815677
+key: id, value: 298
+key: UNetModule_receive_time, value: 1714936644.8756473
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936648.7633944
+key: finish_time, value: 1714936648.7740674
+free time = 0.8234989643096924collector worker receive workload request count = 188
+--------------------
+Server-side end2end latency: 4.013089179992676
+request step: 93key: image_size, value: 256
+key: num-sampling-steps, value: 93
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936644.844875
+key: SLO, value: 5.023319385521114
+key: id, value: 299
+key: UNetModule_receive_time, value: 1714936644.8760104
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936648.853445
+key: finish_time, value: 1714936648.8579643
+free time = 1.010230302810669collector worker receive workload request count = 189
+--------------------
+Server-side end2end latency: 4.086601257324219
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936644.8344054
+key: SLO, value: 5.347404507167637
+key: id, value: 296
+key: UNetModule_receive_time, value: 1714936644.8351896
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936648.916737
+key: finish_time, value: 1714936648.9210067
+free time = 1.26080322265625collector worker receive workload request count = 190
+--------------------
+Server-side end2end latency: 2.9072816371917725
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936683.5977693
+key: SLO, value: 4.753248450815677
+key: id, value: 302
+key: UNetModule_receive_time, value: 1714936683.5984735
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936686.503158
+key: finish_time, value: 1714936686.505051
+free time = 1.8459668159484863collector worker receive workload request count = 191
+--------------------
+Server-side end2end latency: 3.671015977859497
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936684.1453607
+key: SLO, value: 4.537191703051328
+key: id, value: 306
+key: UNetModule_receive_time, value: 1714936684.1560514
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936687.8116996
+key: finish_time, value: 1714936687.8163767
+free time = 0.866175651550293collector worker receive workload request count = 192
+--------------------
+Server-side end2end latency: 3.984088897705078
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936684.1450248
+key: SLO, value: 4.915291011638939
+key: id, value: 305
+key: UNetModule_receive_time, value: 1714936684.1556554
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936688.1278534
+key: finish_time, value: 1714936688.1291137
+free time = 0.9312021732330322collector worker receive workload request count = 193
+--------------------
+Server-side end2end latency: 4.141433238983154
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936684.144166
+key: SLO, value: 5.131347759403288
+key: id, value: 303
+key: UNetModule_receive_time, value: 1714936684.154801
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936688.2846382
+key: finish_time, value: 1714936688.2855992
+free time = 0.9899144172668457collector worker receive workload request count = 194
+--------------------
+Server-side end2end latency: 4.141295909881592
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936684.1447227
+key: SLO, value: 5.131347759403288
+key: id, value: 304
+key: UNetModule_receive_time, value: 1714936684.1552753
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936688.2851079
+key: finish_time, value: 1714936688.2860186
+free time = 0.9900517463684082collector worker receive workload request count = 195
+--------------------
+Server-side end2end latency: 3.717992067337036
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936684.7974007
+key: SLO, value: 4.69923426387459
+key: id, value: 307
+key: UNetModule_receive_time, value: 1714936684.799868
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936688.5112882
+key: finish_time, value: 1714936688.5153928
+free time = 0.9812421798706055collector worker receive workload request count = 196
+--------------------
+Server-side end2end latency: 4.448039531707764
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936684.8067362
+key: SLO, value: 4.8612768246978515
+key: id, value: 309
+key: UNetModule_receive_time, value: 1714936684.8369129
+key: wait_loop_count, value: 38
+key: UNetModule_send_time, value: 1714936689.2477338
+key: finish_time, value: 1714936689.2547758
+free time = 0.4132373332977295collector worker receive workload request count = 197
+--------------------
+Server-side end2end latency: 2.0554709434509277
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936687.678323
+key: SLO, value: 5.077333572462201
+key: id, value: 310
+key: UNetModule_receive_time, value: 1714936687.7224236
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936689.730114
+key: finish_time, value: 1714936689.733794
+free time = 3.021862745285034collector worker receive workload request count = 198
+--------------------
+Server-side end2end latency: 1.9167912006378174
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936743.1374636
+key: SLO, value: 4.483177516110241
+key: id, value: 313
+key: UNetModule_receive_time, value: 1714936743.160177
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936745.0524175
+key: finish_time, value: 1714936745.0542548
+free time = 2.5663862228393555collector worker receive workload request count = 199
+--------------------
+Server-side end2end latency: 2.179492473602295
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936743.042336
+key: SLO, value: 5.239376133285463
+key: id, value: 311
+key: UNetModule_receive_time, value: 1714936743.0433917
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936745.2142227
+key: finish_time, value: 1714936745.2218285
+free time = 3.0598835945129395collector worker receive workload request count = 200
+--------------------
+Server-side end2end latency: 2.2105026245117188
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936743.0432215
+key: SLO, value: 5.347404507167637
+key: id, value: 312
+key: UNetModule_receive_time, value: 1714936743.043643
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936745.246339
+key: finish_time, value: 1714936745.253724
+free time = 3.13690185546875collector worker receive workload request count = 201
+--------------------
+Server-side end2end latency: 3.7913742065429688
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936746.8642392
+key: SLO, value: 4.429163329169154
+key: id, value: 316
+key: UNetModule_receive_time, value: 1714936746.8951344
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936750.648198
+key: finish_time, value: 1714936750.6556134
+free time = 0.6377890110015869collector worker receive workload request count = 202
+--------------------
+Server-side end2end latency: 4.02318549156189
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936746.8628285
+key: SLO, value: 4.807262637756764
+key: id, value: 314
+key: UNetModule_receive_time, value: 1714936746.8633542
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936750.8769016
+key: finish_time, value: 1714936750.886014
+free time = 0.7840771675109863collector worker receive workload request count = 203
+--------------------
+Server-side end2end latency: 4.198821783065796
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936746.86515
+key: SLO, value: 4.915291011638939
+key: id, value: 318
+key: UNetModule_receive_time, value: 1714936746.8955479
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936751.060252
+key: finish_time, value: 1714936751.0639718
+free time = 0.7164692878723145collector worker receive workload request count = 204
+--------------------
+Server-side end2end latency: 4.524591684341431
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936746.8639019
+key: SLO, value: 5.29339032022655
+key: id, value: 315
+key: UNetModule_receive_time, value: 1714936746.8949306
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936751.381742
+key: finish_time, value: 1714936751.3884935
+free time = 0.7687985897064209collector worker receive workload request count = 205
+--------------------
+Server-side end2end latency: 4.523505210876465
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936746.8654442
+key: SLO, value: 5.29339032022655
+key: id, value: 319
+key: UNetModule_receive_time, value: 1714936746.8957455
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936751.3821678
+key: finish_time, value: 1714936751.3889494
+free time = 0.7698850631713867collector worker receive workload request count = 206
+--------------------
+Server-side end2end latency: 4.566535711288452
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936746.8647447
+key: SLO, value: 5.347404507167637
+key: id, value: 317
+key: UNetModule_receive_time, value: 1714936746.8953497
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936751.428228
+key: finish_time, value: 1714936751.4312804
+free time = 0.7808687686920166collector worker receive workload request count = 207
+--------------------
+Server-side end2end latency: 3.8055882453918457
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936750.9486074
+key: SLO, value: 4.375149142228066
+key: id, value: 353
+key: UNetModule_receive_time, value: 1714936750.9709108
+key: wait_loop_count, value: 2
+key: UNetModule_send_time, value: 1714936754.7438145
+key: finish_time, value: 1714936754.7541957
+free time = 0.5695610046386719collector worker receive workload request count = 208
+--------------------
+Server-side end2end latency: 4.054919719696045
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936750.9497113
+key: SLO, value: 4.375149142228066
+key: id, value: 355
+key: UNetModule_receive_time, value: 1714936750.971684
+key: wait_loop_count, value: 9
+key: UNetModule_send_time, value: 1714936755.0037901
+key: finish_time, value: 1714936755.004631
+free time = 0.32022953033447266collector worker receive workload request count = 209
+--------------------
+Server-side end2end latency: 4.141277313232422
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936750.9471912
+key: SLO, value: 4.9693051985800265
+key: id, value: 351
+key: UNetModule_receive_time, value: 1714936750.9700582
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936755.0876431
+key: finish_time, value: 1714936755.0884686
+free time = 0.8280279636383057collector worker receive workload request count = 210
+--------------------
+Server-side end2end latency: 4.255244255065918
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936750.948295
+key: SLO, value: 5.239376133285463
+key: id, value: 352
+key: UNetModule_receive_time, value: 1714936750.9705424
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936755.200756
+key: finish_time, value: 1714936755.2035394
+free time = 0.9841318130493164collector worker receive workload request count = 211
+--------------------
+Server-side end2end latency: 4.258412837982178
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936750.9665296
+key: SLO, value: 4.807262637756764
+key: id, value: 359
+key: UNetModule_receive_time, value: 1714936750.9731784
+key: wait_loop_count, value: 10
+key: UNetModule_send_time, value: 1714936755.2190645
+key: finish_time, value: 1714936755.2249424
+free time = 0.5488498210906982collector worker receive workload request count = 212
+--------------------
+Server-side end2end latency: 4.4108641147613525
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936750.9499507
+key: SLO, value: 5.347404507167637
+key: id, value: 356
+key: UNetModule_receive_time, value: 1714936750.9720774
+key: wait_loop_count, value: 9
+key: UNetModule_send_time, value: 1714936755.3591344
+key: finish_time, value: 1714936755.3608148
+free time = 0.9365403652191162collector worker receive workload request count = 213
+--------------------
+Server-side end2end latency: 1.5219910144805908
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936756.3271477
+key: SLO, value: 5.239376133285463
+key: id, value: 360
+key: UNetModule_receive_time, value: 1714936756.3277512
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936757.8393767
+key: finish_time, value: 1714936757.8491387
+free time = 3.7173850536346436collector worker receive workload request count = 214
+--------------------
+Server-side end2end latency: 1.489164113998413
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936783.5944576
+key: SLO, value: 4.321134955286979
+key: id, value: 362
+key: UNetModule_receive_time, value: 1714936783.594824
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936785.080005
+key: finish_time, value: 1714936785.0836217
+free time = 2.8319709300994873collector worker receive workload request count = 215
+--------------------
+Server-side end2end latency: 1.635988473892212
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936783.5938892
+key: SLO, value: 4.807262637756764
+key: id, value: 361
+key: UNetModule_receive_time, value: 1714936783.5945914
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936785.2202907
+key: finish_time, value: 1714936785.2298777
+free time = 3.171274185180664collector worker receive workload request count = 216
+--------------------
+Server-side end2end latency: 2.390162467956543
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936796.3109496
+key: SLO, value: 4.537191703051328
+key: id, value: 364
+key: UNetModule_receive_time, value: 1714936796.3114305
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936798.6925192
+key: finish_time, value: 1714936798.701112
+free time = 2.147029161453247collector worker receive workload request count = 217
+--------------------
+Server-side end2end latency: 2.6610801219940186
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936796.3116443
+key: SLO, value: 5.185361946344376
+key: id, value: 366
+key: UNetModule_receive_time, value: 1714936796.3119957
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936798.9635758
+key: finish_time, value: 1714936798.9727244
+free time = 2.5242817401885986collector worker receive workload request count = 218
+--------------------
+Server-side end2end latency: 2.672307252883911
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936796.311314
+key: SLO, value: 5.239376133285463
+key: id, value: 365
+key: UNetModule_receive_time, value: 1714936796.3118048
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936798.982009
+key: finish_time, value: 1714936798.9836214
+free time = 2.5670688152313232collector worker receive workload request count = 219
+--------------------
+Server-side end2end latency: 2.694584608078003
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936796.3104017
+key: SLO, value: 5.347404507167637
+key: id, value: 363
+key: UNetModule_receive_time, value: 1714936796.3109837
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936798.9979749
+key: finish_time, value: 1714936799.0049863
+free time = 2.652819871902466collector worker receive workload request count = 220
+--------------------
+Server-side end2end latency: 1.4995191097259521
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936799.8161812
+key: SLO, value: 4.483177516110241
+key: id, value: 367
+key: UNetModule_receive_time, value: 1714936799.816762
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936801.3114903
+key: finish_time, value: 1714936801.3157003
+free time = 2.9836583137512207collector worker receive workload request count = 221
+--------------------
+Server-side end2end latency: 1.6452019214630127
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936799.816849
+key: SLO, value: 4.8612768246978515
+key: id, value: 368
+key: UNetModule_receive_time, value: 1714936799.8426516
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936801.452257
+key: finish_time, value: 1714936801.462051
+free time = 3.2160749435424805collector worker receive workload request count = 222
+--------------------
+Server-side end2end latency: 1.326855182647705
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936805.0601072
+key: SLO, value: 4.375149142228066
+key: id, value: 369
+key: UNetModule_receive_time, value: 1714936805.0610647
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936806.3774393
+key: finish_time, value: 1714936806.3869624
+free time = 3.0482940673828125collector worker receive workload request count = 223
+--------------------
+Server-side end2end latency: 1.9274253845214844
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936832.1270158
+key: SLO, value: 4.537191703051328
+key: id, value: 370
+key: UNetModule_receive_time, value: 1714936832.1277363
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936834.044079
+key: finish_time, value: 1714936834.0544412
+free time = 2.6097662448883057collector worker receive workload request count = 224
+--------------------
+Server-side end2end latency: 1.9245004653930664
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936832.2032213
+key: SLO, value: 4.537191703051328
+key: id, value: 371
+key: UNetModule_receive_time, value: 1714936832.216043
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936834.1167557
+key: finish_time, value: 1714936834.1277218
+free time = 2.6126911640167236collector worker receive workload request count = 225
+--------------------
+Server-side end2end latency: 2.10131573677063
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936832.2037616
+key: SLO, value: 5.185361946344376
+key: id, value: 372
+key: UNetModule_receive_time, value: 1714936832.216224
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936834.3035374
+key: finish_time, value: 1714936834.3050773
+free time = 3.0840461254119873collector worker receive workload request count = 226
+--------------------
+Server-side end2end latency: 2.3126235008239746
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936843.2675288
+key: SLO, value: 5.185361946344376
+key: id, value: 373
+key: UNetModule_receive_time, value: 1714936843.2681127
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936845.5772903
+key: finish_time, value: 1714936845.5801523
+free time = 2.8727383613586426collector worker receive workload request count = 227
+--------------------
+Server-side end2end latency: 2.3333241939544678
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936843.2682307
+key: SLO, value: 5.131347759403288
+key: id, value: 374
+key: UNetModule_receive_time, value: 1714936843.2995868
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936845.6003249
+key: finish_time, value: 1714936845.6015549
+free time = 2.7980234622955322collector worker receive workload request count = 228
+--------------------
+Server-side end2end latency: 2.202979564666748
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936843.992575
+key: SLO, value: 4.8612768246978515
+key: id, value: 375
+key: UNetModule_receive_time, value: 1714936844.0070612
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936846.1921957
+key: finish_time, value: 1714936846.1955545
+free time = 2.658297300338745collector worker receive workload request count = 229
+--------------------
+Server-side end2end latency: 2.2550394535064697
+request step: 93key: image_size, value: 256
+key: num-sampling-steps, value: 93
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936843.993104
+key: SLO, value: 5.023319385521114
+key: id, value: 376
+key: UNetModule_receive_time, value: 1714936844.0074427
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936846.2394173
+key: finish_time, value: 1714936846.2481434
+free time = 2.768280029296875collector worker receive workload request count = 230
+--------------------
+Server-side end2end latency: 3.7626819610595703
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936846.6080046
+key: SLO, value: 4.483177516110241
+key: id, value: 382
+key: UNetModule_receive_time, value: 1714936846.6126614
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936850.3670707
+key: finish_time, value: 1714936850.3706865
+free time = 0.7204954624176025collector worker receive workload request count = 231
+--------------------
+Server-side end2end latency: 3.894949436187744
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936846.5908673
+key: SLO, value: 4.753248450815677
+key: id, value: 377
+key: UNetModule_receive_time, value: 1714936846.5914366
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936850.4786968
+key: finish_time, value: 1714936850.4858167
+free time = 0.8582990169525146collector worker receive workload request count = 232
+--------------------
+Server-side end2end latency: 3.894493579864502
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936846.5918067
+key: SLO, value: 4.645220076933502
+key: id, value: 379
+key: UNetModule_receive_time, value: 1714936846.6120603
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936850.4791944
+key: finish_time, value: 1714936850.4863002
+free time = 0.7507264614105225collector worker receive workload request count = 233
+--------------------
+Server-side end2end latency: 3.957143783569336
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936846.592121
+key: SLO, value: 4.807262637756764
+key: id, value: 380
+key: UNetModule_receive_time, value: 1714936846.6122565
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936850.5471656
+key: finish_time, value: 1714936850.5492647
+free time = 0.85011887550354collector worker receive workload request count = 234
+--------------------
+Server-side end2end latency: 3.9999570846557617
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936846.5914333
+key: SLO, value: 4.915291011638939
+key: id, value: 378
+key: UNetModule_receive_time, value: 1714936846.6118963
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936850.5833387
+key: finish_time, value: 1714936850.5913904
+free time = 0.9153339862823486collector worker receive workload request count = 235
+--------------------
+Server-side end2end latency: 4.057316780090332
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936846.5971408
+key: SLO, value: 5.131347759403288
+key: id, value: 381
+key: UNetModule_receive_time, value: 1714936846.6124735
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936850.6457698
+key: finish_time, value: 1714936850.6544576
+free time = 1.074030876159668collector worker receive workload request count = 236
+--------------------
+Server-side end2end latency: 3.835451126098633
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936884.782113
+key: SLO, value: 4.8612768246978515
+key: id, value: 387
+key: UNetModule_receive_time, value: 1714936884.7828386
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936888.6139781
+key: finish_time, value: 1714936888.6175642
+free time = 1.0258257389068604collector worker receive workload request count = 237
+--------------------
+Server-side end2end latency: 3.8786096572875977
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936884.781157
+key: SLO, value: 4.9693051985800265
+key: id, value: 384
+key: UNetModule_receive_time, value: 1714936884.7816124
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936888.6515858
+key: finish_time, value: 1714936888.6597667
+free time = 1.0906956195831299collector worker receive workload request count = 238
+--------------------
+Server-side end2end latency: 4.013733386993408
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936884.7818139
+key: SLO, value: 5.239376133285463
+key: id, value: 386
+key: UNetModule_receive_time, value: 1714936884.7821317
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936888.7910163
+key: finish_time, value: 1714936888.7955472
+free time = 1.2256426811218262collector worker receive workload request count = 239
+--------------------
+Server-side end2end latency: 4.035508632659912
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936884.7815158
+key: SLO, value: 5.29339032022655
+key: id, value: 385
+key: UNetModule_receive_time, value: 1714936884.7818606
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936888.814289
+key: finish_time, value: 1714936888.8170245
+free time = 1.2578816413879395collector worker receive workload request count = 240
+--------------------
+Server-side end2end latency: 4.058051347732544
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936884.78025
+key: SLO, value: 5.347404507167637
+key: id, value: 383
+key: UNetModule_receive_time, value: 1714936884.7813396
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936888.8331065
+key: finish_time, value: 1714936888.8383014
+free time = 1.2893531322479248collector worker receive workload request count = 241
+--------------------
+Server-side end2end latency: 3.0112216472625732
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936886.1401849
+key: SLO, value: 4.429163329169154
+key: id, value: 388
+key: UNetModule_receive_time, value: 1714936886.1439598
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936889.1448584
+key: finish_time, value: 1714936889.1514065
+free time = 1.4179415702819824collector worker receive workload request count = 242
+--------------------
+Server-side end2end latency: 1.3260915279388428
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936905.9974122
+key: SLO, value: 4.375149142228066
+key: id, value: 389
+key: UNetModule_receive_time, value: 1714936905.9980025
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936907.3142028
+key: finish_time, value: 1714936907.3235037
+free time = 3.049057722091675collector worker receive workload request count = 243
+--------------------
+Server-side end2end latency: 3.634981155395508
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936913.1014035
+key: SLO, value: 4.375149142228066
+key: id, value: 394
+key: UNetModule_receive_time, value: 1714936913.1020806
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936916.7275996
+key: finish_time, value: 1714936916.7363846
+free time = 0.7401680946350098collector worker receive workload request count = 244
+--------------------
+Server-side end2end latency: 3.6780080795288086
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936913.100513
+key: SLO, value: 4.483177516110241
+key: id, value: 391
+key: UNetModule_receive_time, value: 1714936913.1008625
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936916.773253
+key: finish_time, value: 1714936916.778521
+free time = 0.8051693439483643collector worker receive workload request count = 245
+--------------------
+Server-side end2end latency: 3.7715556621551514
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936913.1011412
+key: SLO, value: 4.537191703051328
+key: id, value: 393
+key: UNetModule_receive_time, value: 1714936913.1019595
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936916.8639913
+key: finish_time, value: 1714936916.8726969
+free time = 0.7656359672546387collector worker receive workload request count = 246
+--------------------
+Server-side end2end latency: 4.044039249420166
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936913.099928
+key: SLO, value: 4.915291011638939
+key: id, value: 390
+key: UNetModule_receive_time, value: 1714936913.1006305
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936917.1355646
+key: finish_time, value: 1714936917.1439672
+free time = 0.8712518215179443collector worker receive workload request count = 247
+--------------------
+Server-side end2end latency: 4.126940488815308
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936913.100851
+key: SLO, value: 4.9693051985800265
+key: id, value: 392
+key: UNetModule_receive_time, value: 1714936913.1014986
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936917.2261982
+key: finish_time, value: 1714936917.2277915
+free time = 0.8423647880554199collector worker receive workload request count = 248
+--------------------
+Server-side end2end latency: 4.441007852554321
+request step: 97key: image_size, value: 256
+key: num-sampling-steps, value: 97
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936913.464119
+key: SLO, value: 5.239376133285463
+key: id, value: 395
+key: UNetModule_receive_time, value: 1714936913.4830596
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936917.9040446
+key: finish_time, value: 1714936917.9051268
+free time = 0.7983682155609131collector worker receive workload request count = 249
+--------------------
+Server-side end2end latency: 4.227786302566528
+request step: 84key: image_size, value: 256
+key: num-sampling-steps, value: 84
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936916.353476
+key: SLO, value: 4.537191703051328
+key: id, value: 406
+key: UNetModule_receive_time, value: 1714936916.3676686
+key: wait_loop_count, value: 11
+key: UNetModule_send_time, value: 1714936920.5747511
+key: finish_time, value: 1714936920.5812624
+free time = 0.3094053268432617collector worker receive workload request count = 250
+--------------------
+Server-side end2end latency: 4.279748439788818
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936916.3539815
+key: SLO, value: 4.321134955286979
+key: id, value: 407
+key: UNetModule_receive_time, value: 1714936916.3680327
+key: wait_loop_count, value: 17
+key: UNetModule_send_time, value: 1714936920.6308763
+key: finish_time, value: 1714936920.63373
+free time = 0.04138660430908203collector worker receive workload request count = 251
+--------------------
+Server-side end2end latency: 4.093905448913574
+request step: 93key: image_size, value: 256
+key: num-sampling-steps, value: 93
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936916.6341019
+key: SLO, value: 5.023319385521114
+key: id, value: 408
+key: UNetModule_receive_time, value: 1714936916.6382036
+key: wait_loop_count, value: 2
+key: UNetModule_send_time, value: 1714936920.7214293
+key: finish_time, value: 1714936920.7280073
+free time = 0.9294140338897705collector worker receive workload request count = 252
+--------------------
+Server-side end2end latency: 4.479758024215698
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936916.3528595
+key: SLO, value: 4.753248450815677
+key: id, value: 404
+key: UNetModule_receive_time, value: 1714936916.366894
+key: wait_loop_count, value: 19
+key: UNetModule_send_time, value: 1714936920.82938
+key: finish_time, value: 1714936920.8326175
+free time = 0.27349042892456055collector worker receive workload request count = 253
+--------------------
+Server-side end2end latency: 4.219287395477295
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936916.6346755
+key: SLO, value: 5.347404507167637
+key: id, value: 409
+key: UNetModule_receive_time, value: 1714936916.6386557
+key: wait_loop_count, value: 3
+key: UNetModule_send_time, value: 1714936920.8458276
+key: finish_time, value: 1714936920.853963
+free time = 1.1281170845031738collector worker receive workload request count = 254
+--------------------
+Server-side end2end latency: 1.617387294769287
+request step: 85key: image_size, value: 256
+key: num-sampling-steps, value: 85
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936922.7364516
+key: SLO, value: 4.591205889992415
+key: id, value: 411
+key: UNetModule_receive_time, value: 1714936922.7695105
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936924.3480954
+key: finish_time, value: 1714936924.353839
+free time = 2.97381854057312collector worker receive workload request count = 255
+--------------------
+Server-side end2end latency: 1.6496763229370117
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936922.7358909
+key: SLO, value: 4.807262637756764
+key: id, value: 410
+key: UNetModule_receive_time, value: 1714936922.7364652
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936924.3796268
+key: finish_time, value: 1714936924.3855672
+free time = 3.1575863361358643collector worker receive workload request count = 256
+--------------------
+Server-side end2end latency: 1.8684227466583252
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936933.1931238
+key: SLO, value: 4.375149142228066
+key: id, value: 412
+key: UNetModule_receive_time, value: 1714936933.1938567
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936935.0588028
+key: finish_time, value: 1714936935.0615466
+free time = 2.5067265033721924collector worker receive workload request count = 257
+--------------------
+Server-side end2end latency: 1.9829401969909668
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936933.193727
+key: SLO, value: 4.69923426387459
+key: id, value: 413
+key: UNetModule_receive_time, value: 1714936933.1940947
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936935.166741
+key: finish_time, value: 1714936935.1766672
+free time = 2.716294050216675collector worker receive workload request count = 258
+--------------------
+Server-side end2end latency: 2.0142712593078613
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936933.1940675
+key: SLO, value: 4.753248450815677
+key: id, value: 414
+key: UNetModule_receive_time, value: 1714936933.194719
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936935.198925
+key: finish_time, value: 1714936935.2083387
+free time = 2.7389771938323975collector worker receive workload request count = 259
+--------------------
+Server-side end2end latency: 2.3321540355682373
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936947.359595
+key: SLO, value: 4.483177516110241
+key: id, value: 416
+key: UNetModule_receive_time, value: 1714936947.3599591
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936949.6842992
+key: finish_time, value: 1714936949.691749
+free time = 2.1510233879089355collector worker receive workload request count = 260
+--------------------
+Server-side end2end latency: 2.3618922233581543
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936947.371971
+key: SLO, value: 4.483177516110241
+key: id, value: 418
+key: UNetModule_receive_time, value: 1714936947.3961918
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936949.7298455
+key: finish_time, value: 1714936949.733863
+free time = 2.1212852001190186collector worker receive workload request count = 261
+--------------------
+Server-side end2end latency: 2.417384147644043
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936947.3587017
+key: SLO, value: 4.69923426387459
+key: id, value: 415
+key: UNetModule_receive_time, value: 1714936947.3596652
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936949.7659574
+key: finish_time, value: 1714936949.7760859
+free time = 2.2818500995635986collector worker receive workload request count = 262
+--------------------
+Server-side end2end latency: 2.509390354156494
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936947.371409
+key: SLO, value: 4.9693051985800265
+key: id, value: 417
+key: UNetModule_receive_time, value: 1714936947.3960268
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936949.8751698
+key: finish_time, value: 1714936949.8807993
+free time = 2.4599149227142334collector worker receive workload request count = 263
+--------------------
+Server-side end2end latency: 1.3934171199798584
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936951.9765282
+key: SLO, value: 4.645220076933502
+key: id, value: 419
+key: UNetModule_receive_time, value: 1714936951.9771929
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936953.3678405
+key: finish_time, value: 1714936953.3699453
+free time = 3.251802921295166collector worker receive workload request count = 264
+--------------------
+Server-side end2end latency: 2.2386698722839355
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936959.2634797
+key: SLO, value: 4.321134955286979
+key: id, value: 422
+key: UNetModule_receive_time, value: 1714936959.2790873
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936961.500771
+key: finish_time, value: 1714936961.5021496
+free time = 2.082465171813965collector worker receive workload request count = 265
+--------------------
+Server-side end2end latency: 2.356501340866089
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936959.2607152
+key: SLO, value: 4.69923426387459
+key: id, value: 420
+key: UNetModule_receive_time, value: 1714936959.2613096
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936961.6124284
+key: finish_time, value: 1714936961.6172166
+free time = 2.3427329063415527collector worker receive workload request count = 266
+--------------------
+Server-side end2end latency: 2.3537943363189697
+request step: 85key: image_size, value: 256
+key: num-sampling-steps, value: 85
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936959.2638462
+key: SLO, value: 4.591205889992415
+key: id, value: 423
+key: UNetModule_receive_time, value: 1714936959.279296
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936961.6126096
+key: finish_time, value: 1714936961.6176405
+free time = 2.2374114990234375collector worker receive workload request count = 267
+--------------------
+Server-side end2end latency: 2.5738940238952637
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936959.262966
+key: SLO, value: 5.347404507167637
+key: id, value: 421
+key: UNetModule_receive_time, value: 1714936959.2788916
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936961.8272765
+key: finish_time, value: 1714936961.83686
+free time = 2.773510456085205collector worker receive workload request count = 268
+--------------------
+Server-side end2end latency: 2.1800379753112793
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936968.9248564
+key: SLO, value: 4.915291011638939
+key: id, value: 424
+key: UNetModule_receive_time, value: 1714936968.9254925
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936971.1040688
+key: finish_time, value: 1714936971.1048944
+free time = 2.735253095626831collector worker receive workload request count = 269
+--------------------
+Server-side end2end latency: 2.6099491119384766
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936969.1721745
+key: SLO, value: 4.807262637756764
+key: id, value: 425
+key: UNetModule_receive_time, value: 1714936969.1871269
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936971.7812836
+key: finish_time, value: 1714936971.7821236
+free time = 2.1973135471343994collector worker receive workload request count = 270
+--------------------
+Server-side end2end latency: 3.0619421005249023
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936969.1790435
+key: SLO, value: 5.347404507167637
+key: id, value: 426
+key: UNetModule_receive_time, value: 1714936969.1875005
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936972.2324436
+key: finish_time, value: 1714936972.2409856
+free time = 2.2854623794555664collector worker receive workload request count = 271
+--------------------
+Server-side end2end latency: 3.5605084896087646
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936970.2112813
+key: SLO, value: 4.69923426387459
+key: id, value: 427
+key: UNetModule_receive_time, value: 1714936970.2184079
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936973.7652006
+key: finish_time, value: 1714936973.7717898
+free time = 1.138725757598877collector worker receive workload request count = 272
+--------------------
+Server-side end2end latency: 3.7188680171966553
+request step: 85key: image_size, value: 256
+key: num-sampling-steps, value: 85
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936970.8343446
+key: SLO, value: 4.591205889992415
+key: id, value: 428
+key: UNetModule_receive_time, value: 1714936970.8507986
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936974.5443625
+key: finish_time, value: 1714936974.5532126
+free time = 0.872337818145752collector worker receive workload request count = 273
+--------------------
+Server-side end2end latency: 3.6980652809143066
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936970.855571
+key: SLO, value: 4.321134955286979
+key: id, value: 432
+key: UNetModule_receive_time, value: 1714936970.8792608
+key: wait_loop_count, value: 5
+key: UNetModule_send_time, value: 1714936974.5447037
+key: finish_time, value: 1714936974.5536363
+free time = 0.6230697631835938collector worker receive workload request count = 274
+--------------------
+Server-side end2end latency: 3.781921625137329
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936970.8348086
+key: SLO, value: 4.753248450815677
+key: id, value: 429
+key: UNetModule_receive_time, value: 1714936970.8512938
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936974.6124268
+key: finish_time, value: 1714936974.6167302
+free time = 0.9713268280029297collector worker receive workload request count = 275
+--------------------
+Server-side end2end latency: 4.230100870132446
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936970.8351912
+key: SLO, value: 4.915291011638939
+key: id, value: 430
+key: UNetModule_receive_time, value: 1714936970.851661
+key: wait_loop_count, value: 21
+key: UNetModule_send_time, value: 1714936975.064616
+key: finish_time, value: 1714936975.0652921
+free time = 0.6851902008056641collector worker receive workload request count = 276
+--------------------
+Server-side end2end latency: 4.531998157501221
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936970.8355622
+key: SLO, value: 5.077333572462201
+key: id, value: 431
+key: UNetModule_receive_time, value: 1714936970.852031
+key: wait_loop_count, value: 31
+key: UNetModule_send_time, value: 1714936975.3580697
+key: finish_time, value: 1714936975.3675604
+free time = 0.5453355312347412collector worker receive workload request count = 277
+--------------------
+Server-side end2end latency: 1.8732459545135498
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936974.9214952
+key: SLO, value: 4.753248450815677
+key: id, value: 433
+key: UNetModule_receive_time, value: 1714936974.9362705
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936976.7894974
+key: finish_time, value: 1714936976.7947412
+free time = 2.880002498626709collector worker receive workload request count = 278
+--------------------
+Server-side end2end latency: 2.123013973236084
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936974.9219825
+key: SLO, value: 5.347404507167637
+key: id, value: 434
+key: UNetModule_receive_time, value: 1714936974.936745
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936977.0375454
+key: finish_time, value: 1714936977.0449965
+free time = 3.2243905067443848collector worker receive workload request count = 279
+--------------------
+Server-side end2end latency: 1.7769575119018555
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936976.3201692
+key: SLO, value: 4.645220076933502
+key: id, value: 435
+key: UNetModule_receive_time, value: 1714936976.327609
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936978.0957007
+key: finish_time, value: 1714936978.0971267
+free time = 2.868262529373169collector worker receive workload request count = 280
+--------------------
+Server-side end2end latency: 1.8394548892974854
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936976.3207002
+key: SLO, value: 4.8612768246978515
+key: id, value: 436
+key: UNetModule_receive_time, value: 1714936976.3280916
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936978.158176
+key: finish_time, value: 1714936978.160155
+free time = 3.021821975708008collector worker receive workload request count = 281
+--------------------
+Server-side end2end latency: 1.8634390830993652
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936981.1387825
+key: SLO, value: 4.321134955286979
+key: id, value: 439
+key: UNetModule_receive_time, value: 1714936981.1390998
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936982.9979544
+key: finish_time, value: 1714936983.0022216
+free time = 2.457695960998535collector worker receive workload request count = 282
+--------------------
+Server-side end2end latency: 1.9059851169586182
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936981.1384504
+key: SLO, value: 4.429163329169154
+key: id, value: 438
+key: UNetModule_receive_time, value: 1714936981.1388006
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936983.033987
+key: finish_time, value: 1714936983.0444355
+free time = 2.5231781005859375collector worker receive workload request count = 283
+--------------------
+Server-side end2end latency: 2.146545171737671
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714936981.1379533
+key: SLO, value: 5.347404507167637
+key: id, value: 437
+key: UNetModule_receive_time, value: 1714936981.1384652
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714936983.2827997
+key: finish_time, value: 1714936983.2844985
+free time = 3.200859308242798collector worker receive workload request count = 284
+--------------------
+Server-side end2end latency: 1.6114802360534668
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937028.276271
+key: SLO, value: 5.347404507167637
+key: id, value: 440
+key: UNetModule_receive_time, value: 1714937028.2774203
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937029.8783348
+key: finish_time, value: 1714937029.8877513
+free time = 3.735924243927002collector worker receive workload request count = 285
+--------------------
+Server-side end2end latency: 3.001160144805908
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937032.1012325
+key: SLO, value: 4.321134955286979
+key: id, value: 442
+key: UNetModule_receive_time, value: 1714937032.1313906
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937035.0936966
+key: finish_time, value: 1714937035.1023927
+free time = 1.3199748992919922collector worker receive workload request count = 286
+--------------------
+Server-side end2end latency: 3.5431978702545166
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937032.1006987
+key: SLO, value: 5.077333572462201
+key: id, value: 441
+key: UNetModule_receive_time, value: 1714937032.1012313
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937035.6389751
+key: finish_time, value: 1714937035.6438966
+free time = 1.5341358184814453collector worker receive workload request count = 287
+--------------------
+Server-side end2end latency: 3.7001230716705322
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937032.6211476
+key: SLO, value: 4.375149142228066
+key: id, value: 445
+key: UNetModule_receive_time, value: 1714937032.6270742
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937036.3203108
+key: finish_time, value: 1714937036.3212707
+free time = 0.6750261783599854collector worker receive workload request count = 288
+--------------------
+Server-side end2end latency: 3.930678129196167
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937032.6201537
+key: SLO, value: 4.645220076933502
+key: id, value: 444
+key: UNetModule_receive_time, value: 1714937032.6266553
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937036.5474412
+key: finish_time, value: 1714937036.5508318
+free time = 0.7145419120788574collector worker receive workload request count = 289
+--------------------
+Server-side end2end latency: 4.197327136993408
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937032.6247098
+key: SLO, value: 4.9693051985800265
+key: id, value: 446
+key: UNetModule_receive_time, value: 1714937032.6273987
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937036.8193734
+key: finish_time, value: 1714937036.822037
+free time = 0.7719781398773193collector worker receive workload request count = 290
+--------------------
+Server-side end2end latency: 4.480727910995483
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937032.5708983
+key: SLO, value: 5.347404507167637
+key: id, value: 443
+key: UNetModule_receive_time, value: 1714937032.5859792
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937037.0454197
+key: finish_time, value: 1714937037.0516262
+free time = 0.8666765689849854collector worker receive workload request count = 291
+--------------------
+Server-side end2end latency: 3.7514712810516357
+request step: 82key: image_size, value: 256
+key: num-sampling-steps, value: 82
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937037.1516438
+key: SLO, value: 4.429163329169154
+key: id, value: 463
+key: UNetModule_receive_time, value: 1714937037.158342
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937040.8942366
+key: finish_time, value: 1714937040.903115
+free time = 0.6776919364929199collector worker receive workload request count = 292
+--------------------
+Server-side end2end latency: 3.782872438430786
+request step: 83key: image_size, value: 256
+key: num-sampling-steps, value: 83
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937037.1519582
+key: SLO, value: 4.483177516110241
+key: id, value: 464
+key: UNetModule_receive_time, value: 1714937037.1587112
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937040.9315898
+key: finish_time, value: 1714937040.9348307
+free time = 0.7003049850463867collector worker receive workload request count = 293
+--------------------
+Server-side end2end latency: 3.9498167037963867
+request step: 89key: image_size, value: 256
+key: num-sampling-steps, value: 89
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937037.1522222
+key: SLO, value: 4.807262637756764
+key: id, value: 465
+key: UNetModule_receive_time, value: 1714937037.1591024
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937041.0988858
+key: finish_time, value: 1714937041.1020389
+free time = 0.8574459552764893collector worker receive workload request count = 294
+--------------------
+Server-side end2end latency: 4.022618293762207
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937037.152831
+key: SLO, value: 4.9693051985800265
+key: id, value: 466
+key: UNetModule_receive_time, value: 1714937037.1594567
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937041.166692
+key: finish_time, value: 1714937041.1754494
+free time = 0.9466869831085205collector worker receive workload request count = 295
+--------------------
+Server-side end2end latency: 4.03516149520874
+request step: 93key: image_size, value: 256
+key: num-sampling-steps, value: 93
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937037.1511776
+key: SLO, value: 5.023319385521114
+key: id, value: 462
+key: UNetModule_receive_time, value: 1714937037.1578515
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937041.184871
+key: finish_time, value: 1714937041.1863391
+free time = 0.9881579875946045collector worker receive workload request count = 296
+--------------------
+Server-side end2end latency: 4.064999103546143
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937037.1530957
+key: SLO, value: 5.131347759403288
+key: id, value: 467
+key: UNetModule_receive_time, value: 1714937037.1599233
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937041.216091
+key: finish_time, value: 1714937041.2180948
+free time = 1.0663485527038574collector worker receive workload request count = 297
+--------------------
+Server-side end2end latency: 2.0105414390563965
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937052.1178746
+key: SLO, value: 4.645220076933502
+key: id, value: 470
+key: UNetModule_receive_time, value: 1714937052.1493683
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937054.1238208
+key: finish_time, value: 1714937054.128416
+free time = 2.634678602218628collector worker receive workload request count = 298
+--------------------
+Server-side end2end latency: 2.1563432216644287
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937052.1183457
+key: SLO, value: 5.077333572462201
+key: id, value: 471
+key: UNetModule_receive_time, value: 1714937052.149575
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937054.2675729
+key: finish_time, value: 1714937054.274689
+free time = 2.920990467071533collector worker receive workload request count = 299
+--------------------
+Server-side end2end latency: 2.2012827396392822
+request step: 99key: image_size, value: 256
+key: num-sampling-steps, value: 99
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937052.1155674
+key: SLO, value: 5.347404507167637
+key: id, value: 469
+key: UNetModule_receive_time, value: 1714937052.1161091
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937054.314479
+key: finish_time, value: 1714937054.3168502
+free time = 3.1461217403411865collector worker receive workload request count = 300
+--------------------
+Server-side end2end latency: 1.7627975940704346
+request step: 96key: image_size, value: 256
+key: num-sampling-steps, value: 96
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937062.9847226
+key: SLO, value: 5.185361946344376
+key: id, value: 472
+key: UNetModule_receive_time, value: 1714937062.9854186
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937064.7405622
+key: finish_time, value: 1714937064.7475202
+free time = 3.4225642681121826collector worker receive workload request count = 301
+--------------------
+Server-side end2end latency: 1.7020466327667236
+request step: 95key: image_size, value: 256
+key: num-sampling-steps, value: 95
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937063.2132096
+key: SLO, value: 5.131347759403288
+key: id, value: 473
+key: UNetModule_receive_time, value: 1714937063.2179334
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937064.9122725
+key: finish_time, value: 1714937064.9152563
+free time = 3.4293010234832764collector worker receive workload request count = 302
+--------------------
+Server-side end2end latency: 1.3754618167877197
+request step: 88key: image_size, value: 256
+key: num-sampling-steps, value: 88
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937074.1896248
+key: SLO, value: 4.753248450815677
+key: id, value: 474
+key: UNetModule_receive_time, value: 1714937074.1902032
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937075.5593486
+key: finish_time, value: 1714937075.5650866
+free time = 3.377786636352539collector worker receive workload request count = 303
+--------------------
+Server-side end2end latency: 3.4765126705169678
+request step: 80key: image_size, value: 256
+key: num-sampling-steps, value: 80
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937078.8176925
+key: SLO, value: 4.321134955286979
+key: id, value: 475
+key: UNetModule_receive_time, value: 1714937078.8183007
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937082.2889607
+key: finish_time, value: 1714937082.2942052
+free time = 0.8446223735809326collector worker receive workload request count = 304
+--------------------
+Server-side end2end latency: 3.925771713256836
+request step: 90key: image_size, value: 256
+key: num-sampling-steps, value: 90
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937078.8181994
+key: SLO, value: 4.8612768246978515
+key: id, value: 476
+key: UNetModule_receive_time, value: 1714937078.8185534
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937082.7418513
+key: finish_time, value: 1714937082.743971
+free time = 0.9355051517486572collector worker receive workload request count = 305
+--------------------
+Server-side end2end latency: 4.020080089569092
+request step: 91key: image_size, value: 256
+key: num-sampling-steps, value: 91
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937078.8185315
+key: SLO, value: 4.915291011638939
+key: id, value: 477
+key: UNetModule_receive_time, value: 1714937078.8191788
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937082.8323107
+key: finish_time, value: 1714937082.8386116
+free time = 0.8952109813690186collector worker receive workload request count = 306
+--------------------
+Server-side end2end latency: 4.114330291748047
+request step: 93key: image_size, value: 256
+key: num-sampling-steps, value: 93
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937078.8188424
+key: SLO, value: 5.023319385521114
+key: id, value: 478
+key: UNetModule_receive_time, value: 1714937078.8192914
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937082.9226885
+key: finish_time, value: 1714937082.9331727
+free time = 0.9089891910552979collector worker receive workload request count = 307
+--------------------
+Server-side end2end latency: 3.9151315689086914
+request step: 86key: image_size, value: 256
+key: num-sampling-steps, value: 86
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937079.12307
+key: SLO, value: 4.645220076933502
+key: id, value: 480
+key: UNetModule_receive_time, value: 1714937079.1268268
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937083.0341153
+key: finish_time, value: 1714937083.0382016
+free time = 0.730088472366333collector worker receive workload request count = 308
+--------------------
+Server-side end2end latency: 3.948498487472534
+request step: 87key: image_size, value: 256
+key: num-sampling-steps, value: 87
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937079.1215687
+key: SLO, value: 4.69923426387459
+key: id, value: 479
+key: UNetModule_receive_time, value: 1714937079.1263776
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937083.062192
+key: finish_time, value: 1714937083.0700672
+free time = 0.7507357597351074collector worker receive workload request count = 309
+--------------------
+Server-side end2end latency: 4.9024882316589355
+request step: 94key: image_size, value: 256
+key: num-sampling-steps, value: 94
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937079.9132035
+key: SLO, value: 5.077333572462201
+key: id, value: 496
+key: UNetModule_receive_time, value: 1714937079.927204
+key: wait_loop_count, value: 62
+key: UNetModule_send_time, value: 1714937084.8052485
+key: finish_time, value: 1714937084.8156917
+free time = 0.17484545707702637collector worker receive workload request count = 310
+--------------------
+Server-side end2end latency: 4.987255573272705
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937079.9126382
+key: SLO, value: 5.29339032022655
+key: id, value: 495
+key: UNetModule_receive_time, value: 1714937079.926848
+key: wait_loop_count, value: 64
+key: UNetModule_send_time, value: 1714937084.8991861
+key: finish_time, value: 1714937084.8998938
+free time = 0.3061347007751465collector worker receive workload request count = 311
+--------------------
+Server-side end2end latency: 1.855708122253418
+request step: 81key: image_size, value: 256
+key: num-sampling-steps, value: 81
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937096.097591
+key: SLO, value: 4.375149142228066
+key: id, value: 498
+key: UNetModule_receive_time, value: 1714937096.1027107
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937097.9452279
+key: finish_time, value: 1714937097.953299
+free time = 2.5194411277770996collector worker receive workload request count = 312
+--------------------
+Server-side end2end latency: 2.1675567626953125
+request step: 98key: image_size, value: 256
+key: num-sampling-steps, value: 98
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937095.890614
+key: SLO, value: 5.29339032022655
+key: id, value: 497
+key: UNetModule_receive_time, value: 1714937095.8916893
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937098.0535672
+key: finish_time, value: 1714937098.0581708
+free time = 3.125833511352539collector worker receive workload request count = 313
+--------------------
+Server-side end2end latency: 2.0336549282073975
+request step: 92key: image_size, value: 256
+key: num-sampling-steps, value: 92
+key: remain_loop_count_no_cuda, value: 0
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714937096.0981698
+key: SLO, value: 4.9693051985800265
+key: id, value: 499
+key: UNetModule_receive_time, value: 1714937096.1031082
+key: wait_loop_count, value: 0
+key: UNetModule_send_time, value: 1714937098.1307483
+key: finish_time, value: 1714937098.1318247
+free time = 2.93565034866333collector worker receive workload request count = 314

@@ -1,0 +1,3088 @@
+--------------------
+Server-side end2end latency: 2.1128408908843994
+request step: 200key: image_size, value: 256
+key: num-sampling-steps, value: 200
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311237.0313447
+key: SLO, value: 2.6121237936988475
+key: id, value: 2
+key: DiTModule_receive_time, value: 1714311237.0443234
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311239.0986176
+key: VaeModule_receive_time, value: 1714311239.111412
+key: VaeModule_send_time, value: 1714311239.1301281
+key: finish_time, value: 1714311239.1441855
+free time = 0.4992828369140625collector worker receive workload request count = 1
+--------------------
+Server-side end2end latency: 2.5096192359924316
+request step: 244key: image_size, value: 256
+key: num-sampling-steps, value: 244
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311236.7017157
+key: SLO, value: 3.182691130660475
+key: id, value: 0
+key: DiTModule_receive_time, value: 1714311236.70289
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311239.168386
+key: VaeModule_receive_time, value: 1714311239.1827588
+key: VaeModule_send_time, value: 1714311239.1958551
+key: finish_time, value: 1714311239.211335
+free time = 0.6730718612670898collector worker receive workload request count = 2
+--------------------
+Server-side end2end latency: 2.15315580368042
+request step: 203key: image_size, value: 256
+key: num-sampling-steps, value: 203
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311237.1050968
+key: SLO, value: 2.651026112128049
+key: id, value: 3
+key: DiTModule_receive_time, value: 1714311237.115283
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311239.2051275
+key: VaeModule_receive_time, value: 1714311239.2209408
+key: VaeModule_send_time, value: 1714311239.2353961
+key: finish_time, value: 1714311239.2582526
+free time = 0.49787020683288574collector worker receive workload request count = 3
+--------------------
+Server-side end2end latency: 2.5942630767822266
+request step: 247key: image_size, value: 256
+key: num-sampling-steps, value: 247
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311236.9664657
+key: SLO, value: 3.221593449089677
+key: id, value: 1
+key: DiTModule_receive_time, value: 1714311236.9703243
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311239.4874105
+key: VaeModule_receive_time, value: 1714311239.5227368
+key: VaeModule_send_time, value: 1714311239.535226
+key: finish_time, value: 1714311239.5607288
+free time = 0.6273303031921387collector worker receive workload request count = 4
+--------------------
+Server-side end2end latency: 2.009162425994873
+request step: 203key: image_size, value: 256
+key: num-sampling-steps, value: 203
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311241.7154105
+key: SLO, value: 2.651026112128049
+key: id, value: 4
+key: DiTModule_receive_time, value: 1714311241.717477
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311243.6711392
+key: VaeModule_receive_time, value: 1714311243.6865754
+key: VaeModule_send_time, value: 1714311243.7014031
+key: finish_time, value: 1714311243.724573
+free time = 0.6418635845184326collector worker receive workload request count = 5
+--------------------
+Server-side end2end latency: 3.034442186355591
+request step: 239key: image_size, value: 256
+key: num-sampling-steps, value: 239
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311242.5177908
+key: SLO, value: 3.1178539332784716
+key: id, value: 5
+key: DiTModule_receive_time, value: 1714311242.5188882
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311245.4991648
+key: VaeModule_receive_time, value: 1714311245.5124824
+key: VaeModule_send_time, value: 1714311245.5299363
+key: finish_time, value: 1714311245.552233
+free time = 0.08341169357299805collector worker receive workload request count = 6
+--------------------
+Server-side end2end latency: 2.9291534423828125
+request step: 236key: image_size, value: 256
+key: num-sampling-steps, value: 236
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311243.467338
+key: SLO, value: 3.07895161484927
+key: id, value: 9
+key: DiTModule_receive_time, value: 1714311243.4759855
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311246.3555896
+key: VaeModule_receive_time, value: 1714311246.3708904
+key: VaeModule_send_time, value: 1714311246.3825061
+key: finish_time, value: 1714311246.3964915
+free time = 0.14979815483093262collector worker receive workload request count = 7
+--------------------
+Server-side end2end latency: 2.8930447101593018
+request step: 223key: image_size, value: 256
+key: num-sampling-steps, value: 223
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311250.4057233
+key: SLO, value: 2.9103749016560614
+key: id, value: 10
+key: DiTModule_receive_time, value: 1714311250.4068632
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311253.2549446
+key: VaeModule_receive_time, value: 1714311253.267656
+key: VaeModule_send_time, value: 1714311253.2830124
+key: finish_time, value: 1714311253.298768
+free time = 0.017330169677734375collector worker receive workload request count = 8
+--------------------
+Server-side end2end latency: 3.0878336429595947
+request step: 238key: image_size, value: 256
+key: num-sampling-steps, value: 238
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311250.7447631
+key: SLO, value: 3.104886493802071
+key: id, value: 16
+key: DiTModule_receive_time, value: 1714311250.750634
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311253.7814457
+key: VaeModule_receive_time, value: 1714311253.7976336
+key: VaeModule_send_time, value: 1714311253.812458
+key: finish_time, value: 1714311253.8325968
+free time = 0.017052888870239258collector worker receive workload request count = 9
+--------------------
+Server-side end2end latency: 3.114586114883423
+request step: 239key: image_size, value: 256
+key: num-sampling-steps, value: 239
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311250.7451437
+key: SLO, value: 3.1178539332784716
+key: id, value: 17
+key: DiTModule_receive_time, value: 1714311250.751051
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311253.812697
+key: VaeModule_receive_time, value: 1714311253.8284178
+key: VaeModule_send_time, value: 1714311253.8430436
+key: finish_time, value: 1714311253.8597298
+free time = 0.0032677650451660156collector worker receive workload request count = 10
+--------------------
+Server-side end2end latency: 2.9021499156951904
+request step: 223key: image_size, value: 256
+key: num-sampling-steps, value: 223
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311251.0261822
+key: SLO, value: 2.9103749016560614
+key: id, value: 18
+key: DiTModule_receive_time, value: 1714311251.0375774
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311253.885066
+key: VaeModule_receive_time, value: 1714311253.8999243
+key: VaeModule_send_time, value: 1714311253.9113152
+key: finish_time, value: 1714311253.928332
+free time = 0.008224964141845703collector worker receive workload request count = 11
+--------------------
+Server-side end2end latency: 2.8777148723602295
+request step: 224key: image_size, value: 256
+key: num-sampling-steps, value: 224
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311254.2403414
+key: SLO, value: 2.9233423411324617
+key: id, value: 20
+key: DiTModule_receive_time, value: 1714311254.2498732
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311257.068435
+key: VaeModule_receive_time, value: 1714311257.0861785
+key: VaeModule_send_time, value: 1714311257.1028876
+key: finish_time, value: 1714311257.1180563
+free time = 0.04562735557556152collector worker receive workload request count = 12
+--------------------
+Server-side end2end latency: 2.446762800216675
+request step: 210key: image_size, value: 256
+key: num-sampling-steps, value: 210
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311264.3588686
+key: SLO, value: 2.7417981884628535
+key: id, value: 47
+key: DiTModule_receive_time, value: 1714311264.372764
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311266.7474337
+key: VaeModule_receive_time, value: 1714311266.7653494
+key: VaeModule_send_time, value: 1714311266.7819412
+key: finish_time, value: 1714311266.8056314
+free time = 0.29503536224365234collector worker receive workload request count = 13
+--------------------
+Server-side end2end latency: 2.4250357151031494
+request step: 223key: image_size, value: 256
+key: num-sampling-steps, value: 223
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311265.2798517
+key: SLO, value: 2.9103749016560614
+key: id, value: 48
+key: DiTModule_receive_time, value: 1714311265.289202
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311267.6531007
+key: VaeModule_receive_time, value: 1714311267.6695244
+key: VaeModule_send_time, value: 1714311267.6832647
+key: finish_time, value: 1714311267.7048874
+free time = 0.4853391647338867collector worker receive workload request count = 14
+--------------------
+Server-side end2end latency: 2.3501319885253906
+request step: 235key: image_size, value: 256
+key: num-sampling-steps, value: 235
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311266.8143346
+key: SLO, value: 3.0659841753728694
+key: id, value: 49
+key: DiTModule_receive_time, value: 1714311266.8232105
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311269.1256473
+key: VaeModule_receive_time, value: 1714311269.1378155
+key: VaeModule_send_time, value: 1714311269.1513605
+key: finish_time, value: 1714311269.1644666
+free time = 0.7158522605895996collector worker receive workload request count = 15
+--------------------
+Server-side end2end latency: 2.143740177154541
+request step: 211key: image_size, value: 256
+key: num-sampling-steps, value: 211
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311268.3574998
+key: SLO, value: 2.7547656279392543
+key: id, value: 50
+key: DiTModule_receive_time, value: 1714311268.3611257
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311270.4524455
+key: VaeModule_receive_time, value: 1714311270.4681232
+key: VaeModule_send_time, value: 1714311270.4843788
+key: finish_time, value: 1714311270.50124
+free time = 0.611025333404541collector worker receive workload request count = 16
+--------------------
+Server-side end2end latency: 2.3035881519317627
+request step: 228key: image_size, value: 256
+key: num-sampling-steps, value: 228
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311268.911264
+key: SLO, value: 2.9752120990380644
+key: id, value: 51
+key: DiTModule_receive_time, value: 1714311268.913663
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311271.1746027
+key: VaeModule_receive_time, value: 1714311271.1902206
+key: VaeModule_send_time, value: 1714311271.2019908
+key: finish_time, value: 1714311271.214852
+free time = 0.671623945236206collector worker receive workload request count = 17
+--------------------
+Server-side end2end latency: 2.5149118900299072
+request step: 200key: image_size, value: 256
+key: num-sampling-steps, value: 200
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311272.9178634
+key: SLO, value: 2.6121237936988475
+key: id, value: 53
+key: DiTModule_receive_time, value: 1714311272.926053
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311275.379342
+key: VaeModule_receive_time, value: 1714311275.393564
+key: VaeModule_send_time, value: 1714311275.4099667
+key: finish_time, value: 1714311275.4327753
+free time = 0.09721183776855469collector worker receive workload request count = 18
+--------------------
+Server-side end2end latency: 2.5401222705841064
+request step: 200key: image_size, value: 256
+key: num-sampling-steps, value: 200
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311272.9182618
+key: SLO, value: 2.6121237936988475
+key: id, value: 54
+key: DiTModule_receive_time, value: 1714311272.92859
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311275.388928
+key: VaeModule_receive_time, value: 1714311275.4222493
+key: VaeModule_send_time, value: 1714311275.4373114
+key: finish_time, value: 1714311275.458384
+free time = 0.07200145721435547collector worker receive workload request count = 19
+--------------------
+Server-side end2end latency: 2.931081533432007
+request step: 234key: image_size, value: 256
+key: num-sampling-steps, value: 234
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311272.8528013
+key: SLO, value: 3.0530167358964686
+key: id, value: 52
+key: DiTModule_receive_time, value: 1714311272.8535333
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311275.7405071
+key: VaeModule_receive_time, value: 1714311275.7542067
+key: VaeModule_send_time, value: 1714311275.7685134
+key: finish_time, value: 1714311275.7838829
+free time = 0.12193512916564941collector worker receive workload request count = 20
+--------------------
+Server-side end2end latency: 2.602092981338501
+request step: 205key: image_size, value: 256
+key: num-sampling-steps, value: 205
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311273.5907874
+key: SLO, value: 2.6769609910808505
+key: id, value: 56
+key: DiTModule_receive_time, value: 1714311273.59891
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311276.1492214
+key: VaeModule_receive_time, value: 1714311276.1619015
+key: VaeModule_send_time, value: 1714311276.1781254
+key: finish_time, value: 1714311276.1928804
+free time = 0.07486796379089355collector worker receive workload request count = 21
+--------------------
+Server-side end2end latency: 2.932892322540283
+request step: 236key: image_size, value: 256
+key: num-sampling-steps, value: 236
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311273.2984898
+key: SLO, value: 3.07895161484927
+key: id, value: 55
+key: DiTModule_receive_time, value: 1714311273.3040087
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311276.1785486
+key: VaeModule_receive_time, value: 1714311276.1918375
+key: VaeModule_send_time, value: 1714311276.2092862
+key: finish_time, value: 1714311276.2313821
+free time = 0.14605927467346191collector worker receive workload request count = 22
+--------------------
+Server-side end2end latency: 2.9910199642181396
+request step: 238key: image_size, value: 256
+key: num-sampling-steps, value: 238
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311273.591963
+key: SLO, value: 3.104886493802071
+key: id, value: 57
+key: DiTModule_receive_time, value: 1714311273.5992272
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311276.527998
+key: VaeModule_receive_time, value: 1714311276.5420258
+key: VaeModule_send_time, value: 1714311276.5610638
+key: finish_time, value: 1714311276.582983
+free time = 0.11386656761169434collector worker receive workload request count = 23
+--------------------
+Server-side end2end latency: 2.703258514404297
+request step: 217key: image_size, value: 256
+key: num-sampling-steps, value: 217
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311274.021438
+key: SLO, value: 2.8325702647976576
+key: id, value: 59
+key: DiTModule_receive_time, value: 1714311274.0264022
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311276.6804993
+key: VaeModule_receive_time, value: 1714311276.6935396
+key: VaeModule_send_time, value: 1714311276.7065077
+key: finish_time, value: 1714311276.7246964
+free time = 0.12931180000305176collector worker receive workload request count = 24
+--------------------
+Server-side end2end latency: 3.0178213119506836
+request step: 240key: image_size, value: 256
+key: num-sampling-steps, value: 240
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311273.8033447
+key: SLO, value: 3.130821372754873
+key: id, value: 58
+key: DiTModule_receive_time, value: 1714311273.816271
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311276.7811744
+key: VaeModule_receive_time, value: 1714311276.793098
+key: VaeModule_send_time, value: 1714311276.806366
+key: finish_time, value: 1714311276.821166
+free time = 0.11300015449523926collector worker receive workload request count = 25
+--------------------
+Server-side end2end latency: 2.6830804347991943
+request step: 215key: image_size, value: 256
+key: num-sampling-steps, value: 215
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311274.3835955
+key: SLO, value: 2.8066353858448565
+key: id, value: 60
+key: DiTModule_receive_time, value: 1714311274.3880842
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311277.0227606
+key: VaeModule_receive_time, value: 1714311277.0352285
+key: VaeModule_send_time, value: 1714311277.0491858
+key: finish_time, value: 1714311277.066676
+free time = 0.12355494499206543collector worker receive workload request count = 26
+--------------------
+Server-side end2end latency: 2.4242546558380127
+request step: 204key: image_size, value: 256
+key: num-sampling-steps, value: 204
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311276.1590192
+key: SLO, value: 2.6639935516044497
+key: id, value: 61
+key: DiTModule_receive_time, value: 1714311276.1888936
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311278.5337427
+key: VaeModule_receive_time, value: 1714311278.5455606
+key: VaeModule_send_time, value: 1714311278.5625277
+key: finish_time, value: 1714311278.583274
+free time = 0.23973894119262695collector worker receive workload request count = 27
+--------------------
+Server-side end2end latency: 2.917311191558838
+request step: 241key: image_size, value: 256
+key: num-sampling-steps, value: 241
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311276.2317808
+key: SLO, value: 3.143788812231273
+key: id, value: 62
+key: DiTModule_receive_time, value: 1714311276.2415366
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311279.1024666
+key: VaeModule_receive_time, value: 1714311279.115593
+key: VaeModule_send_time, value: 1714311279.1309288
+key: finish_time, value: 1714311279.149092
+free time = 0.22647762298583984collector worker receive workload request count = 28
+--------------------
+Server-side end2end latency: 2.947568655014038
+request step: 231key: image_size, value: 256
+key: num-sampling-steps, value: 231
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311277.1093469
+key: SLO, value: 3.0141144174672663
+key: id, value: 64
+key: DiTModule_receive_time, value: 1714311277.1131334
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311279.997199
+key: VaeModule_receive_time, value: 1714311280.0156107
+key: VaeModule_send_time, value: 1714311280.0305953
+key: finish_time, value: 1714311280.0569155
+free time = 0.06654572486877441collector worker receive workload request count = 29
+--------------------
+Server-side end2end latency: 3.0832767486572266
+request step: 242key: image_size, value: 256
+key: num-sampling-steps, value: 242
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311277.1088374
+key: SLO, value: 3.156756251707674
+key: id, value: 63
+key: DiTModule_receive_time, value: 1714311277.1127956
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311280.1397557
+key: VaeModule_receive_time, value: 1714311280.1581035
+key: VaeModule_send_time, value: 1714311280.1722338
+key: finish_time, value: 1714311280.192114
+free time = 0.07347941398620605collector worker receive workload request count = 30
+--------------------
+Server-side end2end latency: 2.8938348293304443
+request step: 235key: image_size, value: 256
+key: num-sampling-steps, value: 235
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311278.5174952
+key: SLO, value: 3.0659841753728694
+key: id, value: 69
+key: DiTModule_receive_time, value: 1714311278.523905
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311281.3639953
+key: VaeModule_receive_time, value: 1714311281.3781831
+key: VaeModule_send_time, value: 1714311281.3918252
+key: finish_time, value: 1714311281.41133
+free time = 0.1721494197845459collector worker receive workload request count = 31
+--------------------
+Server-side end2end latency: 2.9172840118408203
+request step: 238key: image_size, value: 256
+key: num-sampling-steps, value: 238
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311278.5731297
+key: SLO, value: 3.104886493802071
+key: id, value: 70
+key: DiTModule_receive_time, value: 1714311278.574924
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311281.4375052
+key: VaeModule_receive_time, value: 1714311281.4534612
+key: VaeModule_send_time, value: 1714311281.468532
+key: finish_time, value: 1714311281.4904137
+free time = 0.18760251998901367collector worker receive workload request count = 32
+--------------------
+Server-side end2end latency: 2.5841152667999268
+request step: 211key: image_size, value: 256
+key: num-sampling-steps, value: 211
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311279.046867
+key: SLO, value: 2.7547656279392543
+key: id, value: 71
+key: DiTModule_receive_time, value: 1714311279.0518608
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311281.579249
+key: VaeModule_receive_time, value: 1714311281.5924597
+key: VaeModule_send_time, value: 1714311281.6061583
+key: finish_time, value: 1714311281.6309822
+free time = 0.17065024375915527collector worker receive workload request count = 33
+--------------------
+Server-side end2end latency: 2.427899122238159
+request step: 200key: image_size, value: 256
+key: num-sampling-steps, value: 200
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311285.870926
+key: SLO, value: 2.6121237936988475
+key: id, value: 75
+key: DiTModule_receive_time, value: 1714311285.8889189
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311288.2447515
+key: VaeModule_receive_time, value: 1714311288.2582307
+key: VaeModule_send_time, value: 1714311288.2756255
+key: finish_time, value: 1714311288.298825
+free time = 0.18422460556030273collector worker receive workload request count = 34
+--------------------
+Server-side end2end latency: 2.605600118637085
+request step: 218key: image_size, value: 256
+key: num-sampling-steps, value: 218
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311285.8667033
+key: SLO, value: 2.8455377042740584
+key: id, value: 73
+key: DiTModule_receive_time, value: 1714311285.867646
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311288.4253888
+key: VaeModule_receive_time, value: 1714311288.4377894
+key: VaeModule_send_time, value: 1714311288.453828
+key: finish_time, value: 1714311288.4723034
+free time = 0.23993754386901855collector worker receive workload request count = 35
+--------------------
+Server-side end2end latency: 2.71653413772583
+request step: 227key: image_size, value: 256
+key: num-sampling-steps, value: 227
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311285.867434
+key: SLO, value: 2.962244659561664
+key: id, value: 74
+key: DiTModule_receive_time, value: 1714311285.8678718
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311288.5317414
+key: VaeModule_receive_time, value: 1714311288.544818
+key: VaeModule_send_time, value: 1714311288.5592363
+key: finish_time, value: 1714311288.5839682
+free time = 0.2457106113433838collector worker receive workload request count = 36
+--------------------
+Server-side end2end latency: 2.6045916080474854
+request step: 214key: image_size, value: 256
+key: num-sampling-steps, value: 214
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311286.682536
+key: SLO, value: 2.7936679463684557
+key: id, value: 76
+key: DiTModule_receive_time, value: 1714311286.6928792
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311289.2248843
+key: VaeModule_receive_time, value: 1714311289.2408724
+key: VaeModule_send_time, value: 1714311289.256676
+key: finish_time, value: 1714311289.2871275
+free time = 0.18907642364501953collector worker receive workload request count = 37
+--------------------
+Server-side end2end latency: 2.5920121669769287
+request step: 212key: image_size, value: 256
+key: num-sampling-steps, value: 212
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311286.7130802
+key: SLO, value: 2.7677330674156546
+key: id, value: 78
+key: DiTModule_receive_time, value: 1714311286.715956
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311289.2346246
+key: VaeModule_receive_time, value: 1714311289.2668679
+key: VaeModule_send_time, value: 1714311289.2808354
+key: finish_time, value: 1714311289.3050923
+free time = 0.1757209300994873collector worker receive workload request count = 38
+--------------------
+Server-side end2end latency: 2.8273332118988037
+request step: 235key: image_size, value: 256
+key: num-sampling-steps, value: 235
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311286.7113984
+key: SLO, value: 3.0659841753728694
+key: id, value: 77
+key: DiTModule_receive_time, value: 1714311286.7156746
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311289.484624
+key: VaeModule_receive_time, value: 1714311289.4999592
+key: VaeModule_send_time, value: 1714311289.515549
+key: finish_time, value: 1714311289.5387316
+free time = 0.23865103721618652collector worker receive workload request count = 39
+--------------------
+Server-side end2end latency: 2.894404888153076
+request step: 242key: image_size, value: 256
+key: num-sampling-steps, value: 242
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311286.935352
+key: SLO, value: 3.156756251707674
+key: id, value: 79
+key: DiTModule_receive_time, value: 1714311286.942471
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311289.7631476
+key: VaeModule_receive_time, value: 1714311289.7802284
+key: VaeModule_send_time, value: 1714311289.8002834
+key: finish_time, value: 1714311289.829757
+free time = 0.26235127449035645collector worker receive workload request count = 40
+--------------------
+Server-side end2end latency: 2.544658660888672
+request step: 205key: image_size, value: 256
+key: num-sampling-steps, value: 205
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311293.1654491
+key: SLO, value: 2.6769609910808505
+key: id, value: 100
+key: DiTModule_receive_time, value: 1714311293.1706674
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311295.660678
+key: VaeModule_receive_time, value: 1714311295.675662
+key: VaeModule_send_time, value: 1714311295.689498
+key: finish_time, value: 1714311295.7101078
+free time = 0.13230228424072266collector worker receive workload request count = 41
+--------------------
+Server-side end2end latency: 2.676093578338623
+request step: 205key: image_size, value: 256
+key: num-sampling-steps, value: 205
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311296.6031647
+key: SLO, value: 2.6769609910808505
+key: id, value: 105
+key: DiTModule_receive_time, value: 1714311296.608207
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311299.2255967
+key: VaeModule_receive_time, value: 1714311299.2440848
+key: VaeModule_send_time, value: 1714311299.262048
+key: finish_time, value: 1714311299.2792583
+free time = 0.0008673667907714844collector worker receive workload request count = 42
+--------------------
+Server-side end2end latency: 3.0309536457061768
+request step: 231key: image_size, value: 256
+key: num-sampling-steps, value: 231
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311296.5910015
+key: SLO, value: 3.0141144174672663
+key: id, value: 104
+key: DiTModule_receive_time, value: 1714311296.607472
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311299.5608299
+key: VaeModule_receive_time, value: 1714311299.5801613
+key: VaeModule_send_time, value: 1714311299.5938742
+key: finish_time, value: 1714311299.6219552
+free time = -0.016839265823364258collector worker receive workload request count = 43
+--------------------
+Server-side end2end latency: 2.88594388961792
+request step: 234key: image_size, value: 256
+key: num-sampling-steps, value: 234
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311298.8059075
+key: SLO, value: 3.0530167358964686
+key: id, value: 110
+key: DiTModule_receive_time, value: 1714311298.8133922
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311301.6404507
+key: VaeModule_receive_time, value: 1714311301.653443
+key: VaeModule_send_time, value: 1714311301.6685643
+key: finish_time, value: 1714311301.6918514
+free time = 0.16707277297973633collector worker receive workload request count = 44
+--------------------
+Server-side end2end latency: 2.9340693950653076
+request step: 236key: image_size, value: 256
+key: num-sampling-steps, value: 236
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311298.8046331
+key: SLO, value: 3.07895161484927
+key: id, value: 109
+key: DiTModule_receive_time, value: 1714311298.813161
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311301.6928263
+key: VaeModule_receive_time, value: 1714311301.7031991
+key: VaeModule_send_time, value: 1714311301.7180452
+key: finish_time, value: 1714311301.7387025
+free time = 0.1448822021484375collector worker receive workload request count = 45
+--------------------
+Server-side end2end latency: 3.1639652252197266
+request step: 249key: image_size, value: 256
+key: num-sampling-steps, value: 249
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311298.5995643
+key: SLO, value: 3.2475283280424776
+key: id, value: 108
+key: DiTModule_receive_time, value: 1714311298.6049018
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311301.7205238
+key: VaeModule_receive_time, value: 1714311301.7320476
+key: VaeModule_send_time, value: 1714311301.7508457
+key: finish_time, value: 1714311301.7635295
+free time = 0.08356308937072754collector worker receive workload request count = 46
+--------------------
+Server-side end2end latency: 2.782712459564209
+request step: 229key: image_size, value: 256
+key: num-sampling-steps, value: 229
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311299.5264683
+key: SLO, value: 2.988179538514465
+key: id, value: 112
+key: DiTModule_receive_time, value: 1714311299.534061
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311302.2637062
+key: VaeModule_receive_time, value: 1714311302.279311
+key: VaeModule_send_time, value: 1714311302.292997
+key: finish_time, value: 1714311302.3091807
+free time = 0.20546698570251465collector worker receive workload request count = 47
+--------------------
+Server-side end2end latency: 2.61885929107666
+request step: 203key: image_size, value: 256
+key: num-sampling-steps, value: 203
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311301.4371727
+key: SLO, value: 2.651026112128049
+key: id, value: 113
+key: DiTModule_receive_time, value: 1714311301.446645
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311304.0000536
+key: VaeModule_receive_time, value: 1714311304.0171435
+key: VaeModule_send_time, value: 1714311304.039076
+key: finish_time, value: 1714311304.056032
+free time = 0.03216671943664551collector worker receive workload request count = 48
+--------------------
+Server-side end2end latency: 2.838078498840332
+request step: 234key: image_size, value: 256
+key: num-sampling-steps, value: 234
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311301.6236894
+key: SLO, value: 3.0530167358964686
+key: id, value: 114
+key: DiTModule_receive_time, value: 1714311301.625325
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311304.4264371
+key: VaeModule_receive_time, value: 1714311304.436685
+key: VaeModule_send_time, value: 1714311304.4478037
+key: finish_time, value: 1714311304.461768
+free time = 0.21493816375732422collector worker receive workload request count = 49
+--------------------
+Server-side end2end latency: 2.2209057807922363
+request step: 200key: image_size, value: 256
+key: num-sampling-steps, value: 200
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311313.1685302
+key: SLO, value: 2.6121237936988475
+key: id, value: 121
+key: DiTModule_receive_time, value: 1714311313.1697578
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311315.3268301
+key: VaeModule_receive_time, value: 1714311315.3439791
+key: VaeModule_send_time, value: 1714311315.3598444
+key: finish_time, value: 1714311315.389436
+free time = 0.3912179470062256collector worker receive workload request count = 50
+--------------------
+Server-side end2end latency: 2.362683057785034
+request step: 210key: image_size, value: 256
+key: num-sampling-steps, value: 210
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311313.195268
+key: SLO, value: 2.7417981884628535
+key: id, value: 122
+key: DiTModule_receive_time, value: 1714311313.1994872
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311315.5127137
+key: VaeModule_receive_time, value: 1714311315.5256464
+key: VaeModule_send_time, value: 1714311315.5402143
+key: finish_time, value: 1714311315.557951
+free time = 0.37911510467529297collector worker receive workload request count = 51
+--------------------
+Server-side end2end latency: 2.6939382553100586
+request step: 243key: image_size, value: 256
+key: num-sampling-steps, value: 243
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311313.201446
+key: SLO, value: 3.1697236911840747
+key: id, value: 123
+key: DiTModule_receive_time, value: 1714311313.2108958
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311315.8502083
+key: VaeModule_receive_time, value: 1714311315.865448
+key: VaeModule_send_time, value: 1714311315.8789647
+key: finish_time, value: 1714311315.8953843
+free time = 0.475785493850708collector worker receive workload request count = 52
+--------------------
+Server-side end2end latency: 2.7374632358551025
+request step: 223key: image_size, value: 256
+key: num-sampling-steps, value: 223
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311316.2663982
+key: SLO, value: 2.9103749016560614
+key: id, value: 124
+key: DiTModule_receive_time, value: 1714311316.2676294
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311318.9551854
+key: VaeModule_receive_time, value: 1714311318.9707527
+key: VaeModule_send_time, value: 1714311318.988265
+key: finish_time, value: 1714311319.0038614
+free time = 0.1729116439819336collector worker receive workload request count = 53
+--------------------
+Server-side end2end latency: 2.5499439239501953
+request step: 202key: image_size, value: 256
+key: num-sampling-steps, value: 202
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311316.583211
+key: SLO, value: 2.638058672651648
+key: id, value: 125
+key: DiTModule_receive_time, value: 1714311316.5908134
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311319.0886211
+key: VaeModule_receive_time, value: 1714311319.099287
+key: VaeModule_send_time, value: 1714311319.1152067
+key: finish_time, value: 1714311319.1331549
+free time = 0.08811473846435547collector worker receive workload request count = 54
+--------------------
+Server-side end2end latency: 2.973698139190674
+request step: 234key: image_size, value: 256
+key: num-sampling-steps, value: 234
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311316.59843
+key: SLO, value: 3.0530167358964686
+key: id, value: 126
+key: DiTModule_receive_time, value: 1714311316.5994735
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311319.5210912
+key: VaeModule_receive_time, value: 1714311319.534869
+key: VaeModule_send_time, value: 1714311319.5484815
+key: finish_time, value: 1714311319.572128
+free time = 0.07931852340698242collector worker receive workload request count = 55
+--------------------
+Server-side end2end latency: 3.01617431640625
+request step: 235key: image_size, value: 256
+key: num-sampling-steps, value: 235
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311316.627906
+key: SLO, value: 3.0659841753728694
+key: id, value: 127
+key: DiTModule_receive_time, value: 1714311316.6367764
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311319.5929627
+key: VaeModule_receive_time, value: 1714311319.6073217
+key: VaeModule_send_time, value: 1714311319.6229117
+key: finish_time, value: 1714311319.6440804
+free time = 0.049809932708740234collector worker receive workload request count = 56
+--------------------
+Server-side end2end latency: 2.9854283332824707
+request step: 230key: image_size, value: 256
+key: num-sampling-steps, value: 230
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311316.7508266
+key: SLO, value: 3.001146977990866
+key: id, value: 128
+key: DiTModule_receive_time, value: 1714311316.7551858
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311319.685001
+key: VaeModule_receive_time, value: 1714311319.7032037
+key: VaeModule_send_time, value: 1714311319.7176468
+key: finish_time, value: 1714311319.736255
+free time = 0.015718698501586914collector worker receive workload request count = 57
+--------------------
+Server-side end2end latency: 2.7664096355438232
+request step: 218key: image_size, value: 256
+key: num-sampling-steps, value: 218
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311317.7613544
+key: SLO, value: 2.8455377042740584
+key: id, value: 130
+key: DiTModule_receive_time, value: 1714311317.7710955
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311320.4759338
+key: VaeModule_receive_time, value: 1714311320.4904437
+key: VaeModule_send_time, value: 1714311320.50404
+key: finish_time, value: 1714311320.527764
+free time = 0.07912802696228027collector worker receive workload request count = 58
+--------------------
+Server-side end2end latency: 2.884455919265747
+request step: 235key: image_size, value: 256
+key: num-sampling-steps, value: 235
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311317.8990285
+key: SLO, value: 3.0659841753728694
+key: id, value: 132
+key: DiTModule_receive_time, value: 1714311317.9067154
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311320.7347364
+key: VaeModule_receive_time, value: 1714311320.7505612
+key: VaeModule_send_time, value: 1714311320.762902
+key: finish_time, value: 1714311320.7834845
+free time = 0.18152832984924316collector worker receive workload request count = 59
+--------------------
+Server-side end2end latency: 2.9972918033599854
+request step: 246key: image_size, value: 256
+key: num-sampling-steps, value: 246
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311317.898385
+key: SLO, value: 3.208626009613276
+key: id, value: 131
+key: DiTModule_receive_time, value: 1714311317.9063742
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311320.8467324
+key: VaeModule_receive_time, value: 1714311320.8617332
+key: VaeModule_send_time, value: 1714311320.872927
+key: finish_time, value: 1714311320.8956769
+free time = 0.211334228515625collector worker receive workload request count = 60
+--------------------
+Server-side end2end latency: 2.096768856048584
+request step: 220key: image_size, value: 256
+key: num-sampling-steps, value: 220
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311323.7116582
+key: SLO, value: 2.8714725832268595
+key: id, value: 133
+key: DiTModule_receive_time, value: 1714311323.7128575
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311325.7555375
+key: VaeModule_receive_time, value: 1714311325.768852
+key: VaeModule_send_time, value: 1714311325.78383
+key: finish_time, value: 1714311325.808427
+free time = 0.7747037410736084collector worker receive workload request count = 61
+--------------------
+Server-side end2end latency: 2.3873953819274902
+request step: 201key: image_size, value: 256
+key: num-sampling-steps, value: 201
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311325.7626488
+key: SLO, value: 2.625091233175248
+key: id, value: 138
+key: DiTModule_receive_time, value: 1714311325.7651782
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311328.1037786
+key: VaeModule_receive_time, value: 1714311328.120929
+key: VaeModule_send_time, value: 1714311328.13521
+key: finish_time, value: 1714311328.1500442
+free time = 0.23769593238830566collector worker receive workload request count = 62
+--------------------
+Server-side end2end latency: 2.598266839981079
+request step: 217key: image_size, value: 256
+key: num-sampling-steps, value: 217
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311325.680613
+key: SLO, value: 2.8325702647976576
+key: id, value: 134
+key: DiTModule_receive_time, value: 1714311325.6866512
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311328.2327294
+key: VaeModule_receive_time, value: 1714311328.2448266
+key: VaeModule_send_time, value: 1714311328.2626622
+key: finish_time, value: 1714311328.27888
+free time = 0.23430347442626953collector worker receive workload request count = 63
+--------------------
+Server-side end2end latency: 2.6051812171936035
+request step: 214key: image_size, value: 256
+key: num-sampling-steps, value: 214
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311325.7613986
+key: SLO, value: 2.7936679463684557
+key: id, value: 136
+key: DiTModule_receive_time, value: 1714311325.764174
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311328.3185284
+key: VaeModule_receive_time, value: 1714311328.3337896
+key: VaeModule_send_time, value: 1714311328.347723
+key: finish_time, value: 1714311328.3665798
+free time = 0.18848681449890137collector worker receive workload request count = 64
+--------------------
+Server-side end2end latency: 2.8210601806640625
+request step: 227key: image_size, value: 256
+key: num-sampling-steps, value: 227
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311325.705865
+key: SLO, value: 2.962244659561664
+key: id, value: 135
+key: DiTModule_receive_time, value: 1714311325.7155213
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311328.4802704
+key: VaeModule_receive_time, value: 1714311328.4928095
+key: VaeModule_send_time, value: 1714311328.5077755
+key: finish_time, value: 1714311328.526925
+free time = 0.14118456840515137collector worker receive workload request count = 65
+--------------------
+Server-side end2end latency: 2.9859983921051025
+request step: 241key: image_size, value: 256
+key: num-sampling-steps, value: 241
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311325.7623608
+key: SLO, value: 3.143788812231273
+key: id, value: 137
+key: DiTModule_receive_time, value: 1714311325.7648456
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311328.7042058
+key: VaeModule_receive_time, value: 1714311328.7152581
+key: VaeModule_send_time, value: 1714311328.7301962
+key: finish_time, value: 1714311328.7483592
+free time = 0.1577904224395752collector worker receive workload request count = 66
+--------------------
+Server-side end2end latency: 2.705360174179077
+request step: 210key: image_size, value: 256
+key: num-sampling-steps, value: 210
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311326.2339523
+key: SLO, value: 2.7417981884628535
+key: id, value: 140
+key: DiTModule_receive_time, value: 1714311326.2440593
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311328.8874633
+key: VaeModule_receive_time, value: 1714311328.9016788
+key: VaeModule_send_time, value: 1714311328.915738
+key: finish_time, value: 1714311328.9393125
+free time = 0.03643798828125collector worker receive workload request count = 67
+--------------------
+Server-side end2end latency: 3.0188066959381104
+request step: 236key: image_size, value: 256
+key: num-sampling-steps, value: 236
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311326.1708455
+key: SLO, value: 3.07895161484927
+key: id, value: 139
+key: DiTModule_receive_time, value: 1714311326.181689
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311329.1413472
+key: VaeModule_receive_time, value: 1714311329.1567874
+key: VaeModule_send_time, value: 1714311329.170363
+key: finish_time, value: 1714311329.1896522
+free time = 0.060144901275634766collector worker receive workload request count = 68
+--------------------
+Server-side end2end latency: 2.8608012199401855
+request step: 219key: image_size, value: 256
+key: num-sampling-steps, value: 219
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311328.748573
+key: SLO, value: 2.8585051437504587
+key: id, value: 150
+key: DiTModule_receive_time, value: 1714311328.7555296
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311331.5545738
+key: VaeModule_receive_time, value: 1714311331.5679808
+key: VaeModule_send_time, value: 1714311331.5851095
+key: finish_time, value: 1714311331.6093743
+free time = -0.002295970916748047collector worker receive workload request count = 69
+--------------------
+Server-side end2end latency: 3.086897373199463
+request step: 238key: image_size, value: 256
+key: num-sampling-steps, value: 238
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311328.7390418
+key: SLO, value: 3.104886493802071
+key: id, value: 149
+key: DiTModule_receive_time, value: 1714311328.74421
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311331.7723742
+key: VaeModule_receive_time, value: 1714311331.7893734
+key: VaeModule_send_time, value: 1714311331.8028321
+key: finish_time, value: 1714311331.8259392
+free time = 0.017989158630371094collector worker receive workload request count = 70
+--------------------
+Server-side end2end latency: 2.7222437858581543
+request step: 213key: image_size, value: 256
+key: num-sampling-steps, value: 213
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311329.2608645
+key: SLO, value: 2.780700506892055
+key: id, value: 154
+key: DiTModule_receive_time, value: 1714311329.2653127
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311331.928409
+key: VaeModule_receive_time, value: 1714311331.9448297
+key: VaeModule_send_time, value: 1714311331.9661736
+key: finish_time, value: 1714311331.9831083
+free time = 0.0584566593170166collector worker receive workload request count = 71
+--------------------
+Server-side end2end latency: 2.8944268226623535
+request step: 230key: image_size, value: 256
+key: num-sampling-steps, value: 230
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311329.4838922
+key: SLO, value: 3.001146977990866
+key: id, value: 155
+key: DiTModule_receive_time, value: 1714311329.4865065
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311332.3337688
+key: VaeModule_receive_time, value: 1714311332.3478231
+key: VaeModule_send_time, value: 1714311332.3655896
+key: finish_time, value: 1714311332.378319
+free time = 0.1067202091217041collector worker receive workload request count = 72
+--------------------
+Server-side end2end latency: 3.018158435821533
+request step: 248key: image_size, value: 256
+key: num-sampling-steps, value: 248
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311332.0560126
+key: SLO, value: 3.2345608885660773
+key: id, value: 163
+key: DiTModule_receive_time, value: 1714311332.070568
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311335.0158584
+key: VaeModule_receive_time, value: 1714311335.0322478
+key: VaeModule_send_time, value: 1714311335.0484838
+key: finish_time, value: 1714311335.074171
+free time = 0.21640253067016602collector worker receive workload request count = 73
+--------------------
+Server-side end2end latency: 2.4989776611328125
+request step: 240key: image_size, value: 256
+key: num-sampling-steps, value: 240
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311333.9728987
+key: SLO, value: 3.130821372754873
+key: id, value: 164
+key: DiTModule_receive_time, value: 1714311333.978743
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311336.4255924
+key: VaeModule_receive_time, value: 1714311336.438341
+key: VaeModule_send_time, value: 1714311336.4530733
+key: finish_time, value: 1714311336.4718764
+free time = 0.6318438053131104collector worker receive workload request count = 74
+--------------------
+Server-side end2end latency: 2.24881911277771
+request step: 208key: image_size, value: 256
+key: num-sampling-steps, value: 208
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311334.4526722
+key: SLO, value: 2.715863309510052
+key: id, value: 165
+key: DiTModule_receive_time, value: 1714311334.4578745
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311336.6630807
+key: VaeModule_receive_time, value: 1714311336.6744912
+key: VaeModule_send_time, value: 1714311336.6890874
+key: finish_time, value: 1714311336.7014914
+free time = 0.4670441150665283collector worker receive workload request count = 75
+--------------------
+Server-side end2end latency: 2.4020073413848877
+request step: 219key: image_size, value: 256
+key: num-sampling-steps, value: 219
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311335.109599
+key: SLO, value: 2.8585051437504587
+key: id, value: 166
+key: DiTModule_receive_time, value: 1714311335.1169372
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311337.4635649
+key: VaeModule_receive_time, value: 1714311337.477557
+key: VaeModule_send_time, value: 1714311337.491269
+key: finish_time, value: 1714311337.5116065
+free time = 0.4564979076385498collector worker receive workload request count = 76
+--------------------
+Server-side end2end latency: 2.5437700748443604
+request step: 231key: image_size, value: 256
+key: num-sampling-steps, value: 231
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311335.1167588
+key: SLO, value: 3.0141144174672663
+key: id, value: 167
+key: DiTModule_receive_time, value: 1714311335.1172624
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311337.6066759
+key: VaeModule_receive_time, value: 1714311337.6220226
+key: VaeModule_send_time, value: 1714311337.6358283
+key: finish_time, value: 1714311337.660529
+free time = 0.47034430503845215collector worker receive workload request count = 77
+--------------------
+Server-side end2end latency: 2.2971901893615723
+request step: 208key: image_size, value: 256
+key: num-sampling-steps, value: 208
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311335.941815
+key: SLO, value: 2.715863309510052
+key: id, value: 168
+key: DiTModule_receive_time, value: 1714311335.9457178
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311338.1894228
+key: VaeModule_receive_time, value: 1714311338.2032886
+key: VaeModule_send_time, value: 1714311338.216893
+key: finish_time, value: 1714311338.239005
+free time = 0.418673038482666collector worker receive workload request count = 78
+--------------------
+Server-side end2end latency: 2.5838398933410645
+request step: 226key: image_size, value: 256
+key: num-sampling-steps, value: 226
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311336.0305648
+key: SLO, value: 2.9492772200852633
+key: id, value: 169
+key: DiTModule_receive_time, value: 1714311336.034318
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311338.5752492
+key: VaeModule_receive_time, value: 1714311338.5874972
+key: VaeModule_send_time, value: 1714311338.6014225
+key: finish_time, value: 1714311338.6144047
+free time = 0.36543726921081543collector worker receive workload request count = 79
+--------------------
+Server-side end2end latency: 2.217641592025757
+request step: 202key: image_size, value: 256
+key: num-sampling-steps, value: 202
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311337.291189
+key: SLO, value: 2.638058672651648
+key: id, value: 170
+key: DiTModule_receive_time, value: 1714311337.29852
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311339.4647655
+key: VaeModule_receive_time, value: 1714311339.479437
+key: VaeModule_send_time, value: 1714311339.4918113
+key: finish_time, value: 1714311339.5088305
+free time = 0.42041707038879395collector worker receive workload request count = 80
+--------------------
+Server-side end2end latency: 2.1151084899902344
+request step: 203key: image_size, value: 256
+key: num-sampling-steps, value: 203
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311340.9368284
+key: SLO, value: 2.651026112128049
+key: id, value: 171
+key: DiTModule_receive_time, value: 1714311340.9378605
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311342.9993486
+key: VaeModule_receive_time, value: 1714311343.014148
+key: VaeModule_send_time, value: 1714311343.028567
+key: finish_time, value: 1714311343.0519369
+free time = 0.5359175205230713collector worker receive workload request count = 81
+--------------------
+Server-side end2end latency: 2.8628714084625244
+request step: 244key: image_size, value: 256
+key: num-sampling-steps, value: 244
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311341.9012978
+key: SLO, value: 3.182691130660475
+key: id, value: 172
+key: DiTModule_receive_time, value: 1714311341.9033148
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311344.7205245
+key: VaeModule_receive_time, value: 1714311344.7343721
+key: VaeModule_send_time, value: 1714311344.7495878
+key: finish_time, value: 1714311344.7641692
+free time = 0.31981968879699707collector worker receive workload request count = 82
+--------------------
+Server-side end2end latency: 2.4913182258605957
+request step: 216key: image_size, value: 256
+key: num-sampling-steps, value: 216
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311350.7006216
+key: SLO, value: 2.8196028253212573
+key: id, value: 189
+key: DiTModule_receive_time, value: 1714311350.7015672
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311353.1369386
+key: VaeModule_receive_time, value: 1714311353.1523097
+key: VaeModule_send_time, value: 1714311353.1697326
+key: finish_time, value: 1714311353.1919398
+free time = 0.32828450202941895collector worker receive workload request count = 83
+--------------------
+Server-side end2end latency: 2.60605788230896
+request step: 219key: image_size, value: 256
+key: num-sampling-steps, value: 219
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311350.7572699
+key: SLO, value: 2.8585051437504587
+key: id, value: 190
+key: DiTModule_receive_time, value: 1714311350.7611406
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311353.315493
+key: VaeModule_receive_time, value: 1714311353.3279119
+key: VaeModule_send_time, value: 1714311353.3431008
+key: finish_time, value: 1714311353.3633277
+free time = 0.25244736671447754collector worker receive workload request count = 84
+--------------------
+Server-side end2end latency: 2.9012532234191895
+request step: 233key: image_size, value: 256
+key: num-sampling-steps, value: 233
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311351.0907688
+key: SLO, value: 3.0400492964200683
+key: id, value: 191
+key: DiTModule_receive_time, value: 1714311351.0918958
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311353.9429524
+key: VaeModule_receive_time, value: 1714311353.95988
+key: VaeModule_send_time, value: 1714311353.974193
+key: finish_time, value: 1714311353.992022
+free time = 0.13879609107971191collector worker receive workload request count = 85
+--------------------
+Server-side end2end latency: 2.6798205375671387
+request step: 206key: image_size, value: 256
+key: num-sampling-steps, value: 206
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311352.0118887
+key: SLO, value: 2.689928430557251
+key: id, value: 195
+key: DiTModule_receive_time, value: 1714311352.017241
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311354.6432714
+key: VaeModule_receive_time, value: 1714311354.656266
+key: VaeModule_send_time, value: 1714311354.6711147
+key: finish_time, value: 1714311354.6917093
+free time = 0.010107994079589844collector worker receive workload request count = 86
+--------------------
+Server-side end2end latency: 2.974647045135498
+request step: 232key: image_size, value: 256
+key: num-sampling-steps, value: 232
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311351.860533
+key: SLO, value: 3.027081856943668
+key: id, value: 193
+key: DiTModule_receive_time, value: 1714311351.8639343
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311354.784601
+key: VaeModule_receive_time, value: 1714311354.7977102
+key: VaeModule_send_time, value: 1714311354.817069
+key: finish_time, value: 1714311354.83518
+free time = 0.05243492126464844collector worker receive workload request count = 87
+--------------------
+Server-side end2end latency: 3.0345005989074707
+request step: 236key: image_size, value: 256
+key: num-sampling-steps, value: 236
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311351.868163
+key: SLO, value: 3.07895161484927
+key: id, value: 194
+key: DiTModule_receive_time, value: 1714311351.8744895
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311354.8554606
+key: VaeModule_receive_time, value: 1714311354.8695538
+key: VaeModule_send_time, value: 1714311354.8874736
+key: finish_time, value: 1714311354.9026637
+free time = 0.044450998306274414collector worker receive workload request count = 88
+--------------------
+Server-side end2end latency: 3.0986380577087402
+request step: 240key: image_size, value: 256
+key: num-sampling-steps, value: 240
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311351.8532958
+key: SLO, value: 3.130821372754873
+key: id, value: 192
+key: DiTModule_receive_time, value: 1714311351.8635914
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311354.9072778
+key: VaeModule_receive_time, value: 1714311354.921746
+key: VaeModule_send_time, value: 1714311354.9356835
+key: finish_time, value: 1714311354.9519339
+free time = 0.03218340873718262collector worker receive workload request count = 89
+--------------------
+Server-side end2end latency: 2.7684428691864014
+request step: 213key: image_size, value: 256
+key: num-sampling-steps, value: 213
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311352.7349176
+key: SLO, value: 2.780700506892055
+key: id, value: 198
+key: DiTModule_receive_time, value: 1714311352.7373645
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311355.4561093
+key: VaeModule_receive_time, value: 1714311355.4678843
+key: VaeModule_send_time, value: 1714311355.4863765
+key: finish_time, value: 1714311355.5033605
+free time = 0.012257575988769531collector worker receive workload request count = 90
+--------------------
+Server-side end2end latency: 2.9961702823638916
+request step: 231key: image_size, value: 256
+key: num-sampling-steps, value: 231
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311352.7007213
+key: SLO, value: 3.0141144174672663
+key: id, value: 197
+key: DiTModule_receive_time, value: 1714311352.701851
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311355.6371546
+key: VaeModule_receive_time, value: 1714311355.6528268
+key: VaeModule_send_time, value: 1714311355.6711898
+key: finish_time, value: 1714311355.6968915
+free time = 0.0179440975189209collector worker receive workload request count = 91
+--------------------
+Server-side end2end latency: 2.3805482387542725
+request step: 207key: image_size, value: 256
+key: num-sampling-steps, value: 207
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311355.1744628
+key: SLO, value: 2.7028958700336516
+key: id, value: 199
+key: DiTModule_receive_time, value: 1714311355.1803687
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311357.5097678
+key: VaeModule_receive_time, value: 1714311357.5233402
+key: VaeModule_send_time, value: 1714311357.539019
+key: finish_time, value: 1714311357.555011
+free time = 0.32234764099121094collector worker receive workload request count = 92
+--------------------
+Server-side end2end latency: 2.6108155250549316
+request step: 224key: image_size, value: 256
+key: num-sampling-steps, value: 224
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311355.1807222
+key: SLO, value: 2.9233423411324617
+key: id, value: 200
+key: DiTModule_receive_time, value: 1714311355.1941235
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311357.7376604
+key: VaeModule_receive_time, value: 1714311357.7530131
+key: VaeModule_send_time, value: 1714311357.7699797
+key: finish_time, value: 1714311357.7915378
+free time = 0.3125267028808594collector worker receive workload request count = 93
+--------------------
+Server-side end2end latency: 2.3208813667297363
+request step: 215key: image_size, value: 256
+key: num-sampling-steps, value: 215
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311356.1086257
+key: SLO, value: 2.8066353858448565
+key: id, value: 201
+key: DiTModule_receive_time, value: 1714311356.1147594
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311358.3844035
+key: VaeModule_receive_time, value: 1714311358.400101
+key: VaeModule_send_time, value: 1714311358.4119556
+key: finish_time, value: 1714311358.429507
+free time = 0.48575401306152344collector worker receive workload request count = 94
+--------------------
+Server-side end2end latency: 2.309802770614624
+request step: 218key: image_size, value: 256
+key: num-sampling-steps, value: 218
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311361.3548045
+key: SLO, value: 2.8455377042740584
+key: id, value: 203
+key: DiTModule_receive_time, value: 1714311361.360754
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311363.6044464
+key: VaeModule_receive_time, value: 1714311363.6199043
+key: VaeModule_send_time, value: 1714311363.6377244
+key: finish_time, value: 1714311363.6646073
+free time = 0.5357348918914795collector worker receive workload request count = 95
+--------------------
+Server-side end2end latency: 2.553929090499878
+request step: 241key: image_size, value: 256
+key: num-sampling-steps, value: 241
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311361.338862
+key: SLO, value: 3.143788812231273
+key: id, value: 202
+key: DiTModule_receive_time, value: 1714311361.3395123
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311363.8524094
+key: VaeModule_receive_time, value: 1714311363.865605
+key: VaeModule_send_time, value: 1714311363.8804488
+key: finish_time, value: 1714311363.892791
+free time = 0.5898597240447998collector worker receive workload request count = 96
+--------------------
+Server-side end2end latency: 2.5761630535125732
+request step: 240key: image_size, value: 256
+key: num-sampling-steps, value: 240
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311361.3629582
+key: SLO, value: 3.130821372754873
+key: id, value: 204
+key: DiTModule_receive_time, value: 1714311361.3693426
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311363.9014833
+key: VaeModule_receive_time, value: 1714311363.9130924
+key: VaeModule_send_time, value: 1714311363.9249046
+key: finish_time, value: 1714311363.9391212
+free time = 0.5546584129333496collector worker receive workload request count = 97
+--------------------
+Server-side end2end latency: 2.437512159347534
+request step: 215key: image_size, value: 256
+key: num-sampling-steps, value: 215
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311364.949449
+key: SLO, value: 2.8066353858448565
+key: id, value: 205
+key: DiTModule_receive_time, value: 1714311364.9503264
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311367.3388667
+key: VaeModule_receive_time, value: 1714311367.3528686
+key: VaeModule_send_time, value: 1714311367.3688269
+key: finish_time, value: 1714311367.3869612
+free time = 0.3691232204437256collector worker receive workload request count = 98
+--------------------
+Server-side end2end latency: 2.559279441833496
+request step: 211key: image_size, value: 256
+key: num-sampling-steps, value: 211
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311365.5202954
+key: SLO, value: 2.7547656279392543
+key: id, value: 206
+key: DiTModule_receive_time, value: 1714311365.5263531
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311368.0295339
+key: VaeModule_receive_time, value: 1714311368.0422165
+key: VaeModule_send_time, value: 1714311368.059208
+key: finish_time, value: 1714311368.0795748
+free time = 0.19548606872558594collector worker receive workload request count = 99
+--------------------
+Server-side end2end latency: 2.4770586490631104
+request step: 201key: image_size, value: 256
+key: num-sampling-steps, value: 201
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311365.6600823
+key: SLO, value: 2.625091233175248
+key: id, value: 210
+key: DiTModule_receive_time, value: 1714311365.6673272
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311368.089059
+key: VaeModule_receive_time, value: 1714311368.1010704
+key: VaeModule_send_time, value: 1714311368.1161299
+key: finish_time, value: 1714311368.137141
+free time = 0.14803266525268555collector worker receive workload request count = 100
+--------------------
+Server-side end2end latency: 2.8491969108581543
+request step: 229key: image_size, value: 256
+key: num-sampling-steps, value: 229
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311365.5782065
+key: SLO, value: 2.988179538514465
+key: id, value: 209
+key: DiTModule_receive_time, value: 1714311365.5808532
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311368.3707972
+key: VaeModule_receive_time, value: 1714311368.3860528
+key: VaeModule_send_time, value: 1714311368.401212
+key: finish_time, value: 1714311368.4274035
+free time = 0.13898253440856934collector worker receive workload request count = 101
+--------------------
+Server-side end2end latency: 2.978121519088745
+request step: 238key: image_size, value: 256
+key: num-sampling-steps, value: 238
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311365.5317888
+key: SLO, value: 3.104886493802071
+key: id, value: 207
+key: DiTModule_receive_time, value: 1714311365.5369442
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311368.4565141
+key: VaeModule_receive_time, value: 1714311368.4713304
+key: VaeModule_send_time, value: 1714311368.485618
+key: finish_time, value: 1714311368.5099103
+free time = 0.12676501274108887collector worker receive workload request count = 102
+--------------------
+Server-side end2end latency: 3.1155216693878174
+request step: 247key: image_size, value: 256
+key: num-sampling-steps, value: 247
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311365.5714128
+key: SLO, value: 3.221593449089677
+key: id, value: 208
+key: DiTModule_receive_time, value: 1714311365.5803003
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311368.6346767
+key: VaeModule_receive_time, value: 1714311368.6508064
+key: VaeModule_send_time, value: 1714311368.6651034
+key: finish_time, value: 1714311368.6869345
+free time = 0.10607171058654785collector worker receive workload request count = 103
+--------------------
+Server-side end2end latency: 2.9953205585479736
+request step: 231key: image_size, value: 256
+key: num-sampling-steps, value: 231
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311366.7560997
+key: SLO, value: 3.0141144174672663
+key: id, value: 211
+key: DiTModule_receive_time, value: 1714311366.7613745
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311369.7073228
+key: VaeModule_receive_time, value: 1714311369.7223566
+key: VaeModule_send_time, value: 1714311369.7367842
+key: finish_time, value: 1714311369.7514203
+free time = 0.018793821334838867collector worker receive workload request count = 104
+--------------------
+Server-side end2end latency: 2.9084203243255615
+request step: 224key: image_size, value: 256
+key: num-sampling-steps, value: 224
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311367.207652
+key: SLO, value: 2.9233423411324617
+key: id, value: 213
+key: DiTModule_receive_time, value: 1714311367.2110114
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311370.073159
+key: VaeModule_receive_time, value: 1714311370.0858684
+key: VaeModule_send_time, value: 1714311370.0967896
+key: finish_time, value: 1714311370.1160724
+free time = 0.014921903610229492collector worker receive workload request count = 105
+--------------------
+Server-side end2end latency: 2.5752885341644287
+request step: 224key: image_size, value: 256
+key: num-sampling-steps, value: 224
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311370.218644
+key: SLO, value: 2.9233423411324617
+key: id, value: 214
+key: DiTModule_receive_time, value: 1714311370.219146
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311372.7419808
+key: VaeModule_receive_time, value: 1714311372.7590704
+key: VaeModule_send_time, value: 1714311372.7735653
+key: finish_time, value: 1714311372.7939324
+free time = 0.3480536937713623collector worker receive workload request count = 106
+--------------------
+Server-side end2end latency: 2.421257972717285
+request step: 203key: image_size, value: 256
+key: num-sampling-steps, value: 203
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311370.6981964
+key: SLO, value: 2.651026112128049
+key: id, value: 215
+key: DiTModule_receive_time, value: 1714311370.703264
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311373.0702949
+key: VaeModule_receive_time, value: 1714311373.088538
+key: VaeModule_send_time, value: 1714311373.1072817
+key: finish_time, value: 1714311373.1194544
+free time = 0.2297680377960205collector worker receive workload request count = 107
+--------------------
+Server-side end2end latency: 2.4370412826538086
+request step: 203key: image_size, value: 256
+key: num-sampling-steps, value: 203
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311370.7006495
+key: SLO, value: 2.651026112128049
+key: id, value: 218
+key: DiTModule_receive_time, value: 1714311370.7040796
+key: wait_loop_count, value: 2
+key: DiTModule_send_time, value: 1714311373.0820706
+key: VaeModule_receive_time, value: 1714311373.0932279
+key: VaeModule_send_time, value: 1714311373.124393
+key: finish_time, value: 1714311373.1376908
+free time = 0.21398472785949707collector worker receive workload request count = 108
+--------------------
+Server-side end2end latency: 2.6406092643737793
+request step: 218key: image_size, value: 256
+key: num-sampling-steps, value: 218
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311370.69862
+key: SLO, value: 2.8455377042740584
+key: id, value: 216
+key: DiTModule_receive_time, value: 1714311370.7035828
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311373.2567828
+key: VaeModule_receive_time, value: 1714311373.2710683
+key: VaeModule_send_time, value: 1714311373.2853389
+key: finish_time, value: 1714311373.3392293
+free time = 0.20492839813232422collector worker receive workload request count = 109
+--------------------
+Server-side end2end latency: 2.8360280990600586
+request step: 242key: image_size, value: 256
+key: num-sampling-steps, value: 242
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311370.743821
+key: SLO, value: 3.156756251707674
+key: id, value: 219
+key: DiTModule_receive_time, value: 1714311370.7466385
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311373.5384495
+key: VaeModule_receive_time, value: 1714311373.5516489
+key: VaeModule_send_time, value: 1714311373.5656452
+key: finish_time, value: 1714311373.579849
+free time = 0.320728063583374collector worker receive workload request count = 110
+--------------------
+Server-side end2end latency: 2.9061553478240967
+request step: 247key: image_size, value: 256
+key: num-sampling-steps, value: 247
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311370.6998854
+key: SLO, value: 3.221593449089677
+key: id, value: 217
+key: DiTModule_receive_time, value: 1714311370.7038229
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311373.5661983
+key: VaeModule_receive_time, value: 1714311373.5824115
+key: VaeModule_send_time, value: 1714311373.5938492
+key: finish_time, value: 1714311373.6060407
+free time = 0.31543803215026855collector worker receive workload request count = 111
+--------------------
+Server-side end2end latency: 3.0891366004943848
+request step: 239key: image_size, value: 256
+key: num-sampling-steps, value: 239
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311381.425457
+key: SLO, value: 3.1178539332784716
+key: id, value: 247
+key: DiTModule_receive_time, value: 1714311381.4359689
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311384.4665651
+key: VaeModule_receive_time, value: 1714311384.4836445
+key: VaeModule_send_time, value: 1714311384.498881
+key: finish_time, value: 1714311384.5145936
+free time = 0.0287172794342041collector worker receive workload request count = 112
+--------------------
+Server-side end2end latency: 2.690214157104492
+request step: 223key: image_size, value: 256
+key: num-sampling-steps, value: 223
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311381.9460254
+key: SLO, value: 2.9103749016560614
+key: id, value: 251
+key: DiTModule_receive_time, value: 1714311381.9618278
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311384.5831244
+key: VaeModule_receive_time, value: 1714311384.59966
+key: VaeModule_send_time, value: 1714311384.6132445
+key: finish_time, value: 1714311384.6362395
+free time = 0.22016072273254395collector worker receive workload request count = 113
+--------------------
+Server-side end2end latency: 3.081533432006836
+request step: 241key: image_size, value: 256
+key: num-sampling-steps, value: 241
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311381.6437721
+key: SLO, value: 3.143788812231273
+key: id, value: 250
+key: DiTModule_receive_time, value: 1714311381.659769
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311384.6742892
+key: VaeModule_receive_time, value: 1714311384.6887891
+key: VaeModule_send_time, value: 1714311384.7013764
+key: finish_time, value: 1714311384.7253056
+free time = 0.0622553825378418collector worker receive workload request count = 114
+--------------------
+Server-side end2end latency: 2.0964534282684326
+request step: 203key: image_size, value: 256
+key: num-sampling-steps, value: 203
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311393.002272
+key: SLO, value: 2.651026112128049
+key: id, value: 256
+key: DiTModule_receive_time, value: 1714311393.0030112
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311395.0577853
+key: VaeModule_receive_time, value: 1714311395.07207
+key: VaeModule_send_time, value: 1714311395.085579
+key: finish_time, value: 1714311395.0987253
+free time = 0.554572582244873collector worker receive workload request count = 115
+--------------------
+Server-side end2end latency: 2.379816770553589
+request step: 231key: image_size, value: 256
+key: num-sampling-steps, value: 231
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311393.0046554
+key: SLO, value: 3.0141144174672663
+key: id, value: 257
+key: DiTModule_receive_time, value: 1714311393.0174856
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311395.3345938
+key: VaeModule_receive_time, value: 1714311395.3547661
+key: VaeModule_send_time, value: 1714311395.3662496
+key: finish_time, value: 1714311395.3844721
+free time = 0.6342976093292236collector worker receive workload request count = 116
+--------------------
+Server-side end2end latency: 3.186112880706787
+request step: 244key: image_size, value: 256
+key: num-sampling-steps, value: 244
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311397.8982306
+key: SLO, value: 3.182691130660475
+key: id, value: 266
+key: DiTModule_receive_time, value: 1714311397.904089
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311401.0401492
+key: VaeModule_receive_time, value: 1714311401.0552497
+key: VaeModule_send_time, value: 1714311401.0706956
+key: finish_time, value: 1714311401.0843434
+free time = -0.003421783447265625collector worker receive workload request count = 117
+--------------------
+Server-side end2end latency: 3.0546607971191406
+request step: 234key: image_size, value: 256
+key: num-sampling-steps, value: 234
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311398.3080666
+key: SLO, value: 3.0530167358964686
+key: id, value: 267
+key: DiTModule_receive_time, value: 1714311398.3099568
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311401.3139212
+key: VaeModule_receive_time, value: 1714311401.327908
+key: VaeModule_send_time, value: 1714311401.342035
+key: finish_time, value: 1714311401.3627274
+free time = -0.001644134521484375collector worker receive workload request count = 118
+--------------------
+Server-side end2end latency: 2.601402521133423
+request step: 205key: image_size, value: 256
+key: num-sampling-steps, value: 205
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311399.1621845
+key: SLO, value: 2.6769609910808505
+key: id, value: 277
+key: DiTModule_receive_time, value: 1714311399.1683853
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311401.7077923
+key: VaeModule_receive_time, value: 1714311401.722763
+key: VaeModule_send_time, value: 1714311401.739612
+key: finish_time, value: 1714311401.763587
+free time = 0.07555842399597168collector worker receive workload request count = 119
+--------------------
+Server-side end2end latency: 2.589392900466919
+request step: 208key: image_size, value: 256
+key: num-sampling-steps, value: 208
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311399.243432
+key: SLO, value: 2.715863309510052
+key: id, value: 279
+key: DiTModule_receive_time, value: 1714311399.2458198
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311401.7881153
+key: VaeModule_receive_time, value: 1714311401.8012033
+key: VaeModule_send_time, value: 1714311401.8147256
+key: finish_time, value: 1714311401.832825
+free time = 0.12647032737731934collector worker receive workload request count = 120
+--------------------
+Server-side end2end latency: 2.714266300201416
+request step: 216key: image_size, value: 256
+key: num-sampling-steps, value: 216
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311399.212391
+key: SLO, value: 2.8196028253212573
+key: id, value: 278
+key: DiTModule_receive_time, value: 1714311399.2271283
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311401.8824215
+key: VaeModule_receive_time, value: 1714311401.8945844
+key: VaeModule_send_time, value: 1714311401.907655
+key: finish_time, value: 1714311401.9266572
+free time = 0.10533642768859863collector worker receive workload request count = 121
+--------------------
+Server-side end2end latency: 2.547499418258667
+request step: 201key: image_size, value: 256
+key: num-sampling-steps, value: 201
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311399.5744483
+key: SLO, value: 2.625091233175248
+key: id, value: 280
+key: DiTModule_receive_time, value: 1714311399.5755107
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311402.0789711
+key: VaeModule_receive_time, value: 1714311402.0916138
+key: VaeModule_send_time, value: 1714311402.102947
+key: finish_time, value: 1714311402.1219478
+free time = 0.0775918960571289collector worker receive workload request count = 122
+--------------------
+Server-side end2end latency: 2.87591814994812
+request step: 236key: image_size, value: 256
+key: num-sampling-steps, value: 236
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311407.4904854
+key: SLO, value: 3.07895161484927
+key: id, value: 286
+key: DiTModule_receive_time, value: 1714311407.4973307
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311410.3128223
+key: VaeModule_receive_time, value: 1714311410.3316789
+key: VaeModule_send_time, value: 1714311410.3483534
+key: finish_time, value: 1714311410.3664036
+free time = 0.203033447265625collector worker receive workload request count = 123
+--------------------
+Server-side end2end latency: 2.7531955242156982
+request step: 225key: image_size, value: 256
+key: num-sampling-steps, value: 225
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311407.7333963
+key: SLO, value: 2.9363097806088625
+key: id, value: 288
+key: DiTModule_receive_time, value: 1714311407.7385051
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311410.4393642
+key: VaeModule_receive_time, value: 1714311410.4589465
+key: VaeModule_send_time, value: 1714311410.470865
+key: finish_time, value: 1714311410.4865918
+free time = 0.18311429023742676collector worker receive workload request count = 124
+--------------------
+Server-side end2end latency: 3.0728116035461426
+request step: 248key: image_size, value: 256
+key: num-sampling-steps, value: 248
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311407.4912772
+key: SLO, value: 3.2345608885660773
+key: id, value: 287
+key: DiTModule_receive_time, value: 1714311407.4977024
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311410.515272
+key: VaeModule_receive_time, value: 1714311410.5312743
+key: VaeModule_send_time, value: 1714311410.544749
+key: finish_time, value: 1714311410.5640888
+free time = 0.16174936294555664collector worker receive workload request count = 125
+--------------------
+Server-side end2end latency: 2.624239921569824
+request step: 203key: image_size, value: 256
+key: num-sampling-steps, value: 203
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311408.9042919
+key: SLO, value: 2.651026112128049
+key: id, value: 289
+key: DiTModule_receive_time, value: 1714311408.915589
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311411.472308
+key: VaeModule_receive_time, value: 1714311411.4866135
+key: VaeModule_send_time, value: 1714311411.5045004
+key: finish_time, value: 1714311411.5285318
+free time = 0.026786088943481445collector worker receive workload request count = 126
+--------------------
+Server-side end2end latency: 3.136016607284546
+request step: 239key: image_size, value: 256
+key: num-sampling-steps, value: 239
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311414.1842818
+key: SLO, value: 3.1178539332784716
+key: id, value: 309
+key: DiTModule_receive_time, value: 1714311414.1937752
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311417.2534602
+key: VaeModule_receive_time, value: 1714311417.2795427
+key: VaeModule_send_time, value: 1714311417.2959337
+key: finish_time, value: 1714311417.3202984
+free time = -0.01816272735595703collector worker receive workload request count = 127
+--------------------
+Server-side end2end latency: 2.334459066390991
+request step: 222key: image_size, value: 256
+key: num-sampling-steps, value: 222
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311419.1766737
+key: SLO, value: 2.897407462179661
+key: id, value: 336
+key: DiTModule_receive_time, value: 1714311419.1774275
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311421.4616194
+key: VaeModule_receive_time, value: 1714311421.4784796
+key: VaeModule_send_time, value: 1714311421.4918523
+key: finish_time, value: 1714311421.5111327
+free time = 0.56294846534729collector worker receive workload request count = 128
+--------------------
+Server-side end2end latency: 2.459703207015991
+request step: 224key: image_size, value: 256
+key: num-sampling-steps, value: 224
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311426.7555127
+key: SLO, value: 2.9233423411324617
+key: id, value: 341
+key: DiTModule_receive_time, value: 1714311426.7623525
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311429.1610253
+key: VaeModule_receive_time, value: 1714311429.1840045
+key: VaeModule_send_time, value: 1714311429.1992404
+key: finish_time, value: 1714311429.215216
+free time = 0.4636390209197998collector worker receive workload request count = 129
+--------------------
+Server-side end2end latency: 2.616152048110962
+request step: 230key: image_size, value: 256
+key: num-sampling-steps, value: 230
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311426.747539
+key: SLO, value: 3.001146977990866
+key: id, value: 340
+key: DiTModule_receive_time, value: 1714311426.7512426
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311429.3147855
+key: VaeModule_receive_time, value: 1714311429.3266954
+key: VaeModule_send_time, value: 1714311429.341906
+key: finish_time, value: 1714311429.363691
+free time = 0.3849949836730957collector worker receive workload request count = 130
+--------------------
+Server-side end2end latency: 2.6944243907928467
+request step: 236key: image_size, value: 256
+key: num-sampling-steps, value: 236
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311426.7368035
+key: SLO, value: 3.07895161484927
+key: id, value: 339
+key: DiTModule_receive_time, value: 1714311426.7374527
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311429.3880558
+key: VaeModule_receive_time, value: 1714311429.3996084
+key: VaeModule_send_time, value: 1714311429.4138944
+key: finish_time, value: 1714311429.431228
+free time = 0.38452720642089844collector worker receive workload request count = 131
+--------------------
+Server-side end2end latency: 2.3610432147979736
+request step: 203key: image_size, value: 256
+key: num-sampling-steps, value: 203
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311428.0265462
+key: SLO, value: 2.651026112128049
+key: id, value: 342
+key: DiTModule_receive_time, value: 1714311428.0347428
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311430.3428738
+key: VaeModule_receive_time, value: 1714311430.355033
+key: VaeModule_send_time, value: 1714311430.3701231
+key: finish_time, value: 1714311430.3875895
+free time = 0.28998279571533203collector worker receive workload request count = 132
+--------------------
+Server-side end2end latency: 2.4448888301849365
+request step: 208key: image_size, value: 256
+key: num-sampling-steps, value: 208
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311428.1052475
+key: SLO, value: 2.715863309510052
+key: id, value: 343
+key: DiTModule_receive_time, value: 1714311428.1146379
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311430.4947574
+key: VaeModule_receive_time, value: 1714311430.5089002
+key: VaeModule_send_time, value: 1714311430.5252407
+key: finish_time, value: 1714311430.5501363
+free time = 0.27097439765930176collector worker receive workload request count = 133
+--------------------
+Server-side end2end latency: 2.3188912868499756
+request step: 227key: image_size, value: 256
+key: num-sampling-steps, value: 227
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311429.633677
+key: SLO, value: 2.962244659561664
+key: id, value: 344
+key: DiTModule_receive_time, value: 1714311429.634793
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311431.9017253
+key: VaeModule_receive_time, value: 1714311431.9185505
+key: VaeModule_send_time, value: 1714311431.9322476
+key: finish_time, value: 1714311431.9525683
+free time = 0.6433534622192383collector worker receive workload request count = 134
+--------------------
+Server-side end2end latency: 2.423353433609009
+request step: 229key: image_size, value: 256
+key: num-sampling-steps, value: 229
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311434.5148423
+key: SLO, value: 2.988179538514465
+key: id, value: 345
+key: DiTModule_receive_time, value: 1714311434.5155811
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311436.879142
+key: VaeModule_receive_time, value: 1714311436.9008372
+key: VaeModule_send_time, value: 1714311436.9171152
+key: finish_time, value: 1714311436.9381957
+free time = 0.5648260116577148collector worker receive workload request count = 135
+--------------------
+Server-side end2end latency: 2.428947925567627
+request step: 223key: image_size, value: 256
+key: num-sampling-steps, value: 223
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311434.9373991
+key: SLO, value: 2.9103749016560614
+key: id, value: 347
+key: DiTModule_receive_time, value: 1714311434.939163
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311437.3237822
+key: VaeModule_receive_time, value: 1714311437.3350663
+key: VaeModule_send_time, value: 1714311437.348522
+key: finish_time, value: 1714311437.366347
+free time = 0.4814269542694092collector worker receive workload request count = 136
+--------------------
+Server-side end2end latency: 2.683393955230713
+request step: 246key: image_size, value: 256
+key: num-sampling-steps, value: 246
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311434.9323883
+key: SLO, value: 3.208626009613276
+key: id, value: 346
+key: DiTModule_receive_time, value: 1714311434.9386303
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311437.5579832
+key: VaeModule_receive_time, value: 1714311437.5746887
+key: VaeModule_send_time, value: 1714311437.5893066
+key: finish_time, value: 1714311437.6157823
+free time = 0.5252320766448975collector worker receive workload request count = 137
+--------------------
+Server-side end2end latency: 2.597700834274292
+request step: 219key: image_size, value: 256
+key: num-sampling-steps, value: 219
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311437.3953795
+key: SLO, value: 2.8585051437504587
+key: id, value: 349
+key: DiTModule_receive_time, value: 1714311437.4049828
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311439.946882
+key: VaeModule_receive_time, value: 1714311439.9615116
+key: VaeModule_send_time, value: 1714311439.9773743
+key: finish_time, value: 1714311439.9930804
+free time = 0.2608044147491455collector worker receive workload request count = 138
+--------------------
+Server-side end2end latency: 2.7915148735046387
+request step: 232key: image_size, value: 256
+key: num-sampling-steps, value: 232
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311437.310415
+key: SLO, value: 3.027081856943668
+key: id, value: 348
+key: DiTModule_receive_time, value: 1714311437.3153336
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311440.0503879
+key: VaeModule_receive_time, value: 1714311440.0640616
+key: VaeModule_send_time, value: 1714311440.0791125
+key: finish_time, value: 1714311440.10193
+free time = 0.2355670928955078collector worker receive workload request count = 139
+--------------------
+Server-side end2end latency: 2.66980242729187
+request step: 207key: image_size, value: 256
+key: num-sampling-steps, value: 207
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311438.1371398
+key: SLO, value: 2.7028958700336516
+key: id, value: 351
+key: DiTModule_receive_time, value: 1714311438.139552
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311440.7607086
+key: VaeModule_receive_time, value: 1714311440.7755816
+key: VaeModule_send_time, value: 1714311440.7905724
+key: finish_time, value: 1714311440.8069422
+free time = 0.03309345245361328collector worker receive workload request count = 140
+--------------------
+Server-side end2end latency: 2.7079734802246094
+request step: 208key: image_size, value: 256
+key: num-sampling-steps, value: 208
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311438.1359437
+key: SLO, value: 2.715863309510052
+key: id, value: 350
+key: DiTModule_receive_time, value: 1714311438.1392386
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311440.7925847
+key: VaeModule_receive_time, value: 1714311440.8076305
+key: VaeModule_send_time, value: 1714311440.821936
+key: finish_time, value: 1714311440.8439171
+free time = 0.007889747619628906collector worker receive workload request count = 141
+--------------------
+Server-side end2end latency: 3.1339454650878906
+request step: 242key: image_size, value: 256
+key: num-sampling-steps, value: 242
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311446.0150402
+key: SLO, value: 3.156756251707674
+key: id, value: 361
+key: DiTModule_receive_time, value: 1714311446.046026
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311449.0864387
+key: VaeModule_receive_time, value: 1714311449.109942
+key: VaeModule_send_time, value: 1714311449.1280484
+key: finish_time, value: 1714311449.1489856
+free time = 0.022810697555541992collector worker receive workload request count = 142
+--------------------
+Server-side end2end latency: 2.296445369720459
+request step: 214key: image_size, value: 256
+key: num-sampling-steps, value: 214
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311446.910055
+key: SLO, value: 2.7936679463684557
+key: id, value: 362
+key: DiTModule_receive_time, value: 1714311446.9112895
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311449.156456
+key: VaeModule_receive_time, value: 1714311449.1708527
+key: VaeModule_send_time, value: 1714311449.1843362
+key: finish_time, value: 1714311449.2065003
+free time = 0.4972226619720459collector worker receive workload request count = 143
+--------------------
+Server-side end2end latency: 2.527395725250244
+request step: 222key: image_size, value: 256
+key: num-sampling-steps, value: 222
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311450.7232277
+key: SLO, value: 2.897407462179661
+key: id, value: 363
+key: DiTModule_receive_time, value: 1714311450.7240784
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311453.2033815
+key: VaeModule_receive_time, value: 1714311453.2189
+key: VaeModule_send_time, value: 1714311453.2354527
+key: finish_time, value: 1714311453.2506235
+free time = 0.3700118064880371collector worker receive workload request count = 144
+--------------------
+Server-side end2end latency: 2.6696441173553467
+request step: 205key: image_size, value: 256
+key: num-sampling-steps, value: 205
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311454.7305338
+key: SLO, value: 2.6769609910808505
+key: id, value: 374
+key: DiTModule_receive_time, value: 1714311454.7363477
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311457.3554406
+key: VaeModule_receive_time, value: 1714311457.3681824
+key: VaeModule_send_time, value: 1714311457.382536
+key: finish_time, value: 1714311457.400178
+free time = 0.0073168277740478516collector worker receive workload request count = 145
+--------------------
+Server-side end2end latency: 2.952808380126953
+request step: 228key: image_size, value: 256
+key: num-sampling-steps, value: 228
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311459.3368819
+key: SLO, value: 2.9752120990380644
+key: id, value: 382
+key: DiTModule_receive_time, value: 1714311459.3455331
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311462.2350683
+key: VaeModule_receive_time, value: 1714311462.2499282
+key: VaeModule_send_time, value: 1714311462.2642448
+key: finish_time, value: 1714311462.2896903
+free time = 0.022403717041015625collector worker receive workload request count = 146
+--------------------
+Server-side end2end latency: 3.2055280208587646
+request step: 246key: image_size, value: 256
+key: num-sampling-steps, value: 246
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311461.6213572
+key: SLO, value: 3.208626009613276
+key: id, value: 386
+key: DiTModule_receive_time, value: 1714311461.628435
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311464.7766762
+key: VaeModule_receive_time, value: 1714311464.7895617
+key: VaeModule_send_time, value: 1714311464.8035402
+key: finish_time, value: 1714311464.8268852
+free time = 0.003098011016845703collector worker receive workload request count = 147
+--------------------
+Server-side end2end latency: 2.5617692470550537
+request step: 218key: image_size, value: 256
+key: num-sampling-steps, value: 218
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311466.2081928
+key: SLO, value: 2.8455377042740584
+key: id, value: 391
+key: DiTModule_receive_time, value: 1714311466.2211285
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311468.7238605
+key: VaeModule_receive_time, value: 1714311468.7358253
+key: VaeModule_send_time, value: 1714311468.749371
+key: finish_time, value: 1714311468.769962
+free time = 0.2837684154510498collector worker receive workload request count = 148
+--------------------
+Server-side end2end latency: 2.6094400882720947
+request step: 234key: image_size, value: 256
+key: num-sampling-steps, value: 234
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311468.0269911
+key: SLO, value: 3.0530167358964686
+key: id, value: 392
+key: DiTModule_receive_time, value: 1714311468.0276856
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311470.5813155
+key: VaeModule_receive_time, value: 1714311470.5936713
+key: VaeModule_send_time, value: 1714311470.6142585
+key: finish_time, value: 1714311470.6364312
+free time = 0.4435765743255615collector worker receive workload request count = 149
+--------------------
+Server-side end2end latency: 2.4267055988311768
+request step: 218key: image_size, value: 256
+key: num-sampling-steps, value: 218
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311468.2796526
+key: SLO, value: 2.8455377042740584
+key: id, value: 395
+key: DiTModule_receive_time, value: 1714311468.2843943
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311470.6471112
+key: VaeModule_receive_time, value: 1714311470.6639984
+key: VaeModule_send_time, value: 1714311470.6809144
+key: finish_time, value: 1714311470.7063582
+free time = 0.41883206367492676collector worker receive workload request count = 150
+--------------------
+Server-side end2end latency: 2.57684063911438
+request step: 230key: image_size, value: 256
+key: num-sampling-steps, value: 230
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311468.1884043
+key: SLO, value: 3.001146977990866
+key: id, value: 393
+key: DiTModule_receive_time, value: 1714311468.1967294
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311470.7163591
+key: VaeModule_receive_time, value: 1714311470.7281368
+key: VaeModule_send_time, value: 1714311470.742636
+key: finish_time, value: 1714311470.765245
+free time = 0.42430639266967773collector worker receive workload request count = 151
+--------------------
+Server-side end2end latency: 2.7894444465637207
+request step: 243key: image_size, value: 256
+key: num-sampling-steps, value: 243
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311468.2088907
+key: SLO, value: 3.1697236911840747
+key: id, value: 394
+key: DiTModule_receive_time, value: 1714311468.2190495
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311470.9522674
+key: VaeModule_receive_time, value: 1714311470.9673882
+key: VaeModule_send_time, value: 1714311470.9817262
+key: finish_time, value: 1714311470.9983351
+free time = 0.3802793025970459collector worker receive workload request count = 152
+--------------------
+Server-side end2end latency: 2.9397592544555664
+request step: 226key: image_size, value: 256
+key: num-sampling-steps, value: 226
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311473.2131672
+key: SLO, value: 2.9492772200852633
+key: id, value: 404
+key: DiTModule_receive_time, value: 1714311473.221244
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311476.0874379
+key: VaeModule_receive_time, value: 1714311476.1062489
+key: VaeModule_send_time, value: 1714311476.1277504
+key: finish_time, value: 1714311476.1529264
+free time = 0.009517908096313477collector worker receive workload request count = 153
+--------------------
+Server-side end2end latency: 2.7165639400482178
+request step: 235key: image_size, value: 256
+key: num-sampling-steps, value: 235
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311474.5693939
+key: SLO, value: 3.0659841753728694
+key: id, value: 405
+key: DiTModule_receive_time, value: 1714311474.588771
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311477.241669
+key: VaeModule_receive_time, value: 1714311477.2540286
+key: VaeModule_send_time, value: 1714311477.2684193
+key: finish_time, value: 1714311477.2859578
+free time = 0.34942030906677246collector worker receive workload request count = 154
+--------------------
+Server-side end2end latency: 2.9071550369262695
+request step: 249key: image_size, value: 256
+key: num-sampling-steps, value: 249
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311474.6217277
+key: SLO, value: 3.2475283280424776
+key: id, value: 406
+key: DiTModule_receive_time, value: 1714311474.6356356
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311477.4752016
+key: VaeModule_receive_time, value: 1714311477.4924
+key: VaeModule_send_time, value: 1714311477.509266
+key: finish_time, value: 1714311477.5288827
+free time = 0.34037327766418457collector worker receive workload request count = 155
+--------------------
+Server-side end2end latency: 2.3721513748168945
+request step: 209key: image_size, value: 256
+key: num-sampling-steps, value: 209
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311475.529401
+key: SLO, value: 2.7288307489864527
+key: id, value: 408
+key: DiTModule_receive_time, value: 1714311475.5300171
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311477.8410907
+key: VaeModule_receive_time, value: 1714311477.8568974
+key: VaeModule_send_time, value: 1714311477.877522
+key: finish_time, value: 1714311477.9015524
+free time = 0.35667943954467773collector worker receive workload request count = 156
+--------------------
+Server-side end2end latency: 2.7451765537261963
+request step: 242key: image_size, value: 256
+key: num-sampling-steps, value: 242
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311475.5250597
+key: SLO, value: 3.156756251707674
+key: id, value: 407
+key: DiTModule_receive_time, value: 1714311475.5297506
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311478.2278233
+key: VaeModule_receive_time, value: 1714311478.2418818
+key: VaeModule_send_time, value: 1714311478.256507
+key: finish_time, value: 1714311478.2702363
+free time = 0.41157960891723633collector worker receive workload request count = 157
+--------------------
+Server-side end2end latency: 2.3361189365386963
+request step: 206key: image_size, value: 256
+key: num-sampling-steps, value: 206
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311476.9993691
+key: SLO, value: 2.689928430557251
+key: id, value: 411
+key: DiTModule_receive_time, value: 1714311477.0011604
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311479.2897768
+key: VaeModule_receive_time, value: 1714311479.3020902
+key: VaeModule_send_time, value: 1714311479.3165727
+key: finish_time, value: 1714311479.335488
+free time = 0.3538095951080322collector worker receive workload request count = 158
+--------------------
+Server-side end2end latency: 2.4268085956573486
+request step: 213key: image_size, value: 256
+key: num-sampling-steps, value: 213
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311476.9971235
+key: SLO, value: 2.780700506892055
+key: id, value: 410
+key: DiTModule_receive_time, value: 1714311477.0008729
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311479.3832793
+key: VaeModule_receive_time, value: 1714311479.398946
+key: VaeModule_send_time, value: 1714311479.41209
+key: finish_time, value: 1714311479.423932
+free time = 0.35389184951782227collector worker receive workload request count = 159
+--------------------
+Server-side end2end latency: 2.787696599960327
+request step: 244key: image_size, value: 256
+key: num-sampling-steps, value: 244
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311476.9961925
+key: SLO, value: 3.182691130660475
+key: id, value: 409
+key: DiTModule_receive_time, value: 1714311477.0005174
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311479.7352035
+key: VaeModule_receive_time, value: 1714311479.7523515
+key: VaeModule_send_time, value: 1714311479.7682714
+key: finish_time, value: 1714311479.783889
+free time = 0.39499449729919434collector worker receive workload request count = 160
+--------------------
+Server-side end2end latency: 2.581040620803833
+request step: 238key: image_size, value: 256
+key: num-sampling-steps, value: 238
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311478.835153
+key: SLO, value: 3.104886493802071
+key: id, value: 412
+key: DiTModule_receive_time, value: 1714311478.8378866
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311481.3616397
+key: VaeModule_receive_time, value: 1714311481.3794053
+key: VaeModule_send_time, value: 1714311481.3964293
+key: finish_time, value: 1714311481.4161937
+free time = 0.523845911026001collector worker receive workload request count = 161
+--------------------
+Server-side end2end latency: 2.3131661415100098
+request step: 208key: image_size, value: 256
+key: num-sampling-steps, value: 208
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311480.1920865
+key: SLO, value: 2.715863309510052
+key: id, value: 414
+key: DiTModule_receive_time, value: 1714311480.2031991
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311482.4549322
+key: VaeModule_receive_time, value: 1714311482.4683876
+key: VaeModule_send_time, value: 1714311482.4843407
+key: finish_time, value: 1714311482.5052526
+free time = 0.4026970863342285collector worker receive workload request count = 162
+--------------------
+Server-side end2end latency: 2.63598895072937
+request step: 239key: image_size, value: 256
+key: num-sampling-steps, value: 239
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311480.1550198
+key: SLO, value: 3.1178539332784716
+key: id, value: 413
+key: DiTModule_receive_time, value: 1714311480.1612275
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311482.7411904
+key: VaeModule_receive_time, value: 1714311482.755438
+key: VaeModule_send_time, value: 1714311482.7696483
+key: finish_time, value: 1714311482.7910087
+free time = 0.48186492919921875collector worker receive workload request count = 163
+--------------------
+Server-side end2end latency: 2.3605308532714844
+request step: 213key: image_size, value: 256
+key: num-sampling-steps, value: 213
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311480.8508635
+key: SLO, value: 2.780700506892055
+key: id, value: 415
+key: DiTModule_receive_time, value: 1714311480.8565836
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311483.170088
+key: VaeModule_receive_time, value: 1714311483.1847625
+key: VaeModule_send_time, value: 1714311483.199696
+key: finish_time, value: 1714311483.2113943
+free time = 0.4201695919036865collector worker receive workload request count = 164
+--------------------
+Server-side end2end latency: 2.423799991607666
+request step: 207key: image_size, value: 256
+key: num-sampling-steps, value: 207
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311481.2248352
+key: SLO, value: 2.7028958700336516
+key: id, value: 416
+key: DiTModule_receive_time, value: 1714311481.231894
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311483.5979686
+key: VaeModule_receive_time, value: 1714311483.610943
+key: VaeModule_send_time, value: 1714311483.6292725
+key: finish_time, value: 1714311483.6486351
+free time = 0.2790958881378174collector worker receive workload request count = 165
+--------------------
+Server-side end2end latency: 2.538501501083374
+request step: 216key: image_size, value: 256
+key: num-sampling-steps, value: 216
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311481.3359592
+key: SLO, value: 2.8196028253212573
+key: id, value: 417
+key: DiTModule_receive_time, value: 1714311481.340616
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311483.818458
+key: VaeModule_receive_time, value: 1714311483.8287952
+key: VaeModule_send_time, value: 1714311483.847988
+key: finish_time, value: 1714311483.8744607
+free time = 0.2811012268066406collector worker receive workload request count = 166
+--------------------
+Server-side end2end latency: 2.6172235012054443
+request step: 222key: image_size, value: 256
+key: num-sampling-steps, value: 222
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311481.5256526
+key: SLO, value: 2.897407462179661
+key: id, value: 418
+key: DiTModule_receive_time, value: 1714311481.5304646
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311484.087941
+key: VaeModule_receive_time, value: 1714311484.105897
+key: VaeModule_send_time, value: 1714311484.1274202
+key: finish_time, value: 1714311484.1428761
+free time = 0.2801840305328369collector worker receive workload request count = 167
+--------------------
+Server-side end2end latency: 2.6704561710357666
+request step: 204key: image_size, value: 256
+key: num-sampling-steps, value: 204
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311486.075924
+key: SLO, value: 2.6639935516044497
+key: id, value: 433
+key: DiTModule_receive_time, value: 1714311486.0786533
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311488.6929693
+key: VaeModule_receive_time, value: 1714311488.7053475
+key: VaeModule_send_time, value: 1714311488.7203798
+key: finish_time, value: 1714311488.74638
+free time = -0.006462574005126953collector worker receive workload request count = 168
+--------------------
+Server-side end2end latency: 2.8231351375579834
+request step: 223key: image_size, value: 256
+key: num-sampling-steps, value: 223
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311486.2129529
+key: SLO, value: 2.9103749016560614
+key: id, value: 437
+key: DiTModule_receive_time, value: 1714311486.2208023
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311488.9866254
+key: VaeModule_receive_time, value: 1714311488.998522
+key: VaeModule_send_time, value: 1714311489.014593
+key: finish_time, value: 1714311489.036088
+free time = 0.08723974227905273collector worker receive workload request count = 169
+--------------------
+Server-side end2end latency: 3.015394687652588
+request step: 236key: image_size, value: 256
+key: num-sampling-steps, value: 236
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311486.081234
+key: SLO, value: 3.07895161484927
+key: id, value: 434
+key: DiTModule_receive_time, value: 1714311486.0907753
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311489.0535822
+key: VaeModule_receive_time, value: 1714311489.0642946
+key: VaeModule_send_time, value: 1714311489.0781775
+key: finish_time, value: 1714311489.0966287
+free time = 0.06355690956115723collector worker receive workload request count = 170
+--------------------
+Server-side end2end latency: 2.922347068786621
+request step: 230key: image_size, value: 256
+key: num-sampling-steps, value: 230
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311486.213404
+key: SLO, value: 3.001146977990866
+key: id, value: 438
+key: DiTModule_receive_time, value: 1714311486.2210379
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311489.087927
+key: VaeModule_receive_time, value: 1714311489.0994453
+key: VaeModule_send_time, value: 1714311489.112446
+key: finish_time, value: 1714311489.135751
+free time = 0.07879996299743652collector worker receive workload request count = 171
+--------------------
+Server-side end2end latency: 3.1635043621063232
+request step: 244key: image_size, value: 256
+key: num-sampling-steps, value: 244
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311486.0820088
+key: SLO, value: 3.182691130660475
+key: id, value: 435
+key: DiTModule_receive_time, value: 1714311486.0911975
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311489.1996708
+key: VaeModule_receive_time, value: 1714311489.211279
+key: VaeModule_send_time, value: 1714311489.2251503
+key: finish_time, value: 1714311489.2455132
+free time = 0.019186735153198242collector worker receive workload request count = 172
+--------------------
+Server-side end2end latency: 3.209395170211792
+request step: 249key: image_size, value: 256
+key: num-sampling-steps, value: 249
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311486.103972
+key: SLO, value: 3.2475283280424776
+key: id, value: 436
+key: DiTModule_receive_time, value: 1714311486.1163273
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311489.2679043
+key: VaeModule_receive_time, value: 1714311489.2790027
+key: VaeModule_send_time, value: 1714311489.2931166
+key: finish_time, value: 1714311489.3133671
+free time = 0.03813314437866211collector worker receive workload request count = 173
+--------------------
+Server-side end2end latency: 2.561255931854248
+request step: 225key: image_size, value: 256
+key: num-sampling-steps, value: 225
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311489.1773257
+key: SLO, value: 2.9363097806088625
+key: id, value: 439
+key: DiTModule_receive_time, value: 1714311489.186574
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311491.6913145
+key: VaeModule_receive_time, value: 1714311491.7051358
+key: VaeModule_send_time, value: 1714311491.7246542
+key: finish_time, value: 1714311491.7385817
+free time = 0.37505388259887695collector worker receive workload request count = 174
+--------------------
+Server-side end2end latency: 2.4558424949645996
+request step: 220key: image_size, value: 256
+key: num-sampling-steps, value: 220
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311489.3414989
+key: SLO, value: 2.8714725832268595
+key: id, value: 440
+key: DiTModule_receive_time, value: 1714311489.3555195
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311491.7541714
+key: VaeModule_receive_time, value: 1714311491.7679696
+key: VaeModule_send_time, value: 1714311491.7813554
+key: finish_time, value: 1714311491.7973413
+free time = 0.4156301021575928collector worker receive workload request count = 175
+--------------------
+Server-side end2end latency: 2.5886423587799072
+request step: 233key: image_size, value: 256
+key: num-sampling-steps, value: 233
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311489.3590627
+key: SLO, value: 3.0400492964200683
+key: id, value: 441
+key: DiTModule_receive_time, value: 1714311489.3664787
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311491.8963914
+key: VaeModule_receive_time, value: 1714311491.91317
+key: VaeModule_send_time, value: 1714311491.9266582
+key: finish_time, value: 1714311491.947705
+free time = 0.45140695571899414collector worker receive workload request count = 176
+--------------------
+Server-side end2end latency: 2.3395941257476807
+request step: 237key: image_size, value: 256
+key: num-sampling-steps, value: 237
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311491.701682
+key: SLO, value: 3.0919190543256705
+key: id, value: 442
+key: DiTModule_receive_time, value: 1714311491.713144
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311493.9798472
+key: VaeModule_receive_time, value: 1714311493.9983523
+key: VaeModule_send_time, value: 1714311494.016814
+key: finish_time, value: 1714311494.0412762
+free time = 0.7523248195648193collector worker receive workload request count = 177
+--------------------
+Server-side end2end latency: 2.2268590927124023
+request step: 223key: image_size, value: 256
+key: num-sampling-steps, value: 223
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311492.2514381
+key: SLO, value: 2.9103749016560614
+key: id, value: 443
+key: DiTModule_receive_time, value: 1714311492.2535996
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311494.4393692
+key: VaeModule_receive_time, value: 1714311494.4515939
+key: VaeModule_send_time, value: 1714311494.4618206
+key: finish_time, value: 1714311494.4782972
+free time = 0.6835157871246338collector worker receive workload request count = 178
+--------------------
+Server-side end2end latency: 2.3523013591766357
+request step: 227key: image_size, value: 256
+key: num-sampling-steps, value: 227
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311494.6109374
+key: SLO, value: 2.962244659561664
+key: id, value: 444
+key: DiTModule_receive_time, value: 1714311494.611693
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311496.916168
+key: VaeModule_receive_time, value: 1714311496.933738
+key: VaeModule_send_time, value: 1714311496.95022
+key: finish_time, value: 1714311496.9632387
+free time = 0.6099433898925781collector worker receive workload request count = 179
+--------------------
+Server-side end2end latency: 2.682971477508545
+request step: 207key: image_size, value: 256
+key: num-sampling-steps, value: 207
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311496.060847
+key: SLO, value: 2.7028958700336516
+key: id, value: 448
+key: DiTModule_receive_time, value: 1714311496.0704257
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311498.6889446
+key: VaeModule_receive_time, value: 1714311498.7062693
+key: VaeModule_send_time, value: 1714311498.723398
+key: finish_time, value: 1714311498.7438185
+free time = 0.019924402236938477collector worker receive workload request count = 180
+--------------------
+Server-side end2end latency: 3.1259729862213135
+request step: 241key: image_size, value: 256
+key: num-sampling-steps, value: 241
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311496.2018433
+key: SLO, value: 3.143788812231273
+key: id, value: 449
+key: DiTModule_receive_time, value: 1714311496.2091079
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311499.2797532
+key: VaeModule_receive_time, value: 1714311499.2916455
+key: VaeModule_send_time, value: 1714311499.3073766
+key: finish_time, value: 1714311499.3278162
+free time = 0.017815828323364258collector worker receive workload request count = 181
+--------------------
+Server-side end2end latency: 3.211575984954834
+request step: 249key: image_size, value: 256
+key: num-sampling-steps, value: 249
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311496.2077181
+key: SLO, value: 3.2475283280424776
+key: id, value: 450
+key: DiTModule_receive_time, value: 1714311496.2093368
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311499.3770614
+key: VaeModule_receive_time, value: 1714311499.3872442
+key: VaeModule_send_time, value: 1714311499.4017937
+key: finish_time, value: 1714311499.419294
+free time = 0.03595232963562012collector worker receive workload request count = 182
+--------------------
+Server-side end2end latency: 2.9935302734375
+request step: 242key: image_size, value: 256
+key: num-sampling-steps, value: 242
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311497.0284736
+key: SLO, value: 3.156756251707674
+key: id, value: 459
+key: DiTModule_receive_time, value: 1714311497.0455034
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311499.9783933
+key: VaeModule_receive_time, value: 1714311499.9904583
+key: VaeModule_send_time, value: 1714311500.001923
+key: finish_time, value: 1714311500.022004
+free time = 0.16322588920593262collector worker receive workload request count = 183
+--------------------
+Server-side end2end latency: 2.3717899322509766
+request step: 204key: image_size, value: 256
+key: num-sampling-steps, value: 204
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311501.1698632
+key: SLO, value: 2.6639935516044497
+key: id, value: 463
+key: DiTModule_receive_time, value: 1714311501.1704032
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311503.4910686
+key: VaeModule_receive_time, value: 1714311503.5065436
+key: VaeModule_send_time, value: 1714311503.5221627
+key: finish_time, value: 1714311503.5416532
+free time = 0.2922036647796631collector worker receive workload request count = 184
+--------------------
+Server-side end2end latency: 2.6713173389434814
+request step: 210key: image_size, value: 256
+key: num-sampling-steps, value: 210
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311501.716592
+key: SLO, value: 2.7417981884628535
+key: id, value: 467
+key: DiTModule_receive_time, value: 1714311501.7227225
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311504.3334377
+key: VaeModule_receive_time, value: 1714311504.349242
+key: VaeModule_send_time, value: 1714311504.3655477
+key: finish_time, value: 1714311504.3879094
+free time = 0.0704808235168457collector worker receive workload request count = 185
+--------------------
+Server-side end2end latency: 2.802401304244995
+request step: 216key: image_size, value: 256
+key: num-sampling-steps, value: 216
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311501.7059867
+key: SLO, value: 2.8196028253212573
+key: id, value: 464
+key: DiTModule_receive_time, value: 1714311501.7084024
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311504.4552646
+key: VaeModule_receive_time, value: 1714311504.4707701
+key: VaeModule_send_time, value: 1714311504.4852312
+key: finish_time, value: 1714311504.508388
+free time = 0.01720142364501953collector worker receive workload request count = 186
+--------------------
+Server-side end2end latency: 2.81607723236084
+request step: 220key: image_size, value: 256
+key: num-sampling-steps, value: 220
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311503.593712
+key: SLO, value: 2.8714725832268595
+key: id, value: 474
+key: DiTModule_receive_time, value: 1714311503.5984702
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311506.3553562
+key: VaeModule_receive_time, value: 1714311506.37379
+key: VaeModule_send_time, value: 1714311506.3878713
+key: finish_time, value: 1714311506.4097893
+free time = 0.05539536476135254collector worker receive workload request count = 187
+--------------------
+Server-side end2end latency: 2.894132375717163
+request step: 227key: image_size, value: 256
+key: num-sampling-steps, value: 227
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311504.6305635
+key: SLO, value: 2.962244659561664
+key: id, value: 477
+key: DiTModule_receive_time, value: 1714311504.6370137
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311507.4806201
+key: VaeModule_receive_time, value: 1714311507.4922423
+key: VaeModule_send_time, value: 1714311507.506554
+key: finish_time, value: 1714311507.5246959
+free time = 0.06811237335205078collector worker receive workload request count = 188
+--------------------
+Server-side end2end latency: 3.1654176712036133
+request step: 247key: image_size, value: 256
+key: num-sampling-steps, value: 247
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311504.6308868
+key: SLO, value: 3.221593449089677
+key: id, value: 478
+key: DiTModule_receive_time, value: 1714311504.637327
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311507.7445164
+key: VaeModule_receive_time, value: 1714311507.7563384
+key: VaeModule_send_time, value: 1714311507.7715166
+key: finish_time, value: 1714311507.7963045
+free time = 0.05617570877075195collector worker receive workload request count = 189
+--------------------
+Server-side end2end latency: 3.0673913955688477
+request step: 235key: image_size, value: 256
+key: num-sampling-steps, value: 235
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311504.76771
+key: SLO, value: 3.0659841753728694
+key: id, value: 479
+key: DiTModule_receive_time, value: 1714311504.779855
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311507.7886598
+key: VaeModule_receive_time, value: 1714311507.8005908
+key: VaeModule_send_time, value: 1714311507.8162043
+key: finish_time, value: 1714311507.8351014
+free time = -0.0014071464538574219collector worker receive workload request count = 190
+--------------------
+Server-side end2end latency: 3.199638605117798
+request step: 249key: image_size, value: 256
+key: num-sampling-steps, value: 249
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311506.054073
+key: SLO, value: 3.2475283280424776
+key: id, value: 483
+key: DiTModule_receive_time, value: 1714311506.0598114
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311509.2055218
+key: VaeModule_receive_time, value: 1714311509.218741
+key: VaeModule_send_time, value: 1714311509.2340472
+key: finish_time, value: 1714311509.2537117
+free time = 0.04788970947265625collector worker receive workload request count = 191
+--------------------
+Server-side end2end latency: 2.618490695953369
+request step: 203key: image_size, value: 256
+key: num-sampling-steps, value: 203
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311507.7459087
+key: SLO, value: 2.651026112128049
+key: id, value: 488
+key: DiTModule_receive_time, value: 1714311507.7537751
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311510.319844
+key: VaeModule_receive_time, value: 1714311510.333086
+key: VaeModule_send_time, value: 1714311510.3472383
+key: finish_time, value: 1714311510.3643994
+free time = 0.03253531455993652collector worker receive workload request count = 192
+--------------------
+Server-side end2end latency: 2.736268997192383
+request step: 212key: image_size, value: 256
+key: num-sampling-steps, value: 212
+key: remain_loop_count_no_cuda, value: -1
+key: cfg_scale, value: 4.0
+key: request_time, value: 1714311507.7462926
+key: SLO, value: 2.7677330674156546
+key: id, value: 489
+key: DiTModule_receive_time, value: 1714311507.7542248
+key: wait_loop_count, value: 0
+key: DiTModule_send_time, value: 1714311510.4270039
+key: VaeModule_receive_time, value: 1714311510.4398315
+key: VaeModule_send_time, value: 1714311510.4534366
+key: finish_time, value: 1714311510.4825616
+free time = 0.0314640998840332collector worker receive workload request count = 193

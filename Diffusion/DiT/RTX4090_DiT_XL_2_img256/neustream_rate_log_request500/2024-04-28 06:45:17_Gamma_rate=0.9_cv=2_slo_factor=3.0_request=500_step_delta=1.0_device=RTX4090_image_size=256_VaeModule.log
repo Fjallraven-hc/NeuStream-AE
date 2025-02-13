@@ -1,0 +1,1354 @@
+receive request: {"request_time": 1714257930.661574, "id": -1, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257940.3414, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-1], "rest_time": [3.58158016204834]}
+goodput: 1, total_request: 1
+{"batch_size": 0, "time": 1714257941.3832016, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257931.163239, "id": -2, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257941.3945637, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-2], "rest_time": [3.030076265335083]}
+goodput: 2, total_request: 2
+{"batch_size": 0, "time": 1714257941.42239, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257931.6637852, "id": -3, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257942.7456508, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-3], "rest_time": [2.179547071456909]}
+goodput: 3, total_request: 3
+{"batch_size": 0, "time": 1714257942.7713792, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257932.1643229, "id": -4, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257944.130928, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-4], "rest_time": [1.2948086261749268]}
+goodput: 4, total_request: 4
+{"batch_size": 0, "time": 1714257944.15741, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257932.6648877, "id": -5, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257945.2028375, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-5], "rest_time": [0.7234597206115723]}
+goodput: 5, total_request: 5
+{"batch_size": 0, "time": 1714257945.2317963, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257933.1654367, "id": -6, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257946.0029004, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-6], "rest_time": [0.4239504337310791]}
+goodput: 6, total_request: 6
+{"batch_size": 0, "time": 1714257946.0265486, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257933.6660092, "id": -7, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257946.569035, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-7], "rest_time": [0.35838770866394043]}
+goodput: 7, total_request: 7
+{"batch_size": 0, "time": 1714257946.5899043, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257934.1665683, "id": -8, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257947.061173, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-8], "rest_time": [0.3668084144592285]}
+goodput: 8, total_request: 8
+{"batch_size": 0, "time": 1714257947.079966, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257934.6671274, "id": -9, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257947.3459833, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-9], "rest_time": [0.5825581550598145]}
+goodput: 9, total_request: 9
+{"batch_size": 0, "time": 1714257947.3650331, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257935.1676877, "id": -10, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257947.5499964, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-10], "rest_time": [0.8791046142578125]}
+goodput: 10, total_request: 10
+{"batch_size": 0, "time": 1714257947.5750062, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257937.6705987, "id": -15, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257949.2446797, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-15], "rest_time": [1.6873328685760498]}
+goodput: 11, total_request: 11
+{"batch_size": 0, "time": 1714257949.2664454, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257937.1700275, "id": -14, "SLO": 13.261420910572635}
+{"batch_size": 1, "time": 1714257949.5186694, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [-14], "rest_time": [0.9127721786499023]}
+goodput: 12, total_request: 12
+{"batch_size": 0, "time": 1714257949.5337682, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257958.0745566, "id": 0, "SLO": 12.944547118214892}
+receive request: {"request_time": 1714257958.8058643, "id": 2, "SLO": 10.620805974258111}
+{"batch_size": 2, "time": 1714257963.8577178, "high_priority_count": 2, "low_priority_count": 0, "queue_size_before_schedule": 2, "batch_size_after_schedule": 0, "running_requests_id_list": [0, 2], "rest_time": [7.161376714706421, 5.568942546844482]}
+goodput: 14, total_request: 14
+{"batch_size": 0, "time": 1714257964.2982504, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257958.9694371, "id": 3, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714257964.3089385, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [3], "rest_time": [5.439734697341919]}
+goodput: 15, total_request: 15
+{"batch_size": 0, "time": 1714257964.3316488, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257958.6620538, "id": 1, "SLO": 13.102984014393764}
+{"batch_size": 1, "time": 1714257964.6766431, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [1], "rest_time": [7.088387727737427]}
+goodput: 16, total_request: 16
+{"batch_size": 0, "time": 1714257964.6932585, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257969.2141817, "id": 4, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714257973.474498, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [4], "rest_time": [6.518913269042969]}
+goodput: 17, total_request: 17
+{"batch_size": 0, "time": 1714257973.5054884, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257971.45962, "id": 6, "SLO": 11.096116662794726}
+{"batch_size": 1, "time": 1714257977.8288243, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [6], "rest_time": [4.726900100708008]}
+goodput: 18, total_request: 18
+{"batch_size": 0, "time": 1714257977.8590488, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257970.9961479, "id": 5, "SLO": 12.68048562458344}
+{"batch_size": 1, "time": 1714257977.8975296, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [5], "rest_time": [5.779090881347656]}
+goodput: 19, total_request: 19
+{"batch_size": 0, "time": 1714257977.9268858, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257971.4602969, "id": 7, "SLO": 11.624239650057628}
+{"batch_size": 1, "time": 1714257978.0624583, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [7], "rest_time": [5.022070407867432]}
+goodput: 20, total_request: 20
+{"batch_size": 0, "time": 1714257978.0867765, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257971.4606113, "id": 8, "SLO": 11.72986424751021}
+{"batch_size": 1, "time": 1714257978.1134224, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [8], "rest_time": [5.077043533325195]}
+goodput: 21, total_request: 21
+{"batch_size": 0, "time": 1714257978.138218, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257973.1050313, "id": 9, "SLO": 12.522048728404569}
+{"batch_size": 1, "time": 1714257979.275412, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [9], "rest_time": [6.351657152175903]}
+goodput: 22, total_request: 22
+{"batch_size": 0, "time": 1714257979.3009942, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257988.7251568, "id": 11, "SLO": 10.937679766615855}
+{"batch_size": 1, "time": 1714257998.8619452, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [11], "rest_time": [0.8008856773376465]}
+goodput: 23, total_request: 23
+{"batch_size": 0, "time": 1714257998.8905957, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257988.5229437, "id": 10, "SLO": 11.835488844962791}
+{"batch_size": 1, "time": 1714257999.1988292, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [10], "rest_time": [1.1595966815948486]}
+goodput: 24, total_request: 24
+{"batch_size": 0, "time": 1714257999.2275786, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257989.0805607, "id": 15, "SLO": 10.6736182729844}
+{"batch_size": 1, "time": 1714257999.381386, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [15], "rest_time": [0.37278175354003906]}
+goodput: 25, total_request: 25
+{"batch_size": 0, "time": 1714257999.4120336, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257988.7264097, "id": 12, "SLO": 11.888301143689082}
+{"batch_size": 1, "time": 1714257999.8562593, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [12], "rest_time": [0.7584383487701416]}
+goodput: 26, total_request: 26
+{"batch_size": 0, "time": 1714257999.878057, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257988.7285223, "id": 13, "SLO": 11.888301143689082}
+{"batch_size": 1, "time": 1714257999.9117184, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [13], "rest_time": [0.7050976753234863]}
+goodput: 27, total_request: 27
+{"batch_size": 0, "time": 1714257999.9374678, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257989.058419, "id": 14, "SLO": 11.254553558973596}
+{"batch_size": 1, "time": 1714257999.9719367, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [14], "rest_time": [0.34102725982666016]}
+goodput: 28, total_request: 28
+{"batch_size": 0, "time": 1714258000.0007675, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257989.8979359, "id": 18, "SLO": 11.835488844962791}
+{"batch_size": 1, "time": 1714258001.6662624, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [18], "rest_time": [0.06714916229248047]}
+goodput: 29, total_request: 29
+{"batch_size": 0, "time": 1714258001.6969874, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257989.273311, "id": 16, "SLO": 12.627673325857149}
+{"batch_size": 1, "time": 1714258001.7430634, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [16], "rest_time": [0.15790772438049316]}
+goodput: 30, total_request: 30
+{"batch_size": 0, "time": 1714258001.770572, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257989.2736845, "id": 17, "SLO": 12.68048562458344}
+{"batch_size": 1, "time": 1714258001.8189437, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [17], "rest_time": [0.13521909713745117]}
+goodput: 31, total_request: 31
+{"batch_size": 0, "time": 1714258001.8476386, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257996.9647725, "id": 19, "SLO": 13.050171715667474}
+{"batch_size": 1, "time": 1714258009.5847957, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [19], "rest_time": [0.43013501167297363]}
+goodput: 32, total_request: 32
+{"batch_size": 0, "time": 1714258009.6178083, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257999.2615747, "id": 26, "SLO": 11.096116662794726}
+{"batch_size": 1, "time": 1714258009.751207, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [26], "rest_time": [0.606475830078125]}
+goodput: 33, total_request: 33
+{"batch_size": 0, "time": 1714258009.7718496, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257999.4830859, "id": 29, "SLO": 10.884867467889563}
+{"batch_size": 1, "time": 1714258009.8645382, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [29], "rest_time": [0.5034074783325195]}
+goodput: 34, total_request: 34
+{"batch_size": 0, "time": 1714258009.8863013, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257999.4758584, "id": 28, "SLO": 11.465802753878759}
+{"batch_size": 1, "time": 1714258009.9815588, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [28], "rest_time": [0.9600927829742432]}
+goodput: 35, total_request: 35
+{"batch_size": 0, "time": 1714258010.0036745, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714257999.472369, "id": 27, "SLO": 11.677051948783921}
+{"batch_size": 1, "time": 1714258010.0581982, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [27], "rest_time": [1.0912151336669922]}
+goodput: 36, total_request: 36
+{"batch_size": 0, "time": 1714258010.0750697, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258014.044746, "id": 32, "SLO": 10.620805974258111}
+{"batch_size": 1, "time": 1714258023.7996814, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [32], "rest_time": [0.8658568859100342]}
+goodput: 37, total_request: 37
+{"batch_size": 0, "time": 1714258023.8304565, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258013.981164, "id": 30, "SLO": 11.412990455152467}
+{"batch_size": 1, "time": 1714258024.4021513, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [30], "rest_time": [0.991990327835083]}
+goodput: 38, total_request: 38
+{"batch_size": 0, "time": 1714258024.4330928, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258014.0906076, "id": 33, "SLO": 11.571427351331339}
+{"batch_size": 1, "time": 1714258024.8444254, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [33], "rest_time": [0.8176000118255615]}
+goodput: 39, total_request: 39
+{"batch_size": 0, "time": 1714258024.874758, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258014.0910943, "id": 34, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258025.7475183, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [34], "rest_time": [0.8127992153167725]}
+goodput: 40, total_request: 40
+{"batch_size": 0, "time": 1714258025.7801738, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258014.5496416, "id": 35, "SLO": 11.888301143689082}
+{"batch_size": 1, "time": 1714258026.0284042, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [35], "rest_time": [0.4095304012298584]}
+goodput: 41, total_request: 41
+{"batch_size": 0, "time": 1714258026.0567887, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258014.0102105, "id": 31, "SLO": 13.102984014393764}
+{"batch_size": 1, "time": 1714258026.2661088, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [31], "rest_time": [0.8470730781555176]}
+goodput: 42, total_request: 42
+{"batch_size": 0, "time": 1714258026.2957084, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258015.3729029, "id": 37, "SLO": 12.152362637320536}
+{"batch_size": 1, "time": 1714258027.31481, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [37], "rest_time": [0.21044182777404785]}
+goodput: 43, total_request: 43
+{"batch_size": 0, "time": 1714258027.3445017, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258014.8833745, "id": 36, "SLO": 13.208608611846344}
+{"batch_size": 1, "time": 1714258027.5075257, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [36], "rest_time": [0.5844440460205078]}
+goodput: 44, total_request: 44
+{"batch_size": 0, "time": 1714258027.5382638, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258021.5562112, "id": 48, "SLO": 11.835488844962791}
+{"batch_size": 1, "time": 1714258030.988136, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [48], "rest_time": [2.4035513401031494]}
+goodput: 45, total_request: 45
+{"batch_size": 0, "time": 1714258031.0171218, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258024.9653192, "id": 49, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258031.6635246, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [49], "rest_time": [5.771018028259277]}
+goodput: 46, total_request: 46
+{"batch_size": 0, "time": 1714258031.6897032, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258028.393839, "id": 50, "SLO": 11.201741260247307}
+{"batch_size": 1, "time": 1714258032.9634569, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [50], "rest_time": [6.632110118865967]}
+goodput: 47, total_request: 47
+{"batch_size": 0, "time": 1714258032.989452, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258029.6243346, "id": 51, "SLO": 12.099550338594245}
+{"batch_size": 1, "time": 1714258034.0575938, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [51], "rest_time": [7.66627836227417]}
+goodput: 48, total_request: 48
+{"batch_size": 0, "time": 1714258034.0811782, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258038.526735, "id": 53, "SLO": 10.620805974258111}
+receive request: {"request_time": 1714258038.5272, "id": 54, "SLO": 10.620805974258111}
+{"batch_size": 2, "time": 1714258046.2053657, "high_priority_count": 2, "low_priority_count": 0, "queue_size_before_schedule": 2, "batch_size_after_schedule": 0, "running_requests_id_list": [53, 54], "rest_time": [2.9421606063842773, 2.942624092102051]}
+goodput: 50, total_request: 50
+{"batch_size": 0, "time": 1714258046.2631793, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258038.3825073, "id": 52, "SLO": 12.416424130951988}
+{"batch_size": 1, "time": 1714258047.5237792, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [52], "rest_time": [3.2751402854919434]}
+goodput: 51, total_request: 51
+{"batch_size": 0, "time": 1714258047.5535147, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258040.0207055, "id": 56, "SLO": 10.884867467889563}
+{"batch_size": 1, "time": 1714258050.1472955, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [56], "rest_time": [0.7582697868347168]}
+goodput: 52, total_request: 52
+{"batch_size": 0, "time": 1714258050.1747046, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258039.371787, "id": 55, "SLO": 12.522048728404569}
+{"batch_size": 1, "time": 1714258050.4370475, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [55], "rest_time": [1.4567804336547852]}
+goodput: 53, total_request: 53
+{"batch_size": 0, "time": 1714258050.4661522, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258040.0228107, "id": 57, "SLO": 12.627673325857149}
+{"batch_size": 1, "time": 1714258051.9256837, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [57], "rest_time": [0.7247908115386963]}
+goodput: 54, total_request: 54
+{"batch_size": 0, "time": 1714258051.954511, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258040.976669, "id": 59, "SLO": 11.51861505260505}
+{"batch_size": 1, "time": 1714258052.3177354, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [59], "rest_time": [0.17753911018371582]}
+goodput: 55, total_request: 55
+{"batch_size": 0, "time": 1714258052.3466573, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258040.4924445, "id": 58, "SLO": 12.733297923309731}
+{"batch_size": 1, "time": 1714258052.8620255, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [58], "rest_time": [0.3637070655822754]}
+goodput: 56, total_request: 56
+{"batch_size": 0, "time": 1714258052.8910992, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258041.7809892, "id": 60, "SLO": 11.412990455152467}
+{"batch_size": 1, "time": 1714258053.1424088, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [60], "rest_time": [0.05156207084655762]}
+goodput: 57, total_request: 57
+{"batch_size": 0, "time": 1714258053.1698952, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258048.9934938, "id": 65, "SLO": 10.6736182729844}
+{"batch_size": 1, "time": 1714258059.6103842, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [65], "rest_time": [0.056714534759521484]}
+goodput: 58, total_request: 58
+{"batch_size": 0, "time": 1714258059.6365936, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258047.8363008, "id": 64, "SLO": 12.257987234773118}
+{"batch_size": 1, "time": 1714258059.9264286, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [64], "rest_time": [0.16784954071044922]}
+goodput: 59, total_request: 59
+{"batch_size": 0, "time": 1714258059.9496908, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258047.835341, "id": 63, "SLO": 12.838922520762313}
+{"batch_size": 1, "time": 1714258060.3211074, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [63], "rest_time": [0.353147029876709]}
+goodput: 60, total_request: 60
+{"batch_size": 0, "time": 1714258060.341175, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258052.1385107, "id": 71, "SLO": 11.201741260247307}
+{"batch_size": 1, "time": 1714258061.6191268, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [71], "rest_time": [1.7211122512817383]}
+goodput: 61, total_request: 61
+{"batch_size": 0, "time": 1714258061.6476617, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258050.9639018, "id": 69, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258061.6701944, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [69], "rest_time": [1.7629382610321045]}
+goodput: 62, total_request: 62
+{"batch_size": 0, "time": 1714258061.6954808, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258051.0865536, "id": 70, "SLO": 12.627673325857149}
+{"batch_size": 1, "time": 1714258061.779603, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [70], "rest_time": [1.934617280960083]}
+goodput: 63, total_request: 63
+{"batch_size": 0, "time": 1714258061.8020973, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258053.3470457, "id": 72, "SLO": 13.050171715667474}
+{"batch_size": 1, "time": 1714258062.6398861, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [72], "rest_time": [3.7573208808898926]}
+goodput: 64, total_request: 64
+{"batch_size": 0, "time": 1714258062.659978, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258067.3008988, "id": 75, "SLO": 10.620805974258111}
+{"batch_size": 1, "time": 1714258072.8967211, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [75], "rest_time": [5.024976491928101]}
+goodput: 65, total_request: 65
+{"batch_size": 0, "time": 1714258072.9166002, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258067.2927015, "id": 73, "SLO": 11.571427351331339}
+{"batch_size": 1, "time": 1714258073.4560251, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [73], "rest_time": [5.408098459243774]}
+goodput: 66, total_request: 66
+{"batch_size": 0, "time": 1714258073.4768229, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258067.2933865, "id": 74, "SLO": 12.046738039867954}
+{"batch_size": 1, "time": 1714258073.7469165, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [74], "rest_time": [5.593200206756592]}
+goodput: 67, total_request: 67
+{"batch_size": 0, "time": 1714258073.7746365, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258069.1040797, "id": 76, "SLO": 11.360178156426176}
+{"batch_size": 1, "time": 1714258075.900067, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [76], "rest_time": [4.564184188842773]}
+goodput: 68, total_request: 68
+{"batch_size": 0, "time": 1714258075.9196055, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258069.1718297, "id": 78, "SLO": 11.254553558973596}
+{"batch_size": 1, "time": 1714258075.9324605, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [78], "rest_time": [4.493915796279907]}
+goodput: 69, total_request: 69
+{"batch_size": 0, "time": 1714258075.9608748, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258069.1679964, "id": 77, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258076.447792, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [77], "rest_time": [5.18943452835083]}
+goodput: 70, total_request: 70
+{"batch_size": 0, "time": 1714258076.467614, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258069.665768, "id": 79, "SLO": 12.838922520762313}
+{"batch_size": 1, "time": 1714258076.8780203, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [79], "rest_time": [5.626663446426392]}
+goodput: 71, total_request: 71
+{"batch_size": 0, "time": 1714258076.903888, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258075.7978027, "id": 80, "SLO": 11.677051948783921}
+{"batch_size": 1, "time": 1714258083.4891744, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [80], "rest_time": [3.985675096511841]}
+goodput: 72, total_request: 72
+{"batch_size": 0, "time": 1714258083.5179224, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258076.1643817, "id": 81, "SLO": 11.201741260247307}
+{"batch_size": 1, "time": 1714258083.8884294, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [81], "rest_time": [3.4776875972747803]}
+goodput: 73, total_request: 73
+{"batch_size": 0, "time": 1714258083.9170125, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258077.4281304, "id": 82, "SLO": 10.832055169163272}
+{"batch_size": 1, "time": 1714258087.002134, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [82], "rest_time": [1.2580454349517822]}
+goodput: 74, total_request: 74
+{"batch_size": 0, "time": 1714258087.0275633, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258077.546615, "id": 84, "SLO": 10.832055169163272}
+{"batch_size": 1, "time": 1714258087.3433836, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [84], "rest_time": [1.0352802276611328]}
+goodput: 75, total_request: 75
+{"batch_size": 0, "time": 1714258087.3685262, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258077.5406158, "id": 83, "SLO": 10.937679766615855}
+{"batch_size": 1, "time": 1714258087.4737034, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [83], "rest_time": [1.0045859813690186]}
+goodput: 76, total_request: 76
+{"batch_size": 0, "time": 1714258087.4992669, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258078.8892686, "id": 86, "SLO": 10.779242870436981}
+pid: [2107217], holding module: VaeModule, abandon one request. id:86
+receive request: {"request_time": 1714258078.8898864, "id": 87, "SLO": 11.254553558973596}
+pid: [2107217], holding module: VaeModule, abandon one request. id:87
+receive request: {"request_time": 1714258078.9323573, "id": 88, "SLO": 12.522048728404569}
+{"batch_size": 1, "time": 1714258091.161727, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [88], "rest_time": [0.29267263412475586]}
+goodput: 77, total_request: 79
+{"batch_size": 0, "time": 1714258091.1874819, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258079.0235827, "id": 89, "SLO": 12.733297923309731}
+{"batch_size": 1, "time": 1714258091.4996579, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [89], "rest_time": [0.2572164535522461]}
+goodput: 78, total_request: 80
+{"batch_size": 0, "time": 1714258091.5258112, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258078.8766851, "id": 85, "SLO": 13.102984014393764}
+{"batch_size": 1, "time": 1714258091.682601, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [85], "rest_time": [0.2970616817474365]}
+goodput: 79, total_request: 81
+{"batch_size": 0, "time": 1714258091.708464, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258083.502208, "id": 100, "SLO": 10.884867467889563}
+{"batch_size": 1, "time": 1714258093.888572, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [100], "rest_time": [0.49849677085876465]}
+goodput: 80, total_request: 82
+{"batch_size": 0, "time": 1714258093.90817, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258091.0253808, "id": 103, "SLO": 10.620805974258111}
+{"batch_size": 1, "time": 1714258100.8927538, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [103], "rest_time": [0.7534265518188477]}
+goodput: 81, total_request: 83
+{"batch_size": 0, "time": 1714258100.9197161, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258091.1402402, "id": 105, "SLO": 10.884867467889563}
+{"batch_size": 1, "time": 1714258101.3371997, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [105], "rest_time": [0.6879031658172607]}
+goodput: 82, total_request: 84
+{"batch_size": 0, "time": 1714258101.3633025, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258091.1131546, "id": 104, "SLO": 12.257987234773118}
+{"batch_size": 1, "time": 1714258102.6784286, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [104], "rest_time": [0.6927065849304199]}
+goodput: 83, total_request: 85
+{"batch_size": 0, "time": 1714258102.7036526, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258091.0164669, "id": 102, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258102.8079307, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [102], "rest_time": [0.6777663230895996]}
+goodput: 84, total_request: 86
+{"batch_size": 0, "time": 1714258102.833381, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258090.9972787, "id": 101, "SLO": 12.786110222036022}
+{"batch_size": 1, "time": 1714258103.1455145, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [101], "rest_time": [0.6378672122955322]}
+goodput: 85, total_request: 87
+{"batch_size": 0, "time": 1714258103.1706438, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258094.4012191, "id": 107, "SLO": 10.620805974258111}
+{"batch_size": 1, "time": 1714258104.8682861, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [107], "rest_time": [0.1537322998046875]}
+goodput: 86, total_request: 88
+{"batch_size": 0, "time": 1714258104.8951821, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258094.0821366, "id": 106, "SLO": 12.205174936046827}
+{"batch_size": 1, "time": 1714258105.9011316, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [106], "rest_time": [0.38617396354675293]}
+goodput: 87, total_request: 89
+{"batch_size": 0, "time": 1714258105.9228506, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258096.0328436, "id": 110, "SLO": 12.416424130951988}
+{"batch_size": 1, "time": 1714258107.5721724, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [110], "rest_time": [0.877089262008667]}
+goodput: 88, total_request: 90
+{"batch_size": 0, "time": 1714258107.5920537, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258096.0303664, "id": 109, "SLO": 12.522048728404569}
+{"batch_size": 1, "time": 1714258107.6529481, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [109], "rest_time": [0.8994615077972412]}
+goodput: 89, total_request: 91
+{"batch_size": 0, "time": 1714258107.6726456, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258095.5755067, "id": 108, "SLO": 13.208608611846344}
+{"batch_size": 1, "time": 1714258107.7422833, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [108], "rest_time": [1.0418262481689453]}
+goodput: 90, total_request: 92
+{"batch_size": 0, "time": 1714258107.7632194, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258101.8786526, "id": 113, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714258109.21957, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [113], "rest_time": [3.438319206237793]}
+goodput: 91, total_request: 93
+{"batch_size": 0, "time": 1714258109.2455792, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258097.6337025, "id": 112, "SLO": 12.152362637320536}
+{"batch_size": 1, "time": 1714258109.4454837, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [112], "rest_time": [0.3405756950378418]}
+goodput: 92, total_request: 94
+{"batch_size": 0, "time": 1714258109.4693878, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258102.2925549, "id": 114, "SLO": 12.416424130951988}
+{"batch_size": 1, "time": 1714258109.9778745, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [114], "rest_time": [4.731098890304565]}
+goodput: 93, total_request: 95
+{"batch_size": 0, "time": 1714258109.9976122, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258112.1727328, "id": 116, "SLO": 11.307365857699887}
+{"batch_size": 1, "time": 1714258118.7681823, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [116], "rest_time": [4.71190333366394]}
+goodput: 94, total_request: 96
+{"batch_size": 0, "time": 1714258118.7990677, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258112.1568587, "id": 115, "SLO": 12.838922520762313}
+{"batch_size": 1, "time": 1714258119.6023755, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [115], "rest_time": [5.3933937549591064]}
+goodput: 95, total_request: 97
+{"batch_size": 0, "time": 1714258119.6331449, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258112.1733296, "id": 117, "SLO": 13.155796313120053}
+{"batch_size": 1, "time": 1714258119.8124306, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [117], "rest_time": [5.516686916351318]}
+goodput: 96, total_request: 98
+{"batch_size": 0, "time": 1714258119.841246, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258113.0983024, "id": 120, "SLO": 11.096116662794726}
+{"batch_size": 1, "time": 1714258119.9691865, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [120], "rest_time": [4.225221633911133]}
+goodput: 97, total_request: 99
+{"batch_size": 0, "time": 1714258119.997616, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258113.0975957, "id": 119, "SLO": 11.72986424751021}
+{"batch_size": 1, "time": 1714258120.2147958, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [119], "rest_time": [4.612653970718384]}
+goodput: 98, total_request: 100
+{"batch_size": 0, "time": 1714258120.241151, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258113.068935, "id": 118, "SLO": 12.68048562458344}
+{"batch_size": 1, "time": 1714258120.5524333, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [118], "rest_time": [5.196977853775024]}
+goodput: 99, total_request: 101
+{"batch_size": 0, "time": 1714258120.5753863, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258127.9456468, "id": 121, "SLO": 10.620805974258111}
+{"batch_size": 1, "time": 1714258131.9324455, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [121], "rest_time": [6.6339945793151855]}
+goodput: 100, total_request: 102
+{"batch_size": 0, "time": 1714258131.9585886, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258128.004448, "id": 122, "SLO": 11.148928961521015}
+{"batch_size": 1, "time": 1714258132.196554, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [122], "rest_time": [6.956813097000122]}
+goodput: 101, total_request: 103
+{"batch_size": 0, "time": 1714258132.222267, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258128.0177922, "id": 123, "SLO": 12.891734819488603}
+{"batch_size": 1, "time": 1714258132.8174577, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [123], "rest_time": [8.092060804367065]}
+goodput: 102, total_request: 104
+{"batch_size": 0, "time": 1714258132.8384085, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258134.8285184, "id": 124, "SLO": 11.835488844962791}
+{"batch_size": 1, "time": 1714258143.2202947, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [124], "rest_time": [3.4436991214752197]}
+goodput: 103, total_request: 105
+{"batch_size": 0, "time": 1714258143.2501776, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258135.5314257, "id": 125, "SLO": 10.726430571710692}
+{"batch_size": 1, "time": 1714258144.1565413, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [125], "rest_time": [2.1012918949127197]}
+goodput: 104, total_request: 106
+{"batch_size": 0, "time": 1714258144.178951, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258135.985066, "id": 129, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714258144.9045088, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [129], "rest_time": [1.8597877025604248]}
+goodput: 105, total_request: 107
+{"batch_size": 0, "time": 1714258144.9265456, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258135.5647948, "id": 126, "SLO": 12.416424130951988}
+{"batch_size": 1, "time": 1714258145.3993022, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [126], "rest_time": [2.581904888153076]}
+goodput: 106, total_request: 108
+{"batch_size": 0, "time": 1714258145.428862, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258135.6299376, "id": 127, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258145.538516, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [127], "rest_time": [2.560645818710327]}
+goodput: 107, total_request: 109
+{"batch_size": 0, "time": 1714258145.5699992, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258135.902465, "id": 128, "SLO": 12.205174936046827}
+{"batch_size": 1, "time": 1714258145.6991477, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [128], "rest_time": [2.408485174179077]}
+goodput: 108, total_request: 110
+{"batch_size": 0, "time": 1714258145.7247114, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258138.1470962, "id": 130, "SLO": 11.571427351331339}
+{"batch_size": 1, "time": 1714258146.7731428, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [130], "rest_time": [2.9453682899475098]}
+goodput: 109, total_request: 111
+{"batch_size": 0, "time": 1714258146.7983568, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258138.4524534, "id": 132, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258147.2441335, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [132], "rest_time": [3.677544593811035]}
+goodput: 110, total_request: 112
+{"batch_size": 0, "time": 1714258147.2689257, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258138.451508, "id": 131, "SLO": 13.050171715667474}
+{"batch_size": 1, "time": 1714258147.4546826, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [131], "rest_time": [4.046986818313599]}
+goodput: 111, total_request: 113
+{"batch_size": 0, "time": 1714258147.4780009, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258151.3692667, "id": 133, "SLO": 11.677051948783921}
+{"batch_size": 1, "time": 1714258155.357971, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [133], "rest_time": [7.688340663909912]}
+goodput: 112, total_request: 114
+{"batch_size": 0, "time": 1714258155.3784802, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258155.9250488, "id": 138, "SLO": 10.6736182729844}
+{"batch_size": 1, "time": 1714258164.4715288, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [138], "rest_time": [2.127127170562744]}
+goodput: 113, total_request: 115
+{"batch_size": 0, "time": 1714258164.4995372, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258155.744236, "id": 134, "SLO": 11.51861505260505}
+{"batch_size": 1, "time": 1714258164.7595687, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [134], "rest_time": [2.5032708644866943]}
+goodput: 114, total_request: 116
+{"batch_size": 0, "time": 1714258164.789981, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258155.9225435, "id": 136, "SLO": 11.360178156426176}
+{"batch_size": 1, "time": 1714258165.2072403, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [136], "rest_time": [2.0754716396331787]}
+goodput: 115, total_request: 117
+{"batch_size": 0, "time": 1714258165.2347462, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258155.7997873, "id": 135, "SLO": 12.046738039867954}
+{"batch_size": 1, "time": 1714258165.5469346, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [135], "rest_time": [2.29957914352417]}
+goodput: 116, total_request: 118
+{"batch_size": 0, "time": 1714258165.577479, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258155.9244344, "id": 137, "SLO": 12.786110222036022}
+{"batch_size": 1, "time": 1714258166.6795485, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [137], "rest_time": [2.0309841632843018]}
+goodput: 117, total_request: 119
+{"batch_size": 0, "time": 1714258166.707789, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258156.9718199, "id": 140, "SLO": 11.148928961521015}
+{"batch_size": 1, "time": 1714258166.912771, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [140], "rest_time": [1.2079658508300781]}
+goodput: 118, total_request: 120
+{"batch_size": 0, "time": 1714258166.9436116, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258156.83206, "id": 139, "SLO": 12.522048728404569}
+{"batch_size": 1, "time": 1714258168.0936198, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [139], "rest_time": [1.2604782581329346]}
+goodput: 119, total_request: 121
+{"batch_size": 0, "time": 1714258168.121956, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258164.712116, "id": 157, "SLO": 10.726430571710692}
+{"batch_size": 1, "time": 1714258175.125281, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [157], "rest_time": [0.31325221061706543]}
+goodput: 120, total_request: 122
+{"batch_size": 0, "time": 1714258175.148324, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258164.344257, "id": 156, "SLO": 11.888301143689082}
+{"batch_size": 1, "time": 1714258175.8554695, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [156], "rest_time": [0.3770756721496582]}
+goodput: 121, total_request: 123
+{"batch_size": 0, "time": 1714258175.8790524, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258164.8513591, "id": 160, "SLO": 12.416424130951988}
+{"batch_size": 1, "time": 1714258176.8568149, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [160], "rest_time": [0.41095519065856934]}
+goodput: 122, total_request: 124
+{"batch_size": 0, "time": 1714258176.8799698, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258165.2406175, "id": 161, "SLO": 12.891734819488603}
+{"batch_size": 1, "time": 1714258177.134161, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [161], "rest_time": [0.9981799125671387]}
+goodput: 123, total_request: 125
+{"batch_size": 0, "time": 1714258177.1561086, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258168.6786883, "id": 162, "SLO": 11.307365857699887}
+{"batch_size": 1, "time": 1714258178.287391, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [162], "rest_time": [1.6986517906188965]}
+goodput: 124, total_request: 126
+{"batch_size": 0, "time": 1714258178.3176827, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258169.901914, "id": 163, "SLO": 13.155796313120053}
+{"batch_size": 1, "time": 1714258180.3210397, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [163], "rest_time": [2.7366585731506348]}
+goodput: 125, total_request: 127
+{"batch_size": 0, "time": 1714258180.3442836, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258175.2270875, "id": 165, "SLO": 11.043304364068433}
+{"batch_size": 1, "time": 1714258182.7915845, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [165], "rest_time": [3.4787962436676025]}
+goodput: 126, total_request: 128
+{"batch_size": 0, "time": 1714258182.8139188, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258174.1615398, "id": 164, "SLO": 12.733297923309731}
+{"batch_size": 1, "time": 1714258183.1104717, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [164], "rest_time": [3.784355878829956]}
+goodput: 127, total_request: 129
+{"batch_size": 0, "time": 1714258183.1341567, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258176.6863508, "id": 166, "SLO": 11.624239650057628}
+{"batch_size": 1, "time": 1714258184.272223, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [166], "rest_time": [4.038354873657227]}
+goodput: 128, total_request: 130
+{"batch_size": 0, "time": 1714258184.302376, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258176.7018328, "id": 167, "SLO": 12.257987234773118}
+{"batch_size": 1, "time": 1714258184.6180866, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [167], "rest_time": [4.341723203659058]}
+goodput: 129, total_request: 131
+{"batch_size": 0, "time": 1714258184.6478975, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258178.5349615, "id": 168, "SLO": 11.043304364068433}
+{"batch_size": 1, "time": 1714258185.178257, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [168], "rest_time": [4.400001764297485]}
+goodput: 130, total_request: 132
+{"batch_size": 0, "time": 1714258185.2041726, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258178.7314694, "id": 169, "SLO": 11.993925741141663}
+{"batch_size": 1, "time": 1714258185.599706, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [169], "rest_time": [5.125680685043335]}
+goodput: 131, total_request: 133
+{"batch_size": 0, "time": 1714258185.6242313, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258181.5322657, "id": 170, "SLO": 10.726430571710692}
+{"batch_size": 1, "time": 1714258186.5480568, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [170], "rest_time": [5.710632085800171]}
+goodput: 132, total_request: 134
+{"batch_size": 0, "time": 1714258186.5679708, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258189.6334045, "id": 171, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714258192.9674492, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [171], "rest_time": [7.44518518447876]}
+goodput: 133, total_request: 135
+{"batch_size": 0, "time": 1714258192.9954302, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258191.776419, "id": 172, "SLO": 12.944547118214892}
+{"batch_size": 1, "time": 1714258198.4482915, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [172], "rest_time": [6.272661447525024]}
+goodput: 134, total_request: 136
+{"batch_size": 0, "time": 1714258198.479211, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258193.845825, "id": 173, "SLO": 11.360178156426176}
+{"batch_size": 1, "time": 1714258203.46467, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [173], "rest_time": [1.7413244247436523]}
+goodput: 135, total_request: 137
+{"batch_size": 0, "time": 1714258203.4925897, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258194.5418956, "id": 175, "SLO": 10.832055169163272}
+{"batch_size": 1, "time": 1714258205.187877, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [175], "rest_time": [0.1860668659210205]}
+goodput: 136, total_request: 138
+{"batch_size": 0, "time": 1714258205.207846, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258194.5619826, "id": 176, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714258205.2402952, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [176], "rest_time": [0.10091781616210938]}
+goodput: 137, total_request: 139
+{"batch_size": 0, "time": 1714258205.27105, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258194.6332748, "id": 178, "SLO": 11.201741260247307}
+{"batch_size": 1, "time": 1714258205.7722852, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [178], "rest_time": [0.06272172927856445]}
+goodput: 138, total_request: 140
+{"batch_size": 0, "time": 1714258205.8022976, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258194.7489893, "id": 180, "SLO": 11.307365857699887}
+{"batch_size": 1, "time": 1714258206.0605917, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [180], "rest_time": [-0.004247188568115234]}
+goodput: 138, total_request: 141
+{"batch_size": 0, "time": 1714258206.076328, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258194.633509, "id": 179, "SLO": 11.782676546236502}
+{"batch_size": 1, "time": 1714258206.2919936, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [179], "rest_time": [0.12418174743652344]}
+goodput: 139, total_request: 142
+{"batch_size": 0, "time": 1714258206.3148587, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258194.5415072, "id": 174, "SLO": 12.310799533499408}
+{"batch_size": 1, "time": 1714258206.5245957, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [174], "rest_time": [0.32770371437072754]}
+goodput: 140, total_request: 143
+{"batch_size": 0, "time": 1714258206.5456457, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258194.562214, "id": 177, "SLO": 12.997359416941183}
+{"batch_size": 1, "time": 1714258206.8968554, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [177], "rest_time": [0.662708044052124]}
+goodput: 141, total_request: 144
+{"batch_size": 0, "time": 1714258206.9261048, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258194.7498226, "id": 181, "SLO": 12.997359416941183}
+{"batch_size": 1, "time": 1714258207.0005772, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [181], "rest_time": [0.746598482131958]}
+goodput: 142, total_request: 145
+{"batch_size": 0, "time": 1714258207.0258598, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258197.8828712, "id": 183, "SLO": 11.465802753878759}
+{"batch_size": 1, "time": 1714258207.6724958, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [183], "rest_time": [1.6761713027954102]}
+goodput: 143, total_request: 146
+{"batch_size": 0, "time": 1714258207.696992, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258197.896795, "id": 187, "SLO": 13.050171715667474}
+{"batch_size": 1, "time": 1714258209.708747, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [187], "rest_time": [1.2382128238677979]}
+goodput: 144, total_request: 147
+{"batch_size": 0, "time": 1714258209.7246754, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258211.3227696, "id": 189, "SLO": 11.465802753878759}
+{"batch_size": 1, "time": 1714258217.311523, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [189], "rest_time": [5.477036476135254]}
+goodput: 145, total_request: 148
+{"batch_size": 0, "time": 1714258217.3412821, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258211.447926, "id": 190, "SLO": 11.624239650057628}
+{"batch_size": 1, "time": 1714258217.8499806, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [190], "rest_time": [5.2221739292144775]}
+goodput: 146, total_request: 149
+{"batch_size": 0, "time": 1714258217.8805008, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258212.1883593, "id": 191, "SLO": 12.363611832225697}
+{"batch_size": 1, "time": 1714258220.6296878, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [191], "rest_time": [3.922269821166992]}
+goodput: 147, total_request: 150
+{"batch_size": 0, "time": 1714258220.6640294, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258214.2327564, "id": 195, "SLO": 10.937679766615855}
+{"batch_size": 1, "time": 1714258224.2286057, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [195], "rest_time": [0.9418165683746338]}
+goodput: 148, total_request: 151
+{"batch_size": 0, "time": 1714258224.2612875, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258213.8976898, "id": 193, "SLO": 12.310799533499408}
+{"batch_size": 1, "time": 1714258225.022584, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [193], "rest_time": [1.1858937740325928]}
+goodput: 149, total_request: 152
+{"batch_size": 0, "time": 1714258225.0540788, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258213.9142096, "id": 194, "SLO": 12.522048728404569}
+{"batch_size": 1, "time": 1714258225.2851193, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [194], "rest_time": [1.151127815246582]}
+goodput: 150, total_request: 153
+{"batch_size": 0, "time": 1714258225.308631, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258213.8822353, "id": 192, "SLO": 12.733297923309731}
+{"batch_size": 1, "time": 1714258225.417818, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [192], "rest_time": [1.1977040767669678]}
+goodput: 151, total_request: 154
+{"batch_size": 0, "time": 1714258225.4383256, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258214.6537812, "id": 196, "SLO": 11.72986424751021}
+{"batch_size": 1, "time": 1714258225.5757189, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [196], "rest_time": [0.807915210723877]}
+goodput: 152, total_request: 155
+{"batch_size": 0, "time": 1714258225.6041033, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258215.8373687, "id": 198, "SLO": 11.307365857699887}
+{"batch_size": 1, "time": 1714258226.1063213, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [198], "rest_time": [1.038400650024414]}
+goodput: 153, total_request: 156
+{"batch_size": 0, "time": 1714258226.1380079, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258215.7618625, "id": 197, "SLO": 12.257987234773118}
+{"batch_size": 1, "time": 1714258226.528186, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [197], "rest_time": [1.4916529655456543]}
+goodput: 154, total_request: 157
+{"batch_size": 0, "time": 1714258226.5571313, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258221.25838, "id": 199, "SLO": 10.990492065342144}
+{"batch_size": 1, "time": 1714258228.2614698, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [199], "rest_time": [3.9873952865600586]}
+goodput: 155, total_request: 158
+{"batch_size": 0, "time": 1714258228.2875884, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258221.2721581, "id": 200, "SLO": 11.888301143689082}
+{"batch_size": 1, "time": 1714258228.582754, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [200], "rest_time": [4.5776989459991455]}
+goodput: 156, total_request: 159
+{"batch_size": 0, "time": 1714258228.6077306, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258223.3339972, "id": 201, "SLO": 11.412990455152467}
+{"batch_size": 1, "time": 1714258229.1095493, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [201], "rest_time": [5.637431621551514]}
+goodput: 157, total_request: 160
+{"batch_size": 0, "time": 1714258229.1276107, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258234.9918659, "id": 203, "SLO": 11.571427351331339}
+{"batch_size": 1, "time": 1714258239.1563985, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [203], "rest_time": [7.406881332397461]}
+goodput: 158, total_request: 161
+{"batch_size": 0, "time": 1714258239.1919477, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258234.9565206, "id": 202, "SLO": 12.786110222036022}
+{"batch_size": 1, "time": 1714258239.52113, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [202], "rest_time": [8.221493244171143]}
+goodput: 159, total_request: 162
+{"batch_size": 0, "time": 1714258239.546592, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258235.0098102, "id": 204, "SLO": 12.733297923309731}
+{"batch_size": 1, "time": 1714258239.5713708, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [204], "rest_time": [8.171726703643799]}
+goodput: 160, total_request: 163
+{"batch_size": 0, "time": 1714258239.593692, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258242.9794576, "id": 205, "SLO": 11.412990455152467}
+{"batch_size": 1, "time": 1714258249.6737447, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [205], "rest_time": [4.718698263168335]}
+goodput: 161, total_request: 164
+{"batch_size": 0, "time": 1714258249.701182, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258244.2472432, "id": 206, "SLO": 11.201741260247307}
+{"batch_size": 1, "time": 1714258253.06717, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [206], "rest_time": [2.3818089962005615]}
+goodput: 162, total_request: 165
+{"batch_size": 0, "time": 1714258253.0906, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258244.557156, "id": 210, "SLO": 10.6736182729844}
+{"batch_size": 1, "time": 1714258253.1961987, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [210], "rest_time": [2.0345709323883057]}
+goodput: 163, total_request: 166
+{"batch_size": 0, "time": 1714258253.2171245, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258244.3753912, "id": 209, "SLO": 12.152362637320536}
+{"batch_size": 1, "time": 1714258253.9494207, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [209], "rest_time": [2.578319787979126]}
+goodput: 164, total_request: 167
+{"batch_size": 0, "time": 1714258253.9785535, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258244.2724557, "id": 207, "SLO": 12.627673325857149}
+{"batch_size": 1, "time": 1714258254.0597968, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [207], "rest_time": [2.840325117111206]}
+goodput: 165, total_request: 168
+{"batch_size": 0, "time": 1714258254.0881155, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258244.360431, "id": 208, "SLO": 13.102984014393764}
+{"batch_size": 1, "time": 1714258254.4270546, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [208], "rest_time": [3.0363526344299316]}
+goodput: 166, total_request: 169
+{"batch_size": 0, "time": 1714258254.4572027, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258246.992546, "id": 211, "SLO": 12.257987234773118}
+{"batch_size": 1, "time": 1714258256.1086023, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [211], "rest_time": [3.141918182373047]}
+goodput: 167, total_request: 170
+{"batch_size": 0, "time": 1714258256.1382005, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258247.9951985, "id": 213, "SLO": 11.888301143689082}
+{"batch_size": 1, "time": 1714258256.9367795, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [213], "rest_time": [2.9467074871063232]}
+goodput: 168, total_request: 171
+{"batch_size": 0, "time": 1714258256.962249, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258247.276418, "id": 212, "SLO": 12.944547118214892}
+{"batch_size": 1, "time": 1714258257.105466, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [212], "rest_time": [3.1154892444610596]}
+goodput: 169, total_request: 172
+{"batch_size": 0, "time": 1714258257.1278605, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258254.6860976, "id": 214, "SLO": 11.888301143689082}
+{"batch_size": 1, "time": 1714258262.3166664, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [214], "rest_time": [4.25771951675415]}
+goodput: 170, total_request: 173
+{"batch_size": 0, "time": 1714258262.3469617, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258255.7512445, "id": 215, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714258262.961903, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [215], "rest_time": [3.568571090698242]}
+goodput: 171, total_request: 174
+{"batch_size": 0, "time": 1714258262.988053, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258255.7566166, "id": 218, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714258262.998601, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [218], "rest_time": [3.537247657775879]}
+goodput: 172, total_request: 175
+{"batch_size": 0, "time": 1714258263.0266387, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258255.751902, "id": 216, "SLO": 11.571427351331339}
+{"batch_size": 1, "time": 1714258263.269773, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [216], "rest_time": [4.053549289703369]}
+goodput: 173, total_request: 176
+{"batch_size": 0, "time": 1714258263.2946124, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258255.8525891, "id": 219, "SLO": 12.838922520762313}
+{"batch_size": 1, "time": 1714258263.739101, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [219], "rest_time": [4.952404499053955]}
+goodput: 174, total_request: 177
+{"batch_size": 0, "time": 1714258263.7635882, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258255.754729, "id": 217, "SLO": 13.102984014393764}
+{"batch_size": 1, "time": 1714258263.7847986, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [217], "rest_time": [5.072904825210571]}
+goodput: 175, total_request: 178
+{"batch_size": 0, "time": 1714258263.8042092, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258267.138549, "id": 220, "SLO": 11.254553558973596}
+{"batch_size": 1, "time": 1714258270.6420655, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [220], "rest_time": [7.751024484634399]}
+goodput: 176, total_request: 179
+{"batch_size": 0, "time": 1714258270.6695814, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258267.1646676, "id": 221, "SLO": 12.627673325857149}
+{"batch_size": 1, "time": 1714258271.109897, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [221], "rest_time": [8.6824312210083]}
+goodput: 177, total_request: 180
+{"batch_size": 0, "time": 1714258271.1353588, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258271.1179767, "id": 222, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258281.6659968, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [222], "rest_time": [1.9212031364440918]}
+goodput: 178, total_request: 181
+{"batch_size": 0, "time": 1714258281.6960971, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258271.7236667, "id": 224, "SLO": 10.884867467889563}
+{"batch_size": 1, "time": 1714258282.1032817, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [224], "rest_time": [0.5052433013916016]}
+goodput: 179, total_request: 182
+{"batch_size": 0, "time": 1714258282.13, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258271.5316691, "id": 223, "SLO": 11.782676546236502}
+{"batch_size": 1, "time": 1714258282.4403055, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [223], "rest_time": [0.874032735824585]}
+goodput: 180, total_request: 183
+{"batch_size": 0, "time": 1714258282.4677505, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258271.741305, "id": 225, "SLO": 11.835488844962791}
+{"batch_size": 1, "time": 1714258283.14759, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [225], "rest_time": [0.42919278144836426]}
+goodput: 181, total_request: 184
+{"batch_size": 0, "time": 1714258283.1775002, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258272.177248, "id": 228, "SLO": 11.201741260247307}
+{"batch_size": 1, "time": 1714258283.3803356, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [228], "rest_time": [-0.001356363296508789]}
+goodput: 181, total_request: 185
+{"batch_size": 0, "time": 1714258283.398806, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258272.1975155, "id": 230, "SLO": 11.677051948783921}
+{"batch_size": 1, "time": 1714258283.870906, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [230], "rest_time": [0.0036509037017822266]}
+goodput: 181, total_request: 186
+{"batch_size": 0, "time": 1714258283.8919659, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258271.783248, "id": 226, "SLO": 12.891734819488603}
+{"batch_size": 1, "time": 1714258284.361168, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [226], "rest_time": [0.31380391120910645]}
+goodput: 182, total_request: 187
+{"batch_size": 0, "time": 1714258284.3920257, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258272.1215305, "id": 227, "SLO": 12.310799533499408}
+pid: [2107217], holding module: VaeModule, abandon one request. id:227
+receive request: {"request_time": 1714258280.738925, "id": 251, "SLO": 11.835488844962791}
+receive request: {"request_time": 1714258280.054741, "id": 249, "SLO": 11.096116662794726}
+{"batch_size": 2, "time": 1714258290.629557, "high_priority_count": 2, "low_priority_count": 0, "queue_size_before_schedule": 2, "batch_size_after_schedule": 0, "running_requests_id_list": [251, 249], "rest_time": [1.9448473453521729, 0.5212905406951904]}
+goodput: 184, total_request: 190
+{"batch_size": 0, "time": 1714258290.6888256, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258279.884415, "id": 248, "SLO": 11.096116662794726}
+{"batch_size": 1, "time": 1714258290.8776267, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [248], "rest_time": [0.10289955139160156]}
+goodput: 185, total_request: 191
+{"batch_size": 0, "time": 1714258290.9034636, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258280.0674138, "id": 250, "SLO": 12.786110222036022}
+{"batch_size": 1, "time": 1714258291.1174607, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [250], "rest_time": [1.7360522747039795]}
+goodput: 186, total_request: 192
+{"batch_size": 0, "time": 1714258291.1434703, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258279.5834622, "id": 247, "SLO": 12.68048562458344}
+{"batch_size": 1, "time": 1714258291.4820118, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [247], "rest_time": [0.78192138671875]}
+goodput: 187, total_request: 193
+{"batch_size": 0, "time": 1714258291.5059872, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258297.273165, "id": 252, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714258301.3460999, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [252], "rest_time": [6.706296443939209]}
+goodput: 188, total_request: 194
+{"batch_size": 0, "time": 1714258301.3780544, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258297.558083, "id": 253, "SLO": 13.050171715667474}
+{"batch_size": 1, "time": 1714258302.4691203, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [253], "rest_time": [8.139122724533081]}
+goodput: 189, total_request: 195
+{"batch_size": 0, "time": 1714258302.4952655, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258297.9405732, "id": 254, "SLO": 11.993925741141663}
+{"batch_size": 1, "time": 1714258302.5399523, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [254], "rest_time": [7.394534587860107]}
+goodput: 190, total_request: 196
+{"batch_size": 0, "time": 1714258302.5662334, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258300.2208107, "id": 255, "SLO": 12.944547118214892}
+{"batch_size": 1, "time": 1714258304.8276143, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [255], "rest_time": [8.337730169296265]}
+goodput: 191, total_request: 197
+{"batch_size": 0, "time": 1714258304.8523965, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258305.305547, "id": 256, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714258308.6515434, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [256], "rest_time": [7.433233737945557]}
+goodput: 192, total_request: 198
+{"batch_size": 0, "time": 1714258308.6772048, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258305.3104672, "id": 257, "SLO": 12.257987234773118}
+{"batch_size": 1, "time": 1714258309.1521673, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [257], "rest_time": [8.416274070739746]}
+goodput: 193, total_request: 199
+{"batch_size": 0, "time": 1714258309.1769018, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258313.4506154, "id": 258, "SLO": 11.096116662794726}
+{"batch_size": 1, "time": 1714258322.9909267, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [258], "rest_time": [1.5557918548583984]}
+goodput: 194, total_request: 200
+{"batch_size": 0, "time": 1714258323.021941, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258313.454113, "id": 259, "SLO": 11.148928961521015}
+{"batch_size": 1, "time": 1714258323.1716845, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [259], "rest_time": [1.4313445091247559]}
+goodput: 195, total_request: 201
+{"batch_size": 0, "time": 1714258323.202058, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258313.8020887, "id": 262, "SLO": 10.990492065342144}
+{"batch_size": 1, "time": 1714258323.8244474, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [262], "rest_time": [0.9681210517883301]}
+goodput: 196, total_request: 202
+{"batch_size": 0, "time": 1714258323.8555336, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258313.6311238, "id": 260, "SLO": 12.046738039867954}
+{"batch_size": 1, "time": 1714258324.5296686, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [260], "rest_time": [1.1481802463531494]}
+goodput: 197, total_request: 203
+{"batch_size": 0, "time": 1714258324.5608761, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258313.6345866, "id": 261, "SLO": 12.997359416941183}
+{"batch_size": 1, "time": 1714258325.4875264, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [261], "rest_time": [1.144406795501709]}
+goodput: 198, total_request: 204
+{"batch_size": 0, "time": 1714258325.5183296, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258314.8491175, "id": 264, "SLO": 11.72986424751021}
+{"batch_size": 1, "time": 1714258326.4515731, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [264], "rest_time": [0.1273956298828125]}
+goodput: 199, total_request: 205
+{"batch_size": 0, "time": 1714258326.4823449, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258314.8495152, "id": 265, "SLO": 12.363611832225697}
+{"batch_size": 1, "time": 1714258327.0825028, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [265], "rest_time": [0.13061165809631348]}
+goodput: 200, total_request: 206
+{"batch_size": 0, "time": 1714258327.107317, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258314.848472, "id": 263, "SLO": 12.68048562458344}
+{"batch_size": 1, "time": 1714258327.3080125, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [263], "rest_time": [0.2209324836730957]}
+goodput: 201, total_request: 207
+{"batch_size": 0, "time": 1714258327.3369253, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258316.1818116, "id": 266, "SLO": 12.944547118214892}
+{"batch_size": 1, "time": 1714258328.3496282, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [266], "rest_time": [0.7767188549041748]}
+goodput: 202, total_request: 208
+{"batch_size": 0, "time": 1714258328.3800845, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258317.0919826, "id": 267, "SLO": 12.416424130951988}
+{"batch_size": 1, "time": 1714258328.5613883, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [267], "rest_time": [0.9470052719116211]}
+goodput: 203, total_request: 209
+{"batch_size": 0, "time": 1714258328.5914555, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258319.9043858, "id": 280, "SLO": 10.6736182729844}
+{"batch_size": 1, "time": 1714258329.9762073, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [280], "rest_time": [0.6017839908599854]}
+goodput: 204, total_request: 210
+{"batch_size": 0, "time": 1714258330.0028355, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258319.1003664, "id": 278, "SLO": 11.465802753878759}
+{"batch_size": 1, "time": 1714258330.4748979, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [278], "rest_time": [0.09125828742980957]}
+goodput: 205, total_request: 211
+{"batch_size": 0, "time": 1714258330.4997907, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258334.158548, "id": 281, "SLO": 11.51861505260505}
+{"batch_size": 1, "time": 1714258340.368446, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [281], "rest_time": [5.308704376220703]}
+goodput: 206, total_request: 212
+{"batch_size": 0, "time": 1714258340.3943217, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258335.739189, "id": 284, "SLO": 12.046738039867954}
+{"batch_size": 1, "time": 1714258345.7026775, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [284], "rest_time": [2.0832366943359375]}
+goodput: 207, total_request: 213
+{"batch_size": 0, "time": 1714258345.733495, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258335.7385907, "id": 283, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258346.1446924, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [283], "rest_time": [2.063115119934082]}
+goodput: 208, total_request: 214
+{"batch_size": 0, "time": 1714258346.175157, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258335.6815555, "id": 282, "SLO": 13.155796313120053}
+{"batch_size": 1, "time": 1714258346.639019, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [282], "rest_time": [2.198320150375366]}
+goodput: 209, total_request: 215
+{"batch_size": 0, "time": 1714258346.669804, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258335.8948178, "id": 285, "SLO": 12.733297923309731}
+{"batch_size": 1, "time": 1714258346.7683744, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [285], "rest_time": [1.8597285747528076]}
+goodput: 210, total_request: 216
+{"batch_size": 0, "time": 1714258346.7991989, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258337.4924219, "id": 286, "SLO": 12.522048728404569}
+{"batch_size": 1, "time": 1714258349.4073951, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [286], "rest_time": [0.6070621013641357]}
+goodput: 211, total_request: 217
+{"batch_size": 0, "time": 1714258349.4403176, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258338.0317779, "id": 288, "SLO": 11.941113442415372}
+{"batch_size": 1, "time": 1714258349.6383557, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [288], "rest_time": [0.33452272415161133]}
+goodput: 212, total_request: 218
+{"batch_size": 0, "time": 1714258349.6679516, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258337.4939034, "id": 287, "SLO": 13.155796313120053}
+{"batch_size": 1, "time": 1714258350.0823402, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [287], "rest_time": [0.5673463344573975]}
+goodput: 213, total_request: 219
+{"batch_size": 0, "time": 1714258350.1106193, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258346.4760218, "id": 300, "SLO": 10.726430571710692}
+pid: [2107217], holding module: VaeModule, abandon one request. id:300
+receive request: {"request_time": 1714258347.6303356, "id": 301, "SLO": 10.884867467889563}
+{"batch_size": 1, "time": 1714258358.498773, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [301], "rest_time": [0.016417264938354492]}
+goodput: 213, total_request: 221
+{"batch_size": 0, "time": 1714258358.522285, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258349.9102037, "id": 303, "SLO": 11.254553558973596}
+{"batch_size": 1, "time": 1714258361.1424012, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [303], "rest_time": [0.022343158721923828]}
+goodput: 214, total_request: 222
+{"batch_size": 0, "time": 1714258361.170813, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258351.149309, "id": 305, "SLO": 10.726430571710692}
+{"batch_size": 1, "time": 1714258361.8585308, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [305], "rest_time": [0.0171968936920166]}
+goodput: 214, total_request: 223
+{"batch_size": 0, "time": 1714258361.8797016, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258351.1479661, "id": 304, "SLO": 12.944547118214892}
+{"batch_size": 1, "time": 1714258364.0618377, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [304], "rest_time": [0.03066277503967285]}
+goodput: 215, total_request: 224
+{"batch_size": 0, "time": 1714258364.091107, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258351.2697904, "id": 306, "SLO": 13.102984014393764}
+pid: [2107217], holding module: VaeModule, abandon one request. id:306
+receive request: {"request_time": 1714258353.3871338, "id": 313, "SLO": 12.205174936046827}
+pid: [2107217], holding module: VaeModule, abandon one request. id:313
+receive request: {"request_time": 1714258357.8740206, "id": 327, "SLO": 11.941113442415372}
+{"batch_size": 1, "time": 1714258369.6178937, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [327], "rest_time": [0.19722771644592285]}
+goodput: 216, total_request: 227
+{"batch_size": 0, "time": 1714258369.6490335, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258359.3530622, "id": 328, "SLO": 12.310799533499408}
+{"batch_size": 1, "time": 1714258370.799854, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [328], "rest_time": [0.8639943599700928]}
+goodput: 217, total_request: 228
+{"batch_size": 0, "time": 1714258370.8235464, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258359.6335661, "id": 329, "SLO": 12.046738039867954}
+{"batch_size": 1, "time": 1714258370.8410466, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [329], "rest_time": [0.8392467498779297]}
+goodput: 218, total_request: 229
+{"batch_size": 0, "time": 1714258370.8698125, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258360.0100737, "id": 333, "SLO": 11.51861505260505}
+{"batch_size": 1, "time": 1714258371.254501, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [333], "rest_time": [0.27417492866516113]}
+goodput: 219, total_request: 230
+{"batch_size": 0, "time": 1714258371.2806118, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258360.0088828, "id": 332, "SLO": 12.891734819488603}
+{"batch_size": 1, "time": 1714258371.4651027, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [332], "rest_time": [1.4355018138885498]}
+goodput: 220, total_request: 231
+{"batch_size": 0, "time": 1714258371.4909887, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258360.0103557, "id": 334, "SLO": 12.786110222036022}
+{"batch_size": 1, "time": 1714258372.1034179, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [334], "rest_time": [0.6930346488952637]}
+goodput: 221, total_request: 232
+{"batch_size": 0, "time": 1714258372.1290808, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258363.4437857, "id": 336, "SLO": 11.782676546236502}
+{"batch_size": 1, "time": 1714258372.170506, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [336], "rest_time": [3.055943250656128]}
+goodput: 222, total_request: 233
+{"batch_size": 0, "time": 1714258372.191871, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258374.3528242, "id": 337, "SLO": 11.465802753878759}
+{"batch_size": 1, "time": 1714258378.018052, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [337], "rest_time": [7.80056095123291]}
+goodput: 223, total_request: 234
+{"batch_size": 0, "time": 1714258378.0406966, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258374.3898714, "id": 338, "SLO": 12.838922520762313}
+{"batch_size": 1, "time": 1714258378.5129192, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [338], "rest_time": [8.715862274169922]}
+goodput: 224, total_request: 235
+{"batch_size": 0, "time": 1714258378.534594, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258380.2826695, "id": 341, "SLO": 11.888301143689082}
+{"batch_size": 1, "time": 1714258385.402371, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [341], "rest_time": [6.768587112426758]}
+goodput: 225, total_request: 236
+{"batch_size": 0, "time": 1714258385.4334197, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258380.2653666, "id": 340, "SLO": 12.205174936046827}
+{"batch_size": 1, "time": 1714258385.5418518, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [340], "rest_time": [6.9286768436431885]}
+goodput: 226, total_request: 237
+{"batch_size": 0, "time": 1714258385.5732863, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258380.2419937, "id": 339, "SLO": 12.522048728404569}
+{"batch_size": 1, "time": 1714258385.6273437, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [339], "rest_time": [7.136685848236084]}
+goodput: 227, total_request: 238
+{"batch_size": 0, "time": 1714258385.6518633, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258383.106719, "id": 342, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714258387.7503023, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [342], "rest_time": [6.135646820068359]}
+goodput: 228, total_request: 239
+{"batch_size": 0, "time": 1714258387.7775722, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258383.2807038, "id": 343, "SLO": 11.043304364068433}
+{"batch_size": 1, "time": 1714258387.9726865, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [343], "rest_time": [6.351315021514893]}
+goodput: 229, total_request: 240
+{"batch_size": 0, "time": 1714258387.9970145, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258386.6764493, "id": 344, "SLO": 12.046738039867954}
+{"batch_size": 1, "time": 1714258390.68281, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [344], "rest_time": [8.040372133255005]}
+goodput: 230, total_request: 241
+{"batch_size": 0, "time": 1714258390.7019699, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258397.5227687, "id": 345, "SLO": 12.152362637320536}
+{"batch_size": 1, "time": 1714258401.7960396, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [345], "rest_time": [7.879079341888428]}
+goodput: 231, total_request: 242
+{"batch_size": 0, "time": 1714258401.823666, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258398.4602346, "id": 347, "SLO": 11.835488844962791}
+{"batch_size": 1, "time": 1714258402.7071178, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [347], "rest_time": [7.588592529296875]}
+goodput: 232, total_request: 243
+{"batch_size": 0, "time": 1714258402.7330565, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258398.4498558, "id": 346, "SLO": 13.050171715667474}
+{"batch_size": 1, "time": 1714258403.1111479, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [346], "rest_time": [8.388872146606445]}
+goodput: 233, total_request: 244
+{"batch_size": 0, "time": 1714258403.1323986, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258403.9210873, "id": 349, "SLO": 11.624239650057628}
+{"batch_size": 1, "time": 1714258409.6434171, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [349], "rest_time": [5.901896715164185]}
+goodput: 234, total_request: 245
+{"batch_size": 0, "time": 1714258409.672946, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258403.7330844, "id": 348, "SLO": 12.310799533499408}
+{"batch_size": 1, "time": 1714258409.7159605, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [348], "rest_time": [6.327916383743286]}
+goodput: 235, total_request: 246
+{"batch_size": 0, "time": 1714258409.7409863, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258405.5681212, "id": 351, "SLO": 10.990492065342144}
+{"batch_size": 1, "time": 1714258412.4967241, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [351], "rest_time": [4.061873197555542]}
+goodput: 236, total_request: 247
+{"batch_size": 0, "time": 1714258412.5220013, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258405.5658672, "id": 350, "SLO": 11.043304364068433}
+{"batch_size": 1, "time": 1714258412.550873, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [350], "rest_time": [4.058285474777222]}
+goodput: 237, total_request: 248
+{"batch_size": 0, "time": 1714258412.579074, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258408.2539158, "id": 355, "SLO": 10.620805974258111}
+{"batch_size": 1, "time": 1714258415.4669652, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [355], "rest_time": [3.4077446460723877]}
+goodput: 238, total_request: 249
+{"batch_size": 0, "time": 1714258415.496909, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258408.070247, "id": 353, "SLO": 11.307365857699887}
+{"batch_size": 1, "time": 1714258415.6787543, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [353], "rest_time": [3.6988465785980225]}
+goodput: 239, total_request: 250
+{"batch_size": 0, "time": 1714258415.7075713, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258408.1086848, "id": 354, "SLO": 11.51861505260505}
+{"batch_size": 1, "time": 1714258415.7974465, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [354], "rest_time": [3.829846143722534]}
+goodput: 240, total_request: 251
+{"batch_size": 0, "time": 1714258415.8242447, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258408.0691843, "id": 352, "SLO": 11.835488844962791}
+{"batch_size": 1, "time": 1714258415.909476, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [352], "rest_time": [3.995187759399414]}
+goodput: 241, total_request: 252
+{"batch_size": 0, "time": 1714258415.9347808, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258408.717831, "id": 356, "SLO": 11.201741260247307}
+{"batch_size": 1, "time": 1714258415.981006, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [356], "rest_time": [3.93855881690979]}
+goodput: 242, total_request: 253
+{"batch_size": 0, "time": 1714258415.9989414, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258422.8205655, "id": 357, "SLO": 12.099550338594245}
+{"batch_size": 1, "time": 1714258430.1994452, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [357], "rest_time": [4.720657110214233]}
+goodput: 243, total_request: 254
+{"batch_size": 0, "time": 1714258430.2306297, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258422.9440134, "id": 359, "SLO": 11.941113442415372}
+{"batch_size": 1, "time": 1714258430.3090398, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [359], "rest_time": [4.576077222824097]}
+goodput: 244, total_request: 255
+{"batch_size": 0, "time": 1714258430.337515, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258422.944451, "id": 360, "SLO": 12.310799533499408}
+{"batch_size": 1, "time": 1714258430.5032058, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [360], "rest_time": [4.752032518386841]}
+goodput: 245, total_request: 256
+{"batch_size": 0, "time": 1714258430.5343435, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258422.9259813, "id": 358, "SLO": 12.522048728404569}
+{"batch_size": 1, "time": 1714258430.5901675, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [358], "rest_time": [4.857854843139648]}
+goodput: 246, total_request: 257
+{"batch_size": 0, "time": 1714258430.6154861, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258423.0686226, "id": 361, "SLO": 12.838922520762313}
+{"batch_size": 1, "time": 1714258430.805189, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [361], "rest_time": [5.102344274520874]}
+goodput: 247, total_request: 258
+{"batch_size": 0, "time": 1714258430.8316603, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258425.0570219, "id": 362, "SLO": 11.360178156426176}
+{"batch_size": 1, "time": 1714258431.5025783, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [362], "rest_time": [4.914606094360352]}
+goodput: 248, total_request: 259
+{"batch_size": 0, "time": 1714258431.5275857, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258433.5300636, "id": 363, "SLO": 11.782676546236502}
+{"batch_size": 1, "time": 1714258437.5943687, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [363], "rest_time": [7.718358278274536]}
+goodput: 249, total_request: 260
+{"batch_size": 0, "time": 1714258437.6190972, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258437.6205058, "id": 367, "SLO": 10.832055169163272}
+{"batch_size": 1, "time": 1714258447.1303475, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [367], "rest_time": [1.322200059890747]}
+goodput: 250, total_request: 261
+{"batch_size": 0, "time": 1714258447.162159, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258437.6192908, "id": 366, "SLO": 11.571427351331339}
+{"batch_size": 1, "time": 1714258447.8825846, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [366], "rest_time": [1.3081204891204834]}
+goodput: 251, total_request: 262
+{"batch_size": 0, "time": 1714258447.9133048, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258437.5877483, "id": 365, "SLO": 11.677051948783921}
+{"batch_size": 1, "time": 1714258447.9580092, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [365], "rest_time": [1.30678391456604]}
+goodput: 252, total_request: 263
+{"batch_size": 0, "time": 1714258447.9860365, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258437.6258376, "id": 368, "SLO": 11.782676546236502}
+{"batch_size": 1, "time": 1714258448.1397946, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [368], "rest_time": [1.2687063217163086]}
+goodput: 253, total_request: 264
+{"batch_size": 0, "time": 1714258448.170851, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258437.5144515, "id": 364, "SLO": 12.099550338594245}
+{"batch_size": 1, "time": 1714258448.2159805, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [364], "rest_time": [1.3980138301849365]}
+goodput: 254, total_request: 265
+{"batch_size": 0, "time": 1714258448.2446995, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258439.1520972, "id": 371, "SLO": 10.990492065342144}
+{"batch_size": 1, "time": 1714258450.0660443, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [371], "rest_time": [0.0765390396118164]}
+goodput: 255, total_request: 266
+{"batch_size": 0, "time": 1714258450.0918806, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258439.1620781, "id": 372, "SLO": 11.043304364068433}
+{"batch_size": 1, "time": 1714258450.1944933, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [372], "rest_time": [0.010881900787353516]}
+goodput: 255, total_request: 267
+{"batch_size": 0, "time": 1714258450.210585, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258439.1432128, "id": 370, "SLO": 11.624239650057628}
+{"batch_size": 1, "time": 1714258450.7329242, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [370], "rest_time": [0.03452277183532715]}
+goodput: 256, total_request: 268
+{"batch_size": 0, "time": 1714258450.7584386, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258438.99712, "id": 369, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258451.3679721, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [369], "rest_time": [0.09837460517883301]}
+goodput: 257, total_request: 269
+{"batch_size": 0, "time": 1714258451.3932307, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258447.229938, "id": 375, "SLO": 10.620805974258111}
+{"batch_size": 1, "time": 1714258457.350289, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [375], "rest_time": [0.5004444122314453]}
+goodput: 258, total_request: 270
+{"batch_size": 0, "time": 1714258457.3802586, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258447.623655, "id": 379, "SLO": 11.201741260247307}
+{"batch_size": 1, "time": 1714258458.3475368, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [379], "rest_time": [0.47785019874572754]}
+goodput: 259, total_request: 271
+{"batch_size": 0, "time": 1714258458.3736277, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258447.4005225, "id": 378, "SLO": 11.412990455152467}
+{"batch_size": 1, "time": 1714258458.606438, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [378], "rest_time": [0.20706510543823242]}
+goodput: 260, total_request: 272
+{"batch_size": 0, "time": 1714258458.6286354, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258448.9094276, "id": 380, "SLO": 10.832055169163272}
+{"batch_size": 1, "time": 1714258458.91551, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [380], "rest_time": [0.825960636138916]}
+goodput: 261, total_request: 273
+{"batch_size": 0, "time": 1714258458.9370515, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258448.9965103, "id": 381, "SLO": 12.68048562458344}
+{"batch_size": 1, "time": 1714258460.1674423, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [381], "rest_time": [1.5095410346984863]}
+goodput: 262, total_request: 274
+{"batch_size": 0, "time": 1714258460.1968558, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258452.6648083, "id": 382, "SLO": 12.099550338594245}
+{"batch_size": 1, "time": 1714258462.186797, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [382], "rest_time": [2.5775489807128906]}
+goodput: 263, total_request: 275
+{"batch_size": 0, "time": 1714258462.216592, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258452.6654422, "id": 383, "SLO": 12.997359416941183}
+{"batch_size": 1, "time": 1714258462.6280153, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [383], "rest_time": [3.0347793102264404]}
+goodput: 264, total_request: 276
+{"batch_size": 0, "time": 1714258462.6574745, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258457.7381637, "id": 385, "SLO": 11.148928961521015}
+{"batch_size": 1, "time": 1714258463.874922, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [385], "rest_time": [5.012157440185547]}
+goodput: 265, total_request: 277
+{"batch_size": 0, "time": 1714258463.9027035, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258457.7330558, "id": 384, "SLO": 11.993925741141663}
+{"batch_size": 1, "time": 1714258464.1790476, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [384], "rest_time": [5.547922372817993]}
+goodput: 266, total_request: 278
+{"batch_size": 0, "time": 1714258464.2077239, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258457.7405064, "id": 386, "SLO": 13.050171715667474}
+{"batch_size": 1, "time": 1714258464.5743716, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [386], "rest_time": [6.2162933349609375]}
+goodput: 267, total_request: 279
+{"batch_size": 0, "time": 1714258464.6011631, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258464.1610513, "id": 388, "SLO": 12.046738039867954}
+{"batch_size": 1, "time": 1714258470.0786254, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [388], "rest_time": [6.129151105880737]}
+goodput: 268, total_request: 280
+{"batch_size": 0, "time": 1714258470.1081722, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258464.1318827, "id": 387, "SLO": 13.208608611846344}
+{"batch_size": 1, "time": 1714258470.6263616, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [387], "rest_time": [6.71411657333374]}
+goodput: 269, total_request: 281
+{"batch_size": 0, "time": 1714258470.6579037, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258464.738591, "id": 389, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258470.9568303, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [389], "rest_time": [6.25098443031311]}
+goodput: 270, total_request: 282
+{"batch_size": 0, "time": 1714258470.984282, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258464.7412555, "id": 390, "SLO": 12.786110222036022}
+{"batch_size": 1, "time": 1714258471.0791976, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [390], "rest_time": [6.448157548904419]}
+goodput: 271, total_request: 283
+{"batch_size": 0, "time": 1714258471.1047354, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258467.9315882, "id": 391, "SLO": 11.571427351331339}
+{"batch_size": 1, "time": 1714258473.2191489, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [391], "rest_time": [6.283853769302368]}
+goodput: 272, total_request: 284
+{"batch_size": 0, "time": 1714258473.2475047, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258471.9731646, "id": 392, "SLO": 12.416424130951988}
+{"batch_size": 1, "time": 1714258477.9337413, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [392], "rest_time": [6.455837249755859]}
+goodput: 273, total_request: 285
+{"batch_size": 0, "time": 1714258477.9594917, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258472.533724, "id": 395, "SLO": 11.571427351331339}
+{"batch_size": 1, "time": 1714258478.3069246, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [395], "rest_time": [5.798221826553345]}
+goodput: 274, total_request: 286
+{"batch_size": 0, "time": 1714258478.3243613, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258472.331565, "id": 393, "SLO": 12.205174936046827}
+{"batch_size": 1, "time": 1714258478.358166, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [393], "rest_time": [6.1785666942596436]}
+goodput: 275, total_request: 287
+{"batch_size": 0, "time": 1714258478.3807757, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258472.3767974, "id": 394, "SLO": 12.891734819488603}
+{"batch_size": 1, "time": 1714258478.655732, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [394], "rest_time": [6.612793207168579]}
+goodput: 276, total_request: 288
+{"batch_size": 0, "time": 1714258478.6780593, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258477.3379655, "id": 396, "SLO": 12.997359416941183}
+{"batch_size": 1, "time": 1714258482.930157, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [396], "rest_time": [7.4051549434661865]}
+goodput: 277, total_request: 289
+{"batch_size": 0, "time": 1714258482.9525654, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258478.5839057, "id": 397, "SLO": 11.835488844962791}
+{"batch_size": 1, "time": 1714258483.9795976, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [397], "rest_time": [6.439786434173584]}
+goodput: 278, total_request: 290
+{"batch_size": 0, "time": 1714258484.001035, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258479.0796852, "id": 398, "SLO": 10.6736182729844}
+{"batch_size": 1, "time": 1714258484.1853344, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [398], "rest_time": [5.567956924438477]}
+goodput: 279, total_request: 291
+{"batch_size": 0, "time": 1714258484.2024086, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258480.9039066, "id": 399, "SLO": 10.937679766615855}
+{"batch_size": 1, "time": 1714258487.9817407, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [399], "rest_time": [3.859832525253296]}
+goodput: 280, total_request: 292
+{"batch_size": 0, "time": 1714258488.0035722, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258482.833619, "id": 403, "SLO": 11.465802753878759}
+{"batch_size": 1, "time": 1714258491.9548874, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [403], "rest_time": [2.3445217609405518]}
+goodput: 281, total_request: 293
+{"batch_size": 0, "time": 1714258491.9821978, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258482.653356, "id": 402, "SLO": 12.205174936046827}
+{"batch_size": 1, "time": 1714258492.4421773, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [402], "rest_time": [2.4163312911987305]}
+goodput: 282, total_request: 294
+{"batch_size": 0, "time": 1714258492.4682622, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258482.4816165, "id": 400, "SLO": 12.838922520762313}
+{"batch_size": 1, "time": 1714258492.7815585, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [400], "rest_time": [2.5389726161956787]}
+goodput: 283, total_request: 295
+{"batch_size": 0, "time": 1714258492.8088207, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258482.484098, "id": 401, "SLO": 13.155796313120053}
+{"batch_size": 1, "time": 1714258493.1619756, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [401], "rest_time": [2.477909564971924]}
+goodput: 284, total_request: 296
+{"batch_size": 0, "time": 1714258493.1891763, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258483.4960258, "id": 404, "SLO": 11.993925741141663}
+{"batch_size": 1, "time": 1714258493.471511, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [404], "rest_time": [2.018430233001709]}
+goodput: 285, total_request: 297
+{"batch_size": 0, "time": 1714258493.4942684, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258486.5094922, "id": 405, "SLO": 12.46923642967828}
+{"batch_size": 1, "time": 1714258497.1487427, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [405], "rest_time": [1.82997465133667]}
+goodput: 286, total_request: 298
+{"batch_size": 0, "time": 1714258497.1725328, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258486.625521, "id": 406, "SLO": 13.208608611846344}
+{"batch_size": 1, "time": 1714258497.7855825, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [406], "rest_time": [2.0485386848449707]}
+goodput: 287, total_request: 299
+{"batch_size": 0, "time": 1714258497.8071249, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258488.6421454, "id": 408, "SLO": 11.096116662794726}
+{"batch_size": 1, "time": 1714258498.0461833, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [408], "rest_time": [1.6920688152313232]}
+goodput: 288, total_request: 300
+{"batch_size": 0, "time": 1714258498.0749753, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258488.632756, "id": 407, "SLO": 12.838922520762313}
+{"batch_size": 1, "time": 1714258499.0719414, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [407], "rest_time": [2.399726629257202]}
+goodput: 289, total_request: 301
+{"batch_size": 0, "time": 1714258499.098238, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258491.902767, "id": 410, "SLO": 11.307365857699887}
+{"batch_size": 1, "time": 1714258500.2671244, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [410], "rest_time": [2.9429962635040283]}
+goodput: 290, total_request: 302
+{"batch_size": 0, "time": 1714258500.2910042, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258491.9074447, "id": 411, "SLO": 10.937679766615855}
+{"batch_size": 1, "time": 1714258500.3075266, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [411], "rest_time": [2.537590980529785]}
+goodput: 291, total_request: 303
+{"batch_size": 0, "time": 1714258500.3360693, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258491.9012856, "id": 409, "SLO": 12.944547118214892}
+{"batch_size": 1, "time": 1714258501.1878178, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [409], "rest_time": [3.658005475997925]}
+goodput: 292, total_request: 304
+{"batch_size": 0, "time": 1714258501.2187576, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258495.9863038, "id": 412, "SLO": 12.627673325857149}
+{"batch_size": 1, "time": 1714258504.4005206, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [412], "rest_time": [4.213443756103516]}
+goodput: 293, total_request: 305
+{"batch_size": 0, "time": 1714258504.423486, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258499.0009532, "id": 414, "SLO": 11.043304364068433}
+{"batch_size": 1, "time": 1714258506.0787096, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [414], "rest_time": [3.9655354022979736]}
+goodput: 294, total_request: 306
+{"batch_size": 0, "time": 1714258506.1099017, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258498.918853, "id": 413, "SLO": 12.68048562458344}
+{"batch_size": 1, "time": 1714258507.2921474, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [413], "rest_time": [4.307178258895874]}
+goodput: 295, total_request: 307
+{"batch_size": 0, "time": 1714258507.323187, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258500.4648092, "id": 415, "SLO": 11.307365857699887}
+{"batch_size": 1, "time": 1714258508.3525681, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [415], "rest_time": [3.4195940494537354]}
+goodput: 296, total_request: 308
+{"batch_size": 0, "time": 1714258508.3807356, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258501.29525, "id": 416, "SLO": 10.990492065342144}
+{"batch_size": 1, "time": 1714258509.521453, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [416], "rest_time": [2.7642760276794434]}
+goodput: 297, total_request: 309
+{"batch_size": 0, "time": 1714258509.5506794, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258501.54177, "id": 417, "SLO": 11.465802753878759}
+{"batch_size": 1, "time": 1714258510.4775672, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [417], "rest_time": [2.5299923419952393]}
+goodput: 298, total_request: 310
+{"batch_size": 0, "time": 1714258510.5066452, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258501.9630427, "id": 418, "SLO": 11.782676546236502}
+{"batch_size": 1, "time": 1714258511.4948914, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [418], "rest_time": [2.250814199447632]}
+goodput: 299, total_request: 311
+{"batch_size": 0, "time": 1714258511.5254915, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258506.1828423, "id": 419, "SLO": 11.412990455152467}
+{"batch_size": 1, "time": 1714258517.483144, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [419], "rest_time": [0.11267590522766113]}
+goodput: 300, total_request: 312
+{"batch_size": 0, "time": 1714258517.5125973, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258506.2382734, "id": 420, "SLO": 11.941113442415372}
+{"batch_size": 1, "time": 1714258518.0973763, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [420], "rest_time": [0.08199810981750488]}
+goodput: 301, total_request: 313
+{"batch_size": 0, "time": 1714258518.1253142, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258512.068712, "id": 433, "SLO": 10.832055169163272}
+{"batch_size": 1, "time": 1714258522.615212, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [433], "rest_time": [0.28554224967956543]}
+goodput: 302, total_request: 314
+{"batch_size": 0, "time": 1714258522.6403496, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258512.079818, "id": 434, "SLO": 12.522048728404569}
+{"batch_size": 1, "time": 1714258523.603942, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [434], "rest_time": [0.9979114532470703]}
+goodput: 303, total_request: 315
+{"batch_size": 0, "time": 1714258523.6362822, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258512.081053, "id": 435, "SLO": 12.944547118214892}
+{"batch_size": 1, "time": 1714258523.8214862, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [435], "rest_time": [1.2041010856628418]}
+goodput: 304, total_request: 316
+{"batch_size": 0, "time": 1714258523.8486283, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258518.9574537, "id": 439, "SLO": 11.941113442415372}
+{"batch_size": 1, "time": 1714258526.5283017, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [439], "rest_time": [4.370252370834351]}
+goodput: 305, total_request: 317
+{"batch_size": 0, "time": 1714258526.5586066, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258519.321874, "id": 440, "SLO": 11.677051948783921}
+{"batch_size": 1, "time": 1714258526.5929315, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [440], "rest_time": [4.405984401702881]}
+goodput: 306, total_request: 318
+{"batch_size": 0, "time": 1714258526.6144128, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258519.3605545, "id": 441, "SLO": 12.363611832225697}
+{"batch_size": 1, "time": 1714258526.8749185, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [441], "rest_time": [4.849235534667969]}
+goodput: 307, total_request: 319
+{"batch_size": 0, "time": 1714258526.9045382, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258524.566403, "id": 442, "SLO": 12.574861027130858}
+{"batch_size": 1, "time": 1714258529.4593098, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [442], "rest_time": [7.681941747665405]}
+goodput: 308, total_request: 320
+{"batch_size": 0, "time": 1714258529.4829316, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258525.7877884, "id": 443, "SLO": 11.835488844962791}
+{"batch_size": 1, "time": 1714258530.0615807, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [443], "rest_time": [7.561683654785156]}
+goodput: 309, total_request: 321
+{"batch_size": 0, "time": 1714258530.0836933, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258531.0308938, "id": 444, "SLO": 12.046738039867954}
+{"batch_size": 1, "time": 1714258535.885554, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [444], "rest_time": [7.192066192626953]}
+goodput: 310, total_request: 322
+{"batch_size": 0, "time": 1714258535.9132388, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258534.2524674, "id": 448, "SLO": 10.990492065342144}
+{"batch_size": 1, "time": 1714258544.8302522, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [448], "rest_time": [0.41269373893737793]}
+goodput: 311, total_request: 323
+{"batch_size": 0, "time": 1714258544.8605268, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258534.807408, "id": 452, "SLO": 10.620805974258111}
+{"batch_size": 1, "time": 1714258545.3745825, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [452], "rest_time": [0.05361771583557129]}
+goodput: 312, total_request: 324
+{"batch_size": 0, "time": 1714258545.4033911, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258534.2396846, "id": 447, "SLO": 11.782676546236502}
+{"batch_size": 1, "time": 1714258545.6096241, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [447], "rest_time": [0.41272425651550293]}
+goodput: 313, total_request: 325
+{"batch_size": 0, "time": 1714258545.6383653, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258534.806776, "id": 451, "SLO": 11.096116662794726}
+{"batch_size": 1, "time": 1714258545.8943014, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [451], "rest_time": [0.008584976196289062]}
+goodput: 313, total_request: 326
+{"batch_size": 0, "time": 1714258545.913102, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258534.2291486, "id": 445, "SLO": 12.152362637320536}
+{"batch_size": 1, "time": 1714258545.9696531, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [445], "rest_time": [0.4118516445159912]}
+goodput: 314, total_request: 327
+{"batch_size": 0, "time": 1714258545.9954057, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258534.2390842, "id": 446, "SLO": 12.363611832225697}
+{"batch_size": 1, "time": 1714258546.2322357, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [446], "rest_time": [0.3704540729522705]}
+goodput: 315, total_request: 328
+{"batch_size": 0, "time": 1714258546.2522297, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258534.819113, "id": 453, "SLO": 11.624239650057628}
+{"batch_size": 1, "time": 1714258546.4388802, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [453], "rest_time": [0.004465341567993164]}
+goodput: 315, total_request: 329
+{"batch_size": 0, "time": 1714258546.4498606, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258534.5655892, "id": 449, "SLO": 12.786110222036022}
+{"batch_size": 1, "time": 1714258546.8844612, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [449], "rest_time": [0.46723246574401855]}
+goodput: 316, total_request: 330
+{"batch_size": 0, "time": 1714258546.9020147, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258534.5782993, "id": 450, "SLO": 13.208608611846344}
+{"batch_size": 1, "time": 1714258547.322927, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [450], "rest_time": [0.4639735221862793]}
+goodput: 317, total_request: 331
+{"batch_size": 0, "time": 1714258547.3440993, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258536.3997164, "id": 459, "SLO": 12.838922520762313}
+{"batch_size": 1, "time": 1714258548.7699113, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [459], "rest_time": [0.4687180519104004]}
+goodput: 318, total_request: 332
+{"batch_size": 0, "time": 1714258548.7962558, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258545.6021338, "id": 463, "SLO": 10.832055169163272}
+{"batch_size": 1, "time": 1714258555.942059, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [463], "rest_time": [0.49211764335632324]}
+goodput: 319, total_request: 333
+{"batch_size": 0, "time": 1714258555.9725995, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258546.8164444, "id": 467, "SLO": 11.148928961521015}
+{"batch_size": 1, "time": 1714258557.794179, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [467], "rest_time": [0.17118310928344727]}
+goodput: 320, total_request: 334
+{"batch_size": 0, "time": 1714258557.8225675, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258546.793028, "id": 464, "SLO": 11.465802753878759}
+{"batch_size": 1, "time": 1714258558.0725863, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [464], "rest_time": [0.1862330436706543]}
+goodput: 321, total_request: 335
+{"batch_size": 0, "time": 1714258558.1007032, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258546.814082, "id": 466, "SLO": 13.102984014393764}
+{"batch_size": 1, "time": 1714258559.7721715, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [466], "rest_time": [0.1448822021484375]}
+goodput: 322, total_request: 336
+{"batch_size": 0, "time": 1714258559.800045, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258546.812362, "id": 465, "SLO": 13.155796313120053}
+{"batch_size": 1, "time": 1714258559.852674, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [465], "rest_time": [0.11546897888183594]}
+goodput: 323, total_request: 337
+{"batch_size": 0, "time": 1714258559.8797286, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258547.5032759, "id": 469, "SLO": 12.733297923309731}
+{"batch_size": 1, "time": 1714258560.2391348, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [469], "rest_time": [-0.002573251724243164]}
+goodput: 323, total_request: 338
+{"batch_size": 0, "time": 1714258560.259874, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258556.425633, "id": 481, "SLO": 11.254553558973596}
+{"batch_size": 1, "time": 1714258567.6759248, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [481], "rest_time": [0.004244804382324219]}
+goodput: 323, total_request: 339
+{"batch_size": 0, "time": 1714258567.6991377, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258560.2118912, "id": 488, "SLO": 10.779242870436981}
+{"batch_size": 1, "time": 1714258570.9363787, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [488], "rest_time": [0.05474424362182617]}
+goodput: 324, total_request: 340
+{"batch_size": 0, "time": 1714258570.9664137, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258560.2125218, "id": 489, "SLO": 11.254553558973596}
+{"batch_size": 1, "time": 1714258571.4293535, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [489], "rest_time": [0.03770637512207031]}
+goodput: 325, total_request: 341
+{"batch_size": 0, "time": 1714258571.4602652, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258564.9951308, "id": 491, "SLO": 10.6736182729844}
+{"batch_size": 1, "time": 1714258575.658966, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [491], "rest_time": [0.009768009185791016]}
+goodput: 325, total_request: 342
+{"batch_size": 0, "time": 1714258575.6823018, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258566.4404032, "id": 493, "SLO": 10.620805974258111}
+{"batch_size": 1, "time": 1714258577.0280633, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [493], "rest_time": [0.03312969207763672]}
+goodput: 326, total_request: 343
+{"batch_size": 0, "time": 1714258577.0516706, "queue_size_before_schedule": 0, "msg": "emptyqueue"}
+receive request: {"request_time": 1714258564.9246392, "id": 490, "SLO": 12.522048728404569}
+{"batch_size": 1, "time": 1714258577.2701204, "high_priority_count": 1, "low_priority_count": 0, "queue_size_before_schedule": 1, "batch_size_after_schedule": 0, "running_requests_id_list": [490], "rest_time": [0.17655134201049805]}
+goodput: 327, total_request: 344

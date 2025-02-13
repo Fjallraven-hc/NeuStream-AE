@@ -1,0 +1,3080 @@
+--------------------
+Server-side end2end latency: 1.4741582870483398
+request step: 42key: guidance_scale, value: 7.5
+key: request_time, value: 1714362050.6879575
+key: SLO, value: 1.5701479446423272
+key: id, value: 0
+key: ClipModule_receive_time, value: 1714362050.6895533
+key: ClipModule_send_time, value: 1714362050.718663
+key: UNetModule_receive_time, value: 1714362050.798032
+key: UNetModule_send_time, value: 1714362052.0328622
+key: VaeModule&SafetyModule_receive_time, value: 1714362052.0651476
+key: VaeModule&SafetyModule_send_time, value: 1714362052.144937
+key: finish_time, value: 1714362052.1621158
+collector worker receive workload request count = 1
+--------------------
+Server-side end2end latency: 1.394787311553955
+request step: 45key: guidance_scale, value: 7.5
+key: request_time, value: 1714362052.4508948
+key: SLO, value: 1.6757683123661336
+key: id, value: 1
+key: ClipModule_receive_time, value: 1714362052.4515445
+key: ClipModule_send_time, value: 1714362052.471569
+key: UNetModule_receive_time, value: 1714362052.4766216
+key: UNetModule_send_time, value: 1714362053.7367501
+key: VaeModule&SafetyModule_receive_time, value: 1714362053.7515671
+key: VaeModule&SafetyModule_send_time, value: 1714362053.823906
+key: finish_time, value: 1714362053.8456821
+collector worker receive workload request count = 2
+--------------------
+Server-side end2end latency: 1.1865661144256592
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362084.1326208
+key: SLO, value: 1.2532868414709089
+key: id, value: 4
+key: ClipModule_receive_time, value: 1714362084.1336823
+key: ClipModule_send_time, value: 1714362084.1610076
+key: UNetModule_receive_time, value: 1714362084.1742063
+key: UNetModule_send_time, value: 1714362085.0449977
+key: VaeModule&SafetyModule_receive_time, value: 1714362085.122182
+key: VaeModule&SafetyModule_send_time, value: 1714362085.2640386
+key: finish_time, value: 1714362085.319187
+collector worker receive workload request count = 3
+--------------------
+Server-side end2end latency: 1.1415586471557617
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714362089.4823856
+key: SLO, value: 1.3941139984359838
+key: id, value: 5
+key: ClipModule_receive_time, value: 1714362089.4833806
+key: ClipModule_send_time, value: 1714362089.503984
+key: UNetModule_receive_time, value: 1714362089.5110743
+key: UNetModule_send_time, value: 1714362090.4995716
+key: VaeModule&SafetyModule_receive_time, value: 1714362090.512391
+key: VaeModule&SafetyModule_send_time, value: 1714362090.5949152
+key: finish_time, value: 1714362090.6239443
+collector worker receive workload request count = 4
+--------------------
+Server-side end2end latency: 1.3452789783477783
+request step: 39key: guidance_scale, value: 7.5
+key: request_time, value: 1714362090.8726823
+key: SLO, value: 1.4645275769185213
+key: id, value: 6
+key: ClipModule_receive_time, value: 1714362090.8731892
+key: ClipModule_send_time, value: 1714362090.894352
+key: UNetModule_receive_time, value: 1714362090.8996918
+key: UNetModule_send_time, value: 1714362092.0378318
+key: VaeModule&SafetyModule_receive_time, value: 1714362092.0681944
+key: VaeModule&SafetyModule_send_time, value: 1714362092.1656377
+key: finish_time, value: 1714362092.2179613
+collector worker receive workload request count = 5
+--------------------
+Server-side end2end latency: 1.0330860614776611
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714362095.81073
+key: SLO, value: 1.2884936307121777
+key: id, value: 9
+key: ClipModule_receive_time, value: 1714362095.8126693
+key: ClipModule_send_time, value: 1714362095.8369544
+key: UNetModule_receive_time, value: 1714362095.8511643
+key: UNetModule_send_time, value: 1714362096.7245588
+key: VaeModule&SafetyModule_receive_time, value: 1714362096.7504466
+key: VaeModule&SafetyModule_send_time, value: 1714362096.821526
+key: finish_time, value: 1714362096.843816
+collector worker receive workload request count = 6
+--------------------
+Server-side end2end latency: 1.1544482707977295
+request step: 36key: guidance_scale, value: 7.5
+key: request_time, value: 1714362142.1094105
+key: SLO, value: 1.358907209194715
+key: id, value: 10
+key: ClipModule_receive_time, value: 1714362142.1102474
+key: ClipModule_send_time, value: 1714362142.13586
+key: UNetModule_receive_time, value: 1714362142.1486835
+key: UNetModule_send_time, value: 1714362143.1350484
+key: VaeModule&SafetyModule_receive_time, value: 1714362143.1597304
+key: VaeModule&SafetyModule_send_time, value: 1714362143.239169
+key: finish_time, value: 1714362143.2638588
+collector worker receive workload request count = 7
+--------------------
+Server-side end2end latency: 1.1782164573669434
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714362143.7150676
+key: SLO, value: 1.3941139984359838
+key: id, value: 14
+key: ClipModule_receive_time, value: 1714362143.7158654
+key: ClipModule_send_time, value: 1714362143.732634
+key: UNetModule_receive_time, value: 1714362143.7373662
+key: UNetModule_send_time, value: 1714362144.7823896
+key: VaeModule&SafetyModule_receive_time, value: 1714362144.7962177
+key: VaeModule&SafetyModule_send_time, value: 1714362144.8667986
+key: finish_time, value: 1714362144.893284
+collector worker receive workload request count = 8
+--------------------
+Server-side end2end latency: 1.3244819641113281
+request step: 43key: guidance_scale, value: 7.5
+key: request_time, value: 1714362146.2340052
+key: SLO, value: 1.605354733883596
+key: id, value: 18
+key: ClipModule_receive_time, value: 1714362146.235059
+key: ClipModule_send_time, value: 1714362146.2547064
+key: UNetModule_receive_time, value: 1714362146.2680204
+key: UNetModule_send_time, value: 1714362147.4490979
+key: VaeModule&SafetyModule_receive_time, value: 1714362147.464182
+key: VaeModule&SafetyModule_send_time, value: 1714362147.5376384
+key: finish_time, value: 1714362147.5584872
+collector worker receive workload request count = 9
+--------------------
+Server-side end2end latency: 1.2518093585968018
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714362167.4546306
+key: SLO, value: 1.4293207876772525
+key: id, value: 19
+key: ClipModule_receive_time, value: 1714362167.4556684
+key: ClipModule_send_time, value: 1714362167.479062
+key: UNetModule_receive_time, value: 1714362167.486706
+key: UNetModule_send_time, value: 1714362168.4563766
+key: VaeModule&SafetyModule_receive_time, value: 1714362168.4770324
+key: VaeModule&SafetyModule_send_time, value: 1714362168.6039157
+key: finish_time, value: 1714362168.70644
+collector worker receive workload request count = 10
+--------------------
+Server-side end2end latency: 1.5072739124298096
+request step: 50key: guidance_scale, value: 7.5
+key: request_time, value: 1714362170.3167257
+key: SLO, value: 1.8518022585724772
+key: id, value: 21
+key: ClipModule_receive_time, value: 1714362170.3177838
+key: ClipModule_send_time, value: 1714362170.3387008
+key: UNetModule_receive_time, value: 1714362170.3503819
+key: UNetModule_send_time, value: 1714362171.6813123
+key: VaeModule&SafetyModule_receive_time, value: 1714362171.7084353
+key: VaeModule&SafetyModule_send_time, value: 1714362171.796381
+key: finish_time, value: 1714362171.8239996
+collector worker receive workload request count = 11
+--------------------
+Server-side end2end latency: 1.5111744403839111
+request step: 49key: guidance_scale, value: 7.5
+key: request_time, value: 1714362171.8872597
+key: SLO, value: 1.8165954693312083
+key: id, value: 24
+key: ClipModule_receive_time, value: 1714362171.887801
+key: ClipModule_send_time, value: 1714362171.9049141
+key: UNetModule_receive_time, value: 1714362171.9096177
+key: UNetModule_send_time, value: 1714362173.2333663
+key: VaeModule&SafetyModule_receive_time, value: 1714362173.265333
+key: VaeModule&SafetyModule_send_time, value: 1714362173.352017
+key: finish_time, value: 1714362173.3984342
+collector worker receive workload request count = 12
+--------------------
+Server-side end2end latency: 1.4534409046173096
+request step: 45key: guidance_scale, value: 7.5
+key: request_time, value: 1714362174.3419576
+key: SLO, value: 1.6757683123661336
+key: id, value: 26
+key: ClipModule_receive_time, value: 1714362174.3426135
+key: ClipModule_send_time, value: 1714362174.364437
+key: UNetModule_receive_time, value: 1714362174.3692665
+key: UNetModule_send_time, value: 1714362175.657297
+key: VaeModule&SafetyModule_receive_time, value: 1714362175.6830707
+key: VaeModule&SafetyModule_send_time, value: 1714362175.7743182
+key: finish_time, value: 1714362175.7953985
+collector worker receive workload request count = 13
+--------------------
+Server-side end2end latency: 1.176034927368164
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362218.5399349
+key: SLO, value: 1.2532868414709089
+key: id, value: 30
+key: ClipModule_receive_time, value: 1714362218.5409927
+key: ClipModule_send_time, value: 1714362218.563713
+key: UNetModule_receive_time, value: 1714362218.5705504
+key: UNetModule_send_time, value: 1714362219.4446318
+key: VaeModule&SafetyModule_receive_time, value: 1714362219.491881
+key: VaeModule&SafetyModule_send_time, value: 1714362219.6800575
+key: finish_time, value: 1714362219.7159698
+collector worker receive workload request count = 14
+--------------------
+Server-side end2end latency: 1.3847596645355225
+request step: 44key: guidance_scale, value: 7.5
+key: request_time, value: 1714362220.2424827
+key: SLO, value: 1.640561523124865
+key: id, value: 35
+key: ClipModule_receive_time, value: 1714362220.2431152
+key: ClipModule_send_time, value: 1714362220.259874
+key: UNetModule_receive_time, value: 1714362220.266781
+key: UNetModule_send_time, value: 1714362221.45044
+key: VaeModule&SafetyModule_receive_time, value: 1714362221.4795606
+key: VaeModule&SafetyModule_send_time, value: 1714362221.5927703
+key: finish_time, value: 1714362221.6272423
+collector worker receive workload request count = 15
+--------------------
+Server-side end2end latency: 0.951697826385498
+request step: 30key: guidance_scale, value: 7.5
+key: request_time, value: 1714362222.7125535
+key: SLO, value: 1.147666473747103
+key: id, value: 37
+key: ClipModule_receive_time, value: 1714362222.7138221
+key: ClipModule_send_time, value: 1714362222.7336118
+key: UNetModule_receive_time, value: 1714362222.7766454
+key: UNetModule_send_time, value: 1714362223.5353568
+key: VaeModule&SafetyModule_receive_time, value: 1714362223.5567586
+key: VaeModule&SafetyModule_send_time, value: 1714362223.6476097
+key: finish_time, value: 1714362223.6642513
+collector worker receive workload request count = 16
+--------------------
+Server-side end2end latency: 1.4472782611846924
+request step: 40key: guidance_scale, value: 7.5
+key: request_time, value: 1714362225.7645535
+key: SLO, value: 1.49973436615979
+key: id, value: 41
+key: ClipModule_receive_time, value: 1714362225.7656474
+key: ClipModule_send_time, value: 1714362225.7852242
+key: UNetModule_receive_time, value: 1714362225.8095505
+key: UNetModule_send_time, value: 1714362227.1015828
+key: VaeModule&SafetyModule_receive_time, value: 1714362227.1213243
+key: VaeModule&SafetyModule_send_time, value: 1714362227.194626
+key: finish_time, value: 1714362227.2118318
+collector worker receive workload request count = 17
+--------------------
+Server-side end2end latency: 1.7170078754425049
+request step: 50key: guidance_scale, value: 7.5
+key: request_time, value: 1714362229.6645331
+key: SLO, value: 1.8518022585724772
+key: id, value: 42
+key: ClipModule_receive_time, value: 1714362229.665309
+key: ClipModule_send_time, value: 1714362229.685754
+key: UNetModule_receive_time, value: 1714362229.6895928
+key: UNetModule_send_time, value: 1714362231.2475052
+key: VaeModule&SafetyModule_receive_time, value: 1714362231.272416
+key: VaeModule&SafetyModule_send_time, value: 1714362231.3481882
+key: finish_time, value: 1714362231.381541
+collector worker receive workload request count = 18
+--------------------
+Server-side end2end latency: 1.2559361457824707
+request step: 41key: guidance_scale, value: 7.5
+key: request_time, value: 1714362231.356521
+key: SLO, value: 1.5349411554010588
+key: id, value: 44
+key: ClipModule_receive_time, value: 1714362231.3572361
+key: ClipModule_send_time, value: 1714362231.3758967
+key: UNetModule_receive_time, value: 1714362231.3814404
+key: UNetModule_send_time, value: 1714362232.4795878
+key: VaeModule&SafetyModule_receive_time, value: 1714362232.5126166
+key: VaeModule&SafetyModule_send_time, value: 1714362232.5925293
+key: finish_time, value: 1714362232.612457
+collector worker receive workload request count = 19
+--------------------
+Server-side end2end latency: 0.9949445724487305
+request step: 30key: guidance_scale, value: 7.5
+key: request_time, value: 1714362235.1197424
+key: SLO, value: 1.147666473747103
+key: id, value: 47
+key: ClipModule_receive_time, value: 1714362235.1206238
+key: ClipModule_send_time, value: 1714362235.1424115
+key: UNetModule_receive_time, value: 1714362235.2114353
+key: UNetModule_send_time, value: 1714362236.0043807
+key: VaeModule&SafetyModule_receive_time, value: 1714362236.016452
+key: VaeModule&SafetyModule_send_time, value: 1714362236.0935318
+key: finish_time, value: 1714362236.114687
+collector worker receive workload request count = 20
+--------------------
+Server-side end2end latency: 1.1522369384765625
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714362251.4994102
+key: SLO, value: 1.2884936307121777
+key: id, value: 49
+key: ClipModule_receive_time, value: 1714362251.5000541
+key: ClipModule_send_time, value: 1714362251.5209587
+key: UNetModule_receive_time, value: 1714362251.5370278
+key: UNetModule_send_time, value: 1714362252.4892735
+key: VaeModule&SafetyModule_receive_time, value: 1714362252.50965
+key: VaeModule&SafetyModule_send_time, value: 1714362252.624495
+key: finish_time, value: 1714362252.651647
+collector worker receive workload request count = 21
+--------------------
+Server-side end2end latency: 1.107508659362793
+request step: 35key: guidance_scale, value: 7.5
+key: request_time, value: 1714362261.792549
+key: SLO, value: 1.3237004199534466
+key: id, value: 50
+key: ClipModule_receive_time, value: 1714362261.7931674
+key: ClipModule_send_time, value: 1714362261.8102512
+key: UNetModule_receive_time, value: 1714362261.867779
+key: UNetModule_send_time, value: 1714362262.7834911
+key: VaeModule&SafetyModule_receive_time, value: 1714362262.8104403
+key: VaeModule&SafetyModule_send_time, value: 1714362262.8824036
+key: finish_time, value: 1714362262.9000576
+collector worker receive workload request count = 22
+--------------------
+Server-side end2end latency: 1.1373655796051025
+request step: 36key: guidance_scale, value: 7.5
+key: request_time, value: 1714362265.485973
+key: SLO, value: 1.358907209194715
+key: id, value: 51
+key: ClipModule_receive_time, value: 1714362265.4868498
+key: ClipModule_send_time, value: 1714362265.5074303
+key: UNetModule_receive_time, value: 1714362265.518961
+key: UNetModule_send_time, value: 1714362266.4614573
+key: VaeModule&SafetyModule_receive_time, value: 1714362266.5184486
+key: VaeModule&SafetyModule_send_time, value: 1714362266.6063495
+key: finish_time, value: 1714362266.6233385
+collector worker receive workload request count = 23
+--------------------
+Server-side end2end latency: 1.2501230239868164
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714362291.7622411
+key: SLO, value: 1.4293207876772525
+key: id, value: 52
+key: ClipModule_receive_time, value: 1714362291.762891
+key: ClipModule_send_time, value: 1714362291.7931406
+key: UNetModule_receive_time, value: 1714362291.8040812
+key: UNetModule_send_time, value: 1714362292.8726046
+key: VaeModule&SafetyModule_receive_time, value: 1714362292.8896313
+key: VaeModule&SafetyModule_send_time, value: 1714362292.9792924
+key: finish_time, value: 1714362293.0123641
+collector worker receive workload request count = 24
+--------------------
+Server-side end2end latency: 1.3613324165344238
+request step: 45key: guidance_scale, value: 7.5
+key: request_time, value: 1714362294.729554
+key: SLO, value: 1.6757683123661336
+key: id, value: 55
+key: ClipModule_receive_time, value: 1714362294.7301643
+key: ClipModule_send_time, value: 1714362294.747878
+key: UNetModule_receive_time, value: 1714362294.8016343
+key: UNetModule_send_time, value: 1714362295.9727309
+key: VaeModule&SafetyModule_receive_time, value: 1714362295.998902
+key: VaeModule&SafetyModule_send_time, value: 1714362296.069715
+key: finish_time, value: 1714362296.0908864
+collector worker receive workload request count = 25
+--------------------
+Server-side end2end latency: 1.0012023448944092
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714362296.6771407
+key: SLO, value: 1.2884936307121777
+key: id, value: 56
+key: ClipModule_receive_time, value: 1714362296.6776993
+key: ClipModule_send_time, value: 1714362296.6981356
+key: UNetModule_receive_time, value: 1714362296.7029943
+key: UNetModule_send_time, value: 1714362297.5518603
+key: VaeModule&SafetyModule_receive_time, value: 1714362297.5666096
+key: VaeModule&SafetyModule_send_time, value: 1714362297.6537178
+key: finish_time, value: 1714362297.678343
+collector worker receive workload request count = 26
+--------------------
+Server-side end2end latency: 1.3320951461791992
+request step: 40key: guidance_scale, value: 7.5
+key: request_time, value: 1714362298.091086
+key: SLO, value: 1.49973436615979
+key: id, value: 58
+key: ClipModule_receive_time, value: 1714362298.0916905
+key: ClipModule_send_time, value: 1714362298.1139228
+key: UNetModule_receive_time, value: 1714362298.1188354
+key: UNetModule_send_time, value: 1714362299.1496153
+key: VaeModule&SafetyModule_receive_time, value: 1714362299.179571
+key: VaeModule&SafetyModule_send_time, value: 1714362299.3467019
+key: finish_time, value: 1714362299.423181
+collector worker receive workload request count = 27
+--------------------
+Server-side end2end latency: 0.9460234642028809
+request step: 31key: guidance_scale, value: 7.5
+key: request_time, value: 1714362299.5437455
+key: SLO, value: 1.1828732629883716
+key: id, value: 59
+key: ClipModule_receive_time, value: 1714362299.5445857
+key: ClipModule_send_time, value: 1714362299.5649142
+key: UNetModule_receive_time, value: 1714362299.5693252
+key: UNetModule_send_time, value: 1714362300.346989
+key: VaeModule&SafetyModule_receive_time, value: 1714362300.3750384
+key: VaeModule&SafetyModule_send_time, value: 1714362300.4732935
+key: finish_time, value: 1714362300.489769
+collector worker receive workload request count = 28
+--------------------
+Server-side end2end latency: 0.9896903038024902
+request step: 31key: guidance_scale, value: 7.5
+key: request_time, value: 1714362301.9578648
+key: SLO, value: 1.1828732629883716
+key: id, value: 60
+key: ClipModule_receive_time, value: 1714362301.9584215
+key: ClipModule_send_time, value: 1714362301.9912682
+key: UNetModule_receive_time, value: 1714362301.996848
+key: UNetModule_send_time, value: 1714362302.8350856
+key: VaeModule&SafetyModule_receive_time, value: 1714362302.8520305
+key: VaeModule&SafetyModule_send_time, value: 1714362302.9236088
+key: finish_time, value: 1714362302.947555
+collector worker receive workload request count = 29
+--------------------
+Server-side end2end latency: 1.1917147636413574
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714362313.8005931
+key: SLO, value: 1.3941139984359838
+key: id, value: 61
+key: ClipModule_receive_time, value: 1714362313.8011966
+key: ClipModule_send_time, value: 1714362313.816858
+key: UNetModule_receive_time, value: 1714362313.823458
+key: UNetModule_send_time, value: 1714362314.7535179
+key: VaeModule&SafetyModule_receive_time, value: 1714362314.7690248
+key: VaeModule&SafetyModule_send_time, value: 1714362314.8600743
+key: finish_time, value: 1714362314.992308
+collector worker receive workload request count = 30
+--------------------
+Server-side end2end latency: 1.0574307441711426
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362320.1332254
+key: SLO, value: 1.2532868414709089
+key: id, value: 63
+key: ClipModule_receive_time, value: 1714362320.1339138
+key: ClipModule_send_time, value: 1714362320.154226
+key: UNetModule_receive_time, value: 1714362320.1636713
+key: UNetModule_send_time, value: 1714362321.06327
+key: VaeModule&SafetyModule_receive_time, value: 1714362321.0899143
+key: VaeModule&SafetyModule_send_time, value: 1714362321.1665561
+key: finish_time, value: 1714362321.1906562
+collector worker receive workload request count = 31
+--------------------
+Server-side end2end latency: 1.1967895030975342
+request step: 41key: guidance_scale, value: 7.5
+key: request_time, value: 1714362323.608544
+key: SLO, value: 1.5349411554010588
+key: id, value: 65
+key: ClipModule_receive_time, value: 1714362323.6090653
+key: ClipModule_send_time, value: 1714362323.6261234
+key: UNetModule_receive_time, value: 1714362323.6449962
+key: UNetModule_send_time, value: 1714362324.6976397
+key: VaeModule&SafetyModule_receive_time, value: 1714362324.7143066
+key: VaeModule&SafetyModule_send_time, value: 1714362324.7862844
+key: finish_time, value: 1714362324.8053336
+collector worker receive workload request count = 32
+--------------------
+Server-side end2end latency: 1.3500616550445557
+request step: 44key: guidance_scale, value: 7.5
+key: request_time, value: 1714362329.5244062
+key: SLO, value: 1.640561523124865
+key: id, value: 69
+key: ClipModule_receive_time, value: 1714362329.5253909
+key: ClipModule_send_time, value: 1714362329.545468
+key: UNetModule_receive_time, value: 1714362329.5507329
+key: UNetModule_send_time, value: 1714362330.7453728
+key: VaeModule&SafetyModule_receive_time, value: 1714362330.7720501
+key: VaeModule&SafetyModule_send_time, value: 1714362330.850095
+key: finish_time, value: 1714362330.8744678
+collector worker receive workload request count = 33
+--------------------
+Server-side end2end latency: 1.2475042343139648
+request step: 42key: guidance_scale, value: 7.5
+key: request_time, value: 1714362333.0503156
+key: SLO, value: 1.5701479446423272
+key: id, value: 71
+key: ClipModule_receive_time, value: 1714362333.0508957
+key: ClipModule_send_time, value: 1714362333.069446
+key: UNetModule_receive_time, value: 1714362333.0750282
+key: UNetModule_send_time, value: 1714362334.1541836
+key: VaeModule&SafetyModule_receive_time, value: 1714362334.1826127
+key: VaeModule&SafetyModule_send_time, value: 1714362334.2793689
+key: finish_time, value: 1714362334.2978199
+collector worker receive workload request count = 34
+--------------------
+Server-side end2end latency: 1.2108969688415527
+request step: 40key: guidance_scale, value: 7.5
+key: request_time, value: 1714362336.6765335
+key: SLO, value: 1.49973436615979
+key: id, value: 72
+key: ClipModule_receive_time, value: 1714362336.677172
+key: ClipModule_send_time, value: 1714362336.69102
+key: UNetModule_receive_time, value: 1714362336.6990001
+key: UNetModule_send_time, value: 1714362337.7535183
+key: VaeModule&SafetyModule_receive_time, value: 1714362337.7689579
+key: VaeModule&SafetyModule_send_time, value: 1714362337.8615673
+key: finish_time, value: 1714362337.8874304
+collector worker receive workload request count = 35
+--------------------
+Server-side end2end latency: 1.5064282417297363
+request step: 50key: guidance_scale, value: 7.5
+key: request_time, value: 1714362378.552544
+key: SLO, value: 1.8518022585724772
+key: id, value: 73
+key: ClipModule_receive_time, value: 1714362378.553039
+key: ClipModule_send_time, value: 1714362378.5768917
+key: UNetModule_receive_time, value: 1714362378.5865214
+key: UNetModule_send_time, value: 1714362379.9200296
+key: VaeModule&SafetyModule_receive_time, value: 1714362379.9429955
+key: VaeModule&SafetyModule_send_time, value: 1714362380.0302596
+key: finish_time, value: 1714362380.0589724
+collector worker receive workload request count = 36
+--------------------
+Server-side end2end latency: 1.125901460647583
+request step: 36key: guidance_scale, value: 7.5
+key: request_time, value: 1714362383.9879313
+key: SLO, value: 1.358907209194715
+key: id, value: 76
+key: ClipModule_receive_time, value: 1714362383.9886315
+key: ClipModule_send_time, value: 1714362384.0071623
+key: UNetModule_receive_time, value: 1714362384.0165882
+key: UNetModule_send_time, value: 1714362384.9880753
+key: VaeModule&SafetyModule_receive_time, value: 1714362385.0147393
+key: VaeModule&SafetyModule_send_time, value: 1714362385.0925934
+key: finish_time, value: 1714362385.1138327
+collector worker receive workload request count = 37
+--------------------
+Server-side end2end latency: 1.4624943733215332
+request step: 50key: guidance_scale, value: 7.5
+key: request_time, value: 1714362385.6708806
+key: SLO, value: 1.8518022585724772
+key: id, value: 79
+key: ClipModule_receive_time, value: 1714362385.6713333
+key: ClipModule_send_time, value: 1714362385.692293
+key: UNetModule_receive_time, value: 1714362385.6990502
+key: UNetModule_send_time, value: 1714362387.022864
+key: VaeModule&SafetyModule_receive_time, value: 1714362387.034125
+key: VaeModule&SafetyModule_send_time, value: 1714362387.1126242
+key: finish_time, value: 1714362387.133375
+collector worker receive workload request count = 38
+--------------------
+Server-side end2end latency: 1.060213565826416
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362404.0806162
+key: SLO, value: 1.2532868414709089
+key: id, value: 80
+key: ClipModule_receive_time, value: 1714362404.081113
+key: ClipModule_send_time, value: 1714362404.109635
+key: UNetModule_receive_time, value: 1714362404.1175058
+key: UNetModule_send_time, value: 1714362404.9677184
+key: VaeModule&SafetyModule_receive_time, value: 1714362404.986517
+key: VaeModule&SafetyModule_send_time, value: 1714362405.115808
+key: finish_time, value: 1714362405.1408298
+collector worker receive workload request count = 39
+--------------------
+Server-side end2end latency: 1.4184794425964355
+request step: 42key: guidance_scale, value: 7.5
+key: request_time, value: 1714362405.17965
+key: SLO, value: 1.5701479446423272
+key: id, value: 81
+key: ClipModule_receive_time, value: 1714362405.1801348
+key: ClipModule_send_time, value: 1714362405.2016928
+key: UNetModule_receive_time, value: 1714362405.2058425
+key: UNetModule_send_time, value: 1714362406.4783041
+key: VaeModule&SafetyModule_receive_time, value: 1714362406.4904358
+key: VaeModule&SafetyModule_send_time, value: 1714362406.5769877
+key: finish_time, value: 1714362406.5981295
+collector worker receive workload request count = 40
+--------------------
+Server-side end2end latency: 1.0853490829467773
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714362408.9728556
+key: SLO, value: 1.2884936307121777
+key: id, value: 82
+key: ClipModule_receive_time, value: 1714362408.9733489
+key: ClipModule_send_time, value: 1714362408.9995916
+key: UNetModule_receive_time, value: 1714362409.008998
+key: UNetModule_send_time, value: 1714362409.929768
+key: VaeModule&SafetyModule_receive_time, value: 1714362409.9498
+key: VaeModule&SafetyModule_send_time, value: 1714362410.0366726
+key: finish_time, value: 1714362410.0582047
+collector worker receive workload request count = 41
+--------------------
+Server-side end2end latency: 1.304842233657837
+request step: 44key: guidance_scale, value: 7.5
+key: request_time, value: 1714362413.3180537
+key: SLO, value: 1.640561523124865
+key: id, value: 85
+key: ClipModule_receive_time, value: 1714362413.3187225
+key: ClipModule_send_time, value: 1714362413.333915
+key: UNetModule_receive_time, value: 1714362413.3402617
+key: UNetModule_send_time, value: 1714362414.4973567
+key: VaeModule&SafetyModule_receive_time, value: 1714362414.5117412
+key: VaeModule&SafetyModule_send_time, value: 1714362414.6022556
+key: finish_time, value: 1714362414.622896
+collector worker receive workload request count = 42
+--------------------
+Server-side end2end latency: 1.5045311450958252
+request step: 46key: guidance_scale, value: 7.5
+key: request_time, value: 1714362416.597557
+key: SLO, value: 1.7109751016074024
+key: id, value: 91
+key: ClipModule_receive_time, value: 1714362416.5982835
+key: ClipModule_send_time, value: 1714362416.6227126
+key: UNetModule_receive_time, value: 1714362416.6303692
+key: UNetModule_send_time, value: 1714362417.9995656
+key: VaeModule&SafetyModule_receive_time, value: 1714362418.0128438
+key: VaeModule&SafetyModule_send_time, value: 1714362418.083476
+key: finish_time, value: 1714362418.1020882
+collector worker receive workload request count = 43
+--------------------
+Server-side end2end latency: 1.079841136932373
+request step: 35key: guidance_scale, value: 7.5
+key: request_time, value: 1714362420.2851856
+key: SLO, value: 1.3237004199534466
+key: id, value: 93
+key: ClipModule_receive_time, value: 1714362420.2857025
+key: ClipModule_send_time, value: 1714362420.3048642
+key: UNetModule_receive_time, value: 1714362420.3112345
+key: UNetModule_send_time, value: 1714362421.2659707
+key: VaeModule&SafetyModule_receive_time, value: 1714362421.2733638
+key: VaeModule&SafetyModule_send_time, value: 1714362421.3456917
+key: finish_time, value: 1714362421.3650267
+collector worker receive workload request count = 44
+--------------------
+Server-side end2end latency: 1.033689022064209
+request step: 30key: guidance_scale, value: 7.5
+key: request_time, value: 1714362422.025297
+key: SLO, value: 1.147666473747103
+key: id, value: 96
+key: ClipModule_receive_time, value: 1714362422.0258486
+key: ClipModule_send_time, value: 1714362422.0484152
+key: UNetModule_receive_time, value: 1714362422.0536258
+key: UNetModule_send_time, value: 1714362422.937398
+key: VaeModule&SafetyModule_receive_time, value: 1714362422.9610164
+key: VaeModule&SafetyModule_send_time, value: 1714362423.034082
+key: finish_time, value: 1714362423.058986
+collector worker receive workload request count = 45
+--------------------
+Server-side end2end latency: 1.1152384281158447
+request step: 35key: guidance_scale, value: 7.5
+key: request_time, value: 1714362424.1147494
+key: SLO, value: 1.3237004199534466
+key: id, value: 97
+key: ClipModule_receive_time, value: 1714362424.1152546
+key: ClipModule_send_time, value: 1714362424.1382792
+key: UNetModule_receive_time, value: 1714362424.1436977
+key: UNetModule_send_time, value: 1714362425.1234043
+key: VaeModule&SafetyModule_receive_time, value: 1714362425.140467
+key: VaeModule&SafetyModule_send_time, value: 1714362425.2119582
+key: finish_time, value: 1714362425.2299879
+collector worker receive workload request count = 46
+--------------------
+Server-side end2end latency: 1.4613511562347412
+request step: 48key: guidance_scale, value: 7.5
+key: request_time, value: 1714362427.1880958
+key: SLO, value: 1.7813886800899397
+key: id, value: 100
+key: ClipModule_receive_time, value: 1714362427.188672
+key: ClipModule_send_time, value: 1714362427.2117863
+key: UNetModule_receive_time, value: 1714362427.2811854
+key: UNetModule_send_time, value: 1714362428.5199516
+key: VaeModule&SafetyModule_receive_time, value: 1714362428.5520666
+key: VaeModule&SafetyModule_send_time, value: 1714362428.6258535
+key: finish_time, value: 1714362428.649447
+collector worker receive workload request count = 47
+--------------------
+Server-side end2end latency: 1.0554003715515137
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714362449.6967442
+key: SLO, value: 1.2884936307121777
+key: id, value: 101
+key: ClipModule_receive_time, value: 1714362449.6975963
+key: ClipModule_send_time, value: 1714362449.7258265
+key: UNetModule_receive_time, value: 1714362449.7334254
+key: UNetModule_send_time, value: 1714362450.6251116
+key: VaeModule&SafetyModule_receive_time, value: 1714362450.6388016
+key: VaeModule&SafetyModule_send_time, value: 1714362450.7268121
+key: finish_time, value: 1714362450.7521446
+collector worker receive workload request count = 48
+--------------------
+Server-side end2end latency: 1.4503185749053955
+request step: 40key: guidance_scale, value: 7.5
+key: request_time, value: 1714362458.9524
+key: SLO, value: 1.49973436615979
+key: id, value: 106
+key: ClipModule_receive_time, value: 1714362458.9531484
+key: ClipModule_send_time, value: 1714362458.9752388
+key: UNetModule_receive_time, value: 1714362458.9828632
+key: UNetModule_send_time, value: 1714362460.2758465
+key: VaeModule&SafetyModule_receive_time, value: 1714362460.3016324
+key: VaeModule&SafetyModule_send_time, value: 1714362460.3795702
+key: finish_time, value: 1714362460.4027185
+collector worker receive workload request count = 49
+--------------------
+Server-side end2end latency: 1.4157178401947021
+request step: 46key: guidance_scale, value: 7.5
+key: request_time, value: 1714362463.4327211
+key: SLO, value: 1.7109751016074024
+key: id, value: 108
+key: ClipModule_receive_time, value: 1714362463.4333801
+key: ClipModule_send_time, value: 1714362463.4525785
+key: UNetModule_receive_time, value: 1714362463.4664924
+key: UNetModule_send_time, value: 1714362464.722314
+key: VaeModule&SafetyModule_receive_time, value: 1714362464.7415206
+key: VaeModule&SafetyModule_send_time, value: 1714362464.8310049
+key: finish_time, value: 1714362464.848439
+collector worker receive workload request count = 50
+--------------------
+Server-side end2end latency: 1.1200847625732422
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714362464.7966456
+key: SLO, value: 1.3941139984359838
+key: id, value: 109
+key: ClipModule_receive_time, value: 1714362464.7973228
+key: ClipModule_send_time, value: 1714362464.8156478
+key: UNetModule_receive_time, value: 1714362464.8198428
+key: UNetModule_send_time, value: 1714362465.816028
+key: VaeModule&SafetyModule_receive_time, value: 1714362465.8244898
+key: VaeModule&SafetyModule_send_time, value: 1714362465.8992708
+key: finish_time, value: 1714362465.9167304
+collector worker receive workload request count = 51
+--------------------
+Server-side end2end latency: 1.268836259841919
+request step: 40key: guidance_scale, value: 7.5
+key: request_time, value: 1714362469.6078522
+key: SLO, value: 1.49973436615979
+key: id, value: 112
+key: ClipModule_receive_time, value: 1714362469.6085198
+key: ClipModule_send_time, value: 1714362469.6323466
+key: UNetModule_receive_time, value: 1714362469.6464121
+key: UNetModule_send_time, value: 1714362470.7735612
+key: VaeModule&SafetyModule_receive_time, value: 1714362470.786412
+key: VaeModule&SafetyModule_send_time, value: 1714362470.8608103
+key: finish_time, value: 1714362470.8766885
+collector worker receive workload request count = 52
+--------------------
+Server-side end2end latency: 1.5940582752227783
+request step: 48key: guidance_scale, value: 7.5
+key: request_time, value: 1714362482.3525407
+key: SLO, value: 1.7813886800899397
+key: id, value: 113
+key: ClipModule_receive_time, value: 1714362482.3532543
+key: ClipModule_send_time, value: 1714362482.373133
+key: UNetModule_receive_time, value: 1714362482.4162378
+key: UNetModule_send_time, value: 1714362483.7447512
+key: VaeModule&SafetyModule_receive_time, value: 1714362483.8001118
+key: VaeModule&SafetyModule_send_time, value: 1714362483.919203
+key: finish_time, value: 1714362483.946599
+collector worker receive workload request count = 53
+--------------------
+Server-side end2end latency: 1.3804521560668945
+request step: 41key: guidance_scale, value: 7.5
+key: request_time, value: 1714362483.5939949
+key: SLO, value: 1.5349411554010588
+key: id, value: 114
+key: ClipModule_receive_time, value: 1714362483.5944624
+key: ClipModule_send_time, value: 1714362483.624741
+key: UNetModule_receive_time, value: 1714362483.712231
+key: UNetModule_send_time, value: 1714362484.8299987
+key: VaeModule&SafetyModule_receive_time, value: 1714362484.8675041
+key: VaeModule&SafetyModule_send_time, value: 1714362484.9572246
+key: finish_time, value: 1714362484.974447
+collector worker receive workload request count = 54
+--------------------
+Server-side end2end latency: 1.0235087871551514
+request step: 32key: guidance_scale, value: 7.5
+key: request_time, value: 1714362513.2152736
+key: SLO, value: 1.2180800522296404
+key: id, value: 115
+key: ClipModule_receive_time, value: 1714362513.215927
+key: ClipModule_send_time, value: 1714362513.243275
+key: UNetModule_receive_time, value: 1714362513.2545485
+key: UNetModule_send_time, value: 1714362514.117528
+key: VaeModule&SafetyModule_receive_time, value: 1714362514.1348944
+key: VaeModule&SafetyModule_send_time, value: 1714362514.2133017
+key: finish_time, value: 1714362514.2387824
+collector worker receive workload request count = 55
+--------------------
+Server-side end2end latency: 1.0517776012420654
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362515.9496124
+key: SLO, value: 1.2532868414709089
+key: id, value: 118
+key: ClipModule_receive_time, value: 1714362515.950167
+key: ClipModule_send_time, value: 1714362515.9682033
+key: UNetModule_receive_time, value: 1714362515.9735096
+key: UNetModule_send_time, value: 1714362516.8909566
+key: VaeModule&SafetyModule_receive_time, value: 1714362516.9046848
+key: VaeModule&SafetyModule_send_time, value: 1714362516.9771001
+key: finish_time, value: 1714362517.00139
+collector worker receive workload request count = 56
+--------------------
+Server-side end2end latency: 1.0798547267913818
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362560.6204717
+key: SLO, value: 1.2532868414709089
+key: id, value: 121
+key: ClipModule_receive_time, value: 1714362560.6210046
+key: ClipModule_send_time, value: 1714362560.644857
+key: UNetModule_receive_time, value: 1714362560.6514068
+key: UNetModule_send_time, value: 1714362561.5657363
+key: VaeModule&SafetyModule_receive_time, value: 1714362561.580882
+key: VaeModule&SafetyModule_send_time, value: 1714362561.676411
+key: finish_time, value: 1714362561.7003264
+collector worker receive workload request count = 57
+--------------------
+Server-side end2end latency: 1.4776215553283691
+request step: 48key: guidance_scale, value: 7.5
+key: request_time, value: 1714362581.2845488
+key: SLO, value: 1.7813886800899397
+key: id, value: 124
+key: ClipModule_receive_time, value: 1714362581.2852964
+key: ClipModule_send_time, value: 1714362581.3066897
+key: UNetModule_receive_time, value: 1714362581.3127112
+key: UNetModule_send_time, value: 1714362582.5629172
+key: VaeModule&SafetyModule_receive_time, value: 1714362582.6203306
+key: VaeModule&SafetyModule_send_time, value: 1714362582.7394202
+key: finish_time, value: 1714362582.7621703
+collector worker receive workload request count = 58
+--------------------
+Server-side end2end latency: 1.3520448207855225
+request step: 44key: guidance_scale, value: 7.5
+key: request_time, value: 1714362583.3936124
+key: SLO, value: 1.640561523124865
+key: id, value: 125
+key: ClipModule_receive_time, value: 1714362583.3941448
+key: ClipModule_send_time, value: 1714362583.4137316
+key: UNetModule_receive_time, value: 1714362583.4212098
+key: UNetModule_send_time, value: 1714362584.5883749
+key: VaeModule&SafetyModule_receive_time, value: 1714362584.6129503
+key: VaeModule&SafetyModule_send_time, value: 1714362584.7316415
+key: finish_time, value: 1714362584.7456572
+collector worker receive workload request count = 59
+--------------------
+Server-side end2end latency: 1.1514935493469238
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714362584.50461
+key: SLO, value: 1.2884936307121777
+key: id, value: 128
+key: ClipModule_receive_time, value: 1714362584.5052238
+key: ClipModule_send_time, value: 1714362584.5273213
+key: UNetModule_receive_time, value: 1714362584.5413432
+key: UNetModule_send_time, value: 1714362585.5189855
+key: VaeModule&SafetyModule_receive_time, value: 1714362585.5664043
+key: VaeModule&SafetyModule_send_time, value: 1714362585.6407833
+key: finish_time, value: 1714362585.6561036
+collector worker receive workload request count = 60
+--------------------
+Server-side end2end latency: 1.3499646186828613
+request step: 41key: guidance_scale, value: 7.5
+key: request_time, value: 1714362591.2426088
+key: SLO, value: 1.5349411554010588
+key: id, value: 130
+key: ClipModule_receive_time, value: 1714362591.2431397
+key: ClipModule_send_time, value: 1714362591.264994
+key: UNetModule_receive_time, value: 1714362591.2699223
+key: UNetModule_send_time, value: 1714362592.474234
+key: VaeModule&SafetyModule_receive_time, value: 1714362592.5021405
+key: VaeModule&SafetyModule_send_time, value: 1714362592.5787125
+key: finish_time, value: 1714362592.5925734
+collector worker receive workload request count = 61
+--------------------
+Server-side end2end latency: 1.058600902557373
+request step: 32key: guidance_scale, value: 7.5
+key: request_time, value: 1714362630.9452598
+key: SLO, value: 1.2180800522296404
+key: id, value: 133
+key: ClipModule_receive_time, value: 1714362630.945857
+key: ClipModule_send_time, value: 1714362630.9762325
+key: UNetModule_receive_time, value: 1714362630.9864466
+key: UNetModule_send_time, value: 1714362631.8709178
+key: VaeModule&SafetyModule_receive_time, value: 1714362631.900021
+key: VaeModule&SafetyModule_send_time, value: 1714362631.9788072
+key: finish_time, value: 1714362632.0038607
+collector worker receive workload request count = 62
+--------------------
+Server-side end2end latency: 1.4843859672546387
+request step: 49key: guidance_scale, value: 7.5
+key: request_time, value: 1714362644.0813909
+key: SLO, value: 1.8165954693312083
+key: id, value: 134
+key: ClipModule_receive_time, value: 1714362644.0820744
+key: ClipModule_send_time, value: 1714362644.0970652
+key: UNetModule_receive_time, value: 1714362644.1052263
+key: UNetModule_send_time, value: 1714362645.4572022
+key: VaeModule&SafetyModule_receive_time, value: 1714362645.4735365
+key: VaeModule&SafetyModule_send_time, value: 1714362645.5478723
+key: finish_time, value: 1714362645.5657768
+collector worker receive workload request count = 63
+--------------------
+Server-side end2end latency: 1.5340735912322998
+request step: 49key: guidance_scale, value: 7.5
+key: request_time, value: 1714362647.342043
+key: SLO, value: 1.8165954693312083
+key: id, value: 139
+key: ClipModule_receive_time, value: 1714362647.3426888
+key: ClipModule_send_time, value: 1714362647.364113
+key: UNetModule_receive_time, value: 1714362647.3703096
+key: UNetModule_send_time, value: 1714362648.7437413
+key: VaeModule&SafetyModule_receive_time, value: 1714362648.7752166
+key: VaeModule&SafetyModule_send_time, value: 1714362648.8505006
+key: finish_time, value: 1714362648.8761165
+collector worker receive workload request count = 64
+--------------------
+Server-side end2end latency: 1.2467308044433594
+request step: 40key: guidance_scale, value: 7.5
+key: request_time, value: 1714362656.3605428
+key: SLO, value: 1.49973436615979
+key: id, value: 141
+key: ClipModule_receive_time, value: 1714362656.361199
+key: ClipModule_send_time, value: 1714362656.3803492
+key: UNetModule_receive_time, value: 1714362656.3910313
+key: UNetModule_send_time, value: 1714362657.4115143
+key: VaeModule&SafetyModule_receive_time, value: 1714362657.4968343
+key: VaeModule&SafetyModule_send_time, value: 1714362657.5898273
+key: finish_time, value: 1714362657.6072736
+collector worker receive workload request count = 65
+--------------------
+Server-side end2end latency: 1.09903883934021
+request step: 32key: guidance_scale, value: 7.5
+key: request_time, value: 1714362659.4045503
+key: SLO, value: 1.2180800522296404
+key: id, value: 145
+key: ClipModule_receive_time, value: 1714362659.4054472
+key: ClipModule_send_time, value: 1714362659.4247642
+key: UNetModule_receive_time, value: 1714362659.4323347
+key: UNetModule_send_time, value: 1714362660.2447631
+key: VaeModule&SafetyModule_receive_time, value: 1714362660.2719448
+key: VaeModule&SafetyModule_send_time, value: 1714362660.4604273
+key: finish_time, value: 1714362660.5035892
+collector worker receive workload request count = 66
+--------------------
+Server-side end2end latency: 1.2882907390594482
+request step: 43key: guidance_scale, value: 7.5
+key: request_time, value: 1714362664.4594073
+key: SLO, value: 1.605354733883596
+key: id, value: 149
+key: ClipModule_receive_time, value: 1714362664.4601126
+key: ClipModule_send_time, value: 1714362664.4743867
+key: UNetModule_receive_time, value: 1714362664.4834452
+key: UNetModule_send_time, value: 1714362665.6189556
+key: VaeModule&SafetyModule_receive_time, value: 1714362665.6433482
+key: VaeModule&SafetyModule_send_time, value: 1714362665.7275186
+key: finish_time, value: 1714362665.747698
+collector worker receive workload request count = 67
+--------------------
+Server-side end2end latency: 1.2558841705322266
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714362666.1118479
+key: SLO, value: 1.4293207876772525
+key: id, value: 151
+key: ClipModule_receive_time, value: 1714362666.1125567
+key: ClipModule_send_time, value: 1714362666.1306663
+key: UNetModule_receive_time, value: 1714362666.1355934
+key: UNetModule_send_time, value: 1714362667.2102675
+key: VaeModule&SafetyModule_receive_time, value: 1714362667.2349024
+key: VaeModule&SafetyModule_send_time, value: 1714362667.3538086
+key: finish_time, value: 1714362667.367732
+collector worker receive workload request count = 68
+--------------------
+Server-side end2end latency: 1.834336757659912
+request step: 49key: guidance_scale, value: 7.5
+key: request_time, value: 1714362666.9622164
+key: SLO, value: 1.8165954693312083
+key: id, value: 153
+key: ClipModule_receive_time, value: 1714362666.9627302
+key: ClipModule_send_time, value: 1714362666.9870367
+key: UNetModule_receive_time, value: 1714362666.9999104
+key: UNetModule_send_time, value: 1714362668.6760933
+key: VaeModule&SafetyModule_receive_time, value: 1714362668.7022593
+key: VaeModule&SafetyModule_send_time, value: 1714362668.7740896
+key: finish_time, value: 1714362668.7965531
+collector worker receive workload request count = 69
+--------------------
+Server-side end2end latency: 1.0362000465393066
+request step: 32key: guidance_scale, value: 7.5
+key: request_time, value: 1714362669.4152105
+key: SLO, value: 1.2180800522296404
+key: id, value: 155
+key: ClipModule_receive_time, value: 1714362669.4158006
+key: ClipModule_send_time, value: 1714362669.434311
+key: UNetModule_receive_time, value: 1714362669.4445243
+key: UNetModule_send_time, value: 1714362670.3347957
+key: VaeModule&SafetyModule_receive_time, value: 1714362670.3613274
+key: VaeModule&SafetyModule_send_time, value: 1714362670.4331079
+key: finish_time, value: 1714362670.4514105
+collector worker receive workload request count = 70
+--------------------
+Server-side end2end latency: 1.0726802349090576
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362670.9765482
+key: SLO, value: 1.2532868414709089
+key: id, value: 157
+key: ClipModule_receive_time, value: 1714362670.977013
+key: ClipModule_send_time, value: 1714362670.9919143
+key: UNetModule_receive_time, value: 1714362671.0392094
+key: UNetModule_send_time, value: 1714362671.9320714
+key: VaeModule&SafetyModule_receive_time, value: 1714362671.958576
+key: VaeModule&SafetyModule_send_time, value: 1714362672.032416
+key: finish_time, value: 1714362672.0492284
+collector worker receive workload request count = 71
+--------------------
+Server-side end2end latency: 1.0812740325927734
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714362672.559062
+key: SLO, value: 1.2884936307121777
+key: id, value: 161
+key: ClipModule_receive_time, value: 1714362672.560044
+key: ClipModule_send_time, value: 1714362672.5777633
+key: UNetModule_receive_time, value: 1714362672.62762
+key: UNetModule_send_time, value: 1714362673.5175567
+key: VaeModule&SafetyModule_receive_time, value: 1714362673.5299363
+key: VaeModule&SafetyModule_send_time, value: 1714362673.6152108
+key: finish_time, value: 1714362673.640336
+collector worker receive workload request count = 72
+--------------------
+Server-side end2end latency: 1.0783302783966064
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362682.8719444
+key: SLO, value: 1.2532868414709089
+key: id, value: 162
+key: ClipModule_receive_time, value: 1714362682.872841
+key: ClipModule_send_time, value: 1714362682.891657
+key: UNetModule_receive_time, value: 1714362682.9013827
+key: UNetModule_send_time, value: 1714362683.820861
+key: VaeModule&SafetyModule_receive_time, value: 1714362683.8431523
+key: VaeModule&SafetyModule_send_time, value: 1714362683.9251435
+key: finish_time, value: 1714362683.9502747
+collector worker receive workload request count = 73
+--------------------
+Server-side end2end latency: 1.3149304389953613
+request step: 43key: guidance_scale, value: 7.5
+key: request_time, value: 1714362686.5405598
+key: SLO, value: 1.605354733883596
+key: id, value: 163
+key: ClipModule_receive_time, value: 1714362686.5448327
+key: ClipModule_send_time, value: 1714362686.5631237
+key: UNetModule_receive_time, value: 1714362686.627036
+key: UNetModule_send_time, value: 1714362687.739206
+key: VaeModule&SafetyModule_receive_time, value: 1714362687.7551844
+key: VaeModule&SafetyModule_send_time, value: 1714362687.8312905
+key: finish_time, value: 1714362687.8554902
+collector worker receive workload request count = 74
+--------------------
+Server-side end2end latency: 1.2446951866149902
+request step: 41key: guidance_scale, value: 7.5
+key: request_time, value: 1714362699.3309412
+key: SLO, value: 1.5349411554010588
+key: id, value: 164
+key: ClipModule_receive_time, value: 1714362699.3319216
+key: ClipModule_send_time, value: 1714362699.353934
+key: UNetModule_receive_time, value: 1714362699.3648207
+key: UNetModule_send_time, value: 1714362700.4602764
+key: VaeModule&SafetyModule_receive_time, value: 1714362700.484776
+key: VaeModule&SafetyModule_send_time, value: 1714362700.5576878
+key: finish_time, value: 1714362700.5756364
+collector worker receive workload request count = 75
+--------------------
+Server-side end2end latency: 1.3823919296264648
+request step: 43key: guidance_scale, value: 7.5
+key: request_time, value: 1714362702.5285575
+key: SLO, value: 1.605354733883596
+key: id, value: 165
+key: ClipModule_receive_time, value: 1714362702.5293124
+key: ClipModule_send_time, value: 1714362702.5476706
+key: UNetModule_receive_time, value: 1714362702.6083815
+key: UNetModule_send_time, value: 1714362703.7983043
+key: VaeModule&SafetyModule_receive_time, value: 1714362703.8125272
+key: VaeModule&SafetyModule_send_time, value: 1714362703.8868582
+key: finish_time, value: 1714362703.9109495
+collector worker receive workload request count = 76
+--------------------
+Server-side end2end latency: 1.3202908039093018
+request step: 43key: guidance_scale, value: 7.5
+key: request_time, value: 1714362706.9085934
+key: SLO, value: 1.605354733883596
+key: id, value: 166
+key: ClipModule_receive_time, value: 1714362706.9091206
+key: ClipModule_send_time, value: 1714362706.9306357
+key: UNetModule_receive_time, value: 1714362706.938263
+key: UNetModule_send_time, value: 1714362708.1128247
+key: VaeModule&SafetyModule_receive_time, value: 1714362708.137958
+key: VaeModule&SafetyModule_send_time, value: 1714362708.2100356
+key: finish_time, value: 1714362708.2288842
+collector worker receive workload request count = 77
+--------------------
+Server-side end2end latency: 1.4956483840942383
+request step: 46key: guidance_scale, value: 7.5
+key: request_time, value: 1714362712.4564662
+key: SLO, value: 1.7109751016074024
+key: id, value: 168
+key: ClipModule_receive_time, value: 1714362712.4573672
+key: ClipModule_send_time, value: 1714362712.4830241
+key: UNetModule_receive_time, value: 1714362712.493159
+key: UNetModule_send_time, value: 1714362713.8315303
+key: VaeModule&SafetyModule_receive_time, value: 1714362713.8590648
+key: VaeModule&SafetyModule_send_time, value: 1714362713.9329567
+key: finish_time, value: 1714362713.9521146
+collector worker receive workload request count = 78
+--------------------
+Server-side end2end latency: 1.3828487396240234
+request step: 46key: guidance_scale, value: 7.5
+key: request_time, value: 1714362721.454099
+key: SLO, value: 1.7109751016074024
+key: id, value: 170
+key: ClipModule_receive_time, value: 1714362721.4548204
+key: ClipModule_send_time, value: 1714362721.475005
+key: UNetModule_receive_time, value: 1714362721.4903357
+key: UNetModule_send_time, value: 1714362722.7146988
+key: VaeModule&SafetyModule_receive_time, value: 1714362722.7420387
+key: VaeModule&SafetyModule_send_time, value: 1714362722.8168979
+key: finish_time, value: 1714362722.8369477
+collector worker receive workload request count = 79
+--------------------
+Server-side end2end latency: 1.7837860584259033
+request step: 49key: guidance_scale, value: 7.5
+key: request_time, value: 1714362745.776551
+key: SLO, value: 1.8165954693312083
+key: id, value: 171
+key: ClipModule_receive_time, value: 1714362745.7775555
+key: ClipModule_send_time, value: 1714362745.8071485
+key: UNetModule_receive_time, value: 1714362745.8468328
+key: UNetModule_send_time, value: 1714362747.2908783
+key: VaeModule&SafetyModule_receive_time, value: 1714362747.3164055
+key: VaeModule&SafetyModule_send_time, value: 1714362747.4516408
+key: finish_time, value: 1714362747.560337
+collector worker receive workload request count = 80
+--------------------
+Server-side end2end latency: 0.9471914768218994
+request step: 31key: guidance_scale, value: 7.5
+key: request_time, value: 1714362752.2093892
+key: SLO, value: 1.1828732629883716
+key: id, value: 172
+key: ClipModule_receive_time, value: 1714362752.2098691
+key: ClipModule_send_time, value: 1714362752.2372327
+key: UNetModule_receive_time, value: 1714362752.246547
+key: UNetModule_send_time, value: 1714362753.0286076
+key: VaeModule&SafetyModule_receive_time, value: 1714362753.0434458
+key: VaeModule&SafetyModule_send_time, value: 1714362753.128871
+key: finish_time, value: 1714362753.1565807
+collector worker receive workload request count = 81
+--------------------
+Server-side end2end latency: 1.1828460693359375
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714362758.422262
+key: SLO, value: 1.4293207876772525
+key: id, value: 173
+key: ClipModule_receive_time, value: 1714362758.4227397
+key: ClipModule_send_time, value: 1714362758.4450743
+key: UNetModule_receive_time, value: 1714362758.451116
+key: UNetModule_send_time, value: 1714362759.4825823
+key: VaeModule&SafetyModule_receive_time, value: 1714362759.5094051
+key: VaeModule&SafetyModule_send_time, value: 1714362759.5823565
+key: finish_time, value: 1714362759.605108
+collector worker receive workload request count = 82
+--------------------
+Server-side end2end latency: 1.0097706317901611
+request step: 30key: guidance_scale, value: 7.5
+key: request_time, value: 1714362760.5105424
+key: SLO, value: 1.147666473747103
+key: id, value: 174
+key: ClipModule_receive_time, value: 1714362760.5110238
+key: ClipModule_send_time, value: 1714362760.5320535
+key: UNetModule_receive_time, value: 1714362760.5379155
+key: UNetModule_send_time, value: 1714362761.3615386
+key: VaeModule&SafetyModule_receive_time, value: 1714362761.3876803
+key: VaeModule&SafetyModule_send_time, value: 1714362761.499265
+key: finish_time, value: 1714362761.520313
+collector worker receive workload request count = 83
+--------------------
+Server-side end2end latency: 1.2228999137878418
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714362770.3845558
+key: SLO, value: 1.4293207876772525
+key: id, value: 182
+key: ClipModule_receive_time, value: 1714362770.385333
+key: ClipModule_send_time, value: 1714362770.4113014
+key: UNetModule_receive_time, value: 1714362770.4712594
+key: UNetModule_send_time, value: 1714362771.490558
+key: VaeModule&SafetyModule_receive_time, value: 1714362771.510124
+key: VaeModule&SafetyModule_send_time, value: 1714362771.5862978
+key: finish_time, value: 1714362771.6074557
+collector worker receive workload request count = 84
+--------------------
+Server-side end2end latency: 1.1603221893310547
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362810.8914583
+key: SLO, value: 1.2532868414709089
+key: id, value: 189
+key: ClipModule_receive_time, value: 1714362810.8923051
+key: ClipModule_send_time, value: 1714362810.9200134
+key: UNetModule_receive_time, value: 1714362810.9276326
+key: UNetModule_send_time, value: 1714362811.915571
+key: VaeModule&SafetyModule_receive_time, value: 1714362811.942416
+key: VaeModule&SafetyModule_send_time, value: 1714362812.0337796
+key: finish_time, value: 1714362812.0517805
+collector worker receive workload request count = 85
+--------------------
+Server-side end2end latency: 1.356827974319458
+request step: 45key: guidance_scale, value: 7.5
+key: request_time, value: 1714362813.4882107
+key: SLO, value: 1.6757683123661336
+key: id, value: 191
+key: ClipModule_receive_time, value: 1714362813.4887612
+key: ClipModule_send_time, value: 1714362813.5071168
+key: UNetModule_receive_time, value: 1714362813.5167758
+key: UNetModule_send_time, value: 1714362814.729279
+key: VaeModule&SafetyModule_receive_time, value: 1714362814.7487237
+key: VaeModule&SafetyModule_send_time, value: 1714362814.825831
+key: finish_time, value: 1714362814.8450387
+collector worker receive workload request count = 86
+--------------------
+Server-side end2end latency: 1.2398340702056885
+request step: 36key: guidance_scale, value: 7.5
+key: request_time, value: 1714362819.6245553
+key: SLO, value: 1.358907209194715
+key: id, value: 195
+key: ClipModule_receive_time, value: 1714362819.6252146
+key: ClipModule_send_time, value: 1714362819.6447532
+key: UNetModule_receive_time, value: 1714362819.67517
+key: UNetModule_send_time, value: 1714362820.7611504
+key: VaeModule&SafetyModule_receive_time, value: 1714362820.7754507
+key: VaeModule&SafetyModule_send_time, value: 1714362820.8478065
+key: finish_time, value: 1714362820.8643894
+collector worker receive workload request count = 87
+--------------------
+Server-side end2end latency: 1.2296111583709717
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362820.8886077
+key: SLO, value: 1.2532868414709089
+key: id, value: 196
+key: ClipModule_receive_time, value: 1714362820.8890111
+key: ClipModule_send_time, value: 1714362820.90726
+key: UNetModule_receive_time, value: 1714362820.9118094
+key: UNetModule_send_time, value: 1714362821.9596903
+key: VaeModule&SafetyModule_receive_time, value: 1714362821.9853458
+key: VaeModule&SafetyModule_send_time, value: 1714362822.0976038
+key: finish_time, value: 1714362822.118219
+collector worker receive workload request count = 88
+--------------------
+Server-side end2end latency: 1.3114440441131592
+request step: 35key: guidance_scale, value: 7.5
+key: request_time, value: 1714362824.2156274
+key: SLO, value: 1.3237004199534466
+key: id, value: 197
+key: ClipModule_receive_time, value: 1714362824.2162964
+key: ClipModule_send_time, value: 1714362824.2379274
+key: UNetModule_receive_time, value: 1714362824.2449708
+key: UNetModule_send_time, value: 1714362825.3971257
+key: VaeModule&SafetyModule_receive_time, value: 1714362825.4223816
+key: VaeModule&SafetyModule_send_time, value: 1714362825.5066495
+key: finish_time, value: 1714362825.5270715
+collector worker receive workload request count = 89
+--------------------
+Server-side end2end latency: 1.006415843963623
+request step: 30key: guidance_scale, value: 7.5
+key: request_time, value: 1714362840.7199278
+key: SLO, value: 1.147666473747103
+key: id, value: 199
+key: ClipModule_receive_time, value: 1714362840.7207212
+key: ClipModule_send_time, value: 1714362840.7459962
+key: UNetModule_receive_time, value: 1714362840.7681282
+key: UNetModule_send_time, value: 1714362841.5830986
+key: VaeModule&SafetyModule_receive_time, value: 1714362841.615286
+key: VaeModule&SafetyModule_send_time, value: 1714362841.7076173
+key: finish_time, value: 1714362841.7263436
+collector worker receive workload request count = 90
+--------------------
+Server-side end2end latency: 1.3142611980438232
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714362846.9496746
+key: SLO, value: 1.4293207876772525
+key: id, value: 201
+key: ClipModule_receive_time, value: 1714362846.9501338
+key: ClipModule_send_time, value: 1714362846.9648983
+key: UNetModule_receive_time, value: 1714362846.9736185
+key: UNetModule_send_time, value: 1714362848.1182258
+key: VaeModule&SafetyModule_receive_time, value: 1714362848.1440542
+key: VaeModule&SafetyModule_send_time, value: 1714362848.2408473
+key: finish_time, value: 1714362848.2639358
+collector worker receive workload request count = 91
+--------------------
+Server-side end2end latency: 1.6125407218933105
+request step: 50key: guidance_scale, value: 7.5
+key: request_time, value: 1714362881.8485453
+key: SLO, value: 1.8518022585724772
+key: id, value: 202
+key: ClipModule_receive_time, value: 1714362881.8496227
+key: ClipModule_send_time, value: 1714362881.8715637
+key: UNetModule_receive_time, value: 1714362881.8789775
+key: UNetModule_send_time, value: 1714362883.249172
+key: VaeModule&SafetyModule_receive_time, value: 1714362883.295078
+key: VaeModule&SafetyModule_send_time, value: 1714362883.4370105
+key: finish_time, value: 1714362883.461086
+collector worker receive workload request count = 92
+--------------------
+Server-side end2end latency: 1.034149408340454
+request step: 35key: guidance_scale, value: 7.5
+key: request_time, value: 1714362905.9325533
+key: SLO, value: 1.3237004199534466
+key: id, value: 205
+key: ClipModule_receive_time, value: 1714362905.9332104
+key: ClipModule_send_time, value: 1714362905.9672117
+key: UNetModule_receive_time, value: 1714362905.9721608
+key: UNetModule_send_time, value: 1714362906.8551805
+key: VaeModule&SafetyModule_receive_time, value: 1714362906.8682303
+key: VaeModule&SafetyModule_send_time, value: 1714362906.946808
+key: finish_time, value: 1714362906.9667027
+collector worker receive workload request count = 93
+--------------------
+Server-side end2end latency: 1.3713786602020264
+request step: 45key: guidance_scale, value: 7.5
+key: request_time, value: 1714362909.7379835
+key: SLO, value: 1.6757683123661336
+key: id, value: 206
+key: ClipModule_receive_time, value: 1714362909.7386887
+key: ClipModule_send_time, value: 1714362909.76072
+key: UNetModule_receive_time, value: 1714362909.7699456
+key: UNetModule_send_time, value: 1714362910.9837623
+key: VaeModule&SafetyModule_receive_time, value: 1714362911.0134082
+key: VaeModule&SafetyModule_send_time, value: 1714362911.0881906
+key: finish_time, value: 1714362911.1093621
+collector worker receive workload request count = 94
+--------------------
+Server-side end2end latency: 1.4098422527313232
+request step: 44key: guidance_scale, value: 7.5
+key: request_time, value: 1714362917.9738808
+key: SLO, value: 1.640561523124865
+key: id, value: 211
+key: ClipModule_receive_time, value: 1714362917.974501
+key: ClipModule_send_time, value: 1714362917.9966853
+key: UNetModule_receive_time, value: 1714362918.0038328
+key: UNetModule_send_time, value: 1714362919.1869664
+key: VaeModule&SafetyModule_receive_time, value: 1714362919.268086
+key: VaeModule&SafetyModule_send_time, value: 1714362919.3632889
+key: finish_time, value: 1714362919.383723
+collector worker receive workload request count = 95
+--------------------
+Server-side end2end latency: 1.1301915645599365
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362920.9805431
+key: SLO, value: 1.2532868414709089
+key: id, value: 213
+key: ClipModule_receive_time, value: 1714362920.9812284
+key: ClipModule_send_time, value: 1714362921.0001245
+key: UNetModule_receive_time, value: 1714362921.0439138
+key: UNetModule_send_time, value: 1714362921.976119
+key: VaeModule&SafetyModule_receive_time, value: 1714362921.9999564
+key: VaeModule&SafetyModule_send_time, value: 1714362922.0865674
+key: finish_time, value: 1714362922.1107347
+collector worker receive workload request count = 96
+--------------------
+Server-side end2end latency: 1.1491174697875977
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362941.0716357
+key: SLO, value: 1.2532868414709089
+key: id, value: 214
+key: ClipModule_receive_time, value: 1714362941.0726094
+key: ClipModule_send_time, value: 1714362941.0964396
+key: UNetModule_receive_time, value: 1714362941.1485617
+key: UNetModule_send_time, value: 1714362942.093445
+key: VaeModule&SafetyModule_receive_time, value: 1714362942.1204224
+key: VaeModule&SafetyModule_send_time, value: 1714362942.1982348
+key: finish_time, value: 1714362942.2207532
+collector worker receive workload request count = 97
+--------------------
+Server-side end2end latency: 1.215806007385254
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714362944.2685506
+key: SLO, value: 1.3941139984359838
+key: id, value: 215
+key: ClipModule_receive_time, value: 1714362944.269323
+key: ClipModule_send_time, value: 1714362944.2902553
+key: UNetModule_receive_time, value: 1714362944.3410268
+key: UNetModule_send_time, value: 1714362945.3476956
+key: VaeModule&SafetyModule_receive_time, value: 1714362945.3646226
+key: VaeModule&SafetyModule_send_time, value: 1714362945.4554982
+key: finish_time, value: 1714362945.4843566
+collector worker receive workload request count = 98
+--------------------
+Server-side end2end latency: 1.3316597938537598
+request step: 44key: guidance_scale, value: 7.5
+key: request_time, value: 1714362978.4539034
+key: SLO, value: 1.640561523124865
+key: id, value: 220
+key: ClipModule_receive_time, value: 1714362978.4547453
+key: ClipModule_send_time, value: 1714362978.4753954
+key: UNetModule_receive_time, value: 1714362978.4822037
+key: UNetModule_send_time, value: 1714362979.6510935
+key: VaeModule&SafetyModule_receive_time, value: 1714362979.6772587
+key: VaeModule&SafetyModule_send_time, value: 1714362979.7622905
+key: finish_time, value: 1714362979.7855632
+collector worker receive workload request count = 99
+--------------------
+Server-side end2end latency: 1.3856847286224365
+request step: 42key: guidance_scale, value: 7.5
+key: request_time, value: 1714362990.4008596
+key: SLO, value: 1.5701479446423272
+key: id, value: 222
+key: ClipModule_receive_time, value: 1714362990.401886
+key: ClipModule_send_time, value: 1714362990.4220865
+key: UNetModule_receive_time, value: 1714362990.4278991
+key: UNetModule_send_time, value: 1714362991.5772235
+key: VaeModule&SafetyModule_receive_time, value: 1714362991.6415157
+key: VaeModule&SafetyModule_send_time, value: 1714362991.7589312
+key: finish_time, value: 1714362991.7865443
+collector worker receive workload request count = 100
+--------------------
+Server-side end2end latency: 1.1336297988891602
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714362991.6405485
+key: SLO, value: 1.2532868414709089
+key: id, value: 223
+key: ClipModule_receive_time, value: 1714362991.6411855
+key: ClipModule_send_time, value: 1714362991.66682
+key: UNetModule_receive_time, value: 1714362991.7382247
+key: UNetModule_send_time, value: 1714362992.644945
+key: VaeModule&SafetyModule_receive_time, value: 1714362992.6741416
+key: VaeModule&SafetyModule_send_time, value: 1714362992.7542439
+key: finish_time, value: 1714362992.7741783
+collector worker receive workload request count = 101
+--------------------
+Server-side end2end latency: 1.1375563144683838
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714362993.4052687
+key: SLO, value: 1.3941139984359838
+key: id, value: 227
+key: ClipModule_receive_time, value: 1714362993.405797
+key: ClipModule_send_time, value: 1714362993.4233801
+key: UNetModule_receive_time, value: 1714362993.4285955
+key: UNetModule_send_time, value: 1714362994.4073687
+key: VaeModule&SafetyModule_receive_time, value: 1714362994.4333074
+key: VaeModule&SafetyModule_send_time, value: 1714362994.5210183
+key: finish_time, value: 1714362994.542825
+collector worker receive workload request count = 102
+--------------------
+Server-side end2end latency: 0.9619166851043701
+request step: 32key: guidance_scale, value: 7.5
+key: request_time, value: 1714362997.6333025
+key: SLO, value: 1.2180800522296404
+key: id, value: 231
+key: ClipModule_receive_time, value: 1714362997.634522
+key: ClipModule_send_time, value: 1714362997.6540287
+key: UNetModule_receive_time, value: 1714362997.6637754
+key: UNetModule_send_time, value: 1714362998.4777625
+key: VaeModule&SafetyModule_receive_time, value: 1714362998.490805
+key: VaeModule&SafetyModule_send_time, value: 1714362998.565713
+key: finish_time, value: 1714362998.5952191
+collector worker receive workload request count = 103
+--------------------
+Server-side end2end latency: 1.139681339263916
+request step: 32key: guidance_scale, value: 7.5
+key: request_time, value: 1714362999.6365693
+key: SLO, value: 1.2180800522296404
+key: id, value: 232
+key: ClipModule_receive_time, value: 1714362999.6369817
+key: ClipModule_send_time, value: 1714362999.661182
+key: UNetModule_receive_time, value: 1714362999.6670113
+key: UNetModule_send_time, value: 1714363000.6619744
+key: VaeModule&SafetyModule_receive_time, value: 1714363000.6865127
+key: VaeModule&SafetyModule_send_time, value: 1714363000.759902
+key: finish_time, value: 1714363000.7762506
+collector worker receive workload request count = 104
+--------------------
+Server-side end2end latency: 1.099001407623291
+request step: 35key: guidance_scale, value: 7.5
+key: request_time, value: 1714363002.4520147
+key: SLO, value: 1.3237004199534466
+key: id, value: 234
+key: ClipModule_receive_time, value: 1714363002.4526098
+key: ClipModule_send_time, value: 1714363002.4755497
+key: UNetModule_receive_time, value: 1714363002.4863803
+key: UNetModule_send_time, value: 1714363003.4156022
+key: VaeModule&SafetyModule_receive_time, value: 1714363003.462983
+key: VaeModule&SafetyModule_send_time, value: 1714363003.535854
+key: finish_time, value: 1714363003.551016
+collector worker receive workload request count = 105
+--------------------
+Server-side end2end latency: 1.1774942874908447
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714363003.6185951
+key: SLO, value: 1.4293207876772525
+key: id, value: 235
+key: ClipModule_receive_time, value: 1714363003.6190538
+key: ClipModule_send_time, value: 1714363003.6403654
+key: UNetModule_receive_time, value: 1714363003.6451857
+key: UNetModule_send_time, value: 1714363004.6501205
+key: VaeModule&SafetyModule_receive_time, value: 1714363004.6752534
+key: VaeModule&SafetyModule_send_time, value: 1714363004.7718394
+key: finish_time, value: 1714363004.7960894
+collector worker receive workload request count = 106
+--------------------
+Server-side end2end latency: 1.2949714660644531
+request step: 41key: guidance_scale, value: 7.5
+key: request_time, value: 1714363004.6768014
+key: SLO, value: 1.5349411554010588
+key: id, value: 238
+key: ClipModule_receive_time, value: 1714363004.6771295
+key: ClipModule_send_time, value: 1714363004.6910455
+key: UNetModule_receive_time, value: 1714363004.695512
+key: UNetModule_send_time, value: 1714363005.8591335
+key: VaeModule&SafetyModule_receive_time, value: 1714363005.8840039
+key: VaeModule&SafetyModule_send_time, value: 1714363005.9556208
+key: finish_time, value: 1714363005.971773
+collector worker receive workload request count = 107
+--------------------
+Server-side end2end latency: 1.4269213676452637
+request step: 46key: guidance_scale, value: 7.5
+key: request_time, value: 1714363006.679089
+key: SLO, value: 1.7109751016074024
+key: id, value: 241
+key: ClipModule_receive_time, value: 1714363006.6797097
+key: ClipModule_send_time, value: 1714363006.702409
+key: UNetModule_receive_time, value: 1714363006.7069013
+key: UNetModule_send_time, value: 1714363007.9920764
+key: VaeModule&SafetyModule_receive_time, value: 1714363008.0142531
+key: VaeModule&SafetyModule_send_time, value: 1714363008.0853798
+key: finish_time, value: 1714363008.1060104
+collector worker receive workload request count = 108
+--------------------
+Server-side end2end latency: 0.923555850982666
+request step: 31key: guidance_scale, value: 7.5
+key: request_time, value: 1714363008.1867318
+key: SLO, value: 1.1828732629883716
+key: id, value: 243
+key: ClipModule_receive_time, value: 1714363008.1871724
+key: ClipModule_send_time, value: 1714363008.2073314
+key: UNetModule_receive_time, value: 1714363008.2127807
+key: UNetModule_send_time, value: 1714363009.0130117
+key: VaeModule&SafetyModule_receive_time, value: 1714363009.0236058
+key: VaeModule&SafetyModule_send_time, value: 1714363009.0934474
+key: finish_time, value: 1714363009.1102877
+collector worker receive workload request count = 109
+--------------------
+Server-side end2end latency: 1.4849615097045898
+request step: 47key: guidance_scale, value: 7.5
+key: request_time, value: 1714363010.9082942
+key: SLO, value: 1.746181890848671
+key: id, value: 244
+key: ClipModule_receive_time, value: 1714363010.9089296
+key: ClipModule_send_time, value: 1714363010.925841
+key: UNetModule_receive_time, value: 1714363010.9317243
+key: UNetModule_send_time, value: 1714363012.1717668
+key: VaeModule&SafetyModule_receive_time, value: 1714363012.2219803
+key: VaeModule&SafetyModule_send_time, value: 1714363012.378507
+key: finish_time, value: 1714363012.3932557
+collector worker receive workload request count = 110
+--------------------
+Server-side end2end latency: 1.0700347423553467
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714363012.6433651
+key: SLO, value: 1.2532868414709089
+key: id, value: 246
+key: ClipModule_receive_time, value: 1714363012.6438053
+key: ClipModule_send_time, value: 1714363012.6619594
+key: UNetModule_receive_time, value: 1714363012.669111
+key: UNetModule_send_time, value: 1714363013.59527
+key: VaeModule&SafetyModule_receive_time, value: 1714363013.6160169
+key: VaeModule&SafetyModule_send_time, value: 1714363013.6877704
+key: finish_time, value: 1714363013.7134
+collector worker receive workload request count = 111
+--------------------
+Server-side end2end latency: 1.3305408954620361
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714363015.7844176
+key: SLO, value: 1.4293207876772525
+key: id, value: 247
+key: ClipModule_receive_time, value: 1714363015.7850263
+key: ClipModule_send_time, value: 1714363015.8034575
+key: UNetModule_receive_time, value: 1714363015.8080978
+key: UNetModule_send_time, value: 1714363016.937041
+key: VaeModule&SafetyModule_receive_time, value: 1714363016.9786017
+key: VaeModule&SafetyModule_send_time, value: 1714363017.0937786
+key: finish_time, value: 1714363017.1149585
+collector worker receive workload request count = 112
+--------------------
+Server-side end2end latency: 1.7906639575958252
+request step: 50key: guidance_scale, value: 7.5
+key: request_time, value: 1714363016.6865416
+key: SLO, value: 1.8518022585724772
+key: id, value: 248
+key: ClipModule_receive_time, value: 1714363016.687081
+key: ClipModule_send_time, value: 1714363016.7137303
+key: UNetModule_receive_time, value: 1714363016.738912
+key: UNetModule_send_time, value: 1714363018.332261
+key: VaeModule&SafetyModule_receive_time, value: 1714363018.3831441
+key: VaeModule&SafetyModule_send_time, value: 1714363018.454167
+key: finish_time, value: 1714363018.4772055
+collector worker receive workload request count = 113
+--------------------
+Server-side end2end latency: 1.0772135257720947
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714363019.24779
+key: SLO, value: 1.2532868414709089
+key: id, value: 251
+key: ClipModule_receive_time, value: 1714363019.248342
+key: ClipModule_send_time, value: 1714363019.269183
+key: UNetModule_receive_time, value: 1714363019.2775035
+key: UNetModule_send_time, value: 1714363020.2033596
+key: VaeModule&SafetyModule_receive_time, value: 1714363020.2343774
+key: VaeModule&SafetyModule_send_time, value: 1714363020.3049345
+key: finish_time, value: 1714363020.3250036
+collector worker receive workload request count = 114
+--------------------
+Server-side end2end latency: 1.2316639423370361
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714363068.898423
+key: SLO, value: 1.3941139984359838
+key: id, value: 252
+key: ClipModule_receive_time, value: 1714363068.8990598
+key: ClipModule_send_time, value: 1714363068.926825
+key: UNetModule_receive_time, value: 1714363068.9324327
+key: UNetModule_send_time, value: 1714363069.9681377
+key: VaeModule&SafetyModule_receive_time, value: 1714363070.0258052
+key: VaeModule&SafetyModule_send_time, value: 1714363070.1140432
+key: finish_time, value: 1714363070.130087
+collector worker receive workload request count = 115
+--------------------
+Server-side end2end latency: 1.438713788986206
+request step: 48key: guidance_scale, value: 7.5
+key: request_time, value: 1714363070.8983698
+key: SLO, value: 1.7813886800899397
+key: id, value: 254
+key: ClipModule_receive_time, value: 1714363070.8988814
+key: ClipModule_send_time, value: 1714363070.9185946
+key: UNetModule_receive_time, value: 1714363070.9242563
+key: UNetModule_send_time, value: 1714363072.226145
+key: VaeModule&SafetyModule_receive_time, value: 1714363072.2504654
+key: VaeModule&SafetyModule_send_time, value: 1714363072.322019
+key: finish_time, value: 1714363072.3370836
+collector worker receive workload request count = 116
+--------------------
+Server-side end2end latency: 1.4504778385162354
+request step: 47key: guidance_scale, value: 7.5
+key: request_time, value: 1714363077.7441409
+key: SLO, value: 1.746181890848671
+key: id, value: 255
+key: ClipModule_receive_time, value: 1714363077.7445395
+key: ClipModule_send_time, value: 1714363077.763394
+key: UNetModule_receive_time, value: 1714363077.769168
+key: UNetModule_send_time, value: 1714363079.0479238
+key: VaeModule&SafetyModule_receive_time, value: 1714363079.1028078
+key: VaeModule&SafetyModule_send_time, value: 1714363079.179331
+key: finish_time, value: 1714363079.1946187
+collector worker receive workload request count = 117
+--------------------
+Server-side end2end latency: 1.0236890316009521
+request step: 31key: guidance_scale, value: 7.5
+key: request_time, value: 1714363093.0116923
+key: SLO, value: 1.1828732629883716
+key: id, value: 256
+key: ClipModule_receive_time, value: 1714363093.0121934
+key: ClipModule_send_time, value: 1714363093.0359957
+key: UNetModule_receive_time, value: 1714363093.043262
+key: UNetModule_send_time, value: 1714363093.917855
+key: VaeModule&SafetyModule_receive_time, value: 1714363093.9360604
+key: VaeModule&SafetyModule_send_time, value: 1714363094.0133762
+key: finish_time, value: 1714363094.0353813
+collector worker receive workload request count = 118
+--------------------
+Server-side end2end latency: 1.595789909362793
+request step: 47key: guidance_scale, value: 7.5
+key: request_time, value: 1714363117.4645522
+key: SLO, value: 1.746181890848671
+key: id, value: 258
+key: ClipModule_receive_time, value: 1714363117.4654553
+key: ClipModule_send_time, value: 1714363117.4912379
+key: UNetModule_receive_time, value: 1714363117.5419962
+key: UNetModule_send_time, value: 1714363118.7980363
+key: VaeModule&SafetyModule_receive_time, value: 1714363118.826868
+key: VaeModule&SafetyModule_send_time, value: 1714363118.9069333
+key: finish_time, value: 1714363119.060342
+collector worker receive workload request count = 119
+--------------------
+Server-side end2end latency: 1.4390246868133545
+request step: 42key: guidance_scale, value: 7.5
+key: request_time, value: 1714363121.6563587
+key: SLO, value: 1.5701479446423272
+key: id, value: 263
+key: ClipModule_receive_time, value: 1714363121.6569004
+key: ClipModule_send_time, value: 1714363121.6784086
+key: UNetModule_receive_time, value: 1714363121.6875224
+key: UNetModule_send_time, value: 1714363122.9596505
+key: VaeModule&SafetyModule_receive_time, value: 1714363122.9878943
+key: VaeModule&SafetyModule_send_time, value: 1714363123.0674963
+key: finish_time, value: 1714363123.0953834
+collector worker receive workload request count = 120
+--------------------
+Server-side end2end latency: 1.4024088382720947
+request step: 45key: guidance_scale, value: 7.5
+key: request_time, value: 1714363125.6572905
+key: SLO, value: 1.6757683123661336
+key: id, value: 266
+key: ClipModule_receive_time, value: 1714363125.6578746
+key: ClipModule_send_time, value: 1714363125.6786437
+key: UNetModule_receive_time, value: 1714363125.6851883
+key: UNetModule_send_time, value: 1714363126.9186318
+key: VaeModule&SafetyModule_receive_time, value: 1714363126.9457633
+key: VaeModule&SafetyModule_send_time, value: 1714363127.0346088
+key: finish_time, value: 1714363127.0596993
+collector worker receive workload request count = 121
+--------------------
+Server-side end2end latency: 1.2237286567687988
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714363128.3885345
+key: SLO, value: 1.3941139984359838
+key: id, value: 267
+key: ClipModule_receive_time, value: 1714363128.3893254
+key: ClipModule_send_time, value: 1714363128.4094121
+key: UNetModule_receive_time, value: 1714363128.4198768
+key: UNetModule_send_time, value: 1714363129.3859038
+key: VaeModule&SafetyModule_receive_time, value: 1714363129.4185808
+key: VaeModule&SafetyModule_send_time, value: 1714363129.5906608
+key: finish_time, value: 1714363129.6122632
+collector worker receive workload request count = 122
+--------------------
+Server-side end2end latency: 1.2328839302062988
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714363130.8359585
+key: SLO, value: 1.3941139984359838
+key: id, value: 272
+key: ClipModule_receive_time, value: 1714363130.8365083
+key: ClipModule_send_time, value: 1714363130.86096
+key: UNetModule_receive_time, value: 1714363130.8675106
+key: UNetModule_send_time, value: 1714363131.9157908
+key: VaeModule&SafetyModule_receive_time, value: 1714363131.9393911
+key: VaeModule&SafetyModule_send_time, value: 1714363132.0513346
+key: finish_time, value: 1714363132.0688424
+collector worker receive workload request count = 123
+--------------------
+Server-side end2end latency: 1.4139468669891357
+request step: 41key: guidance_scale, value: 7.5
+key: request_time, value: 1714363131.8591206
+key: SLO, value: 1.5349411554010588
+key: id, value: 274
+key: ClipModule_receive_time, value: 1714363131.8595552
+key: ClipModule_send_time, value: 1714363131.8821712
+key: UNetModule_receive_time, value: 1714363131.8914754
+key: UNetModule_send_time, value: 1714363133.1252263
+key: VaeModule&SafetyModule_receive_time, value: 1714363133.160958
+key: VaeModule&SafetyModule_send_time, value: 1714363133.249535
+key: finish_time, value: 1714363133.2730675
+collector worker receive workload request count = 124
+--------------------
+Server-side end2end latency: 1.2201793193817139
+request step: 39key: guidance_scale, value: 7.5
+key: request_time, value: 1714363134.0685542
+key: SLO, value: 1.4645275769185213
+key: id, value: 277
+key: ClipModule_receive_time, value: 1714363134.069045
+key: ClipModule_send_time, value: 1714363134.087021
+key: UNetModule_receive_time, value: 1714363134.1236317
+key: UNetModule_send_time, value: 1714363135.1707845
+key: VaeModule&SafetyModule_receive_time, value: 1714363135.1976373
+key: VaeModule&SafetyModule_send_time, value: 1714363135.2696598
+key: finish_time, value: 1714363135.2887335
+collector worker receive workload request count = 125
+--------------------
+Server-side end2end latency: 1.5735840797424316
+request step: 48key: guidance_scale, value: 7.5
+key: request_time, value: 1714363136.812713
+key: SLO, value: 1.7813886800899397
+key: id, value: 280
+key: ClipModule_receive_time, value: 1714363136.8132732
+key: ClipModule_send_time, value: 1714363136.8366544
+key: UNetModule_receive_time, value: 1714363136.8420455
+key: UNetModule_send_time, value: 1714363138.2555258
+key: VaeModule&SafetyModule_receive_time, value: 1714363138.2857773
+key: VaeModule&SafetyModule_send_time, value: 1714363138.358899
+key: finish_time, value: 1714363138.386297
+collector worker receive workload request count = 126
+--------------------
+Server-side end2end latency: 0.994880199432373
+request step: 30key: guidance_scale, value: 7.5
+key: request_time, value: 1714363179.616376
+key: SLO, value: 1.147666473747103
+key: id, value: 281
+key: ClipModule_receive_time, value: 1714363179.617159
+key: ClipModule_send_time, value: 1714363179.6491656
+key: UNetModule_receive_time, value: 1714363179.6863544
+key: UNetModule_send_time, value: 1714363180.4771385
+key: VaeModule&SafetyModule_receive_time, value: 1714363180.4992273
+key: VaeModule&SafetyModule_send_time, value: 1714363180.590303
+key: finish_time, value: 1714363180.6112561
+collector worker receive workload request count = 127
+--------------------
+Server-side end2end latency: 1.3379387855529785
+request step: 39key: guidance_scale, value: 7.5
+key: request_time, value: 1714363184.1882656
+key: SLO, value: 1.4645275769185213
+key: id, value: 282
+key: ClipModule_receive_time, value: 1714363184.1888602
+key: ClipModule_send_time, value: 1714363184.2104034
+key: UNetModule_receive_time, value: 1714363184.2226896
+key: UNetModule_send_time, value: 1714363185.393701
+key: VaeModule&SafetyModule_receive_time, value: 1714363185.4217603
+key: VaeModule&SafetyModule_send_time, value: 1714363185.496193
+key: finish_time, value: 1714363185.5262043
+collector worker receive workload request count = 128
+--------------------
+Server-side end2end latency: 1.0516836643218994
+request step: 30key: guidance_scale, value: 7.5
+key: request_time, value: 1714363189.6209803
+key: SLO, value: 1.147666473747103
+key: id, value: 286
+key: ClipModule_receive_time, value: 1714363189.6215029
+key: ClipModule_send_time, value: 1714363189.6444788
+key: UNetModule_receive_time, value: 1714363189.6524863
+key: UNetModule_send_time, value: 1714363190.5330074
+key: VaeModule&SafetyModule_receive_time, value: 1714363190.5621443
+key: VaeModule&SafetyModule_send_time, value: 1714363190.6489072
+key: finish_time, value: 1714363190.672664
+collector worker receive workload request count = 129
+--------------------
+Server-side end2end latency: 1.233018159866333
+request step: 40key: guidance_scale, value: 7.5
+key: request_time, value: 1714363191.2382574
+key: SLO, value: 1.49973436615979
+key: id, value: 288
+key: ClipModule_receive_time, value: 1714363191.2386973
+key: ClipModule_send_time, value: 1714363191.251012
+key: UNetModule_receive_time, value: 1714363191.2569077
+key: UNetModule_send_time, value: 1714363192.3469634
+key: VaeModule&SafetyModule_receive_time, value: 1714363192.3730247
+key: VaeModule&SafetyModule_send_time, value: 1714363192.4547138
+key: finish_time, value: 1714363192.4712756
+collector worker receive workload request count = 130
+--------------------
+Server-side end2end latency: 1.2724072933197021
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714363199.0495079
+key: SLO, value: 1.2884936307121777
+key: id, value: 289
+key: ClipModule_receive_time, value: 1714363199.0501041
+key: ClipModule_send_time, value: 1714363199.0709946
+key: UNetModule_receive_time, value: 1714363199.0767763
+key: UNetModule_send_time, value: 1714363200.1211314
+key: VaeModule&SafetyModule_receive_time, value: 1714363200.1554658
+key: VaeModule&SafetyModule_send_time, value: 1714363200.267252
+key: finish_time, value: 1714363200.3219151
+collector worker receive workload request count = 131
+--------------------
+Server-side end2end latency: 1.0605173110961914
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714363202.2672253
+key: SLO, value: 1.2532868414709089
+key: id, value: 291
+key: ClipModule_receive_time, value: 1714363202.2675912
+key: ClipModule_send_time, value: 1714363202.2944462
+key: UNetModule_receive_time, value: 1714363202.3002057
+key: UNetModule_send_time, value: 1714363203.216489
+key: VaeModule&SafetyModule_receive_time, value: 1714363203.2309208
+key: VaeModule&SafetyModule_send_time, value: 1714363203.3092134
+key: finish_time, value: 1714363203.3277426
+collector worker receive workload request count = 132
+--------------------
+Server-side end2end latency: 1.4610555171966553
+request step: 49key: guidance_scale, value: 7.5
+key: request_time, value: 1714363210.9725127
+key: SLO, value: 1.8165954693312083
+key: id, value: 292
+key: ClipModule_receive_time, value: 1714363210.9733417
+key: ClipModule_send_time, value: 1714363210.9960628
+key: UNetModule_receive_time, value: 1714363211.001969
+key: UNetModule_send_time, value: 1714363212.3149285
+key: VaeModule&SafetyModule_receive_time, value: 1714363212.3411038
+key: VaeModule&SafetyModule_send_time, value: 1714363212.416999
+key: finish_time, value: 1714363212.4335682
+collector worker receive workload request count = 133
+--------------------
+Server-side end2end latency: 0.9594957828521729
+request step: 30key: guidance_scale, value: 7.5
+key: request_time, value: 1714363212.493498
+key: SLO, value: 1.147666473747103
+key: id, value: 295
+key: ClipModule_receive_time, value: 1714363212.4939718
+key: ClipModule_send_time, value: 1714363212.5122504
+key: UNetModule_receive_time, value: 1714363212.5168438
+key: UNetModule_send_time, value: 1714363213.2981899
+key: VaeModule&SafetyModule_receive_time, value: 1714363213.3237936
+key: VaeModule&SafetyModule_send_time, value: 1714363213.4329917
+key: finish_time, value: 1714363213.4529939
+collector worker receive workload request count = 134
+--------------------
+Server-side end2end latency: 1.2592589855194092
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714363213.5073578
+key: SLO, value: 1.4293207876772525
+key: id, value: 297
+key: ClipModule_receive_time, value: 1714363213.5078542
+key: ClipModule_send_time, value: 1714363213.5308096
+key: UNetModule_receive_time, value: 1714363213.5707493
+key: UNetModule_send_time, value: 1714363214.642166
+key: VaeModule&SafetyModule_receive_time, value: 1714363214.6665072
+key: VaeModule&SafetyModule_send_time, value: 1714363214.7427843
+key: finish_time, value: 1714363214.7666168
+collector worker receive workload request count = 135
+--------------------
+Server-side end2end latency: 1.4018373489379883
+request step: 47key: guidance_scale, value: 7.5
+key: request_time, value: 1714363216.5780265
+key: SLO, value: 1.746181890848671
+key: id, value: 300
+key: ClipModule_receive_time, value: 1714363216.5785613
+key: ClipModule_send_time, value: 1714363216.6009583
+key: UNetModule_receive_time, value: 1714363216.6076362
+key: UNetModule_send_time, value: 1714363217.8553264
+key: VaeModule&SafetyModule_receive_time, value: 1714363217.8815084
+key: VaeModule&SafetyModule_send_time, value: 1714363217.958702
+key: finish_time, value: 1714363217.979864
+collector worker receive workload request count = 136
+--------------------
+Server-side end2end latency: 1.5278489589691162
+request step: 50key: guidance_scale, value: 7.5
+key: request_time, value: 1714363220.0427115
+key: SLO, value: 1.8518022585724772
+key: id, value: 301
+key: ClipModule_receive_time, value: 1714363220.0432875
+key: ClipModule_send_time, value: 1714363220.0611174
+key: UNetModule_receive_time, value: 1714363220.0660458
+key: UNetModule_send_time, value: 1714363221.4505138
+key: VaeModule&SafetyModule_receive_time, value: 1714363221.4797826
+key: VaeModule&SafetyModule_send_time, value: 1714363221.5548592
+key: finish_time, value: 1714363221.5705605
+collector worker receive workload request count = 137
+--------------------
+Server-side end2end latency: 1.2931771278381348
+request step: 41key: guidance_scale, value: 7.5
+key: request_time, value: 1714363226.8845556
+key: SLO, value: 1.5349411554010588
+key: id, value: 303
+key: ClipModule_receive_time, value: 1714363226.8852422
+key: ClipModule_send_time, value: 1714363226.9179363
+key: UNetModule_receive_time, value: 1714363226.9572833
+key: UNetModule_send_time, value: 1714363228.0630739
+key: VaeModule&SafetyModule_receive_time, value: 1714363228.0790892
+key: VaeModule&SafetyModule_send_time, value: 1714363228.1551805
+key: finish_time, value: 1714363228.1777327
+collector worker receive workload request count = 138
+--------------------
+Server-side end2end latency: 1.0839335918426514
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714363230.5965607
+key: SLO, value: 1.2884936307121777
+key: id, value: 304
+key: ClipModule_receive_time, value: 1714363230.597195
+key: ClipModule_send_time, value: 1714363230.616207
+key: UNetModule_receive_time, value: 1714363230.6336846
+key: UNetModule_send_time, value: 1714363231.5742085
+key: VaeModule&SafetyModule_receive_time, value: 1714363231.594392
+key: VaeModule&SafetyModule_send_time, value: 1714363231.665271
+key: finish_time, value: 1714363231.6804943
+collector worker receive workload request count = 139
+--------------------
+Server-side end2end latency: 1.4696416854858398
+request step: 48key: guidance_scale, value: 7.5
+key: request_time, value: 1714363234.226738
+key: SLO, value: 1.7813886800899397
+key: id, value: 309
+key: ClipModule_receive_time, value: 1714363234.227193
+key: ClipModule_send_time, value: 1714363234.2531254
+key: UNetModule_receive_time, value: 1714363234.2650065
+key: UNetModule_send_time, value: 1714363235.577866
+key: VaeModule&SafetyModule_receive_time, value: 1714363235.5916314
+key: VaeModule&SafetyModule_send_time, value: 1714363235.671401
+key: finish_time, value: 1714363235.6963797
+collector worker receive workload request count = 140
+--------------------
+Server-side end2end latency: 1.17026686668396
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714363236.3280149
+key: SLO, value: 1.2532868414709089
+key: id, value: 311
+key: ClipModule_receive_time, value: 1714363236.3285248
+key: ClipModule_send_time, value: 1714363236.3516166
+key: UNetModule_receive_time, value: 1714363236.429929
+key: UNetModule_send_time, value: 1714363237.329892
+key: VaeModule&SafetyModule_receive_time, value: 1714363237.3630521
+key: VaeModule&SafetyModule_send_time, value: 1714363237.4761517
+key: finish_time, value: 1714363237.4982817
+collector worker receive workload request count = 141
+--------------------
+Server-side end2end latency: 1.2241291999816895
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714363237.3084273
+key: SLO, value: 1.3941139984359838
+key: id, value: 313
+key: ClipModule_receive_time, value: 1714363237.3087935
+key: ClipModule_send_time, value: 1714363237.3333528
+key: UNetModule_receive_time, value: 1714363237.3628964
+key: UNetModule_send_time, value: 1714363238.4144711
+key: VaeModule&SafetyModule_receive_time, value: 1714363238.4405117
+key: VaeModule&SafetyModule_send_time, value: 1714363238.5122428
+key: finish_time, value: 1714363238.5325565
+collector worker receive workload request count = 142
+--------------------
+Server-side end2end latency: 1.4409546852111816
+request step: 45key: guidance_scale, value: 7.5
+key: request_time, value: 1714363242.4829214
+key: SLO, value: 1.6757683123661336
+key: id, value: 320
+key: ClipModule_receive_time, value: 1714363242.4834645
+key: ClipModule_send_time, value: 1714363242.5008368
+key: UNetModule_receive_time, value: 1714363242.5068395
+key: UNetModule_send_time, value: 1714363243.6523473
+key: VaeModule&SafetyModule_receive_time, value: 1714363243.6768208
+key: VaeModule&SafetyModule_send_time, value: 1714363243.785141
+key: finish_time, value: 1714363243.923876
+collector worker receive workload request count = 143
+--------------------
+Server-side end2end latency: 1.339599847793579
+request step: 43key: guidance_scale, value: 7.5
+key: request_time, value: 1714363247.4064105
+key: SLO, value: 1.605354733883596
+key: id, value: 324
+key: ClipModule_receive_time, value: 1714363247.406812
+key: ClipModule_send_time, value: 1714363247.427334
+key: UNetModule_receive_time, value: 1714363247.4380183
+key: UNetModule_send_time, value: 1714363248.618571
+key: VaeModule&SafetyModule_receive_time, value: 1714363248.6437776
+key: VaeModule&SafetyModule_send_time, value: 1714363248.7268035
+key: finish_time, value: 1714363248.7460103
+collector worker receive workload request count = 144
+--------------------
+Server-side end2end latency: 1.372492790222168
+request step: 44key: guidance_scale, value: 7.5
+key: request_time, value: 1714363250.7635765
+key: SLO, value: 1.640561523124865
+key: id, value: 327
+key: ClipModule_receive_time, value: 1714363250.764048
+key: ClipModule_send_time, value: 1714363250.7832713
+key: UNetModule_receive_time, value: 1714363250.795732
+key: UNetModule_send_time, value: 1714363252.0195715
+key: VaeModule&SafetyModule_receive_time, value: 1714363252.0415437
+key: VaeModule&SafetyModule_send_time, value: 1714363252.1217468
+key: finish_time, value: 1714363252.1360693
+collector worker receive workload request count = 145
+--------------------
+Server-side end2end latency: 1.6044907569885254
+request step: 47key: guidance_scale, value: 7.5
+key: request_time, value: 1714363255.2040863
+key: SLO, value: 1.746181890848671
+key: id, value: 328
+key: ClipModule_receive_time, value: 1714363255.2046185
+key: ClipModule_send_time, value: 1714363255.2219799
+key: UNetModule_receive_time, value: 1714363255.2355902
+key: UNetModule_send_time, value: 1714363256.6222625
+key: VaeModule&SafetyModule_receive_time, value: 1714363256.657608
+key: VaeModule&SafetyModule_send_time, value: 1714363256.7563376
+key: finish_time, value: 1714363256.808577
+collector worker receive workload request count = 146
+--------------------
+Server-side end2end latency: 1.2306108474731445
+request step: 39key: guidance_scale, value: 7.5
+key: request_time, value: 1714363257.0911715
+key: SLO, value: 1.4645275769185213
+key: id, value: 331
+key: ClipModule_receive_time, value: 1714363257.0916913
+key: ClipModule_send_time, value: 1714363257.1112962
+key: UNetModule_receive_time, value: 1714363257.120573
+key: UNetModule_send_time, value: 1714363258.2062173
+key: VaeModule&SafetyModule_receive_time, value: 1714363258.2339745
+key: VaeModule&SafetyModule_send_time, value: 1714363258.3058734
+key: finish_time, value: 1714363258.3217824
+collector worker receive workload request count = 147
+--------------------
+Server-side end2end latency: 1.4413635730743408
+request step: 48key: guidance_scale, value: 7.5
+key: request_time, value: 1714363267.4831257
+key: SLO, value: 1.7813886800899397
+key: id, value: 336
+key: ClipModule_receive_time, value: 1714363267.4836805
+key: ClipModule_send_time, value: 1714363267.5001152
+key: UNetModule_receive_time, value: 1714363267.510335
+key: UNetModule_send_time, value: 1714363268.8081205
+key: VaeModule&SafetyModule_receive_time, value: 1714363268.8253844
+key: VaeModule&SafetyModule_send_time, value: 1714363268.899932
+key: finish_time, value: 1714363268.9244893
+collector worker receive workload request count = 148
+--------------------
+Server-side end2end latency: 1.5194013118743896
+request step: 43key: guidance_scale, value: 7.5
+key: request_time, value: 1714363300.2415812
+key: SLO, value: 1.605354733883596
+key: id, value: 337
+key: ClipModule_receive_time, value: 1714363300.2426388
+key: ClipModule_send_time, value: 1714363300.2672405
+key: UNetModule_receive_time, value: 1714363300.2727945
+key: UNetModule_send_time, value: 1714363301.5379333
+key: VaeModule&SafetyModule_receive_time, value: 1714363301.5697188
+key: VaeModule&SafetyModule_send_time, value: 1714363301.7056136
+key: finish_time, value: 1714363301.7609825
+collector worker receive workload request count = 149
+--------------------
+Server-side end2end latency: 1.256894588470459
+request step: 36key: guidance_scale, value: 7.5
+key: request_time, value: 1714363317.9235244
+key: SLO, value: 1.358907209194715
+key: id, value: 339
+key: ClipModule_receive_time, value: 1714363317.9244351
+key: ClipModule_send_time, value: 1714363317.9462187
+key: UNetModule_receive_time, value: 1714363317.9523413
+key: UNetModule_send_time, value: 1714363319.062176
+key: VaeModule&SafetyModule_receive_time, value: 1714363319.07695
+key: VaeModule&SafetyModule_send_time, value: 1714363319.1548533
+key: finish_time, value: 1714363319.180419
+collector worker receive workload request count = 150
+--------------------
+Server-side end2end latency: 1.475799798965454
+request step: 47key: guidance_scale, value: 7.5
+key: request_time, value: 1714363337.239654
+key: SLO, value: 1.746181890848671
+key: id, value: 344
+key: ClipModule_receive_time, value: 1714363337.2401972
+key: ClipModule_send_time, value: 1714363337.258298
+key: UNetModule_receive_time, value: 1714363337.2754672
+key: UNetModule_send_time, value: 1714363338.5719728
+key: VaeModule&SafetyModule_receive_time, value: 1714363338.6038055
+key: VaeModule&SafetyModule_send_time, value: 1714363338.687022
+key: finish_time, value: 1714363338.7154539
+collector worker receive workload request count = 151
+--------------------
+Server-side end2end latency: 1.265920639038086
+request step: 40key: guidance_scale, value: 7.5
+key: request_time, value: 1714363369.810346
+key: SLO, value: 1.49973436615979
+key: id, value: 345
+key: ClipModule_receive_time, value: 1714363369.8108401
+key: ClipModule_send_time, value: 1714363369.835497
+key: UNetModule_receive_time, value: 1714363369.8403254
+key: UNetModule_send_time, value: 1714363370.8591747
+key: VaeModule&SafetyModule_receive_time, value: 1714363370.8772924
+key: VaeModule&SafetyModule_send_time, value: 1714363370.9805586
+key: finish_time, value: 1714363371.0762665
+collector worker receive workload request count = 152
+--------------------
+Server-side end2end latency: 1.234520673751831
+request step: 39key: guidance_scale, value: 7.5
+key: request_time, value: 1714363372.5925722
+key: SLO, value: 1.4645275769185213
+key: id, value: 346
+key: ClipModule_receive_time, value: 1714363372.5931194
+key: ClipModule_send_time, value: 1714363372.6081462
+key: UNetModule_receive_time, value: 1714363372.612877
+key: UNetModule_send_time, value: 1714363373.7150939
+key: VaeModule&SafetyModule_receive_time, value: 1714363373.7326775
+key: VaeModule&SafetyModule_send_time, value: 1714363373.8021414
+key: finish_time, value: 1714363373.827093
+collector worker receive workload request count = 153
+--------------------
+Server-side end2end latency: 1.3615226745605469
+request step: 43key: guidance_scale, value: 7.5
+key: request_time, value: 1714363388.455207
+key: SLO, value: 1.605354733883596
+key: id, value: 348
+key: ClipModule_receive_time, value: 1714363388.4558744
+key: ClipModule_send_time, value: 1714363388.477856
+key: UNetModule_receive_time, value: 1714363388.4904234
+key: UNetModule_send_time, value: 1714363389.6837394
+key: VaeModule&SafetyModule_receive_time, value: 1714363389.713326
+key: VaeModule&SafetyModule_send_time, value: 1714363389.7917738
+key: finish_time, value: 1714363389.8167298
+collector worker receive workload request count = 154
+--------------------
+Server-side end2end latency: 1.2732350826263428
+request step: 36key: guidance_scale, value: 7.5
+key: request_time, value: 1714363393.9525566
+key: SLO, value: 1.358907209194715
+key: id, value: 350
+key: ClipModule_receive_time, value: 1714363393.9531498
+key: ClipModule_send_time, value: 1714363393.9805188
+key: UNetModule_receive_time, value: 1714363394.0474823
+key: UNetModule_send_time, value: 1714363395.1116133
+key: VaeModule&SafetyModule_receive_time, value: 1714363395.1387587
+key: VaeModule&SafetyModule_send_time, value: 1714363395.2107868
+key: finish_time, value: 1714363395.2257917
+collector worker receive workload request count = 155
+--------------------
+Server-side end2end latency: 1.1999974250793457
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714363401.4674563
+key: SLO, value: 1.4293207876772525
+key: id, value: 352
+key: ClipModule_receive_time, value: 1714363401.467965
+key: ClipModule_send_time, value: 1714363401.4889
+key: UNetModule_receive_time, value: 1714363401.5037518
+key: UNetModule_send_time, value: 1714363402.540866
+key: VaeModule&SafetyModule_receive_time, value: 1714363402.5670476
+key: VaeModule&SafetyModule_send_time, value: 1714363402.6516488
+key: finish_time, value: 1714363402.6674538
+collector worker receive workload request count = 156
+--------------------
+Server-side end2end latency: 1.3989911079406738
+request step: 45key: guidance_scale, value: 7.5
+key: request_time, value: 1714363403.4100366
+key: SLO, value: 1.6757683123661336
+key: id, value: 356
+key: ClipModule_receive_time, value: 1714363403.410498
+key: ClipModule_send_time, value: 1714363403.427867
+key: UNetModule_receive_time, value: 1714363403.4582024
+key: UNetModule_send_time, value: 1714363404.6783628
+key: VaeModule&SafetyModule_receive_time, value: 1714363404.7052886
+key: VaeModule&SafetyModule_send_time, value: 1714363404.7918427
+key: finish_time, value: 1714363404.8090277
+collector worker receive workload request count = 157
+--------------------
+Server-side end2end latency: 1.194390058517456
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714363445.7582684
+key: SLO, value: 1.4293207876772525
+key: id, value: 357
+key: ClipModule_receive_time, value: 1714363445.7587647
+key: ClipModule_send_time, value: 1714363445.7815435
+key: UNetModule_receive_time, value: 1714363445.7909353
+key: UNetModule_send_time, value: 1714363446.829194
+key: VaeModule&SafetyModule_receive_time, value: 1714363446.844063
+key: VaeModule&SafetyModule_send_time, value: 1714363446.9251614
+key: finish_time, value: 1714363446.9526584
+collector worker receive workload request count = 158
+--------------------
+Server-side end2end latency: 1.5035896301269531
+request step: 50key: guidance_scale, value: 7.5
+key: request_time, value: 1714363452.467587
+key: SLO, value: 1.8518022585724772
+key: id, value: 362
+key: ClipModule_receive_time, value: 1714363452.4682353
+key: ClipModule_send_time, value: 1714363452.4907265
+key: UNetModule_receive_time, value: 1714363452.4964721
+key: UNetModule_send_time, value: 1714363453.855336
+key: VaeModule&SafetyModule_receive_time, value: 1714363453.8774014
+key: VaeModule&SafetyModule_send_time, value: 1714363453.9482243
+key: finish_time, value: 1714363453.9711766
+collector worker receive workload request count = 159
+--------------------
+Server-side end2end latency: 1.0322964191436768
+request step: 32key: guidance_scale, value: 7.5
+key: request_time, value: 1714363477.9085515
+key: SLO, value: 1.2180800522296404
+key: id, value: 363
+key: ClipModule_receive_time, value: 1714363477.9093914
+key: ClipModule_send_time, value: 1714363477.9369156
+key: UNetModule_receive_time, value: 1714363477.941915
+key: UNetModule_send_time, value: 1714363478.7988656
+key: VaeModule&SafetyModule_receive_time, value: 1714363478.8237739
+key: VaeModule&SafetyModule_send_time, value: 1714363478.9069269
+key: finish_time, value: 1714363478.9408479
+collector worker receive workload request count = 160
+--------------------
+Server-side end2end latency: 1.4062323570251465
+request step: 46key: guidance_scale, value: 7.5
+key: request_time, value: 1714363489.8605568
+key: SLO, value: 1.7109751016074024
+key: id, value: 364
+key: ClipModule_receive_time, value: 1714363489.8617003
+key: ClipModule_send_time, value: 1714363489.888286
+key: UNetModule_receive_time, value: 1714363489.8976934
+key: UNetModule_send_time, value: 1714363491.1499786
+key: VaeModule&SafetyModule_receive_time, value: 1714363491.177299
+key: VaeModule&SafetyModule_send_time, value: 1714363491.2506847
+key: finish_time, value: 1714363491.2667892
+collector worker receive workload request count = 161
+--------------------
+Server-side end2end latency: 1.342487096786499
+request step: 42key: guidance_scale, value: 7.5
+key: request_time, value: 1714363494.3069396
+key: SLO, value: 1.5701479446423272
+key: id, value: 369
+key: ClipModule_receive_time, value: 1714363494.3076198
+key: ClipModule_send_time, value: 1714363494.3298671
+key: UNetModule_receive_time, value: 1714363494.365671
+key: UNetModule_send_time, value: 1714363495.5277488
+key: VaeModule&SafetyModule_receive_time, value: 1714363495.554677
+key: VaeModule&SafetyModule_send_time, value: 1714363495.6292515
+key: finish_time, value: 1714363495.6494267
+collector worker receive workload request count = 162
+--------------------
+Server-side end2end latency: 1.1536104679107666
+request step: 35key: guidance_scale, value: 7.5
+key: request_time, value: 1714363498.5461547
+key: SLO, value: 1.3237004199534466
+key: id, value: 373
+key: ClipModule_receive_time, value: 1714363498.5467956
+key: ClipModule_send_time, value: 1714363498.567949
+key: UNetModule_receive_time, value: 1714363498.5740023
+key: UNetModule_send_time, value: 1714363499.562887
+key: VaeModule&SafetyModule_receive_time, value: 1714363499.590293
+key: VaeModule&SafetyModule_send_time, value: 1714363499.678538
+key: finish_time, value: 1714363499.6997652
+collector worker receive workload request count = 163
+--------------------
+Server-side end2end latency: 1.0565321445465088
+request step: 31key: guidance_scale, value: 7.5
+key: request_time, value: 1714363504.6156566
+key: SLO, value: 1.1828732629883716
+key: id, value: 374
+key: ClipModule_receive_time, value: 1714363504.616986
+key: ClipModule_send_time, value: 1714363504.631835
+key: UNetModule_receive_time, value: 1714363504.646309
+key: UNetModule_send_time, value: 1714363505.5564451
+key: VaeModule&SafetyModule_receive_time, value: 1714363505.584443
+key: VaeModule&SafetyModule_send_time, value: 1714363505.65791
+key: finish_time, value: 1714363505.6721888
+collector worker receive workload request count = 164
+--------------------
+Server-side end2end latency: 1.691913366317749
+request step: 49key: guidance_scale, value: 7.5
+key: request_time, value: 1714363519.0235884
+key: SLO, value: 1.8165954693312083
+key: id, value: 375
+key: ClipModule_receive_time, value: 1714363519.0242782
+key: ClipModule_send_time, value: 1714363519.0502443
+key: UNetModule_receive_time, value: 1714363519.055886
+key: UNetModule_send_time, value: 1714363520.5903602
+key: VaeModule&SafetyModule_receive_time, value: 1714363520.6180072
+key: VaeModule&SafetyModule_send_time, value: 1714363520.6942337
+key: finish_time, value: 1714363520.7155018
+collector worker receive workload request count = 165
+--------------------
+Server-side end2end latency: 1.1440706253051758
+request step: 39key: guidance_scale, value: 7.5
+key: request_time, value: 1714363524.0605404
+key: SLO, value: 1.4645275769185213
+key: id, value: 380
+key: ClipModule_receive_time, value: 1714363524.0609813
+key: ClipModule_send_time, value: 1714363524.0840492
+key: UNetModule_receive_time, value: 1714363524.0939746
+key: UNetModule_send_time, value: 1714363525.0827963
+key: VaeModule&SafetyModule_receive_time, value: 1714363525.110058
+key: VaeModule&SafetyModule_send_time, value: 1714363525.182009
+key: finish_time, value: 1714363525.204611
+collector worker receive workload request count = 166
+--------------------
+Server-side end2end latency: 1.4714539051055908
+request step: 49key: guidance_scale, value: 7.5
+key: request_time, value: 1714363535.3354743
+key: SLO, value: 1.8165954693312083
+key: id, value: 382
+key: ClipModule_receive_time, value: 1714363535.3361151
+key: ClipModule_send_time, value: 1714363535.3550446
+key: UNetModule_receive_time, value: 1714363535.3623013
+key: UNetModule_send_time, value: 1714363536.6796923
+key: VaeModule&SafetyModule_receive_time, value: 1714363536.70494
+key: VaeModule&SafetyModule_send_time, value: 1714363536.779926
+key: finish_time, value: 1714363536.8069282
+collector worker receive workload request count = 167
+--------------------
+Server-side end2end latency: 1.477660894393921
+request step: 47key: guidance_scale, value: 7.5
+key: request_time, value: 1714363550.5529034
+key: SLO, value: 1.746181890848671
+key: id, value: 384
+key: ClipModule_receive_time, value: 1714363550.5534918
+key: ClipModule_send_time, value: 1714363550.574747
+key: UNetModule_receive_time, value: 1714363550.580641
+key: UNetModule_send_time, value: 1714363551.894269
+key: VaeModule&SafetyModule_receive_time, value: 1714363551.921871
+key: VaeModule&SafetyModule_send_time, value: 1714363552.0065546
+key: finish_time, value: 1714363552.0305643
+collector worker receive workload request count = 168
+--------------------
+Server-side end2end latency: 1.073249340057373
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714363569.7458534
+key: SLO, value: 1.2532868414709089
+key: id, value: 387
+key: ClipModule_receive_time, value: 1714363569.74684
+key: ClipModule_send_time, value: 1714363569.7733839
+key: UNetModule_receive_time, value: 1714363569.7787147
+key: UNetModule_send_time, value: 1714363570.6018615
+key: VaeModule&SafetyModule_receive_time, value: 1714363570.673332
+key: VaeModule&SafetyModule_send_time, value: 1714363570.7954993
+key: finish_time, value: 1714363570.8191028
+collector worker receive workload request count = 169
+--------------------
+Server-side end2end latency: 1.0782217979431152
+request step: 31key: guidance_scale, value: 7.5
+key: request_time, value: 1714363571.5642922
+key: SLO, value: 1.1828732629883716
+key: id, value: 389
+key: ClipModule_receive_time, value: 1714363571.5647244
+key: ClipModule_send_time, value: 1714363571.5825553
+key: UNetModule_receive_time, value: 1714363571.5876667
+key: UNetModule_send_time, value: 1714363572.527203
+key: VaeModule&SafetyModule_receive_time, value: 1714363572.5534337
+key: VaeModule&SafetyModule_send_time, value: 1714363572.6271603
+key: finish_time, value: 1714363572.642514
+collector worker receive workload request count = 170
+--------------------
+Server-side end2end latency: 1.1367335319519043
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714363581.148576
+key: SLO, value: 1.2884936307121777
+key: id, value: 391
+key: ClipModule_receive_time, value: 1714363581.1495087
+key: ClipModule_send_time, value: 1714363581.168648
+key: UNetModule_receive_time, value: 1714363581.1886098
+key: UNetModule_send_time, value: 1714363582.1586072
+key: VaeModule&SafetyModule_receive_time, value: 1714363582.1849008
+key: VaeModule&SafetyModule_send_time, value: 1714363582.266465
+key: finish_time, value: 1714363582.2853096
+collector worker receive workload request count = 171
+--------------------
+Server-side end2end latency: 1.06691575050354
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714363593.280544
+key: SLO, value: 1.2884936307121777
+key: id, value: 392
+key: ClipModule_receive_time, value: 1714363593.2810798
+key: ClipModule_send_time, value: 1714363593.2972052
+key: UNetModule_receive_time, value: 1714363593.3347483
+key: UNetModule_send_time, value: 1714363594.223526
+key: VaeModule&SafetyModule_receive_time, value: 1714363594.2498868
+key: VaeModule&SafetyModule_send_time, value: 1714363594.3269062
+key: finish_time, value: 1714363594.3474598
+collector worker receive workload request count = 172
+--------------------
+Server-side end2end latency: 1.3468658924102783
+request step: 46key: guidance_scale, value: 7.5
+key: request_time, value: 1714363594.355402
+key: SLO, value: 1.7109751016074024
+key: id, value: 393
+key: ClipModule_receive_time, value: 1714363594.3557465
+key: ClipModule_send_time, value: 1714363594.3775272
+key: UNetModule_receive_time, value: 1714363594.3822856
+key: UNetModule_send_time, value: 1714363595.5908184
+key: VaeModule&SafetyModule_receive_time, value: 1714363595.615741
+key: VaeModule&SafetyModule_send_time, value: 1714363595.6868103
+key: finish_time, value: 1714363595.702268
+collector worker receive workload request count = 173
+--------------------
+Server-side end2end latency: 1.2920284271240234
+request step: 40key: guidance_scale, value: 7.5
+key: request_time, value: 1714363609.3845484
+key: SLO, value: 1.49973436615979
+key: id, value: 396
+key: ClipModule_receive_time, value: 1714363609.3852713
+key: ClipModule_send_time, value: 1714363609.4031818
+key: UNetModule_receive_time, value: 1714363609.413309
+key: UNetModule_send_time, value: 1714363610.439172
+key: VaeModule&SafetyModule_receive_time, value: 1714363610.4722726
+key: VaeModule&SafetyModule_send_time, value: 1714363610.6137736
+key: finish_time, value: 1714363610.6765769
+collector worker receive workload request count = 174
+--------------------
+Server-side end2end latency: 1.2877404689788818
+request step: 43key: guidance_scale, value: 7.5
+key: request_time, value: 1714363613.1246905
+key: SLO, value: 1.605354733883596
+key: id, value: 397
+key: ClipModule_receive_time, value: 1714363613.1251981
+key: ClipModule_send_time, value: 1714363613.1463115
+key: UNetModule_receive_time, value: 1714363613.1524017
+key: UNetModule_send_time, value: 1714363614.300937
+key: VaeModule&SafetyModule_receive_time, value: 1714363614.3170135
+key: VaeModule&SafetyModule_send_time, value: 1714363614.3905268
+key: finish_time, value: 1714363614.412431
+collector worker receive workload request count = 175
+--------------------
+Server-side end2end latency: 1.1852619647979736
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714363614.611825
+key: SLO, value: 1.4293207876772525
+key: id, value: 398
+key: ClipModule_receive_time, value: 1714363614.6123405
+key: ClipModule_send_time, value: 1714363614.6298509
+key: UNetModule_receive_time, value: 1714363614.6344845
+key: UNetModule_send_time, value: 1714363615.691318
+key: VaeModule&SafetyModule_receive_time, value: 1714363615.7075408
+key: VaeModule&SafetyModule_send_time, value: 1714363615.7821972
+key: finish_time, value: 1714363615.797087
+collector worker receive workload request count = 176
+--------------------
+Server-side end2end latency: 1.2675483226776123
+request step: 41key: guidance_scale, value: 7.5
+key: request_time, value: 1714363620.088281
+key: SLO, value: 1.5349411554010588
+key: id, value: 399
+key: ClipModule_receive_time, value: 1714363620.0892563
+key: ClipModule_send_time, value: 1714363620.1027746
+key: UNetModule_receive_time, value: 1714363620.1093824
+key: UNetModule_send_time, value: 1714363621.251044
+key: VaeModule&SafetyModule_receive_time, value: 1714363621.2692077
+key: VaeModule&SafetyModule_send_time, value: 1714363621.3431957
+key: finish_time, value: 1714363621.3558292
+collector worker receive workload request count = 177
+--------------------
+Server-side end2end latency: 1.6827561855316162
+request step: 50key: guidance_scale, value: 7.5
+key: request_time, value: 1714363624.8205569
+key: SLO, value: 1.8518022585724772
+key: id, value: 400
+key: ClipModule_receive_time, value: 1714363624.8212154
+key: ClipModule_send_time, value: 1714363624.8391762
+key: UNetModule_receive_time, value: 1714363624.902619
+key: UNetModule_send_time, value: 1714363626.3882868
+key: VaeModule&SafetyModule_receive_time, value: 1714363626.4149017
+key: VaeModule&SafetyModule_send_time, value: 1714363626.4878714
+key: finish_time, value: 1714363626.503313
+collector worker receive workload request count = 178
+--------------------
+Server-side end2end latency: 1.053976058959961
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714363627.8605628
+key: SLO, value: 1.2532868414709089
+key: id, value: 404
+key: ClipModule_receive_time, value: 1714363627.8610036
+key: ClipModule_send_time, value: 1714363627.8788238
+key: UNetModule_receive_time, value: 1714363627.8886037
+key: UNetModule_send_time, value: 1714363628.7286704
+key: VaeModule&SafetyModule_receive_time, value: 1714363628.7936592
+key: VaeModule&SafetyModule_send_time, value: 1714363628.8971846
+key: finish_time, value: 1714363628.9145389
+collector worker receive workload request count = 179
+--------------------
+Server-side end2end latency: 1.4519963264465332
+request step: 49key: guidance_scale, value: 7.5
+key: request_time, value: 1714363636.9086328
+key: SLO, value: 1.8165954693312083
+key: id, value: 405
+key: ClipModule_receive_time, value: 1714363636.9091325
+key: ClipModule_send_time, value: 1714363636.9292743
+key: UNetModule_receive_time, value: 1714363636.9476385
+key: UNetModule_send_time, value: 1714363638.1961064
+key: VaeModule&SafetyModule_receive_time, value: 1714363638.246507
+key: VaeModule&SafetyModule_send_time, value: 1714363638.338111
+key: finish_time, value: 1714363638.360629
+collector worker receive workload request count = 180
+--------------------
+Server-side end2end latency: 1.4295272827148438
+request step: 48key: guidance_scale, value: 7.5
+key: request_time, value: 1714363643.2821023
+key: SLO, value: 1.7813886800899397
+key: id, value: 407
+key: ClipModule_receive_time, value: 1714363643.282624
+key: ClipModule_send_time, value: 1714363643.3045993
+key: UNetModule_receive_time, value: 1714363643.3107643
+key: UNetModule_send_time, value: 1714363644.5944033
+key: VaeModule&SafetyModule_receive_time, value: 1714363644.6224532
+key: VaeModule&SafetyModule_send_time, value: 1714363644.69683
+key: finish_time, value: 1714363644.7116296
+collector worker receive workload request count = 181
+--------------------
+Server-side end2end latency: 1.2642207145690918
+request step: 40key: guidance_scale, value: 7.5
+key: request_time, value: 1714363653.095482
+key: SLO, value: 1.49973436615979
+key: id, value: 409
+key: ClipModule_receive_time, value: 1714363653.0965207
+key: ClipModule_send_time, value: 1714363653.1168234
+key: UNetModule_receive_time, value: 1714363653.1224308
+key: UNetModule_send_time, value: 1714363654.2328224
+key: VaeModule&SafetyModule_receive_time, value: 1714363654.2606888
+key: VaeModule&SafetyModule_send_time, value: 1714363654.3357146
+key: finish_time, value: 1714363654.3597028
+collector worker receive workload request count = 182
+--------------------
+Server-side end2end latency: 1.3027839660644531
+request step: 41key: guidance_scale, value: 7.5
+key: request_time, value: 1714363665.3594556
+key: SLO, value: 1.5349411554010588
+key: id, value: 412
+key: ClipModule_receive_time, value: 1714363665.3600738
+key: ClipModule_send_time, value: 1714363665.3866737
+key: UNetModule_receive_time, value: 1714363665.3937762
+key: UNetModule_send_time, value: 1714363666.5425627
+key: VaeModule&SafetyModule_receive_time, value: 1714363666.557927
+key: VaeModule&SafetyModule_send_time, value: 1714363666.634386
+key: finish_time, value: 1714363666.6622396
+collector worker receive workload request count = 183
+--------------------
+Server-side end2end latency: 1.0648479461669922
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714363674.1646361
+key: SLO, value: 1.2532868414709089
+key: id, value: 413
+key: ClipModule_receive_time, value: 1714363674.1652644
+key: ClipModule_send_time, value: 1714363674.179438
+key: UNetModule_receive_time, value: 1714363674.1865618
+key: UNetModule_send_time, value: 1714363675.0284963
+key: VaeModule&SafetyModule_receive_time, value: 1714363675.0481195
+key: VaeModule&SafetyModule_send_time, value: 1714363675.1330338
+key: finish_time, value: 1714363675.229484
+collector worker receive workload request count = 184
+--------------------
+Server-side end2end latency: 1.1268551349639893
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714363678.800606
+key: SLO, value: 1.2884936307121777
+key: id, value: 415
+key: ClipModule_receive_time, value: 1714363678.8015604
+key: ClipModule_send_time, value: 1714363678.8335512
+key: UNetModule_receive_time, value: 1714363678.843357
+key: UNetModule_send_time, value: 1714363679.7990067
+key: VaeModule&SafetyModule_receive_time, value: 1714363679.8255234
+key: VaeModule&SafetyModule_send_time, value: 1714363679.897879
+key: finish_time, value: 1714363679.9274611
+collector worker receive workload request count = 185
+--------------------
+Server-side end2end latency: 1.0482118129730225
+request step: 31key: guidance_scale, value: 7.5
+key: request_time, value: 1714363681.2927637
+key: SLO, value: 1.1828732629883716
+key: id, value: 416
+key: ClipModule_receive_time, value: 1714363681.29332
+key: ClipModule_send_time, value: 1714363681.3149831
+key: UNetModule_receive_time, value: 1714363681.3226686
+key: UNetModule_send_time, value: 1714363682.1650188
+key: VaeModule&SafetyModule_receive_time, value: 1714363682.1945655
+key: VaeModule&SafetyModule_send_time, value: 1714363682.3191197
+key: finish_time, value: 1714363682.3409755
+collector worker receive workload request count = 186
+--------------------
+Server-side end2end latency: 1.5946407318115234
+request step: 47key: guidance_scale, value: 7.5
+key: request_time, value: 1714363682.0315099
+key: SLO, value: 1.746181890848671
+key: id, value: 417
+key: ClipModule_receive_time, value: 1714363682.0320415
+key: ClipModule_send_time, value: 1714363682.0509706
+key: UNetModule_receive_time, value: 1714363682.137657
+key: UNetModule_send_time, value: 1714363683.4734485
+key: VaeModule&SafetyModule_receive_time, value: 1714363683.499263
+key: VaeModule&SafetyModule_send_time, value: 1714363683.6122735
+key: finish_time, value: 1714363683.6261506
+collector worker receive workload request count = 187
+--------------------
+Server-side end2end latency: 1.1418826580047607
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714363695.9645557
+key: SLO, value: 1.3941139984359838
+key: id, value: 419
+key: ClipModule_receive_time, value: 1714363695.9650693
+key: ClipModule_send_time, value: 1714363695.9781628
+key: UNetModule_receive_time, value: 1714363695.9836605
+key: UNetModule_send_time, value: 1714363696.9311218
+key: VaeModule&SafetyModule_receive_time, value: 1714363696.9619853
+key: VaeModule&SafetyModule_send_time, value: 1714363697.0812392
+key: finish_time, value: 1714363697.1064384
+collector worker receive workload request count = 188
+--------------------
+Server-side end2end latency: 1.2432684898376465
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714363696.8126295
+key: SLO, value: 1.2532868414709089
+key: id, value: 421
+key: ClipModule_receive_time, value: 1714363696.8131456
+key: ClipModule_send_time, value: 1714363696.832998
+key: UNetModule_receive_time, value: 1714363696.858997
+key: UNetModule_send_time, value: 1714363697.9565413
+key: VaeModule&SafetyModule_receive_time, value: 1714363697.970004
+key: VaeModule&SafetyModule_send_time, value: 1714363698.040819
+key: finish_time, value: 1714363698.055898
+collector worker receive workload request count = 189
+--------------------
+Server-side end2end latency: 0.977696418762207
+request step: 31key: guidance_scale, value: 7.5
+key: request_time, value: 1714363700.9697495
+key: SLO, value: 1.1828732629883716
+key: id, value: 427
+key: ClipModule_receive_time, value: 1714363700.9702923
+key: ClipModule_send_time, value: 1714363700.9913967
+key: UNetModule_receive_time, value: 1714363701.0007598
+key: UNetModule_send_time, value: 1714363701.8368156
+key: VaeModule&SafetyModule_receive_time, value: 1714363701.8558688
+key: VaeModule&SafetyModule_send_time, value: 1714363701.9263287
+key: finish_time, value: 1714363701.9474459
+collector worker receive workload request count = 190
+--------------------
+Server-side end2end latency: 1.1565666198730469
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714363704.7126026
+key: SLO, value: 1.2884936307121777
+key: id, value: 428
+key: ClipModule_receive_time, value: 1714363704.713286
+key: ClipModule_send_time, value: 1714363704.7339532
+key: UNetModule_receive_time, value: 1714363704.740455
+key: UNetModule_send_time, value: 1714363705.6803281
+key: VaeModule&SafetyModule_receive_time, value: 1714363705.707556
+key: VaeModule&SafetyModule_send_time, value: 1714363705.8453803
+key: finish_time, value: 1714363705.8691692
+collector worker receive workload request count = 191
+--------------------
+Server-side end2end latency: 1.4094946384429932
+request step: 39key: guidance_scale, value: 7.5
+key: request_time, value: 1714363705.47667
+key: SLO, value: 1.4645275769185213
+key: id, value: 432
+key: ClipModule_receive_time, value: 1714363705.4770887
+key: ClipModule_send_time, value: 1714363705.5010238
+key: UNetModule_receive_time, value: 1714363705.5298893
+key: UNetModule_send_time, value: 1714363706.7913527
+key: VaeModule&SafetyModule_receive_time, value: 1714363706.8013363
+key: VaeModule&SafetyModule_send_time, value: 1714363706.8725355
+key: finish_time, value: 1714363706.8861647
+collector worker receive workload request count = 192
+--------------------
+Server-side end2end latency: 1.1429998874664307
+request step: 35key: guidance_scale, value: 7.5
+key: request_time, value: 1714363713.6165535
+key: SLO, value: 1.3237004199534466
+key: id, value: 433
+key: ClipModule_receive_time, value: 1714363713.6176877
+key: ClipModule_send_time, value: 1714363713.6364672
+key: UNetModule_receive_time, value: 1714363713.6779869
+key: UNetModule_send_time, value: 1714363714.6076822
+key: VaeModule&SafetyModule_receive_time, value: 1714363714.6231039
+key: VaeModule&SafetyModule_send_time, value: 1714363714.7389495
+key: finish_time, value: 1714363714.7595534
+collector worker receive workload request count = 193
+--------------------
+Server-side end2end latency: 1.52937650680542
+request step: 50key: guidance_scale, value: 7.5
+key: request_time, value: 1714363714.519806
+key: SLO, value: 1.8518022585724772
+key: id, value: 437
+key: ClipModule_receive_time, value: 1714363714.5203946
+key: ClipModule_send_time, value: 1714363714.5422215
+key: UNetModule_receive_time, value: 1714363714.556435
+key: UNetModule_send_time, value: 1714363715.9370964
+key: VaeModule&SafetyModule_receive_time, value: 1714363715.9636428
+key: VaeModule&SafetyModule_send_time, value: 1714363716.0339687
+key: finish_time, value: 1714363716.0491824
+collector worker receive workload request count = 194
+--------------------
+Server-side end2end latency: 0.9972164630889893
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714363734.2965453
+key: SLO, value: 1.2532868414709089
+key: id, value: 439
+key: ClipModule_receive_time, value: 1714363734.2978673
+key: ClipModule_send_time, value: 1714363734.3274286
+key: UNetModule_receive_time, value: 1714363734.3381488
+key: UNetModule_send_time, value: 1714363735.1729248
+key: VaeModule&SafetyModule_receive_time, value: 1714363735.1902645
+key: VaeModule&SafetyModule_send_time, value: 1714363735.2670465
+key: finish_time, value: 1714363735.2937617
+collector worker receive workload request count = 195
+--------------------
+Server-side end2end latency: 1.331822156906128
+request step: 42key: guidance_scale, value: 7.5
+key: request_time, value: 1714363735.3902915
+key: SLO, value: 1.5701479446423272
+key: id, value: 440
+key: ClipModule_receive_time, value: 1714363735.3907487
+key: ClipModule_send_time, value: 1714363735.407394
+key: UNetModule_receive_time, value: 1714363735.4120917
+key: UNetModule_send_time, value: 1714363736.6055872
+key: VaeModule&SafetyModule_receive_time, value: 1714363736.6315632
+key: VaeModule&SafetyModule_send_time, value: 1714363736.7035322
+key: finish_time, value: 1714363736.7221136
+collector worker receive workload request count = 196
+--------------------
+Server-side end2end latency: 1.184311866760254
+request step: 36key: guidance_scale, value: 7.5
+key: request_time, value: 1714363751.1366684
+key: SLO, value: 1.358907209194715
+key: id, value: 442
+key: ClipModule_receive_time, value: 1714363751.1374311
+key: ClipModule_send_time, value: 1714363751.157482
+key: UNetModule_receive_time, value: 1714363751.1633706
+key: UNetModule_send_time, value: 1714363752.0706444
+key: VaeModule&SafetyModule_receive_time, value: 1714363752.0990016
+key: VaeModule&SafetyModule_send_time, value: 1714363752.3057816
+key: finish_time, value: 1714363752.3209803
+collector worker receive workload request count = 197
+--------------------
+Server-side end2end latency: 1.5050420761108398
+request step: 50key: guidance_scale, value: 7.5
+key: request_time, value: 1714363754.8032885
+key: SLO, value: 1.8518022585724772
+key: id, value: 443
+key: ClipModule_receive_time, value: 1714363754.8037794
+key: ClipModule_send_time, value: 1714363754.823425
+key: UNetModule_receive_time, value: 1714363754.832181
+key: UNetModule_send_time, value: 1714363756.1899555
+key: VaeModule&SafetyModule_receive_time, value: 1714363756.2148178
+key: VaeModule&SafetyModule_send_time, value: 1714363756.286707
+key: finish_time, value: 1714363756.3083305
+collector worker receive workload request count = 198
+--------------------
+Server-side end2end latency: 1.137605905532837
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714363770.5446131
+key: SLO, value: 1.3941139984359838
+key: id, value: 444
+key: ClipModule_receive_time, value: 1714363770.54559
+key: ClipModule_send_time, value: 1714363770.562099
+key: UNetModule_receive_time, value: 1714363770.5682511
+key: UNetModule_send_time, value: 1714363771.5665834
+key: VaeModule&SafetyModule_receive_time, value: 1714363771.580986
+key: VaeModule&SafetyModule_send_time, value: 1714363771.6601799
+key: finish_time, value: 1714363771.682219
+collector worker receive workload request count = 199
+--------------------
+Server-side end2end latency: 1.4809529781341553
+request step: 49key: guidance_scale, value: 7.5
+key: request_time, value: 1714363780.146958
+key: SLO, value: 1.8165954693312083
+key: id, value: 445
+key: ClipModule_receive_time, value: 1714363780.1475163
+key: ClipModule_send_time, value: 1714363780.1661632
+key: UNetModule_receive_time, value: 1714363780.171999
+key: UNetModule_send_time, value: 1714363781.5089183
+key: VaeModule&SafetyModule_receive_time, value: 1714363781.5385532
+key: VaeModule&SafetyModule_send_time, value: 1714363781.6110709
+key: finish_time, value: 1714363781.627911
+collector worker receive workload request count = 200
+--------------------
+Server-side end2end latency: 1.1802515983581543
+request step: 37key: guidance_scale, value: 7.5
+key: request_time, value: 1714363781.873457
+key: SLO, value: 1.3941139984359838
+key: id, value: 451
+key: ClipModule_receive_time, value: 1714363781.8738704
+key: ClipModule_send_time, value: 1714363781.892257
+key: UNetModule_receive_time, value: 1714363781.8967183
+key: UNetModule_send_time, value: 1714363782.8979175
+key: VaeModule&SafetyModule_receive_time, value: 1714363782.9121757
+key: VaeModule&SafetyModule_send_time, value: 1714363783.0326025
+key: finish_time, value: 1714363783.0537086
+collector worker receive workload request count = 201
+--------------------
+Server-side end2end latency: 1.0988576412200928
+request step: 30key: guidance_scale, value: 7.5
+key: request_time, value: 1714363782.7668087
+key: SLO, value: 1.147666473747103
+key: id, value: 456
+key: ClipModule_receive_time, value: 1714363782.7674108
+key: ClipModule_send_time, value: 1714363782.7822044
+key: UNetModule_receive_time, value: 1714363782.8019567
+key: UNetModule_send_time, value: 1714363783.7503877
+key: VaeModule&SafetyModule_receive_time, value: 1714363783.7782629
+key: VaeModule&SafetyModule_send_time, value: 1714363783.8497133
+key: finish_time, value: 1714363783.8656664
+collector worker receive workload request count = 202
+--------------------
+Server-side end2end latency: 1.1744771003723145
+request step: 38key: guidance_scale, value: 7.5
+key: request_time, value: 1714363784.3698585
+key: SLO, value: 1.4293207876772525
+key: id, value: 457
+key: ClipModule_receive_time, value: 1714363784.3704622
+key: ClipModule_send_time, value: 1714363784.3921587
+key: UNetModule_receive_time, value: 1714363784.3972213
+key: UNetModule_send_time, value: 1714363785.4261582
+key: VaeModule&SafetyModule_receive_time, value: 1714363785.4484398
+key: VaeModule&SafetyModule_send_time, value: 1714363785.5199642
+key: finish_time, value: 1714363785.5443356
+collector worker receive workload request count = 203
+--------------------
+Server-side end2end latency: 1.057936429977417
+request step: 36key: guidance_scale, value: 7.5
+key: request_time, value: 1714363786.6445508
+key: SLO, value: 1.358907209194715
+key: id, value: 459
+key: ClipModule_receive_time, value: 1714363786.6451406
+key: ClipModule_send_time, value: 1714363786.6641443
+key: UNetModule_receive_time, value: 1714363786.6969173
+key: UNetModule_send_time, value: 1714363787.596779
+key: VaeModule&SafetyModule_receive_time, value: 1714363787.606236
+key: VaeModule&SafetyModule_send_time, value: 1714363787.6808283
+key: finish_time, value: 1714363787.7024872
+collector worker receive workload request count = 204
+--------------------
+Server-side end2end latency: 1.2307369709014893
+request step: 40key: guidance_scale, value: 7.5
+key: request_time, value: 1714363791.5854287
+key: SLO, value: 1.49973436615979
+key: id, value: 460
+key: ClipModule_receive_time, value: 1714363791.5858731
+key: ClipModule_send_time, value: 1714363791.6024218
+key: UNetModule_receive_time, value: 1714363791.609074
+key: UNetModule_send_time, value: 1714363792.705833
+key: VaeModule&SafetyModule_receive_time, value: 1714363792.7296615
+key: VaeModule&SafetyModule_send_time, value: 1714363792.802934
+key: finish_time, value: 1714363792.8161657
+collector worker receive workload request count = 205
+--------------------
+Server-side end2end latency: 0.9391412734985352
+request step: 32key: guidance_scale, value: 7.5
+key: request_time, value: 1714363793.017819
+key: SLO, value: 1.2180800522296404
+key: id, value: 462
+key: ClipModule_receive_time, value: 1714363793.0183492
+key: ClipModule_send_time, value: 1714363793.036354
+key: UNetModule_receive_time, value: 1714363793.0408292
+key: UNetModule_send_time, value: 1714363793.829373
+key: VaeModule&SafetyModule_receive_time, value: 1714363793.848456
+key: VaeModule&SafetyModule_send_time, value: 1714363793.9360182
+key: finish_time, value: 1714363793.9569602
+collector worker receive workload request count = 206
+--------------------
+Server-side end2end latency: 0.9780871868133545
+request step: 30key: guidance_scale, value: 7.5
+key: request_time, value: 1714363814.272939
+key: SLO, value: 1.147666473747103
+key: id, value: 463
+key: ClipModule_receive_time, value: 1714363814.2735262
+key: ClipModule_send_time, value: 1714363814.2982638
+key: UNetModule_receive_time, value: 1714363814.3098161
+key: UNetModule_send_time, value: 1714363815.1228054
+key: VaeModule&SafetyModule_receive_time, value: 1714363815.1492703
+key: VaeModule&SafetyModule_send_time, value: 1714363815.2272193
+key: finish_time, value: 1714363815.2510262
+collector worker receive workload request count = 207
+--------------------
+Server-side end2end latency: 1.4249706268310547
+request step: 49key: guidance_scale, value: 7.5
+key: request_time, value: 1714363817.8445578
+key: SLO, value: 1.8165954693312083
+key: id, value: 464
+key: ClipModule_receive_time, value: 1714363817.8452466
+key: ClipModule_send_time, value: 1714363817.864617
+key: UNetModule_receive_time, value: 1714363817.9040587
+key: UNetModule_send_time, value: 1714363819.158143
+key: VaeModule&SafetyModule_receive_time, value: 1714363819.1776671
+key: VaeModule&SafetyModule_send_time, value: 1714363819.2515192
+key: finish_time, value: 1714363819.2695284
+collector worker receive workload request count = 208
+--------------------
+Server-side end2end latency: 1.1617939472198486
+request step: 36key: guidance_scale, value: 7.5
+key: request_time, value: 1714363819.9725757
+key: SLO, value: 1.358907209194715
+key: id, value: 468
+key: ClipModule_receive_time, value: 1714363819.9733741
+key: ClipModule_send_time, value: 1714363819.993633
+key: UNetModule_receive_time, value: 1714363820.0000648
+key: UNetModule_send_time, value: 1714363821.0129662
+key: VaeModule&SafetyModule_receive_time, value: 1714363821.0390532
+key: VaeModule&SafetyModule_send_time, value: 1714363821.1122525
+key: finish_time, value: 1714363821.1343696
+collector worker receive workload request count = 209
+--------------------
+Server-side end2end latency: 1.2890205383300781
+request step: 42key: guidance_scale, value: 7.5
+key: request_time, value: 1714363822.3873484
+key: SLO, value: 1.5701479446423272
+key: id, value: 470
+key: ClipModule_receive_time, value: 1714363822.387887
+key: ClipModule_send_time, value: 1714363822.4101996
+key: UNetModule_receive_time, value: 1714363822.4449644
+key: UNetModule_send_time, value: 1714363823.55708
+key: VaeModule&SafetyModule_receive_time, value: 1714363823.584324
+key: VaeModule&SafetyModule_send_time, value: 1714363823.6551356
+key: finish_time, value: 1714363823.676369
+collector worker receive workload request count = 210
+--------------------
+Server-side end2end latency: 1.2040283679962158
+request step: 39key: guidance_scale, value: 7.5
+key: request_time, value: 1714363823.8681257
+key: SLO, value: 1.4645275769185213
+key: id, value: 473
+key: ClipModule_receive_time, value: 1714363823.8687634
+key: ClipModule_send_time, value: 1714363823.8858325
+key: UNetModule_receive_time, value: 1714363823.9542036
+key: UNetModule_send_time, value: 1714363824.9506779
+key: VaeModule&SafetyModule_receive_time, value: 1714363824.9793441
+key: VaeModule&SafetyModule_send_time, value: 1714363825.0523472
+key: finish_time, value: 1714363825.072154
+collector worker receive workload request count = 211
+--------------------
+Server-side end2end latency: 1.0023095607757568
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714363830.429974
+key: SLO, value: 1.2884936307121777
+key: id, value: 474
+key: ClipModule_receive_time, value: 1714363830.4309833
+key: ClipModule_send_time, value: 1714363830.4513896
+key: UNetModule_receive_time, value: 1714363830.456284
+key: UNetModule_send_time, value: 1714363831.2978048
+key: VaeModule&SafetyModule_receive_time, value: 1714363831.3388007
+key: VaeModule&SafetyModule_send_time, value: 1714363831.4145691
+key: finish_time, value: 1714363831.4322836
+collector worker receive workload request count = 212
+--------------------
+Server-side end2end latency: 1.0257318019866943
+request step: 33key: guidance_scale, value: 7.5
+key: request_time, value: 1714363834.045054
+key: SLO, value: 1.2532868414709089
+key: id, value: 476
+key: ClipModule_receive_time, value: 1714363834.0454361
+key: ClipModule_send_time, value: 1714363834.0608442
+key: UNetModule_receive_time, value: 1714363834.0674002
+key: UNetModule_send_time, value: 1714363834.9548516
+key: VaeModule&SafetyModule_receive_time, value: 1714363834.9824593
+key: VaeModule&SafetyModule_send_time, value: 1714363835.0568588
+key: finish_time, value: 1714363835.0707858
+collector worker receive workload request count = 213
+--------------------
+Server-side end2end latency: 1.0667872428894043
+request step: 32key: guidance_scale, value: 7.5
+key: request_time, value: 1714363837.3415053
+key: SLO, value: 1.2180800522296404
+key: id, value: 477
+key: ClipModule_receive_time, value: 1714363837.3421624
+key: ClipModule_send_time, value: 1714363837.3587034
+key: UNetModule_receive_time, value: 1714363837.365436
+key: UNetModule_send_time, value: 1714363838.2504005
+key: VaeModule&SafetyModule_receive_time, value: 1714363838.2791517
+key: VaeModule&SafetyModule_send_time, value: 1714363838.3869426
+key: finish_time, value: 1714363838.4082925
+collector worker receive workload request count = 214
+--------------------
+Server-side end2end latency: 1.298213005065918
+request step: 43key: guidance_scale, value: 7.5
+key: request_time, value: 1714363838.2539108
+key: SLO, value: 1.605354733883596
+key: id, value: 479
+key: ClipModule_receive_time, value: 1714363838.2545848
+key: ClipModule_send_time, value: 1714363838.2768316
+key: UNetModule_receive_time, value: 1714363838.2813013
+key: UNetModule_send_time, value: 1714363839.4429963
+key: VaeModule&SafetyModule_receive_time, value: 1714363839.4677255
+key: VaeModule&SafetyModule_send_time, value: 1714363839.5375772
+key: finish_time, value: 1714363839.5521238
+collector worker receive workload request count = 215
+--------------------
+Server-side end2end latency: 1.1414787769317627
+request step: 34key: guidance_scale, value: 7.5
+key: request_time, value: 1714363846.7490997
+key: SLO, value: 1.2884936307121777
+key: id, value: 481
+key: ClipModule_receive_time, value: 1714363846.7497907
+key: ClipModule_send_time, value: 1714363846.7685223
+key: UNetModule_receive_time, value: 1714363846.7740185
+key: UNetModule_send_time, value: 1714363847.644739
+key: VaeModule&SafetyModule_receive_time, value: 1714363847.6702945
+key: VaeModule&SafetyModule_send_time, value: 1714363847.8063836
+key: finish_time, value: 1714363847.8905785
+collector worker receive workload request count = 216
+--------------------
+Server-side end2end latency: 1.4438409805297852
+request step: 48key: guidance_scale, value: 7.5
+key: request_time, value: 1714363849.1279948
+key: SLO, value: 1.7813886800899397
+key: id, value: 485
+key: ClipModule_receive_time, value: 1714363849.1283605
+key: ClipModule_send_time, value: 1714363849.148709
+key: UNetModule_receive_time, value: 1714363849.1952844
+key: UNetModule_send_time, value: 1714363850.4546933
+key: VaeModule&SafetyModule_receive_time, value: 1714363850.4715862
+key: VaeModule&SafetyModule_send_time, value: 1714363850.5473735
+key: finish_time, value: 1714363850.5718358
+collector worker receive workload request count = 217
+--------------------
+Server-side end2end latency: 1.070789098739624
+request step: 32key: guidance_scale, value: 7.5
+key: request_time, value: 1714363858.1083384
+key: SLO, value: 1.2180800522296404
+key: id, value: 488
+key: ClipModule_receive_time, value: 1714363858.109064
+key: ClipModule_send_time, value: 1714363858.1274097
+key: UNetModule_receive_time, value: 1714363858.1338153
+key: UNetModule_send_time, value: 1714363859.060281
+key: VaeModule&SafetyModule_receive_time, value: 1714363859.0859811
+key: VaeModule&SafetyModule_send_time, value: 1714363859.159175
+key: finish_time, value: 1714363859.1791275
+collector worker receive workload request count = 218
+--------------------
+Server-side end2end latency: 1.1137971878051758
+request step: 39key: guidance_scale, value: 7.5
+key: request_time, value: 1714363872.258585
+key: SLO, value: 1.4645275769185213
+key: id, value: 490
+key: ClipModule_receive_time, value: 1714363872.259417
+key: ClipModule_send_time, value: 1714363872.2772233
+key: UNetModule_receive_time, value: 1714363872.2821147
+key: UNetModule_send_time, value: 1714363873.2652543
+key: VaeModule&SafetyModule_receive_time, value: 1714363873.284991
+key: VaeModule&SafetyModule_send_time, value: 1714363873.3578272
+key: finish_time, value: 1714363873.3723822
+collector worker receive workload request count = 219
+--------------------
+Server-side end2end latency: 1.5251214504241943
+request step: 45key: guidance_scale, value: 7.5
+key: request_time, value: 1714363876.805383
+key: SLO, value: 1.6757683123661336
+key: id, value: 492
+key: ClipModule_receive_time, value: 1714363876.806037
+key: ClipModule_send_time, value: 1714363876.8267639
+key: UNetModule_receive_time, value: 1714363876.8328311
+key: UNetModule_send_time, value: 1714363878.2084994
+key: VaeModule&SafetyModule_receive_time, value: 1714363878.233877
+key: VaeModule&SafetyModule_send_time, value: 1714363878.3081598
+key: finish_time, value: 1714363878.3305044
+collector worker receive workload request count = 220
