@@ -1,5 +1,15 @@
 # NeuStream-AE
-Artifact Evaluation for NeuStream, EuroSys25.  
+Artifact Evaluation for NeuStream: Bridging Deep Learning Serving and Stream Processing, EuroSys25.
+```
+@inproceedings{
+  title={NeuStream: Bridging Deep Learning Serving and Stream Processing},
+  author={Yuan, Haochen and Wang, Yuanqing and Xie, Wenhao and Cheng, Yu and Miao, Ziming and Ma, Lingxiao and Xue, Jilong and Yang, Zhi},
+  booktitle={Proceedings of the Twentieth European Conference on Computer Systems},
+  year={2025}
+}
+```
+
+The experments consist of three main parts: Diffusion, LLM, and Multi-Agent.  
 Due to the region network limitation. The artifacts will be provided through Baidu Netdisk, the uncompressed file size is about 20GB.  
 For Diffusion and LLM part, please access the artifacts through https://pan.baidu.com/s/19pzsF1IBwu7QkJ42j2R4ng?pwd=qq45 code:qq45  
 For MultiAgent part, please access the artifacts through https://pan.baidu.com/s/1PyaLMXABYd0jcFV8raaYaA?pwd=mmpc code:mmpc  
