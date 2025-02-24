@@ -1,0 +1,54 @@
+## NeuStream Simulator
+
+Simulator of NeuStream
+
+First, you should add timestamp recorder at vllm/entrypoints/llm.py:
+```python
+class LLM:
+    def __init__(...):
+        ...
+        #>>> add >>>
+        self.step_time_ls: List[float] = []
+        #<<< end <<<
+    
+    ...
+
+    def _run_engine(...):
+        ...
+        while self.llm_engine.has_unfinished_requests():
+            #>>> add >>>
+            start = time.time()
+            #<<< end <<<
+
+            step_outputs = self.llm_engine.step()
+
+            #>>> add >>>
+            step_time = time.time() - start
+            self.step_time_ls.append(step_time)
+            #<<< end <<<
+
+```
+
+Then execute `bash run.bash`.
+
+In `bash run.bash`, you can set the parameters of the simulator.
+
+```bash
+export MODEL_NAME="facebook/opt-13b"    # HF model name
+export TP_SIZE=1                        # tensor parallelism size
+export NEU_DIR='./results'             # output directory
+export SAT_LEN=1024                     # saturate length is the length of prompt which can fully use GPU resource in prompt stage.
+                                        # depending on models, devices, etc.
+export NUM_DEDUP=3                      # run $NUM_DEDUP times
+
+# only run prefill simulator
+# python prefill_time_prof.py --model $MODEL_NAME --tp $TP_SIZE --output_dir $NEU_DIR
+# only run decode simulator
+# python decode_time_prof.py  --model $MODEL_NAME --tp $TP_SIZE --output_dir $NEU_DIR
+
+# run p&d simulator and perform simulating in one program.
+python pd_simulate.py --model $MODEL_NAME --tp $TP_SIZE --output_dir $NEU_DIR --num_dedup $NUM_DEDUP --satuate_length $SAT_LEN
+
+# record the real cost of prefill stage
+# python prefill_time_true.py --model $MODEL_NAME --tp $TP_SIZE --output_dir $NEU_DIR --num_dedup $NUM_DEDUP
+```

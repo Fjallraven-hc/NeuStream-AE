@@ -1,0 +1,851 @@
+diff --git a/vllm/core/scheduler.py b/vllm/core/scheduler.py
+index c3fa95f5..3ca940d3 100644
+--- a/vllm/core/scheduler.py
++++ b/vllm/core/scheduler.py
+@@ -9,15 +9,18 @@ from typing import (Callable, Deque, Dict, Iterable, List, Optional, Set,
+ 
+ from vllm.config import CacheConfig, LoRAConfig, SchedulerConfig
+ from vllm.core.interfaces import AllocStatus, BlockSpaceManager
+-from vllm.logger import init_logger
++from vllm.logger import init_logger, add_filehandler, setlevel
+ from vllm.lora.request import LoRARequest
+ from vllm.prompt_adapter.request import PromptAdapterRequest
+ from vllm.sequence import (Sequence, SequenceData, SequenceGroup,
+                            SequenceGroupMetadata, SequenceGroupMetadataDelta,
+                            SequenceStatus)
+ from vllm.utils import Device, PyObjectCache
++from vllm.core.predictor import LlamaPredictor
++import os
+ 
+ logger = init_logger(__name__)
++setlevel(logger)
+ 
+ # Test-only. If configured, decode is preempted with
+ # ARTIFICIAL_PREEMPTION_PROB% probability.
+@@ -293,6 +296,18 @@ def scheduled_seq_group_builder():
+                                   token_chunk_size=0)
+     # return ScheduledSequenceGroup(seq_group=None, token_chunk_size=0)
+ 
++def read_params(model_type: str):
++    with open("/workspace/profile_data/" + model_type + ".txt", "r") as f:
++        lines = f.readlines()
++    
++    for l in lines:
++        if "prefill time" in l:
++            p_time = eval(l.split(':')[-1].strip())
++        elif "prefill param" in l:
++            p_param = eval(l.split(':')[-1].strip())
++        elif "decode param" in l:
++            d_param = eval(l.split(':')[-1].strip())
++    return p_time, p_param, d_param
+ 
+ class Scheduler:
+ 
+@@ -303,6 +318,7 @@ class Scheduler:
+         lora_config: Optional[LoRAConfig],
+         pipeline_parallel_size: int = 1,
+         output_proc_callback: Optional[Callable] = None,
++        model_type: str = "",
+     ) -> None:
+         self.scheduler_config = scheduler_config
+         self.cache_config = cache_config
+@@ -394,6 +410,9 @@ class Scheduler:
+         # will be stopped during schedule() call and added to this stop list
+         # for processing and deallocation by the free_finished_seq_groups()
+         self._async_stopped: List[SequenceGroup] = []
++        p_time, p_para, d_para = read_params(model_type)
++        self.predictor = LlamaPredictor(getattr(scheduler_config, "predictor_alpha", 0.95), p_time, p_para, d_para)
++        self.do_predict: bool = True 
+ 
+     @property
+     def next_cache_id(self):
+@@ -911,11 +930,28 @@ class Scheduler:
+         running_scheduled = SchedulerRunningOutputs.create_empty()
+         swapped_in = SchedulerSwappedInOutputs.create_empty()
+ 
+-        # If any requests are swapped, prioritized swapped requests.
+-        if not self.swapped:
+-            prefills = self._schedule_prefills(budget,
++        now = time.time()
++        num_prefill = -1
++        do_prefill = True
++        ontime_seq_groups, timeout_seq_groups = [], []
++        not_sched = []
++        if self.running and self.waiting:
++            start = time.time()
++            if self.do_predict:
++                do_prefill, num_prefill, ontime_seq_groups, timeout_seq_groups = self.predictor.switch_P(self.waiting, self.running, now)
++            end = time.time()
++            logger.info(f"sche time: {(end-start)*1e3} ms. ontime/timeout: {len(ontime_seq_groups)}/{len(timeout_seq_groups)}")
++        if do_prefill:
++            if self.do_predict:
++                assert num_prefill > 0, "Must greater than 0."
++                self.waiting = deque(ontime_seq_groups[:num_prefill])
++                not_sched = ontime_seq_groups[num_prefill:]
++            if not self.swapped:
++                prefills = self._schedule_prefills(budget,
+                                                curr_loras,
+-                                               enable_chunking=False)
++                                               enable_chunking=False)   
++        else:
++            self.waiting = deque(ontime_seq_groups)
+ 
+         # Don't schedule decodes if prefills are scheduled.
+         # NOTE: If `_schedule_prefills` doesn't enable chunking, self.running
+@@ -930,6 +966,14 @@ class Scheduler:
+             if len(running_scheduled.preempted) + len(
+                     running_scheduled.swapped_out) == 0:
+                 swapped_in = self._schedule_swapped(budget, curr_loras)
++        else:
++            self.predictor.last_decision = 0
++            if self.do_predict:
++                self.waiting.extend(not_sched)
++                for seq_group in timeout_seq_groups:
++                    for seq in seq_group.get_seqs():
++                        seq.status = SequenceStatus.FINISHED_TIMEOUT
++                prefills.ignored_seq_groups += timeout_seq_groups
+ 
+         assert (budget.num_batched_tokens <=
+                 self.scheduler_config.max_num_batched_tokens)
+@@ -964,6 +1008,9 @@ class Scheduler:
+             scheduled_seq_groups.extend(running_scheduled.decode_seq_groups)
+         else:
+             scheduled_seq_groups = running_scheduled.decode_seq_groups
++        if running_scheduled.decode_seq_groups:
++            self.predictor.last_decision = 1
++
+         scheduled_seq_groups.extend(swapped_in.decode_seq_groups)
+ 
+         blocks_to_copy = running_scheduled.blocks_to_copy
+diff --git a/vllm/engine/llm_engine.py b/vllm/engine/llm_engine.py
+index 94271c4a..ea9340ff 100644
+--- a/vllm/engine/llm_engine.py
++++ b/vllm/engine/llm_engine.py
+@@ -31,7 +31,7 @@ from vllm.inputs import (INPUT_REGISTRY, EncoderDecoderLLMInputs,
+                          InputRegistry, LLMInputs, PromptInputs,
+                          SingletonPromptInputs)
+ from vllm.inputs.parse import is_explicit_encoder_decoder_prompt
+-from vllm.logger import init_logger
++from vllm.logger import init_logger, add_filehandler
+ from vllm.lora.request import LoRARequest
+ from vllm.model_executor.layers.sampler import SamplerOutput
+ from vllm.multimodal import MultiModalDataDict
+@@ -228,6 +228,7 @@ class LLMEngine:
+         # To improve performance, only final requests outputs may be required.
+         # If this set to true, then no intermediate outputs will be returned.
+         step_return_finished_only: bool = False,
++        name: Optional[str] = None,
+     ) -> None:
+         logger.info(
+             "Initializing an LLM engine (v%s) with config: "
+@@ -281,7 +282,7 @@ class LLMEngine:
+         # TODO(woosuk): Print more configs in debug mode.
+         from vllm.plugins import load_general_plugins
+         load_general_plugins()
+-
++        add_filehandler(logger, f'/workspace/MatPlotAgent/log/{name}_engine.log')
+         self.model_config = model_config
+         self.cache_config = cache_config
+         self.lora_config = lora_config
+@@ -402,12 +403,16 @@ class LLMEngine:
+         # Create the scheduler.
+         # NOTE: the cache_config here have been updated with the numbers of
+         # GPU and CPU blocks, which are profiled in the distributed executor.
++        model_type = name.split('_')[0].lower()
++        assert model_type in ['codellama', 'llava']
++
+         self.scheduler = [
+             Scheduler(
+                 scheduler_config, cache_config, lora_config,
+                 parallel_config.pipeline_parallel_size,
+                 self.async_callbacks[v_id]
+-                if model_config.use_async_output_proc else None)
++                if model_config.use_async_output_proc else None,
++                model_type)
+             for v_id in range(parallel_config.pipeline_parallel_size)
+         ]
+ 
+@@ -548,6 +553,7 @@ class LLMEngine:
+         engine_args: EngineArgs,
+         usage_context: UsageContext = UsageContext.ENGINE_CONTEXT,
+         stat_loggers: Optional[Dict[str, StatLoggerBase]] = None,
++        name: Optional[str] = None,
+     ) -> "LLMEngine":
+         """Creates an LLM engine from the engine arguments."""
+         # Create the engine configs.
+@@ -560,6 +566,7 @@ class LLMEngine:
+             log_stats=not engine_args.disable_log_stats,
+             usage_context=usage_context,
+             stat_loggers=stat_loggers,
++            name=name,
+         )
+ 
+         return engine
+@@ -668,6 +675,10 @@ class LLMEngine:
+     def _add_processed_request(
+         self,
+         request_id: str,
++        pslo: float,
++        dslo: float,
++        budget: float,
++        req_id: int,   
+         processed_inputs: Union[LLMInputs, EncoderDecoderLLMInputs],
+         params: Union[SamplingParams, PoolingParams],
+         arrival_time: float,
+@@ -704,7 +715,12 @@ class LLMEngine:
+                 lora_request=lora_request,
+                 trace_headers=trace_headers,
+                 prompt_adapter_request=prompt_adapter_request,
+-                encoder_seq=encoder_seq)
++                encoder_seq=encoder_seq,
++                pslo=pslo,
++                dslo=dslo,
++                budget=budget,
++                req_id=req_id,                
++                )
+         elif isinstance(params, PoolingParams):
+             seq_group = self._create_sequence_group_with_pooling(
+                 request_id,
+@@ -1062,6 +1078,10 @@ class LLMEngine:
+         request_id: str,
+         inputs: PromptInputs,
+         params: Union[SamplingParams, PoolingParams],
++        pslo: float,
++        dslo: float,
++        budget: float,
++        req_id: int,
+         arrival_time: Optional[float] = None,
+         lora_request: Optional[LoRARequest] = None,
+         trace_headers: Optional[Mapping[str, str]] = None,
+@@ -1130,6 +1150,10 @@ class LLMEngine:
+             lora_request=lora_request,
+             prompt_adapter_request=prompt_adapter_request,
+             trace_headers=trace_headers,
++            pslo=pslo,
++            dslo=dslo,
++            budget=budget,
++            req_id=req_id,            
+         )
+ 
+     def _create_sequence_group_with_sampling(
+@@ -1139,6 +1163,10 @@ class LLMEngine:
+         sampling_params: SamplingParams,
+         arrival_time: float,
+         lora_request: Optional[LoRARequest],
++        pslo: float,
++        dslo: float,
++        budget: float,
++        req_id: int,        
+         trace_headers: Optional[Mapping[str, str]] = None,
+         prompt_adapter_request: Optional[PromptAdapterRequest] = None,
+         encoder_seq: Optional[Sequence] = None,
+@@ -1168,7 +1196,11 @@ class LLMEngine:
+             lora_request=lora_request,
+             trace_headers=trace_headers,
+             prompt_adapter_request=prompt_adapter_request,
+-            encoder_seq=encoder_seq)
++            encoder_seq=encoder_seq,
++            prefill_slo=pslo,
++            decode_slo=dslo,
++            budget=budget,
++            req_id=req_id,)            
+ 
+         return seq_group
+ 
+@@ -1569,6 +1601,26 @@ class LLMEngine:
+ 
+         assert seq_group_metadata_list is not None
+         assert scheduler_outputs is not None
++        prefill_el = []
++        decode_el = []
++        now = time.time()
++        for seq in scheduler_outputs.scheduled_seq_groups:
++            seq_group = seq.seq_group
++            if seq_group.is_prefill():
++                prefill_el.append((seq_group.req_id, now - seq_group.arrival_time))
++            else:
++                decode_el.append(seq_group.req_id)
++        if prefill_el:
++            logger.debug(f"Prefill request num: {len(prefill_el)}")
++            for pel in prefill_el:
++                logger.debug(f"Prefill request: {pel[0]} wait {pel[1]}s")
++        if decode_el:
++            logger.debug(f"Decode request: {decode_el}")
++
++        ls_s = []
++        for seq in scheduler_outputs.scheduled_seq_groups:
++            assert len(seq.seq_group.seqs) == 1
++            ls_s.append(seq.seq_group.seqs[0].get_output_len())
+ 
+         if not scheduler_outputs.is_empty():
+             finished_requests_ids = self.scheduler[
+@@ -1604,6 +1656,7 @@ class LLMEngine:
+             # be passed to the next iteration for PP.
+             if self.scheduler_config.is_multi_step:
+                 self._update_cached_scheduler_output(virtual_engine, outputs)
++            now = time.time()
+         else:
+             # Nothing scheduled => If there is pending async postprocessor,
+             # then finish it here.
+@@ -1611,6 +1664,15 @@ class LLMEngine:
+                 self._process_model_outputs(ctx=ctx)
+             # No outputs in this case
+             outputs = []
++        for idx, seq in enumerate(scheduler_outputs.scheduled_seq_groups):
++            assert len(seq.seq_group.seqs) == 1
++            seq_group = seq.seq_group
++            s = seq_group.seqs[0].get_output_len()
++            # acc_token.append(s.get_output_len()-ls_s[idx])
++            for _ in range(s - ls_s[idx]):
++                seq_group.record_time(0)
++            if s != ls_s[idx]:
++                seq_group.update_time(now)
+ 
+         # Finish the current step for all the sequence groups.
+         if self.scheduler_config.is_multi_step:
+diff --git a/vllm/entrypoints/llm.py b/vllm/entrypoints/llm.py
+index b1d9f386..5eeec70b 100644
+--- a/vllm/entrypoints/llm.py
++++ b/vllm/entrypoints/llm.py
+@@ -2,6 +2,12 @@ from contextlib import contextmanager
+ from typing import ClassVar, List, Optional, Sequence, Union, cast, overload
+ 
+ from tqdm import tqdm
++import time
++import multiprocessing as mp
++from PIL import Image
++import logging
++import os
++from transformers import LlavaProcessor
+ 
+ from vllm.engine.arg_utils import EngineArgs
+ from vllm.engine.llm_engine import LLMEngine
+@@ -25,9 +31,21 @@ from vllm.transformers_utils.tokenizer import (AnyTokenizer, MistralTokenizer,
+ from vllm.transformers_utils.tokenizer_group import TokenizerGroup
+ from vllm.usage.usage_lib import UsageContext
+ from vllm.utils import Counter, deprecate_kwargs, is_list_of
++from vllm.core.predictor import LlamaPredictor
++
++from vllm.logger import init_logger, add_consolehandler, add_filehandler
++if "MatPlotAgent" in os.environ and os.environ["MatPlotAgent"] is not None:
++    import sys
++    sys.path.append(os.environ['MatPlotAgent'])
++    import neustream.prompt_llava as prompt_llava
++    import neustream.prompt_codellama as prompt_codellama
++    from agents.utils import fill_in_placeholders
++
+ 
+ logger = init_logger(__name__)
+ 
++def read_param(path):
++    pass
+ 
+ class LLM:
+     """An LLM for generating texts from given prompts and sampling parameters.
+@@ -113,6 +131,8 @@ class LLM:
+     def __init__(
+         self,
+         model: str,
++        name: str = "llm",
++        workspace: str = "/workspace/MatPlotAgent",
+         tokenizer: Optional[str] = None,
+         tokenizer_mode: str = "auto",
+         skip_tokenizer_init: bool = False,
+@@ -176,8 +196,29 @@ class LLM:
+             **kwargs,
+         )
+         self.llm_engine = LLMEngine.from_engine_args(
+-            engine_args, usage_context=UsageContext.LLM_CLASS)
++            engine_args, usage_context=UsageContext.LLM_CLASS, name=name)
+         self.request_counter = Counter()
++        self.step_time_ls: List[float] = []
++        self.name = name
++        self.workspace = workspace
++        self.is_initial = "codellama_1" == self.name
++        if "llava" in self.name:
++            # self.predictor = LlavaPredictor(0.95)
++            self.processor = LlavaProcessor.from_pretrained(model)
++            test_img = Image.open('/workspace/MatPlotAgent/test.jpeg')
++            for _ in range(20):
++                self.processor.image_processor(test_img, return_tensors="pt")["pixel_values"]
++        # p_time, p_para, d_para = read_param(self.name.split('_')[0])
++        # self.predictor = LlamaPredictor(0.95,p_time, p_para, d_para)
++        
++        self.log_file = f"{workspace}/log/{name}.log"
++        self.class_name = "LLM"
++        self.logger = init_logger(__file__)
++        self.logger.setLevel(logging.DEBUG)
++        # add_consolehandler(self.logger)
++        add_filehandler(self.logger, os.path.abspath(self.log_file))
++        self.logger.debug("-----"*30)
++        self.logger.debug("llm.py imported.")       
+ 
+     def get_tokenizer(self) -> AnyTokenizer:
+         return self.llm_engine.get_tokenizer_group(TokenizerGroup).tokenizer
+@@ -667,6 +708,11 @@ class LLM:
+         params: Union[SamplingParams, PoolingParams],
+         lora_request: Optional[LoRARequest] = None,
+         prompt_adapter_request: Optional[PromptAdapterRequest] = None,
++        arrival_time: Optional[float] = None,
++        pslo: float = 1.5,
++        dslo: float = 1.5,
++        budget: float = 0,
++        req_id: int = 0,        
+     ) -> None:
+         request_id = str(next(self.request_counter))
+         self.llm_engine.add_request(
+@@ -675,6 +721,11 @@ class LLM:
+             params,
+             lora_request=lora_request,
+             prompt_adapter_request=prompt_adapter_request,
++            arrival_time=arrival_time,
++            pslo=pslo,
++            dslo=dslo,
++            budget=budget,
++            req_id=req_id,
+         )
+ 
+     def _add_guided_processor(
+@@ -717,7 +768,9 @@ class LLM:
+         total_in_toks = 0
+         total_out_toks = 0
+         while self.llm_engine.has_unfinished_requests():
++            start = time.time()
+             step_outputs = self.llm_engine.step()
++            self.step_time_ls.append(time.time() - start)
+             for output in step_outputs:
+                 if output.finished:
+                     outputs.append(output)
+@@ -750,3 +803,163 @@ class LLM:
+ 
+     def _is_embedding_model(self):
+         return self.llm_engine.is_embedding_model()
++
++    def generate_prompt(self, query: str, type: str = "", original: str=""):
++        if "llava" in self.name:
++            information = {
++                "query": original,
++                "file_name": "novice_final.png",
++                "code": query
++            }
++            prompt = ""
++            prompt += "SYSTEM: " + fill_in_placeholders(prompt_llava.SYSTEM_PROMPT, information) + "\n"
++            prompt += "USER: " + "<image>" * 576 + "\n" + fill_in_placeholders(prompt_llava.USER_PROMPT,information) + "\n"
++            prompt += "ASSISTANT: "
++            return prompt
++        else:
++            if type == "initial":
++                information = {
++                    "query": query,
++                    "file_name": "novice.png"
++                }
++                prompt = ""
++                prompt += "<s>[INST] <<SYS>>\n" + fill_in_placeholders(prompt_codellama.INITIAL_SYSTEM_PROMPT, information) + "\n<</SYS>>\n\n"
++                prompt += fill_in_placeholders(prompt_codellama.INITIAL_USER_PROMPT, information) + " [/INST]"
++                return prompt
++            else:
++                information ={
++                    "query": "\n\n" + query,
++                    "file_name": "novice_final.png"
++                }
++                prompt = ""
++                prompt += "<s>[INST] <<SYS>>\n" + fill_in_placeholders(prompt_codellama.VIS_SYSTEM_PROMPT, information) + "\n<</SYS>>\n\n"
++                prompt += fill_in_placeholders(prompt_codellama.VIS_USER_PROMPT, information) + " [/INST]"
++                return prompt
++
++
++    def serve(
++        self,
++        input_queue: mp.Queue,
++        output_queue: mp.Queue,
++        pslo: float,
++        dslo: float,
++        sampling_params: Optional[SamplingParams] = None,
++    ):
++        req_id_set = set()
++        self.reset_counter()
++        outputs: List[RequestOutput] = []
++        pred_time_list = []
++        time_dict = {}
++        if "codellama_2" in self.name:
++            none_count = 0
++        else:
++            none_count = 1
++        original_info = {}
++        while none_count < 2:
++            prompts = []
++            qsize = input_queue.qsize()
++            for _ in range(qsize):
++                item = input_queue.get()
++                prompts.append(item)
++            for prompt in prompts:
++                if prompt is None:
++                    none_count += 1
++                    continue
++                req_id = prompt["req_id"]
++                time_dict[req_id] = time.time()
++                if "llava" in self.name:
++                    prompt_ = self.generate_prompt(prompt["query"],"",prompt["original"])
++                    img_path = f"{self.workspace}/workspace3/example_{req_id}/novice.png"
++                    img = Image.open(img_path)
++
++                    pixel_values = self.processor.image_processor(img, return_tensors="pt")["pixel_values"].to("cuda")
++                    img_features = self.llm_engine.model_executor.generate_embeds(pixel_values)#.cpu()
++                    inp = TextPrompt(prompt=prompt_, multi_modal_data={"clip": img_features,})
++                    elapsed = time.time() - prompt["arrival_time"]
++                    self.logger.info(f"Process image take: {elapsed};")
++                    if req_id in data_dict:
++                        sampling_params.max_tokens = data_dict[req_id]
++                    else:
++                        sampling_params.max_tokens = 1000
++                    self._add_request(inp, sampling_params, arrival_time=time.time(), pslo=pslo, dslo=dslo,budget=prompt["budget"],req_id=req_id,)#pixel_values)
++                    
++                    # inp = TextPrompt(prompt=prompt_, multi_modal_data={"image": img})
++                    # self._add_request(inp, sampling_params, arrival_time=prompt["arrival_time"], pslo=pslo, dslo=dslo,budget=prompt["budget"],req_id=req_id,)
++                else:
++                    if self.is_initial:
++                        prompt_ = self.generate_prompt(prompt["query"],"initial")
++                        original_info[req_id] = prompt["original"]
++                        if req_id in code_data_dict:
++                            sampling_params.max_tokens = code_data_dict[req_id]
++                            sampling_params.ignore_eos = True
++                        else:
++                            sampling_params.max_tokens = 1000
++                            sampling_params.ignore_eos = False
++                    else:
++                        prompt_ = self.generate_prompt(prompt["query"])
++                    inp = {"prompt": prompt_}
++                    self.logger.debug(f"Fill prompt: Request id: {req_id}, time: {time.time()-prompt['arrival_time']}s.")
++                    self._add_request(inp, sampling_params,  arrival_time=prompt["arrival_time"], pslo=pslo, dslo=dslo,budget=prompt["budget"],req_id=req_id)
++            if self.llm_engine.has_unfinished_requests():
++                start = time.time()
++                step_outputs = self.llm_engine.step()
++                now = time.time()
++                # pred_time_list.append((pred_time, now-start))
++                # self.logger.debug(f"step time: {(now-start)*1e3} ms")
++                for output in step_outputs:
++                    if output.finished:
++                        output.finished_time = now
++                        # 这里需要判断是否投入下一个queue中
++                        is_work, _, _, _, bu, _ = self.llm_engine.scheduler[0].predictor.check_seq_step_slo(output)
++                        ## 如果没有抛弃且budget >= 0
++                        text = output.outputs[0].text
++                        if is_work and bu >= 0: ## Need add new field
++                            req_id = output.req_id
++                            self.logger.debug(f"Req: {req_id}, arrive_time: {time_dict[req_id]}, finish_time: {output.finished_time}")
++                            out = {
++                                "req_id": req_id,
++                                "query": text,
++                                "budget": bu,
++                                "arrival_time": time.time(),
++                            }
++                            if self.is_initial:
++                                out["original"] = original_info.pop(req_id)
++                            output_queue.put(out)
++                        self.logger.debug(f"Request id: {req_id} Generate text:\n{text}\n budget: {bu}")
++                        # self.logger.debug(f"Req: {req_id}, ")
++                        outputs.append(output)
++
++        while self.llm_engine.has_unfinished_requests():
++            start = time.time()
++            step_outputs = self.llm_engine.step()
++            now = time.time()
++            # self.logger.debug(f"step time: {now-start}s")
++            for output in step_outputs:
++                if output.finished:
++                    output.finished_time = now
++                    # 这里需要判断是否投入下一个queue中
++                    is_work, _, _, _, bu, _ = self.llm_engine.scheduler[0].predictor.check_seq_step_slo(output)
++                    ## 如果没有抛弃且budget >= 0
++                    if is_work and bu >= 0: ## Need add new field
++                        text = output.outputs[0].text
++                        req_id = output.req_id
++                        self.logger.debug(f"Req: {req_id}, arrive_time: {time_dict[req_id]}, finish_time: {output.finished_time}")
++                        out = {
++                            "req_id": req_id,
++                            "query": text,
++                            "budget": bu,
++                            "arrival_time": time.time(),
++                        }
++                        if self.is_initial:
++                            out["original"] = original_info.pop(req_id)
++                        self.logger.debug(f"Request id: {req_id} Generate text: \n{text}\n budget: {bu}")
++                        output_queue.put(out)
++                    outputs.append(output)
++        output_queue.put(None)
++        outputs = sorted(outputs, key=lambda x: int(x.request_id))
++        self.logger.debug(f"pred_time_list: {pred_time_list}")
++        return outputs
++
++
++    def reset_counter(self):
++        self.request_counter = Counter()
+\ No newline at end of file
+diff --git a/vllm/executor/gpu_executor.py b/vllm/executor/gpu_executor.py
+index 2185c9cf..1ee23767 100644
+--- a/vllm/executor/gpu_executor.py
++++ b/vllm/executor/gpu_executor.py
+@@ -130,6 +130,9 @@ class GPUExecutor(ExecutorBase):
+         output = self.driver_worker.execute_model(execute_model_req)
+         return output
+ 
++    def generate_embeds(self, pixel_values):
++        return self.driver_worker.generate_embeds(pixel_values)
++
+     def add_lora(self, lora_request: LoRARequest) -> bool:
+         assert lora_request.lora_int_id > 0, "lora_id must be greater than 0."
+         return self.driver_worker.add_lora(lora_request)
+diff --git a/vllm/logger.py b/vllm/logger.py
+index 77dddbfb..4b738163 100644
+--- a/vllm/logger.py
++++ b/vllm/logger.py
+@@ -86,6 +86,24 @@ def init_logger(name: str) -> Logger:
+     return logging.getLogger(name)
+ 
+ 
++def add_filehandler(logger: logging.Logger, file: str, level=logging.DEBUG):
++    file_handler = logging.FileHandler(file)
++    file_handler.setLevel(level)
++    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
++    file_handler.setFormatter(formatter)
++    logger.addHandler(file_handler)
++    
++
++def add_consolehandler(logger: logging.Logger, level=logging.INFO):
++    console_handler = logging.StreamHandler()
++    console_handler.setLevel(level)
++    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
++    console_handler.setFormatter(formatter)
++    logger.addHandler(console_handler)
++
++def setlevel(logger: logging.Logger, level = logging.DEBUG):
++    logger.setLevel(level)
++
+ # The root logger is initialized when the module is imported.
+ # This is thread-safe as the module is only imported once,
+ # guaranteed by the Python GIL.
+diff --git a/vllm/model_executor/models/llava.py b/vllm/model_executor/models/llava.py
+index 7a6c991f..1b6a3f84 100644
+--- a/vllm/model_executor/models/llava.py
++++ b/vllm/model_executor/models/llava.py
+@@ -44,8 +44,11 @@ class LlavaImageEmbeddingInputs(TypedDict):
+     `hidden_size` must match the hidden size of language model backbone.
+     """
+ 
++class LlavaImageClipInputs(TypedDict):
++    type: Literal["clip"]
++    data: torch.Tensor
+ 
+-LlavaImageInputs = Union[LlavaImagePixelInputs, LlavaImageEmbeddingInputs]
++LlavaImageInputs = Union[LlavaImagePixelInputs, LlavaImageEmbeddingInputs, LlavaImageClipInputs]
+ 
+ 
+ # TODO(xwjiang): Run benchmark and decide if TP.
+@@ -238,8 +241,9 @@ class LlavaForConditionalGeneration(nn.Module, SupportsMultiModal):
+             self, **kwargs: object) -> Optional[LlavaImageInputs]:
+         pixel_values = kwargs.pop("pixel_values", None)
+         image_embeds = kwargs.pop("image_embeds", None)
+-
+-        if pixel_values is None and image_embeds is None:
++        
++        clip = kwargs.pop("clip", None)
++        if pixel_values is None and image_embeds is None and clip is None:
+             return None
+ 
+         if pixel_values is not None:
+@@ -262,7 +266,14 @@ class LlavaForConditionalGeneration(nn.Module, SupportsMultiModal):
+                 type="image_embeds",
+                 data=flatten_bn(image_embeds, concat=True),
+             )
+-
++        if clip is not None:
++            if not isinstance(clip, torch.Tensor):
++                raise ValueError("Incorrect type of image embeddings. "
++                                 f"Got type: {type(clip)}")
++            return LlavaImageEmbeddingInputs(
++                type="clip",
++                data=clip,
++            )
+         raise AssertionError("This line should be unreachable.")
+ 
+     def _select_image_features(self, image_features: torch.Tensor, *,
+@@ -303,11 +314,17 @@ class LlavaForConditionalGeneration(nn.Module, SupportsMultiModal):
+ 
+         if image_input["type"] == "image_embeds":
+             return image_input["data"]
+-
++        elif image_input["type"] == "clip":
++            return self.multi_modal_projector(image_input["data"])       
+         assert self.vision_tower is not None
+         image_features = self._process_image_pixels(image_input)
+         return self.multi_modal_projector(image_features)
+ 
++    def generate_embeds(self, pixel_values: torch.Tensor) -> torch.Tensor:
++        data = {"data": pixel_values}
++        image_features = self._process_image_pixels(data)
++        return image_features
++
+     def forward(
+         self,
+         input_ids: torch.Tensor,
+diff --git a/vllm/multimodal/registry.py b/vllm/multimodal/registry.py
+index 745fc715..1074f417 100644
+--- a/vllm/multimodal/registry.py
++++ b/vllm/multimodal/registry.py
+@@ -111,6 +111,9 @@ class MultiModalRegistry:
+             This should be called after :meth:`init_mm_limits_per_prompt`.
+         """
+         merged_dict: Dict[str, NestedTensors] = {}
++        if "clip" in data:
++            merged_dict["clip"] = data["clip"]
++            return MultiModalInputs(merged_dict)
+ 
+         for data_key, data_value in data.items():
+             plugin = self._get_plugin(data_key)
+diff --git a/vllm/outputs.py b/vllm/outputs.py
+index e091b576..cf173341 100644
+--- a/vllm/outputs.py
++++ b/vllm/outputs.py
+@@ -100,6 +100,14 @@ class RequestOutput:
+         lora_request: Optional[LoRARequest] = None,
+         encoder_prompt: Optional[str] = None,
+         encoder_prompt_token_ids: Optional[List[int]] = None,
++
++        arrival_time: Optional[float] = None,
++        pslo: Optional[float] = None,
++        dslo: Optional[float] = None,
++        step_time: Optional[List[float]] = None,
++        budget: Optional[float] = None,
++        req_id: Optional[int] = None,
++        real_schedule_time: Optional[float] = None, 
+     ) -> None:
+         self.request_id = request_id
+         self.prompt = prompt
+@@ -112,6 +120,15 @@ class RequestOutput:
+         self.encoder_prompt = encoder_prompt
+         self.encoder_prompt_token_ids = encoder_prompt_token_ids
+ 
++        self.arrival_time = arrival_time
++        self.finished_time = None
++        self.pslo = pslo
++        self.dslo = dslo
++        self.step_time = step_time
++        self.budget = budget
++        self.req_id = req_id
++        self.real_schedule_time = real_schedule_time
++
+     @classmethod
+     def from_seq_group(cls, seq_group: SequenceGroup) -> "RequestOutput":
+         if seq_group.sampling_params is None:
+@@ -166,7 +183,15 @@ class RequestOutput:
+                    seq_group.metrics,
+                    lora_request=seq_group.lora_request,
+                    encoder_prompt=encoder_prompt,
+-                   encoder_prompt_token_ids=encoder_prompt_token_ids)
++                   encoder_prompt_token_ids=encoder_prompt_token_ids,
++                   arrival_time=seq_group.arrival_time,
++                   pslo=seq_group.prefill_slo, 
++                   dslo=seq_group.decode_slo, 
++                   step_time = seq_group.step_time,
++                   budget = seq_group.budget,
++                   req_id = seq_group.req_id,
++                   real_schedule_time = seq_group.real_schedule_time
++                   )
+ 
+     def __repr__(self) -> str:
+         return (f"RequestOutput(request_id={self.request_id}, "
+diff --git a/vllm/sequence.py b/vllm/sequence.py
+index 13558683..37fafcf1 100644
+--- a/vllm/sequence.py
++++ b/vllm/sequence.py
+@@ -17,6 +17,7 @@ from vllm.pooling_params import PoolingParams
+ from vllm.prompt_adapter.request import PromptAdapterRequest
+ from vllm.sampling_params import SamplingParams
+ from vllm.spec_decode.metrics import SpecDecodeWorkerMetrics
++import time
+ 
+ if TYPE_CHECKING:
+     from vllm.inputs import LLMInputs
+@@ -60,6 +61,7 @@ class SequenceStatus(enum.IntEnum):
+     FINISHED_LENGTH_CAPPED = 4
+     FINISHED_ABORTED = 5
+     FINISHED_IGNORED = 6
++    FINISHED_TIMEOUT = 7
+ 
+     @staticmethod
+     def is_finished(status: "SequenceStatus") -> bool:
+@@ -78,6 +80,8 @@ class SequenceStatus(enum.IntEnum):
+             # are longer than the model's length cap. Therefore, the stop
+             # reason should also be "length" as in OpenAI API.
+             finish_reason = "length"
++        elif status == SequenceStatus.FINISHED_TIMEOUT:
++            finish_reason = "timeout"
+         else:
+             finish_reason = None
+         return finish_reason
+@@ -606,6 +610,10 @@ class SequenceGroup:
+         encoder_seq: Optional[Sequence] = None,
+         trace_headers: Optional[Mapping[str, str]] = None,
+         prompt_adapter_request: Optional[PromptAdapterRequest] = None,
++        prefill_slo: float = 1.5,
++        decode_slo: float = 1.5,
++        budget: float = 0,
++        req_id: int = 0,    
+     ) -> None:
+         self.request_id = request_id
+         self.seqs = seqs
+@@ -627,6 +635,24 @@ class SequenceGroup:
+         self.encoder_seq = encoder_seq
+         self.trace_headers = trace_headers
+ 
++        self.arrival_time = arrival_time
++        self.prefill_slo = prefill_slo
++        self.decode_slo = decode_slo
++        self.budget = budget
++        self.req_id = req_id
++        self.step_time: List[float] = []
++        self.add_waiting = 0
++        self.real_schedule_time = 0
++
++    def record_time(self, cur_time: Optional[float]):
++        if cur_time is not None:
++            self.step_time.append(cur_time)
++        else:
++            self.step_time.append(time.time())
++    
++    def update_time(self, time: float):
++        self.step_time[-1] = time
++
+     @property
+     def prompt(self) -> Optional[str]:
+         # All sequences in the group should have the same prompt.
+diff --git a/vllm/worker/model_runner.py b/vllm/worker/model_runner.py
+index 0cfca067..a1b3a3ba 100644
+--- a/vllm/worker/model_runner.py
++++ b/vllm/worker/model_runner.py
+@@ -1488,6 +1488,11 @@ class ModelRunner(GPUModelRunnerBase[ModelInputForGPUWithSamplingMetadata]):
+                                    is_prompt=is_prompt,
+                                    virtual_engine=virtual_engine)
+ 
++    @torch.inference_mode()
++    def generate_embeds(self, pixel_values: torch.Tensor) -> torch.Tensor:
++        assert "llava" in self.model_config.model.lower(), "Only llava provide the single api to generate embeds."
++        return self.model.generate_embeds(pixel_values)    
++
+     @torch.inference_mode()
+     def execute_model(
+         self,
+diff --git a/vllm/worker/worker_base.py b/vllm/worker/worker_base.py
+index 6ba4f272..efdba5b3 100644
+--- a/vllm/worker/worker_base.py
++++ b/vllm/worker/worker_base.py
+@@ -353,6 +353,9 @@ class LocalOrDistributedWorkerBase(WorkerBase):
+         # output is List[SamplerOutput]
+         return output
+ 
++    def generate_embeds(self, pixel_values):
++        return self.model_runner.generate_embeds(pixel_values)
++
+     def _execute_model_spmd(
+         self,
+         execute_model_req: ExecuteModelRequest,
