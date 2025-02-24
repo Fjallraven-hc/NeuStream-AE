@@ -1,27 +1,11 @@
 # NeuStream-AE
 Artifact Evaluation for NeuStream: Bridging Deep Learning Serving and Stream Processing, EuroSys25.
-```
-@inproceedings{
-  title={NeuStream: Bridging Deep Learning Serving and Stream Processing},
-  author={Yuan, Haochen and Wang, Yuanqing and Xie, Wenhao and Cheng, Yu and Miao, Ziming and Ma, Lingxiao and Xue, Jilong and Yang, Zhi},
-  booktitle={Proceedings of the Twentieth European Conference on Computer Systems},
-  year={2025}
-}
-```
 _____________
 
 The experiments consist of three main parts: Diffusion, LLM, and Multi-Agent. For each part, we simulate a sering workload, send bulk requests to deployed modules through cross-process queues, and measure the system performance by goodput(the number of served requests that meet their SLO requirements per unit of time.).
 
 1. #### Environment setup
-
-   We have set up the environments by conda on a RunPod cloud server with 4x RTX 4090 GPUs, we also downloaded the model parameters neede by the experiments.
-
-   ```sh
-   conda activate Diffusion # Diffusion environment
-   conda activate LLM-OPT # LLM environment
-   conda activate MatPlotAgent # Multi-Agent environment
-   ```
-
+2. 
    Below is how to set up the environments:
 
    1. Diffusion environment setup: 
@@ -51,9 +35,9 @@ The experiments consist of three main parts: Diffusion, LLM, and Multi-Agent. Fo
 
       1. See `NeuStream-AE/MatplotAgent/README.md` for details
 
-2. #### Experiments
+3. #### Experiments
 
-   1. **Diffusion experienments**
+   1. **Diffusion** experienments
 
       1. The scripts to launch experiments are below
 
@@ -81,7 +65,7 @@ The experiments consist of three main parts: Diffusion, LLM, and Multi-Agent. Fo
          		
          ```
 
-         1. Each experiment script will log the serving details in corresponding log file. The goodput is collected from serving log of different rate,cv, and slo. For example, compare logs
+         2. Each experiment script will log the serving details in corresponding log file. The goodput is collected from serving log of different rate,cv, and slo. For example, compare logs
 
              `NeuStream-AE/Diffusion/DiT/RTX4090_DiT_S_2_img256/neustream_rate_log_request500/2024-04-28 17:41:55_Gamma_rate=4_cv=2_slo_factor=3.0_request=500_step_delta=0.95_device=RTX4090_image_size=256_2024-04-28 17:41:55`
 
@@ -91,7 +75,7 @@ The experiments consist of three main parts: Diffusion, LLM, and Multi-Agent. Fo
 
             we will find that when serving a workload with rate=4qps, cv=2, and slo=3, NeuStream achieves 463 goodput while clockwork's algorithm achieves 86 goodput. These data points from logs make up the Figure 11 and Figure 12 in the paper.
 
-         2. The Figure 13 shows the batch size of DiT module when serving workload by NeuStream and Clockwork, it can be plotted by extract th DiT module size in log files like `NeuStream-AE/Diffusion/DiT/RTX4090_DiT_S_2_img256/neustream_rate_log_request500/2024-04-28 17:41:55_Gamma_rate=4_cv=2_slo_factor=3.0_request=500_step_delta=0.95_device=RTX4090_image_size=256_DiTModule.log` and `NeuStream-AE/Diffusion/DiT/RTX4090_DiT_S_2_img256/clockwork_rate_log_request500/2024-04-28 17:47:55_Gamma_rate=4_cv=2_slo_factor=3.0_request=500_device=RTX4090_image_size=256.log` . 
+         3. The Figure 13 shows the batch size of DiT module when serving workload by NeuStream and Clockwork, it can be plotted by extract th DiT module size in log files like `NeuStream-AE/Diffusion/DiT/RTX4090_DiT_S_2_img256/neustream_rate_log_request500/2024-04-28 17:41:55_Gamma_rate=4_cv=2_slo_factor=3.0_request=500_step_delta=0.95_device=RTX4090_image_size=256_DiTModule.log` and `NeuStream-AE/Diffusion/DiT/RTX4090_DiT_S_2_img256/clockwork_rate_log_request500/2024-04-28 17:47:55_Gamma_rate=4_cv=2_slo_factor=3.0_request=500_device=RTX4090_image_size=256.log` . 
 
             ```
             # For example
@@ -104,34 +88,33 @@ The experiments consist of three main parts: Diffusion, LLM, and Multi-Agent. Fo
             
             ```
 
-2. **LLM-OPT** experiments
+   2. **LLM-OPT** experiments
 
-   1. We use the OPT model family to test the workload. For convenience, we didn’t include origin model parameters in the Artifacts. Under our evaluation in Figure 14 & 15, we choose the co-locate settings, so the prefill and decode instance are located in same process, and the implementation transforms to the execution order of prefilling and decoding, as shown in paper’s Figure 10.
+      1. We use the OPT model family to test the workload. For convenience, we didn’t include origin model parameters in the Artifacts. Under our evaluation in Figure 14 & 15, we choose the co-locate settings, so the prefill and decode instance are located in same process, and the implementation transforms to the execution order of prefilling and decoding, as shown in paper’s Figure 10.
 
-   2. - To reproduce the data, it needs the NVIDIA A6000 and H100 accelerators.
+      2. - To reproduce the data, it needs the NVIDIA A6000 and H100 accelerators.
 
-      - In the OPT-LLM folder, you can see three subfolders, **exp** is for experiments, **neusim** is used for simulating the latency of prefill & decode execution when under different batch sizes or prefix lengths, and **vllm_files** is the modified vLLM to support NeuStream in co-locating setting. 
+         - In the OPT-LLM folder, you can see three subfolders, **exp** is for experiments, **neusim** is used for simulating the latency of prefill & decode execution when under different batch sizes or prefix lengths, and **vllm_files** is the modified vLLM to support NeuStream in co-locating setting. 
 
-      - **Experiments**:
+         - **Experiments**:
 
-      - - To launch NeuStream, run **NeuStream-AE/LLM-OPT/exp/neurun.sh**
-        - To launch origin vLLM, run **NeuStream-AE/LLM-OPT/exp/vllmrun.sh**
-        - You can change the rate, cv, or slo through modifying the scripts, like below picture 
-          - ![image-20250215163111127](md_pic/image-20250215163111127.png)
-          - The above command support multiple parameters in rate, cv or slo, but we recommend only passing one group multiple parameters.
-          - Model size and corresponding tensor parallelism need mannually specification. Our search shows that the best tensor parallelism for OPT 13B, 30B, and 66B is 1, 2, and 4 respectively(On NVIDIA A6000 and H100). NUM DEDUP is the number of repeated experiment groups in a setting, which can be set to 1 during the test. 
-            - ![image-20250215163506277](md_pic/image-20250215163506277.png)
-          - The final output log contains a step prediction max.log, which will output the highest goodput value in each of these experiments separately. 
-            - the file path is :
-          - Besides, when test different models, user has to manually specify the prediction/simulation data for the certain model.
-            - ![image-20250215163710765](md_pic/image-20250215163710765.png)
-
+         - - To launch NeuStream, run **NeuStream-AE/LLM-OPT/exp/neurun.sh**
+           - To launch origin vLLM, run **NeuStream-AE/LLM-OPT/exp/vllmrun.sh**
+           - You can change the rate, cv, or slo through modifying the scripts, like below picture 
+             - ![image-20250215163111127](md_pic/image-20250215163111127.png)
+             - The above command support multiple parameters in rate, cv or slo, but we recommend only passing one group multiple parameters.
+             - Model size and corresponding tensor parallelism need mannually specification. Our search shows that the best tensor parallelism for OPT 13B, 30B, and 66B is 1, 2, and 4 respectively(On NVIDIA A6000 and H100). NUM DEDUP is the number of repeated experiment groups in a setting, which can be set to 1 during the test. 
+               - ![image-20250215163506277](md_pic/image-20250215163506277.png)
+             - The final output log contains a step prediction max.log, which will output the highest goodput value in each of these experiments separately. 
+               - the file path is :
+             - Besides, when test different models, user has to manually specify the prediction/simulation data for the certain model.
+               - ![image-20250215163710765](md_pic/image-20250215163710765.png)
+   
+   3. **Multi-Agents experienments**
+      1. See details in `Multi-Agent/README.md`.
 ________
 
-Because of the GitHub single file size limitation, user has to manually run the script `merge_large_file_fragment.sh` to get the origin model parameters.  
-For convenience, we didn't upload unnecessary model parameters, so part of the models are serving with randomly initialized parameters, but this has no effect on the serving performance.
+We omitted some necessary model parameter files, user can obtain them in [link](https://github.com/Fjallraven-hc/NeuStream-AE).
 
-The artifacts will be also provided through Baidu Netdisk, where some model parameters are also stored. The uncompressed file size is about 20GB.  
-For Diffusion and LLM part, please access the artifacts through https://pan.baidu.com/s/19pzsF1IBwu7QkJ42j2R4ng?pwd=qq45 code:qq45  
-For MultiAgent part, please access the artifacts through https://pan.baidu.com/s/1PyaLMXABYd0jcFV8raaYaA?pwd=mmpc code:mmpc  
-Alternatively, artifacts can be accessed through OneDrive link: https://1drv.ms/u/c/e3200eaf81ba2fa8/EfDf2yp2UEZMi9gdaVQ-1TMBn37em9XQRs9HwmL524s-JA?e=bxCcNC
+Because of the GitHub file size limitation, user has to manually run the script `merge_large_file_fragment.sh` to get the origin model parameters.  
+For convenience, we didn't upload unnecessary model parameters, so part of the models are serving with randomly initialized parameters, but this has no effect on the serving performance.
