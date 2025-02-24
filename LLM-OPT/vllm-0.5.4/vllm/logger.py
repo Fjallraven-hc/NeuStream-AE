@@ -8,7 +8,7 @@ from functools import partial
 from logging import Logger
 from logging.config import dictConfig
 from os import path
-from typing import Dict, Optional
+from typing import Dict, Optional, List
 
 import vllm.envs as envs
 
@@ -152,3 +152,110 @@ def enable_trace_function_call(log_file_path: str,
         # by default, this is the vllm root directory
         root_dir = os.path.dirname(os.path.dirname(__file__))
     sys.settrace(partial(_trace_calls, log_file_path, root_dir))
+
+LOG_DIR = os.environ.get("NEU_LOG_DIR", None)
+if LOG_DIR is not None:
+    os.makedirs(LOG_DIR, exist_ok=True)
+    logger.info(f"Logging to {LOG_DIR}")
+else:
+    logger.warning(f"ONLY Logging to stdout")
+
+def add_filehandler(logger: logging.Logger, file: str, level=logging.DEBUG):
+    if LOG_DIR is None:
+        return
+    file_handler = logging.FileHandler(os.path.join(LOG_DIR, file))
+    file_handler.setLevel(level)
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
+    
+
+def add_consolehandler(logger: logging.Logger, level=logging.INFO):
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(level)
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    console_handler.setFormatter(formatter)
+    logger.addHandler(console_handler)
+
+def setlevel(logger: logging.Logger, level = logging.DEBUG):
+    logger.setLevel(level)
+
+from vllm.outputs import RequestOutput
+from vllm.core.predictor import Predictor
+
+def output_slo_log(output: RequestOutput, predictor: Predictor, tokenizer) -> str:
+    prompt = output.prompt
+    generated_text = output.outputs[0].text
+    attained, slo, eptime, edtime, info = predictor.check_seq_slo(output)
+    res = ">>>"*20+"\n"
+    res +=f"prompt len: {len(tokenizer(prompt)['input_ids'])}, generated len: {len(tokenizer(generated_text)['input_ids'])}\n"
+    res += f"SLO attained: {attained}.\n\
+            arr: {output.arrival_time}\n\
+            slo: {slo}(+{slo-output.arrival_time})\n\
+            fin: {output.finished_time}(+{output.finished_time-output.arrival_time})\n\
+            pslo: {output.pslo}\n\
+            dslo: {output.dslo}\n\
+            exp ptime: {eptime}\n\
+            exp dtime: {edtime}\n"
+    res += "<<<"*20
+    return res
+
+
+def print_table(*columns):
+    if not columns:
+        return
+
+    # 检查所有列长度是否相等
+    column_length = len(columns[0])
+    if any(len(column) != column_length for column in columns):
+        raise ValueError("所有列的长度必须相等")
+
+    # 计算每一列的最大宽度
+    column_widths = [max(len(str(item)) for item in column) for column in columns]
+
+    # 打印表格
+    table = ""
+    for i in range(column_length):
+        row = [str(column[i]).ljust(column_widths[idx]) for idx, column in enumerate(columns)]
+        table += ('| ' + ' | '.join(row) + ' |' + '\n')
+        print('| ' + ' | '.join(row) + ' |')
+        
+    return table
+
+
+def slo_chart(outputs: List[RequestOutput], predictor: Predictor, tokenizer, num_reqs):
+    names = ["req id", "SLO Attained?", "pmp len", "gen len", "arrival time", "SLO", "finished time", "p slo", "d slo", "excepted ptime", "excepted dtime"]
+    ids = ["req id"]
+    attained_ls = ["SLO Attained"]
+    pmplens = ["pmp len"]
+    genlens = ["gen len"]
+    arr_times = ["arrival time"]
+    slos = ["SLO"]
+    fin_time = ["finished time"]
+    pslos = ["p slo"]
+    dslos = ["d slo"]
+    eptimes = ["excepted ptime"]
+    edtimes = ["excepted dtime"]
+
+
+    for output in outputs:
+        ids.append(output.request_id)
+        prompt = output.prompt
+        generated_text = output.outputs[0].text
+        attained, slo, eptime, edtime, info = predictor.check_seq_slo(output)
+        attained_ls.append(attained)
+        arr_times.append(output.arrival_time)
+        slos.append("+"+str(slo-output.arrival_time))
+        fin_time.append("+"+str(output.finished_time-output.arrival_time))
+        eptimes.append(eptime)
+        edtimes.append(edtime)
+        pmplens.append(len(tokenizer(prompt)['input_ids']))
+        # genlens.append(len(tokenizer(generated_text)['input_ids']))
+        genlens.append(len(output.outputs[0].token_ids))
+        pslos.append(output.pslo)
+        dslos.append(output.dslo)
+
+    table = print_table(ids, attained_ls, pmplens, genlens, arr_times, slos, fin_time, pslos, dslos, eptimes, edtimes)
+    sloinfo = f"SLO Attained ratio: {sum(attained_ls[1:])}/{len(outputs)} = {sum(attained_ls[1:])/len(outputs)*100:.2f}%"
+    print(sloinfo)
+    return table, sloinfo, len(outputs)

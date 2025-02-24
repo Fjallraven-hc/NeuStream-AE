@@ -2,6 +2,7 @@
 import copy
 import enum
 import math
+import time
 from abc import ABC, abstractmethod
 from array import array
 from collections import defaultdict
@@ -54,6 +55,7 @@ class SequenceStatus(enum.IntEnum):
     FINISHED_LENGTH_CAPPED = 4
     FINISHED_ABORTED = 5
     FINISHED_IGNORED = 6
+    FINISHED_TIMEOUT = 7
 
     @staticmethod
     def is_finished(status: "SequenceStatus") -> bool:
@@ -72,6 +74,8 @@ class SequenceStatus(enum.IntEnum):
             # are longer than the model's length cap. Therefore, the stop
             # reason should also be "length" as in OpenAI API.
             finish_reason = "length"
+        elif status == SequenceStatus.FINISHED_TIMEOUT:
+            finish_reason = "timeout"
         else:
             finish_reason = None
         return finish_reason
@@ -442,6 +446,8 @@ class SequenceGroup:
         encoder_seq: Optional[Sequence] = None,
         trace_headers: Optional[Mapping[str, str]] = None,
         prompt_adapter_request: Optional[PromptAdapterRequest] = None,
+        prefill_slo: float = 1.5,
+        decode_slo: float = 2.0,
     ) -> None:
         self.request_id = request_id
         self.seqs = seqs
@@ -459,7 +465,25 @@ class SequenceGroup:
         self.prompt_adapter_request = prompt_adapter_request
         self.encoder_seq = encoder_seq
         self.trace_headers = trace_headers
+        self.arrival_time = arrival_time
+        self.prefill_slo = prefill_slo
+        self.decode_slo = decode_slo
+        self.step_time: List[float] = []
+        self.prefill_start_time = None
+        self.timestamps: List[float] = []
 
+    def record_time(self, cur_time: Optional[float]):
+        if cur_time is not None:
+            self.step_time.append(cur_time)
+        else:
+            self.step_time.append(time.time())
+    
+    def record_pstart_time(self, cur_time: Optional[float]):
+        if cur_time is not None:
+            self.prefill_start_time = cur_time
+        else:
+            self.prefill_start_time = time.time()
+            
     @property
     def prompt(self) -> Optional[str]:
         # All sequences in the group should have the same prompt.

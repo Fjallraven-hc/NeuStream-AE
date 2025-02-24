@@ -8,7 +8,7 @@ from vllm.engine.arg_utils import EngineArgs
 from vllm.engine.llm_engine import LLMEngine
 from vllm.inputs import (PromptInputs, TextPrompt, TokensPrompt,
                          parse_and_batch_prompt)
-from vllm.logger import init_logger
+from vllm.logger import init_logger, add_consolehandler, add_filehandler, output_slo_log
 from vllm.lora.request import LoRARequest
 from vllm.model_executor.guided_decoding import (
     GuidedDecodingRequest, get_local_guided_decoding_logits_processor)
@@ -21,8 +21,17 @@ from vllm.transformers_utils.tokenizer import get_cached_tokenizer
 from vllm.usage.usage_lib import UsageContext
 from vllm.utils import Counter, deprecate_kwargs
 
-logger = init_logger(__name__)
+import multiprocessing as mp
+import logging
+import time
+import torch
 
+logger = init_logger(__name__)
+logger.setLevel(logging.DEBUG)
+add_consolehandler(logger)
+add_filehandler(logger, f"llm.py.log")
+add_filehandler(logger, f"all.log")
+logger.debug("llm.py imported.")
 
 class LLM:
     """An LLM for generating texts from given prompts and sampling parameters.
@@ -158,6 +167,8 @@ class LLM:
         self.llm_engine = LLMEngine.from_engine_args(
             engine_args, usage_context=UsageContext.LLM_CLASS)
         self.request_counter = Counter()
+
+        self.step_time_ls: List[float] = []
 
     def get_tokenizer(
             self) -> Union[PreTrainedTokenizer, PreTrainedTokenizerFast]:
@@ -562,15 +573,22 @@ class LLM:
             params: Union[SamplingParams, PoolingParams],
             lora_request: Optional[Union[List[LoRARequest],
                                          LoRARequest]] = None,
-            prompt_adapter_request: Optional[PromptAdapterRequest] = None
+            prompt_adapter_request: Optional[PromptAdapterRequest] = None,
+            pslo: float = 1.5,
+            dslo: float = 1.5,
+            arrival_time: Optional[float] = None,
     ) -> None:
         request_id = str(next(self.request_counter))
+        if arrival_time is None:
+            arrival_time = time.time()
         self.llm_engine.add_request(
             request_id,
             inputs,
             params,
             lora_request=lora_request,
-            prompt_adapter_request=prompt_adapter_request)
+            prompt_adapter_request=prompt_adapter_request,
+            pslo=pslo,
+            dslo=dslo)
 
     def _add_guided_processor(
             self,
@@ -607,8 +625,15 @@ class LLM:
         outputs: List[Union[RequestOutput, EmbeddingRequestOutput]] = []
         total_in_toks = 0
         total_out_toks = 0
+        torch.cuda.synchronize()
+        overall_start_time = time.perf_counter()
         while self.llm_engine.has_unfinished_requests():
+            torch.cuda.synchronize()
+            start = time.perf_counter()
             step_outputs = self.llm_engine.step()
+            torch.cuda.synchronize()
+            step_time = time.perf_counter() - start
+            self.step_time_ls.append(step_time)
             for output in step_outputs:
                 if output.finished:
                     outputs.append(output)
@@ -630,4 +655,71 @@ class LLM:
         # Sort the outputs by request ID.
         # This is necessary because some requests may be finished earlier than
         # its previous requests.
+        torch.cuda.synchronize()
+        overall_end_time = time.perf_counter()
+        print(f"Overall time: {overall_end_time - overall_start_time} s")
+        print(f"Step time ls sum:{sum(self.step_time_ls)} s")
         return sorted(outputs, key=lambda x: int(x.request_id))
+    
+    def serve(
+        self,
+        queue: mp.Queue,
+        pslo: float,
+        dslo: float,
+        sampling_params: Optional[SamplingParams] = None,
+    ):
+        self.reset_counter()
+        outputs: List[RequestOutput] = []
+        no_req: bool = False
+        while not no_req:
+            prompts = []
+            time1 = time.time()
+            while not queue.empty():
+                prompts.append(queue.get())
+            if len(prompts) != 0 and prompts[-1] is not None:
+                logger.debug(f"get {len(prompts)} prompts. Use {time.time() - time1} s.")
+            for req in prompts:
+                if req is None:
+                    no_req = True
+                    break
+                self._add_request(
+                    inputs=req.prompt,
+                    params=SamplingParams(
+                            temperature=0,
+                            top_p=1,
+                            max_tokens=req.output_len
+                    ),
+                    pslo=pslo,
+                    dslo=dslo,
+                )
+            if self.llm_engine.has_unfinished_requests():
+                start = time.time()
+                step_outputs = self.llm_engine.step()
+                now = time.time()
+                logger.debug(f"step time: {now-start}s")
+                if self.llm_engine.scheduler[0].predictor.last_decision == 1:
+                    self.llm_engine.scheduler[0].predictor.last_decode_time = now-start
+                    self.llm_engine.scheduler[0].sche_decode_time.append(now-start)
+                for output in step_outputs:
+                    if output.finished:
+                        output.finished_time = now
+                        outputs.append(output)
+
+        while self.llm_engine.has_unfinished_requests():
+            start = time.time()
+            step_outputs = self.llm_engine.step()
+            now = time.time()
+            if self.llm_engine.scheduler[0].predictor.last_decision == 1:
+                self.llm_engine.scheduler[0].predictor.last_decode_time = now-start
+                self.llm_engine.scheduler[0].sche_decode_time.append(now-start)
+            logger.debug(f"step time: {now-start}s")
+            for output in step_outputs:
+                if output.finished:
+                    output.finished_time = now
+                    outputs.append(output)
+        
+        outputs = sorted(outputs, key=lambda x: int(x.request_id))
+        return outputs
+
+    def reset_counter(self):
+        self.request_counter = Counter()

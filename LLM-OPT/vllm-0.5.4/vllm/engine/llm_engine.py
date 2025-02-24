@@ -1,7 +1,8 @@
 import time
+import torch
 from contextlib import contextmanager
 from typing import (TYPE_CHECKING, Any, ClassVar, Dict, Iterable, List,
-                    Mapping, Optional)
+                    Mapping, Optional, Tuple)
 from typing import Sequence as GenericSequence
 from typing import Set, Type, TypeVar, Union
 
@@ -23,7 +24,7 @@ from vllm.engine.output_processor.util import create_output_by_sequence_group
 from vllm.executor.executor_base import ExecutorBase
 from vllm.executor.ray_utils import initialize_ray_cluster
 from vllm.inputs import INPUT_REGISTRY, LLMInputs, PromptInputs
-from vllm.logger import init_logger
+from vllm.logger import init_logger, add_filehandler, setlevel
 from vllm.lora.request import LoRARequest
 from vllm.outputs import (EmbeddingRequestOutput, RequestOutput,
                           RequestOutputFactory)
@@ -47,6 +48,8 @@ from vllm.version import __version__ as VLLM_VERSION
 
 logger = init_logger(__name__)
 _LOCAL_LOGGING_INTERVAL_SEC = 5
+setlevel(logger)
+add_filehandler(logger, "llm_engine.log")
 
 
 def _load_generation_config_dict(model_config: ModelConfig) -> Dict[str, Any]:
@@ -351,6 +354,11 @@ class LLMEngine:
                     self.get_tokenizer_for_seq,
                 ),
             ))
+        
+        self.num_punctual_gen_tokens: List[Tuple[float, int]] = []
+        self.step_tokens: List[int] = []
+        self.total_step_time: float = 0.0
+        self.total_prefill_time: float = 0.0
 
     def _initialize_kv_caches(self) -> None:
         """Initialize the KV cache in the worker(s).
@@ -520,6 +528,8 @@ class LLMEngine:
         lora_request: Optional[LoRARequest],
         prompt_adapter_request: Optional[PromptAdapterRequest],
         trace_headers: Optional[Mapping[str, str]] = None,
+        pslo: float = 2.0,
+        dslo: float = 2.0,
     ) -> None:
         # Create the sequences.
         block_size = self.cache_config.block_size
@@ -538,7 +548,9 @@ class LLMEngine:
                 arrival_time=arrival_time,
                 lora_request=lora_request,
                 trace_headers=trace_headers,
-                prompt_adapter_request=prompt_adapter_request)
+                prompt_adapter_request=prompt_adapter_request,
+                pslo = pslo,
+                dslo = dslo)
         elif isinstance(params, PoolingParams):
             seq_group = self._create_sequence_group_with_pooling(
                 request_id,
@@ -602,6 +614,8 @@ class LLMEngine:
         lora_request: Optional[LoRARequest] = None,
         trace_headers: Optional[Mapping[str, str]] = None,
         prompt_adapter_request: Optional[PromptAdapterRequest] = None,
+        pslo: float = 2.0,
+        dslo: float = 2.0,
     ) -> None:
         """Add a request to the engine's request pool.
 
@@ -665,6 +679,8 @@ class LLMEngine:
             lora_request=lora_request,
             prompt_adapter_request=prompt_adapter_request,
             trace_headers=trace_headers,
+            pslo=pslo,
+            dslo=dslo,
         )
 
     def _create_sequence_group_with_sampling(
@@ -676,6 +692,8 @@ class LLMEngine:
         lora_request: Optional[LoRARequest],
         trace_headers: Optional[Mapping[str, str]] = None,
         prompt_adapter_request: Optional[PromptAdapterRequest] = None,
+        pslo: float = 2.0,
+        dslo: float = 2.0,
     ) -> SequenceGroup:
         """Creates a SequenceGroup with SamplingParams."""
         max_logprobs = self.get_model_config().max_logprobs
@@ -701,7 +719,9 @@ class LLMEngine:
             sampling_params=sampling_params,
             lora_request=lora_request,
             trace_headers=trace_headers,
-            prompt_adapter_request=prompt_adapter_request)
+            prompt_adapter_request=prompt_adapter_request,
+            prefill_slo=pslo,
+            decode_slo=dslo)
 
         return seq_group
 
@@ -825,6 +845,7 @@ class LLMEngine:
             if self.model_config.embedding_mode:
                 self._process_sequence_group_outputs(seq_group, outputs)
                 continue
+            seq_group.timestamps.append(time.perf_counter())
 
             self.output_processor.process_prompt_logprob(seq_group, outputs)
             if seq_group_meta.do_sample:
@@ -904,8 +925,16 @@ class LLMEngine:
                 "as performance will be severely degraded otherwise.")
         seq_group_metadata_list, scheduler_outputs = self.scheduler[
             0].schedule()
-
+        prefill_tag = False
         if not scheduler_outputs.is_empty():
+            torch.cuda.synchronize()
+            now1 = time.time()
+            self.step_tokens.append(sum((list(sgm.seq_data.values())[0].get_len() for sgm in seq_group_metadata_list)))
+            if scheduler_outputs.num_prefill_groups > 0:
+                prefill_tag = True
+                for seq_group in scheduler_outputs.scheduled_seq_groups:
+                    seq_group.seq_group.record_pstart_time(now1)
+
             finished_requests_ids = self.scheduler[
                 0].get_and_reset_finished_requests_ids()
             execute_model_req = ExecuteModelRequest(
@@ -918,6 +947,14 @@ class LLMEngine:
                 finished_requests_ids=finished_requests_ids)
             output = self.model_executor.execute_model(
                 execute_model_req=execute_model_req)
+            scheduled_seq_groups = scheduler_outputs.scheduled_seq_groups
+            torch.cuda.synchronize()
+            now = time.time()
+            self.total_step_time += now - now1
+            if prefill_tag:
+                self.total_prefill_time += now - now1
+            for seq_group in scheduled_seq_groups:
+                seq_group.seq_group.record_time(now)
         else:
             output = []
 
@@ -940,6 +977,9 @@ class LLMEngine:
             self.model_executor.stop_remote_worker_execution_loop()
 
         return request_outputs
+    
+    def log(self, info: str):
+        logger.debug(info)
 
     def add_logger(self, logger_name: str, logger: StatLoggerBase) -> None:
         if logger_name in self.stat_loggers:

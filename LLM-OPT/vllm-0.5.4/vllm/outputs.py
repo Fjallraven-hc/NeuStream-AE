@@ -86,6 +86,12 @@ class RequestOutput:
         prompt_logprobs: Optional[PromptLogprobs],
         outputs: List[CompletionOutput],
         finished: bool,
+        arrival_time: float,
+        pslo: float,
+        dslo: float,
+        step_time: Optional[List[float]],
+        p_start_time: float,
+        timestamps: List[float],
         metrics: Optional[RequestMetrics] = None,
         lora_request: Optional[LoRARequest] = None,
     ) -> None:
@@ -95,6 +101,13 @@ class RequestOutput:
         self.prompt_logprobs = prompt_logprobs
         self.outputs = outputs
         self.finished = finished
+        self.arrival_time = arrival_time
+        self.finished_time = None
+        self.pslo = pslo
+        self.dslo = dslo
+        self.step_time = step_time
+        self.p_start_time = p_start_time
+        self.timestamps = timestamps
         self.metrics = metrics
         self.lora_request = lora_request
 
@@ -147,6 +160,12 @@ class RequestOutput:
                    prompt_logprobs,
                    outputs,
                    finished,
+                   seq_group.arrival_time,
+                   seq_group.prefill_slo,
+                   seq_group.decode_slo,
+                   seq_group.step_time,
+                   seq_group.prefill_start_time,
+                   seq_group.timestamps,
                    seq_group.metrics,
                    lora_request=seq_group.lora_request)
 
